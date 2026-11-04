@@ -32,7 +32,9 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
    best recent setup (08Sep26 booked at about ₹325). Plain English, no jargon. Every number in a tip must come from the summary.
 5. **Build**: `python3 scripts/build_week.py build data/raw/<date>.json` (needs `reportlab` and `matplotlib`;
    `pip install --break-system-packages reportlab matplotlib` if missing).
-6. **Publish**: commit `data/raw/<date>.json`, `reports/` and push to `main`. Netlify redeploys in about a minute.
+6. **Publish**: commit `data/raw/<date>.json`, `reports/` and push to `main`, committing as the GitHub account
+   (`git -c user.name="MitranGlobal" -c user.email="300343567+MitranGlobal@users.noreply.github.com" commit ...`) so
+   Netlify accepts the push from the private repo. Netlify redeploys in about a minute.
    Check https://neon-bienenstitch-9b18e9.netlify.app/weekly.html#<date> loads if the network allows.
 7. **Email the team** (only after the push succeeded), once, with Zapier → Email by Zapier → "Send Outbound Email"
    (`email_by_zapier_send_outbound_email`): to `Tech@mitranglobal.com, vidyashankar@mitranglobal.com` (these two only),
@@ -45,4 +47,4 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
 If the connector fails or the account is not reachable, do not publish an empty report. Say what failed in the summary.
 If there was no spend, still publish the report (it records that the account was idle) with tips about restarting.
 
-The site is public: the weekly reports and PDFs can be read by anyone with the link.
+The repo is private. The site publishes only the pages and `reports/` (see netlify.toml); `data/` and `scripts/` are not served.
