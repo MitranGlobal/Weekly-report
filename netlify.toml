@@ -1,10 +1,17 @@
-# Static site: no build step, publish the repo root.
+# Publish only the site itself: the pages and the reports they show.
+# Raw data (data/), build scripts (scripts/) and notes (RUNBOOK.md) stay in the private repo and are not served.
 [build]
-  publish = "."
-  command = ""
+  command = "rm -rf dist && mkdir dist && cp index.html meta.html weekly.html dist/ && cp -r reports dist/"
+  publish = "dist"
 
 # Always fetch fresh report data so a new Monday report shows immediately.
 [[headers]]
   for = "/reports/*.json"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# Keep reports out of search engines.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
