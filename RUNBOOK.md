@@ -41,6 +41,8 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
    from name "MiTran Global Reports", subject "Meta Ads weekly report: <week start> – <week end>", and a simple HTML body with
    the headline, a key-numbers table (this week / last week / change), the tips, the 3 actions, the report link and the PDF link
    `https://neon-bienenstitch-9b18e9.netlify.app/reports/files/MiTran-Meta-Weekly-<date>.pdf`.
+   After sending, append one line to `data/email_log.tsv` (report_date, time sent IST, recipients, subject, `sent` or
+   `failed: <reason>`), commit it as the GitHub account and push.
 8. **Tell the owner**: finish with a short summary: the week, spend, bookings, cost per booking, the headline, the
    3 actions, and the link `https://neon-bienenstitch-9b18e9.netlify.app/weekly.html#<date>`.
 
@@ -48,3 +50,10 @@ If the connector fails or the account is not reachable, do not publish an empty 
 If there was no spend, still publish the report (it records that the account was idle) with tips about restarting.
 
 The repo is private. The site publishes only the pages and `reports/` (see netlify.toml); `data/` and `scripts/` are not served.
+
+## Monday check (11:13 AM IST)
+
+A second scheduled task, "Monday report check", runs after the report. It confirms that the Monday task ran today, that
+`data/raw/<date>.json`, `reports/<date>.json` and the PDF exist and add up, that Netlify is serving the latest commit, and
+that `data/email_log.tsv` has a `sent` row for today. It emails the owner the result. It never emails the team and
+never edits reports; if the Monday task did not run at all, it starts it once.
