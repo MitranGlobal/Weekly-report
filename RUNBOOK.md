@@ -32,7 +32,12 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
    `pip install --break-system-packages reportlab matplotlib` if missing).
 6. **Publish**: commit `data/raw/<date>.json`, `reports/` and push to `main`. Netlify redeploys in about a minute.
    Check https://neon-bienenstitch-9b18e9.netlify.app/weekly.html#<date> loads if the network allows.
-7. **Tell the owner**: finish with a short summary: the week, spend, bookings, cost per booking, the headline, the
+7. **Email the team** (only after the push succeeded), once, with Zapier → Email by Zapier → "Send Outbound Email"
+   (`email_by_zapier_send_outbound_email`): to `Tech@mitranglobal.com, vidyashankar@mitranglobal.com` (these two only),
+   from name "MiTran Global Reports", subject "Meta Ads weekly report: <week start> – <week end>", and a simple HTML body with
+   the headline, a key-numbers table (this week / last week / change), the tips, the 3 actions, the report link and the PDF link
+   `https://neon-bienenstitch-9b18e9.netlify.app/reports/files/MiTran-Meta-Weekly-<date>.pdf`.
+8. **Tell the owner**: finish with a short summary: the week, spend, bookings, cost per booking, the headline, the
    3 actions, and the link `https://neon-bienenstitch-9b18e9.netlify.app/weekly.html#<date>`.
 
 If the connector fails or the account is not reachable, do not publish an empty report. Say what failed in the summary.
