@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MiTran Global Reports</title>
+<style>
+:root{color-scheme:light;--canvas:#EAEAEA;--tile:#fff;--ink:#252423;--muted:#605E5C;--blue:#118DFF;--orange:#E66C37;--gold:#F2C811}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",Segoe,-apple-system,Roboto,Arial,sans-serif;background:var(--canvas);color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
+header{background:#252423;color:#fff;padding:18px max(16px,5vw);display:flex;align-items:center;gap:12px}
+.logo{width:30px;height:30px;border-radius:4px;background:linear-gradient(135deg,#F2C811,#E8A90E);display:grid;place-items:center;font-weight:800;color:#252423;font-size:12px}
+header h1{font-size:18px;font-weight:600}
+main{flex:1;padding:32px max(16px,5vw);max-width:1100px;width:100%;margin:0 auto}
+.lede{color:var(--muted);margin-bottom:24px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+a.card{display:block;background:var(--tile);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.12);padding:22px;text-decoration:none;color:inherit;border-top:4px solid var(--blue);transition:box-shadow .15s,transform .15s}
+a.card.m{border-top-color:var(--orange)}
+a.card:hover,a.card:focus-visible{box-shadow:0 6px 18px rgba(0,0,0,.16);transform:translateY(-2px);outline:none}
+.card small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.card h2{font-size:20px;font-weight:600;margin:6px 0 8px}
+.card p{font-size:13px;color:var(--muted);line-height:1.5}
+.card span{display:inline-block;margin-top:14px;font-size:13px;font-weight:600;color:var(--blue)}
+footer{padding:16px max(16px,5vw);font-size:12px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){a.card{transition:none}}
+</style></head><body>
+<header><div class="logo">BI</div><h1>MiTran Global · Reports</h1></header>
+<main>
+<p class="lede">Public dashboards, open to anyone. Data as of 2 November 2026 · amounts in INR.</p>
+<div class="grid">
+<a class="card m" href="meta.html"><small>Marketing</small><h2>Meta Ads Performance</h2><p>Lifetime spend, campaign efficiency, creatives, audiences and statistics across all ad accounts.</p><span>Open dashboard →</span></a>
+</div>
+</main>
+<footer>MiTran Global · public reports.</footer>
+</body></html>
