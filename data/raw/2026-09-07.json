@@ -1,0 +1,161 @@
+{
+ "report_date": "2026-09-07",
+ "week_start": "2026-08-31",
+ "week_end": "2026-09-06",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 11668.43,
+   "impressions": 11915.0,
+   "reach": 8169.0,
+   "link_clicks": 207.0,
+   "results": 3.0,
+   "leads": 34.0,
+   "purchases": 3.0
+  },
+  "prev": {
+   "spend": 8397.34,
+   "impressions": 37383.0,
+   "reach": 33393.0,
+   "link_clicks": 568.0,
+   "results": 8.0,
+   "leads": 29.0,
+   "purchases": 8.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120251109310620412",
+   "name": "Mitran | Parenting | 27Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 6145.9,
+    "impressions": 6906.0,
+    "reach": 4970.0,
+    "link_clicks": 119.0,
+    "results": 3.0,
+    "leads": 25.0,
+    "purchases": 3.0
+   },
+   "prev": {
+    "spend": 5989.25,
+    "impressions": 33256.0,
+    "reach": 30189.0,
+    "link_clicks": 451.0,
+    "results": 8.0,
+    "leads": 29.0,
+    "purchases": 8.0
+   }
+  },
+  {
+   "id": "120251176643810412",
+   "name": "Mitran | Parenting | 31Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 3314.61,
+    "impressions": 3611.0,
+    "reach": 2821.0,
+    "link_clicks": 64.0,
+    "results": 0.0,
+    "leads": 6.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251271993490412",
+   "name": "Mitran | Parenting | 05sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 2207.92,
+    "impressions": 1398.0,
+    "reach": 1150.0,
+    "link_clicks": 24.0,
+    "results": 0.0,
+    "leads": 3.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251013456050412",
+   "name": "Mitran | Parenting | 20Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 2408.09,
+    "impressions": 4127.0,
+    "reach": 3468.0,
+    "link_clicks": 117.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹11,668 spent (+39% on the week before), 3 purchases at ₹3,889 each; 34 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier purchases",
+   "text": "Cost per purchase rose to ₹3,889 from ₹1,050."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Mitran | Parenting | 27Aug26: 3 purchases at ₹2,049 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Mitran | Parenting | 31Aug26 spent ₹3,315 without a purchase."
+  }
+ ],
+ "actions": []
+}

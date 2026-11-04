@@ -11,7 +11,12 @@
    "cost_per_result": null,
    "headline": "No ads ran for a third week (26 Oct–1 Nov). A new campaign is planned for this week.",
    "result_label": "bookings",
-   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-02.pdf"
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-02.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
   },
   {
    "report_date": "2026-10-26",
@@ -23,7 +28,12 @@
    "cost_per_result": null,
    "headline": "No ads ran for a second week (19–25 Oct).",
    "result_label": "bookings",
-   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-26.pdf"
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-26.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
   },
   {
    "report_date": "2026-10-19",
@@ -35,7 +45,12 @@
    "cost_per_result": null,
    "headline": "No ads ran this week (12–18 Oct). All campaigns in the main account are paused.",
    "result_label": "bookings",
-   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-19.pdf"
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-19.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
   },
   {
    "report_date": "2026-10-12",
@@ -47,7 +62,12 @@
    "cost_per_result": null,
    "headline": "Spend dropped to ₹1,788 and no bookings or leads came in. The account is winding down.",
    "result_label": "bookings",
-   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-12.pdf"
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-12.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
   },
   {
    "report_date": "2026-10-05",
@@ -59,7 +79,1491 @@
    "cost_per_result": 1493.316,
    "headline": "Spend fell 44% to ₹7,467, but bookings fell from 22 to 5: cost per booking rose 2.5× to ₹1,493.",
    "result_label": "bookings",
-   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-05.pdf"
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-05.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
+  },
+  {
+   "report_date": "2026-09-28",
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "spend": 13245.8,
+   "results": 22.0,
+   "leads": 41.0,
+   "cost_per_result": 602.0818181818181,
+   "headline": "₹13,246 spent (+34% on the week before), 22 bookings at ₹602 each; 41 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-09-28.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-09-21",
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "spend": 9851.45,
+   "results": 18.0,
+   "leads": 30.0,
+   "cost_per_result": 547.3027777777778,
+   "headline": "₹9,851 spent (+17% on the week before), 18 bookings at ₹547 each; 30 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-09-21.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-09-14",
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "spend": 8418.32,
+   "results": 11.0,
+   "leads": 26.0,
+   "cost_per_result": 765.3018181818181,
+   "headline": "₹8,418 spent (-28% on the week before), 11 bookings at ₹765 each; 26 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-09-14.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-09-07",
+   "week_start": "2026-08-31",
+   "week_end": "2026-09-06",
+   "spend": 11668.43,
+   "results": 3.0,
+   "leads": 34.0,
+   "cost_per_result": 3889.476666666667,
+   "headline": "₹11,668 spent (+39% on the week before), 3 purchases at ₹3,889 each; 34 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-09-07.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-08-31",
+   "week_start": "2026-08-24",
+   "week_end": "2026-08-30",
+   "spend": 8397.34,
+   "results": 8.0,
+   "leads": 29.0,
+   "cost_per_result": 1049.6675,
+   "headline": "₹8,397 spent (-24% on the week before), 8 purchases at ₹1,050 each; 29 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-31.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-08-24",
+   "week_start": "2026-08-17",
+   "week_end": "2026-08-23",
+   "spend": 10990.29,
+   "results": 116.0,
+   "leads": 1.0,
+   "cost_per_result": 94.74387931034484,
+   "headline": "₹10,990 spent (-14% on the week before), 116 purchases at ₹95 each; 1 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-24.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-08-17",
+   "week_start": "2026-08-10",
+   "week_end": "2026-08-16",
+   "spend": 12805.42,
+   "results": 189.0,
+   "leads": 34.0,
+   "cost_per_result": 67.75354497354498,
+   "headline": "₹12,805 spent (+333% on the week before), 189 purchases at ₹68 each; 34 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-17.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-08-10",
+   "week_start": "2026-08-03",
+   "week_end": "2026-08-09",
+   "spend": 2960.78,
+   "results": 0.0,
+   "leads": 16.0,
+   "cost_per_result": null,
+   "headline": "₹2,961 spent (+47% on the week before), no purchases; 16 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-10.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-08-03",
+   "week_start": "2026-07-27",
+   "week_end": "2026-08-02",
+   "spend": 2011.23,
+   "results": 2.0,
+   "leads": 25.0,
+   "cost_per_result": 1005.615,
+   "headline": "₹2,011 spent (-74% on the week before), 2 bookings at ₹1,006 each; 25 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-03.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-07-27",
+   "week_start": "2026-07-20",
+   "week_end": "2026-07-26",
+   "spend": 7782.13,
+   "results": 2.0,
+   "leads": 27.0,
+   "cost_per_result": 3891.065,
+   "headline": "₹7,782 spent (-30% on the week before), 2 bookings at ₹3,891 each; 27 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-07-27.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-07-20",
+   "week_start": "2026-07-13",
+   "week_end": "2026-07-19",
+   "spend": 11106.53,
+   "results": 401.0,
+   "leads": 12.0,
+   "cost_per_result": 27.69708229426434,
+   "headline": "₹11,107 spent (+29% on the week before), 401 purchases at ₹28 each; 12 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-07-20.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-07-13",
+   "week_start": "2026-07-06",
+   "week_end": "2026-07-12",
+   "spend": 8602.73,
+   "results": 14.0,
+   "leads": 37.0,
+   "cost_per_result": 614.4807142857143,
+   "headline": "₹8,603 spent (-1% on the week before), 14 purchases at ₹614 each; 37 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-07-13.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-07-06",
+   "week_start": "2026-06-29",
+   "week_end": "2026-07-05",
+   "spend": 8661.7,
+   "results": 7.0,
+   "leads": 53.0,
+   "cost_per_result": 1237.3857142857144,
+   "headline": "₹8,662 spent (+36% on the week before), 7 purchases at ₹1,237 each; 53 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-07-06.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-06-29",
+   "week_start": "2026-06-22",
+   "week_end": "2026-06-28",
+   "spend": 6352.48,
+   "results": 3.0,
+   "leads": 18.0,
+   "cost_per_result": 2117.4933333333333,
+   "headline": "₹6,352 spent (+303% on the week before), 3 purchases at ₹2,117 each; 18 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-29.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-06-22",
+   "week_start": "2026-06-15",
+   "week_end": "2026-06-21",
+   "spend": 1575.41,
+   "results": 1.0,
+   "leads": 7.0,
+   "cost_per_result": 1575.41,
+   "headline": "₹1,575 spent (-88% on the week before), 1 bookings at ₹1,575 each; 7 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-22.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-06-15",
+   "week_start": "2026-06-08",
+   "week_end": "2026-06-14",
+   "spend": 13658.9,
+   "results": 25.0,
+   "leads": 90.0,
+   "cost_per_result": 546.356,
+   "headline": "₹13,659 spent (+34% on the week before), 25 bookings at ₹546 each; 90 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-15.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-06-08",
+   "week_start": "2026-06-01",
+   "week_end": "2026-06-07",
+   "spend": 10167.01,
+   "results": 13.0,
+   "leads": 84.0,
+   "cost_per_result": 782.0776923076924,
+   "headline": "₹10,167 spent (+31% on the week before), 13 bookings at ₹782 each; 84 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-08.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-06-01",
+   "week_start": "2026-05-25",
+   "week_end": "2026-05-31",
+   "spend": 7734.18,
+   "results": 17.0,
+   "leads": 77.0,
+   "cost_per_result": 454.9517647058824,
+   "headline": "₹7,734 spent (-3% on the week before), 17 bookings at ₹455 each; 77 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-01.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-05-25",
+   "week_start": "2026-05-18",
+   "week_end": "2026-05-24",
+   "spend": 7958.53,
+   "results": 14.0,
+   "leads": 45.0,
+   "cost_per_result": 568.4664285714285,
+   "headline": "₹7,959 spent (-22% on the week before), 14 bookings at ₹568 each; 45 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-05-25.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-05-18",
+   "week_start": "2026-05-11",
+   "week_end": "2026-05-17",
+   "spend": 10260.63,
+   "results": 11.0,
+   "leads": 64.0,
+   "cost_per_result": 932.7845454545454,
+   "headline": "₹10,261 spent (+91% on the week before), 11 bookings at ₹933 each; 64 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-05-18.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-05-11",
+   "week_start": "2026-05-04",
+   "week_end": "2026-05-10",
+   "spend": 5361.45,
+   "results": 5.0,
+   "leads": 37.0,
+   "cost_per_result": 1072.29,
+   "headline": "₹5,361 spent (+10% on the week before), 5 bookings at ₹1,072 each; 37 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-05-11.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-05-04",
+   "week_start": "2026-04-27",
+   "week_end": "2026-05-03",
+   "spend": 4887.4,
+   "results": 8.0,
+   "leads": 26.0,
+   "cost_per_result": 610.925,
+   "headline": "₹4,887 spent (>+999% on the week before), 8 bookings at ₹611 each; 26 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-05-04.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-04-27",
+   "week_start": "2026-04-20",
+   "week_end": "2026-04-26",
+   "spend": 285.48,
+   "results": 0.0,
+   "leads": 1.0,
+   "cost_per_result": null,
+   "headline": "Ads ran after a break: ₹285 spent, no bookings; 1 leads.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-04-27.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-02-02",
+   "week_start": "2026-01-26",
+   "week_end": "2026-02-01",
+   "spend": 415.16,
+   "results": 151.0,
+   "leads": 0.0,
+   "cost_per_result": 2.749403973509934,
+   "headline": "₹415 spent (-76% on the week before), 151 link clicks at ₹2.75 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-02-02.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-01-26",
+   "week_start": "2026-01-19",
+   "week_end": "2026-01-25",
+   "spend": 1741.38,
+   "results": 597.0,
+   "leads": 0.0,
+   "cost_per_result": 2.9168844221105528,
+   "headline": "₹1,741 spent (+41% on the week before), 597 link clicks at ₹2.92 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-01-26.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-01-19",
+   "week_start": "2026-01-12",
+   "week_end": "2026-01-18",
+   "spend": 1233.26,
+   "results": 304.0,
+   "leads": 0.0,
+   "cost_per_result": 4.056776315789474,
+   "headline": "₹1,233 spent (+46% on the week before), 304 link clicks at ₹4.06 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-01-19.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-01-12",
+   "week_start": "2026-01-05",
+   "week_end": "2026-01-11",
+   "spend": 847.46,
+   "results": 398.0,
+   "leads": 0.0,
+   "cost_per_result": 2.1292964824120606,
+   "headline": "₹847 spent (+106% on the week before), 398 link clicks at ₹2.13 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-01-12.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2026-01-05",
+   "week_start": "2025-12-29",
+   "week_end": "2026-01-04",
+   "spend": 410.52,
+   "results": 113.0,
+   "leads": 0.0,
+   "cost_per_result": 3.6329203539823007,
+   "headline": "₹411 spent (-81% on the week before), 113 link clicks at ₹3.63 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-01-05.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-12-29",
+   "week_start": "2025-12-22",
+   "week_end": "2025-12-28",
+   "spend": 2131.85,
+   "results": 1200.0,
+   "leads": 0.0,
+   "cost_per_result": 1.7765416666666667,
+   "headline": "₹2,132 spent (+54% on the week before), 1,200 link clicks at ₹1.78 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-29.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-12-22",
+   "week_start": "2025-12-15",
+   "week_end": "2025-12-21",
+   "spend": 1385.28,
+   "results": 410.0,
+   "leads": 0.0,
+   "cost_per_result": 3.378731707317073,
+   "headline": "₹1,385 spent (-24% on the week before), 410 link clicks at ₹3.38 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-22.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-12-15",
+   "week_start": "2025-12-08",
+   "week_end": "2025-12-14",
+   "spend": 1815.68,
+   "results": 667.0,
+   "leads": 0.0,
+   "cost_per_result": 2.72215892053973,
+   "headline": "₹1,816 spent (+861% on the week before), 667 link clicks at ₹2.72 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-15.pdf",
+   "account": {
+    "id": "951362586415730",
+    "name": "mitranadaccount"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-12-08",
+   "week_start": "2025-12-01",
+   "week_end": "2025-12-07",
+   "spend": 847.45,
+   "results": 81.0,
+   "leads": 0.0,
+   "cost_per_result": 10.462345679012346,
+   "headline": "₹847 spent (-55% on the week before), 81 link clicks at ₹10 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-08.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-12-01",
+   "week_start": "2025-11-24",
+   "week_end": "2025-11-30",
+   "spend": 1885.26,
+   "results": 80.0,
+   "leads": 0.0,
+   "cost_per_result": 23.56575,
+   "headline": "₹1,885 spent (-62% on the week before), 80 link clicks at ₹24 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-01.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-11-24",
+   "week_start": "2025-11-17",
+   "week_end": "2025-11-23",
+   "spend": 4947.61,
+   "results": 2.0,
+   "leads": 0.0,
+   "cost_per_result": 2473.805,
+   "headline": "₹4,948 spent (-26% on the week before), 2 purchases at ₹2,474 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-11-24.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-11-17",
+   "week_start": "2025-11-10",
+   "week_end": "2025-11-16",
+   "spend": 6726.46,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 6726.46,
+   "headline": "₹6,726 spent (+104% on the week before), 1 purchases at ₹6,726 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-11-17.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-11-10",
+   "week_start": "2025-11-03",
+   "week_end": "2025-11-09",
+   "spend": 3301.56,
+   "results": 2.0,
+   "leads": 0.0,
+   "cost_per_result": 1650.78,
+   "headline": "₹3,302 spent (+26% on the week before), 2 purchases at ₹1,651 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-11-10.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-11-03",
+   "week_start": "2025-10-27",
+   "week_end": "2025-11-02",
+   "spend": 2625.29,
+   "results": 2.0,
+   "leads": 0.0,
+   "cost_per_result": 1312.645,
+   "headline": "₹2,625 spent (+278% on the week before), 2 purchases at ₹1,313 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-11-03.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-10-27",
+   "week_start": "2025-10-20",
+   "week_end": "2025-10-26",
+   "spend": 694.12,
+   "results": 26.0,
+   "leads": 0.0,
+   "cost_per_result": 26.696923076923078,
+   "headline": "₹694 spent (+1% on the week before), 26 link clicks at ₹27 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-10-27.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-10-20",
+   "week_start": "2025-10-13",
+   "week_end": "2025-10-19",
+   "spend": 688.34,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 688.34,
+   "headline": "₹688 spent (+117% on the week before), 1 purchases at ₹688 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-10-20.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-10-13",
+   "week_start": "2025-10-06",
+   "week_end": "2025-10-12",
+   "spend": 317.79,
+   "results": 24.0,
+   "leads": 0.0,
+   "cost_per_result": 13.24125,
+   "headline": "₹318 spent (-89% on the week before), 24 link clicks at ₹13 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-10-13.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-10-06",
+   "week_start": "2025-09-29",
+   "week_end": "2025-10-05",
+   "spend": 2966.13,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 2966.13,
+   "headline": "₹2,966 spent (+250% on the week before), 1 purchases at ₹2,966 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-10-06.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-09-29",
+   "week_start": "2025-09-22",
+   "week_end": "2025-09-28",
+   "spend": 847.46,
+   "results": 293.0,
+   "leads": 0.0,
+   "cost_per_result": 2.892354948805461,
+   "headline": "Ads ran after a break: ₹847 spent, 293 link clicks at ₹2.89 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-09-29.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-08-18",
+   "week_start": "2025-08-11",
+   "week_end": "2025-08-17",
+   "spend": 61.74,
+   "results": 42.0,
+   "leads": 0.0,
+   "cost_per_result": 1.47,
+   "headline": "Ads ran after a break: ₹62 spent, 42 link clicks at ₹1.47 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-08-18.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-06-30",
+   "week_start": "2025-06-23",
+   "week_end": "2025-06-29",
+   "spend": 416.19,
+   "results": 60.0,
+   "leads": 0.0,
+   "cost_per_result": 6.9365,
+   "headline": "₹416 spent (-81% on the week before), 60 link clicks at ₹6.94 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-06-30.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-06-23",
+   "week_start": "2025-06-16",
+   "week_end": "2025-06-22",
+   "spend": 2225.31,
+   "results": 90.0,
+   "leads": 0.0,
+   "cost_per_result": 24.725666666666665,
+   "headline": "₹2,225 spent (-9% on the week before), 90 link clicks at ₹25 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-06-23.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-06-16",
+   "week_start": "2025-06-09",
+   "week_end": "2025-06-15",
+   "spend": 2443.23,
+   "results": 157.0,
+   "leads": 0.0,
+   "cost_per_result": 15.561974522292994,
+   "headline": "₹2,443 spent (-4% on the week before), 157 link clicks at ₹16 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-06-16.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-06-09",
+   "week_start": "2025-06-02",
+   "week_end": "2025-06-08",
+   "spend": 2542.39,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 2542.39,
+   "headline": "₹2,542 spent (-11% on the week before), 1 purchases at ₹2,542 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-06-09.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-06-02",
+   "week_start": "2025-05-26",
+   "week_end": "2025-06-01",
+   "spend": 2864.92,
+   "results": 454.0,
+   "leads": 0.0,
+   "cost_per_result": 6.310396475770926,
+   "headline": "₹2,865 spent (-18% on the week before), 454 link clicks at ₹6.31 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-06-02.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-05-26",
+   "week_start": "2025-05-19",
+   "week_end": "2025-05-25",
+   "spend": 3494.51,
+   "results": 573.0,
+   "leads": 0.0,
+   "cost_per_result": 6.098621291448517,
+   "headline": "₹3,495 spent (-14% on the week before), 573 link clicks at ₹6.10 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-05-26.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-05-19",
+   "week_start": "2025-05-12",
+   "week_end": "2025-05-18",
+   "spend": 4071.69,
+   "results": 2.0,
+   "leads": 0.0,
+   "cost_per_result": 2035.845,
+   "headline": "₹4,072 spent (-22% on the week before), 2 purchases at ₹2,036 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-05-19.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-05-12",
+   "week_start": "2025-05-05",
+   "week_end": "2025-05-11",
+   "spend": 5246.82,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 5246.82,
+   "headline": "₹5,247 spent (+208% on the week before), 1 purchases at ₹5,247 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-05-12.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-05-05",
+   "week_start": "2025-04-28",
+   "week_end": "2025-05-04",
+   "spend": 1701.99,
+   "results": 4.0,
+   "leads": 0.0,
+   "cost_per_result": 425.4975,
+   "headline": "₹1,702 spent (-33% on the week before), 4 purchases at ₹425 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-05-05.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-04-28",
+   "week_start": "2025-04-21",
+   "week_end": "2025-04-27",
+   "spend": 2535.27,
+   "results": 10.0,
+   "leads": 0.0,
+   "cost_per_result": 253.527,
+   "headline": "₹2,535 spent (-26% on the week before), 10 purchases at ₹254 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-04-28.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-04-21",
+   "week_start": "2025-04-14",
+   "week_end": "2025-04-20",
+   "spend": 3436.69,
+   "results": 266.0,
+   "leads": 0.0,
+   "cost_per_result": 12.919887218045114,
+   "headline": "₹3,437 spent (+19% on the week before), 266 link clicks at ₹13 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-04-21.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-04-14",
+   "week_start": "2025-04-07",
+   "week_end": "2025-04-13",
+   "spend": 2899.16,
+   "results": 4.0,
+   "leads": 0.0,
+   "cost_per_result": 724.79,
+   "headline": "₹2,899 spent (+36% on the week before), 4 purchases at ₹725 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-04-14.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-04-07",
+   "week_start": "2025-03-31",
+   "week_end": "2025-04-06",
+   "spend": 2133.51,
+   "results": 10.0,
+   "leads": 0.0,
+   "cost_per_result": 213.35100000000003,
+   "headline": "₹2,134 spent (+4% on the week before), 10 purchases at ₹213 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-04-07.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-03-31",
+   "week_start": "2025-03-24",
+   "week_end": "2025-03-30",
+   "spend": 2049.76,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 2049.76,
+   "headline": "₹2,050 spent (-39% on the week before), 1 purchases at ₹2,050 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-31.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-03-24",
+   "week_start": "2025-03-17",
+   "week_end": "2025-03-23",
+   "spend": 3357.78,
+   "results": 423.0,
+   "leads": 0.0,
+   "cost_per_result": 7.938014184397163,
+   "headline": "₹3,358 spent (+6% on the week before), 423 link clicks at ₹7.94 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-24.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-03-17",
+   "week_start": "2025-03-10",
+   "week_end": "2025-03-16",
+   "spend": 3175.62,
+   "results": 6.0,
+   "leads": 6.0,
+   "cost_per_result": 529.27,
+   "headline": "₹3,176 spent (+45% on the week before), 6 leads at ₹529 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-17.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-03-10",
+   "week_start": "2025-03-03",
+   "week_end": "2025-03-09",
+   "spend": 2193.95,
+   "results": 10.0,
+   "leads": 10.0,
+   "cost_per_result": 219.39499999999998,
+   "headline": "₹2,194 spent (-21% on the week before), 10 leads at ₹219 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-10.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-03-03",
+   "week_start": "2025-02-24",
+   "week_end": "2025-03-02",
+   "spend": 2764.54,
+   "results": 714.0,
+   "leads": 0.0,
+   "cost_per_result": 3.8719047619047617,
+   "headline": "₹2,765 spent (-42% on the week before), 714 link clicks at ₹3.87 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-03.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-02-24",
+   "week_start": "2025-02-17",
+   "week_end": "2025-02-23",
+   "spend": 4756.96,
+   "results": 17.0,
+   "leads": 17.0,
+   "cost_per_result": 279.8211764705882,
+   "headline": "₹4,757 spent (-48% on the week before), 17 leads at ₹280 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-02-24.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-02-17",
+   "week_start": "2025-02-10",
+   "week_end": "2025-02-16",
+   "spend": 9197.78,
+   "results": 29.0,
+   "leads": 29.0,
+   "cost_per_result": 317.1648275862069,
+   "headline": "₹9,198 spent (+15% on the week before), 29 leads at ₹317 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-02-17.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-02-10",
+   "week_start": "2025-02-03",
+   "week_end": "2025-02-09",
+   "spend": 7991.82,
+   "results": 18.0,
+   "leads": 18.0,
+   "cost_per_result": 443.99,
+   "headline": "₹7,992 spent (+529% on the week before), 18 leads at ₹444 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-02-10.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-02-03",
+   "week_start": "2025-01-27",
+   "week_end": "2025-02-02",
+   "spend": 1271.17,
+   "results": 2.0,
+   "leads": 2.0,
+   "cost_per_result": 635.585,
+   "headline": "₹1,271 spent (+409% on the week before), 2 leads at ₹636 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-02-03.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-01-27",
+   "week_start": "2025-01-20",
+   "week_end": "2025-01-26",
+   "spend": 249.7,
+   "results": 4.0,
+   "leads": 4.0,
+   "cost_per_result": 62.425,
+   "headline": "₹250 spent (-87% on the week before), 4 leads at ₹62 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-01-27.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-01-20",
+   "week_start": "2025-01-13",
+   "week_end": "2025-01-19",
+   "spend": 1868.93,
+   "results": 15.0,
+   "leads": 15.0,
+   "cost_per_result": 124.59533333333334,
+   "headline": "Ads ran after a break: ₹1,869 spent, 15 leads at ₹125 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-01-20.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2025-01-06",
+   "week_start": "2024-12-30",
+   "week_end": "2025-01-05",
+   "spend": 578.12,
+   "results": 4.0,
+   "leads": 4.0,
+   "cost_per_result": 144.53,
+   "headline": "₹578 spent (-47% on the week before), 4 leads at ₹145 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2025-01-06.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-12-30",
+   "week_start": "2024-12-23",
+   "week_end": "2024-12-29",
+   "spend": 1089.86,
+   "results": 7.0,
+   "leads": 7.0,
+   "cost_per_result": 155.6942857142857,
+   "headline": "₹1,090 spent (-56% on the week before), 7 leads at ₹156 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-12-30.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-12-23",
+   "week_start": "2024-12-16",
+   "week_end": "2024-12-22",
+   "spend": 2454.95,
+   "results": 1.0,
+   "leads": 12.0,
+   "cost_per_result": 2454.95,
+   "headline": "₹2,455 spent (+3% on the week before), 1 purchases at ₹2,455 each; 12 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-12-23.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-12-16",
+   "week_start": "2024-12-09",
+   "week_end": "2024-12-15",
+   "spend": 2384.0,
+   "results": 12.0,
+   "leads": 12.0,
+   "cost_per_result": 198.66666666666666,
+   "headline": "₹2,384 spent (+112% on the week before), 12 leads at ₹199 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-12-16.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-12-09",
+   "week_start": "2024-12-02",
+   "week_end": "2024-12-08",
+   "spend": 1125.56,
+   "results": 1.0,
+   "leads": 1.0,
+   "cost_per_result": 1125.56,
+   "headline": "₹1,126 spent (-29% on the week before), 1 purchases at ₹1,126 each; 1 leads.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-12-09.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-12-02",
+   "week_start": "2024-11-25",
+   "week_end": "2024-12-01",
+   "spend": 1586.31,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 1586.31,
+   "headline": "₹1,586 spent (-22% on the week before), 1 purchases at ₹1,586 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-12-02.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-11-25",
+   "week_start": "2024-11-18",
+   "week_end": "2024-11-24",
+   "spend": 2032.07,
+   "results": 8.0,
+   "leads": 8.0,
+   "cost_per_result": 254.00875,
+   "headline": "₹2,032 spent (-27% on the week before), 8 leads at ₹254 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-11-25.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-11-18",
+   "week_start": "2024-11-11",
+   "week_end": "2024-11-17",
+   "spend": 2791.56,
+   "results": 249.0,
+   "leads": 0.0,
+   "cost_per_result": 11.211084337349398,
+   "headline": "₹2,792 spent (-31% on the week before), 249 link clicks at ₹11 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-11-18.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-11-11",
+   "week_start": "2024-11-04",
+   "week_end": "2024-11-10",
+   "spend": 4065.3,
+   "results": 13.0,
+   "leads": 13.0,
+   "cost_per_result": 312.7153846153846,
+   "headline": "₹4,065 spent (+19% on the week before), 13 leads at ₹313 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-11-11.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-11-04",
+   "week_start": "2024-10-28",
+   "week_end": "2024-11-03",
+   "spend": 3402.26,
+   "results": 4.0,
+   "leads": 4.0,
+   "cost_per_result": 850.565,
+   "headline": "₹3,402 spent (+13% on the week before), 4 leads at ₹851 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-11-04.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-10-28",
+   "week_start": "2024-10-21",
+   "week_end": "2024-10-27",
+   "spend": 3017.89,
+   "results": 1886.0,
+   "leads": 0.0,
+   "cost_per_result": 1.600153764581124,
+   "headline": "₹3,018 spent (+27% on the week before), 1,886 link clicks at ₹1.60 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-10-28.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-10-21",
+   "week_start": "2024-10-14",
+   "week_end": "2024-10-20",
+   "spend": 2376.08,
+   "results": 2233.0,
+   "leads": 0.0,
+   "cost_per_result": 1.0640752351097178,
+   "headline": "₹2,376 spent (+40% on the week before), 2,233 link clicks at ₹1.06 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-10-21.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-10-14",
+   "week_start": "2024-10-07",
+   "week_end": "2024-10-13",
+   "spend": 1699.65,
+   "results": 1753.0,
+   "leads": 0.0,
+   "cost_per_result": 0.9695664575014262,
+   "headline": "₹1,700 spent (+1% on the week before), 1,753 link clicks at ₹0.97 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-10-14.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-10-07",
+   "week_start": "2024-09-30",
+   "week_end": "2024-10-06",
+   "spend": 1683.25,
+   "results": 4095.0,
+   "leads": 0.0,
+   "cost_per_result": 0.41105006105006103,
+   "headline": "Ads ran after a break: ₹1,683 spent, 4,095 link clicks at ₹0.41 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-10-07.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-09-23",
+   "week_start": "2024-09-16",
+   "week_end": "2024-09-22",
+   "spend": 1695.01,
+   "results": 206.0,
+   "leads": 0.0,
+   "cost_per_result": 8.228203883495146,
+   "headline": "Ads ran after a break: ₹1,695 spent, 206 link clicks at ₹8.23 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-09-23.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-04-15",
+   "week_start": "2024-04-08",
+   "week_end": "2024-04-14",
+   "spend": 847.45,
+   "results": 79.0,
+   "leads": 0.0,
+   "cost_per_result": 10.727215189873418,
+   "headline": "₹847 spent (-0% on the week before), 79 link clicks at ₹11 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-04-15.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-04-08",
+   "week_start": "2024-04-01",
+   "week_end": "2024-04-07",
+   "spend": 847.46,
+   "results": 18.0,
+   "leads": 0.0,
+   "cost_per_result": 47.08111111111111,
+   "headline": "Ads ran after a break: ₹847 spent, 18 link clicks at ₹47 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-04-08.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-03-25",
+   "week_start": "2024-03-18",
+   "week_end": "2024-03-24",
+   "spend": 2753.45,
+   "results": 1.0,
+   "leads": 0.0,
+   "cost_per_result": 2753.45,
+   "headline": "₹2,753 spent (+598% on the week before), 1 purchases at ₹2,753 each.",
+   "result_label": "purchases",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-03-25.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-03-18",
+   "week_start": "2024-03-11",
+   "week_end": "2024-03-17",
+   "spend": 394.57,
+   "results": 13.0,
+   "leads": 0.0,
+   "cost_per_result": 30.35153846153846,
+   "headline": "Ads ran after a break: ₹395 spent, 13 link clicks at ₹30 each.",
+   "result_label": "link clicks",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-03-18.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
+  },
+  {
+   "report_date": "2024-01-15",
+   "week_start": "2024-01-08",
+   "week_end": "2024-01-14",
+   "spend": 787.88,
+   "results": 3.0,
+   "leads": 3.0,
+   "cost_per_result": 262.62666666666667,
+   "headline": "Ads ran after a break: ₹788 spent, 3 leads at ₹263 each.",
+   "result_label": "leads",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2024-01-15.pdf",
+   "account": {
+    "id": "730954635012236",
+    "name": "Older ad account"
+   },
+   "history": true
   }
  ]
 }

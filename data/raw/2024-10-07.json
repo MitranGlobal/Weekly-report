@@ -1,0 +1,46 @@
+{
+ "report_date": "2024-10-07",
+ "week_start": "2024-09-30",
+ "week_end": "2024-10-06",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1683.25,
+   "impressions": 184852.0,
+   "reach": 70720.0,
+   "link_clicks": 4095.0,
+   "results": 4095.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 0.15,
+   "impressions": 35.0,
+   "reach": 32.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹1,683 spent, 4,095 link clicks at ₹0.41 each.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Same people seeing the ads often",
+   "text": "Frequency was 2.61: each person saw the ads that many times on average."
+  }
+ ],
+ "actions": []
+}

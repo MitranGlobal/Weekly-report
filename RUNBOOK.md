@@ -5,6 +5,8 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
 
 - `index.html`: landing page. `meta.html`: full Meta Ads dashboard (snapshot, 2 Nov 2026). `weekly.html`: weekly reports, by month.
 - `data/raw/<YYYY-MM-DD>.json`: the input for one report (written by the Monday task).
+- `data/history/` and `scripts/build_history.py`: one-off history reports (Jan 2024 – 28 Sep 2026), built from whichever
+  ad account ran ads each week. The Monday task never edits or rebuilds these, and never runs `build --all`.
 - `scripts/build_week.py`: turns an input into `reports/<date>.json`, `reports/files/MiTran-Meta-Weekly-<date>.pdf`, and refreshes `reports/index.json`.
 
 ## The Monday steps

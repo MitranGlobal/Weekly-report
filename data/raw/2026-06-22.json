@@ -1,0 +1,104 @@
+{
+ "report_date": "2026-06-22",
+ "week_start": "2026-06-15",
+ "week_end": "2026-06-21",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1575.41,
+   "impressions": 1758.0,
+   "reach": 1512.0,
+   "link_clicks": 29.0,
+   "results": 1.0,
+   "leads": 7.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 13658.9,
+   "impressions": 19430.0,
+   "reach": 13920.0,
+   "link_clicks": 379.0,
+   "results": 25.0,
+   "leads": 90.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 662.45,
+    "impressions": 801.0,
+    "reach": 686.0,
+    "link_clicks": 9.0,
+    "results": 0.0,
+    "leads": 2.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 5031.62,
+    "impressions": 7805.0,
+    "reach": 6207.0,
+    "link_clicks": 133.0,
+    "results": 8.0,
+    "leads": 28.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120246269510990412",
+   "name": "Scaling Video Campaign 27 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 912.96,
+    "impressions": 957.0,
+    "reach": 866.0,
+    "link_clicks": 20.0,
+    "results": 1.0,
+    "leads": 5.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 8627.28,
+    "impressions": 11625.0,
+    "reach": 8671.0,
+    "link_clicks": 246.0,
+    "results": 17.0,
+    "leads": 62.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹1,575 spent (-88% on the week before), 1 bookings at ₹1,575 each; 7 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier bookings",
+   "text": "Cost per booking rose to ₹1,575 from ₹546."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no bookings",
+   "text": "Launch Campaign 25 April spent ₹662 without a booking."
+  }
+ ],
+ "actions": []
+}

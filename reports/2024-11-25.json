@@ -1,0 +1,75 @@
+{
+ "report_date": "2024-11-25",
+ "week_start": "2024-11-18",
+ "week_end": "2024-11-24",
+ "prev_week_start": "2024-11-11",
+ "prev_week_end": "2024-11-17",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 2032.07,
+   "impressions": 12611.0,
+   "reach": 11800.0,
+   "link_clicks": 87.0,
+   "results": 8.0,
+   "leads": 8.0,
+   "purchases": 0.0,
+   "cost_per_result": 254.00875,
+   "cost_per_lead": 254.00875,
+   "link_ctr": 0.6898739195940052,
+   "cpm": 161.1347236539529,
+   "frequency": 1.068728813559322
+  },
+  "prev": {
+   "spend": 2791.56,
+   "impressions": 30959.0,
+   "reach": 26150.0,
+   "link_clicks": 249.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": 0.8042895442359249,
+   "cpm": 90.16957912077262,
+   "frequency": 1.1839005736137667
+  },
+  "change": {
+   "spend": -27.20665147802662,
+   "impressions": -59.26548015116767,
+   "reach": -54.875717017208416,
+   "link_clicks": -65.06024096385542,
+   "results": null,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": -14.225675997145345,
+   "cpm": 78.70186954974024,
+   "frequency": -9.72816152144361
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹2,032 spent (-27% on the week before), 8 leads at ₹254 each.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.69%, below 0.8%."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2024-11-25.pdf",
+ "history": true,
+ "also_spent": []
+}

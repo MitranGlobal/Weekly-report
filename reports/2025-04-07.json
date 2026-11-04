@@ -1,0 +1,86 @@
+{
+ "report_date": "2025-04-07",
+ "week_start": "2025-03-31",
+ "week_end": "2025-04-06",
+ "prev_week_start": "2025-03-24",
+ "prev_week_end": "2025-03-30",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 2133.51,
+   "impressions": 25051.0,
+   "reach": 23638.0,
+   "link_clicks": 297.0,
+   "results": 10.0,
+   "leads": 0.0,
+   "purchases": 10.0,
+   "cost_per_result": 213.35100000000003,
+   "cost_per_lead": null,
+   "link_ctr": 1.1855814139156122,
+   "cpm": 85.16666001357231,
+   "frequency": 1.0597766308486336
+  },
+  "prev": {
+   "spend": 2049.76,
+   "impressions": 45962.0,
+   "reach": 43242.0,
+   "link_clicks": 195.0,
+   "results": 1.0,
+   "leads": 0.0,
+   "purchases": 1.0,
+   "cost_per_result": 2049.76,
+   "cost_per_lead": null,
+   "link_ctr": 0.42426352203994605,
+   "cpm": 44.59684086854358,
+   "frequency": 1.0629018084269923
+  },
+  "change": {
+   "spend": 4.085844196393724,
+   "impressions": -45.496279535268265,
+   "reach": -45.33555339716017,
+   "link_clicks": 52.307692307692314,
+   "results": 900.0,
+   "leads": null,
+   "purchases": 900.0,
+   "cost_per_result": -89.59141558036062,
+   "cost_per_lead": null,
+   "link_ctr": 179.4445792122532,
+   "cpm": 90.97016370422931,
+   "frequency": -0.29402316879898205
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹2,134 spent (+4% on the week before), 10 purchases at ₹213 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹213 from ₹2,050."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "mitranadaccount (951362586415730) spent ₹321 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-04-07.pdf",
+ "history": true,
+ "also_spent": [
+  {
+   "id": "951362586415730",
+   "name": "mitranadaccount",
+   "spend": 321.36
+  }
+ ]
+}

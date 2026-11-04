@@ -1,0 +1,75 @@
+{
+ "report_date": "2024-04-08",
+ "week_start": "2024-04-01",
+ "week_end": "2024-04-07",
+ "prev_week_start": "2024-03-25",
+ "prev_week_end": "2024-03-31",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 847.46,
+   "impressions": 4459.0,
+   "reach": 3508.0,
+   "link_clicks": 18.0,
+   "results": 18.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 47.08111111111111,
+   "cost_per_lead": null,
+   "link_ctr": 0.4036779546983628,
+   "cpm": 190.056066382597,
+   "frequency": 1.2710946408209807
+  },
+  "prev": {
+   "spend": 0.0,
+   "impressions": 0.0,
+   "reach": 0.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  },
+  "change": {
+   "spend": null,
+   "impressions": null,
+   "reach": null,
+   "link_clicks": null,
+   "results": null,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹847 spent, 18 link clicks at ₹47 each.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.40%, below 0.8%."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2024-04-08.pdf",
+ "history": true,
+ "also_spent": []
+}

@@ -1,0 +1,57 @@
+{
+ "report_date": "2025-12-08",
+ "week_start": "2025-12-01",
+ "week_end": "2025-12-07",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [
+  {
+   "id": "951362586415730",
+   "name": "mitranadaccount",
+   "spend": 188.87
+  }
+ ],
+ "totals": {
+  "cur": {
+   "spend": 847.45,
+   "impressions": 3230.0,
+   "reach": 2772.0,
+   "link_clicks": 81.0,
+   "results": 81.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 1885.26,
+   "impressions": 8293.0,
+   "reach": 6524.0,
+   "link_clicks": 80.0,
+   "results": 80.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹847 spent (-55% on the week before), 81 link clicks at ₹10 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper link clicks",
+   "text": "Cost per link click fell to ₹10 from ₹24."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "mitranadaccount (951362586415730) spent ₹189 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": []
+}

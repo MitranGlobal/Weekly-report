@@ -1,0 +1,104 @@
+{
+ "report_date": "2026-05-25",
+ "week_start": "2026-05-18",
+ "week_end": "2026-05-24",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 7958.53,
+   "impressions": 13661.0,
+   "reach": 8768.0,
+   "link_clicks": 258.0,
+   "results": 14.0,
+   "leads": 45.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 10260.63,
+   "impressions": 14522.0,
+   "reach": 8437.0,
+   "link_clicks": 272.0,
+   "results": 11.0,
+   "leads": 64.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 265.58,
+    "impressions": 462.0,
+    "reach": 414.0,
+    "link_clicks": 7.0,
+    "results": 0.0,
+    "leads": 5.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 5544.42,
+    "impressions": 6580.0,
+    "reach": 4094.0,
+    "link_clicks": 107.0,
+    "results": 7.0,
+    "leads": 42.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120244992007940412",
+   "name": "Launch Video Campaign 12 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 7692.95,
+    "impressions": 13199.0,
+    "reach": 8389.0,
+    "link_clicks": 251.0,
+    "results": 14.0,
+    "leads": 40.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 4709.49,
+    "impressions": 7934.0,
+    "reach": 5046.0,
+    "link_clicks": 165.0,
+    "results": 4.0,
+    "leads": 22.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹7,959 spent (-22% on the week before), 14 bookings at ₹568 each; 45 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper bookings",
+   "text": "Cost per booking fell to ₹568 from ₹933."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Video Campaign 12 May MiTran: 14 bookings at ₹549 each."
+  }
+ ],
+ "actions": []
+}

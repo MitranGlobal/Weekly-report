@@ -1,0 +1,125 @@
+{
+ "report_date": "2026-05-18",
+ "week_start": "2026-05-11",
+ "week_end": "2026-05-17",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 10260.63,
+   "impressions": 14522.0,
+   "reach": 8437.0,
+   "link_clicks": 272.0,
+   "results": 11.0,
+   "leads": 64.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 5361.45,
+   "impressions": 7465.0,
+   "reach": 4739.0,
+   "link_clicks": 118.0,
+   "results": 5.0,
+   "leads": 37.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 5544.42,
+    "impressions": 6580.0,
+    "reach": 4094.0,
+    "link_clicks": 107.0,
+    "results": 7.0,
+    "leads": 42.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 5361.45,
+    "impressions": 7465.0,
+    "reach": 4739.0,
+    "link_clicks": 118.0,
+    "results": 5.0,
+    "leads": 37.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120244992007940412",
+   "name": "Launch Video Campaign 12 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 4709.49,
+    "impressions": 7934.0,
+    "reach": 5046.0,
+    "link_clicks": 165.0,
+    "results": 4.0,
+    "leads": 22.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "other",
+   "name": "Other campaigns (no longer listed by Meta)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 6.72,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹10,261 spent (+91% on the week before), 11 bookings at ₹933 each; 64 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Campaign 25 April: 7 bookings at ₹792 each."
+  }
+ ],
+ "actions": []
+}

@@ -1,0 +1,271 @@
+{
+ "report_date": "2026-08-31",
+ "week_start": "2026-08-24",
+ "week_end": "2026-08-30",
+ "prev_week_start": "2026-08-17",
+ "prev_week_end": "2026-08-23",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 8397.34,
+   "impressions": 37383.0,
+   "reach": 33393.0,
+   "link_clicks": 568.0,
+   "results": 8.0,
+   "leads": 29.0,
+   "purchases": 8.0,
+   "cost_per_result": 1049.6675,
+   "cost_per_lead": 289.5634482758621,
+   "link_ctr": 1.5194072171842816,
+   "cpm": 224.62991199208196,
+   "frequency": 1.1194861198454766
+  },
+  "prev": {
+   "spend": 10990.29,
+   "impressions": 167407.0,
+   "reach": 158669.0,
+   "link_clicks": 2275.0,
+   "results": 116.0,
+   "leads": 1.0,
+   "purchases": 116.0,
+   "cost_per_result": 94.74387931034484,
+   "cost_per_lead": 10990.29,
+   "link_ctr": 1.3589634842031695,
+   "cpm": 65.65012215737694,
+   "frequency": 1.0550706187093888
+  },
+  "change": {
+   "spend": -23.593098999207488,
+   "impressions": -77.66939255825622,
+   "reach": -78.95430109221083,
+   "link_clicks": -75.03296703296704,
+   "results": -93.10344827586206,
+   "leads": 2800.0,
+   "purchases": -93.10344827586206,
+   "cost_per_result": 1007.9000645114915,
+   "cost_per_lead": -97.36527927583475,
+   "link_ctr": 11.806331431722656,
+   "cpm": 242.16221479923146,
+   "frequency": 6.105326031624676
+  }
+ },
+ "spend_without_results": 2408.09,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120251109310620412",
+   "name": "Mitran | Parenting | 27Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 5989.25,
+    "impressions": 33256.0,
+    "reach": 30189.0,
+    "link_clicks": 451.0,
+    "results": 8.0,
+    "leads": 29.0,
+    "purchases": 8.0,
+    "cost_per_result": 748.65625,
+    "cost_per_lead": 206.52586206896552,
+    "link_ctr": 1.3561462593216262,
+    "cpm": 180.09532114505652,
+    "frequency": 1.1015932955712346
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120251013456050412",
+   "name": "Mitran | Parenting | 20Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 2408.09,
+    "impressions": 4127.0,
+    "reach": 3468.0,
+    "link_clicks": 117.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 2.834989096195784,
+    "cpm": 583.4964865519748,
+    "frequency": 1.1900230680507498
+   },
+   "prev": {
+    "spend": 4922.84,
+    "impressions": 15281.0,
+    "reach": 12561.0,
+    "link_clicks": 354.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 2.3166023166023164,
+    "cpm": 322.15430927295336,
+    "frequency": 1.2165432688480216
+   },
+   "spend_change": -51.08331775966718
+  },
+  {
+   "id": "120250957121900412",
+   "name": "Mitran | Parenting | 17Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 3184.42,
+    "impressions": 88675.0,
+    "reach": 83424.0,
+    "link_clicks": 1213.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 1.3679165491965042,
+    "cpm": 35.911136171412466,
+    "frequency": 1.062943517453011
+   },
+   "spend_change": -100.0
+  },
+  {
+   "id": "120250763195460412",
+   "name": "Mitran | Parenting | 10Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 2295.66,
+    "impressions": 33736.0,
+    "reach": 33687.0,
+    "link_clicks": 543.0,
+    "results": 116.0,
+    "leads": 1.0,
+    "purchases": 116.0,
+    "cost_per_result": 19.7901724137931,
+    "cost_per_lead": 2295.66,
+    "link_ctr": 1.6095565567939292,
+    "cpm": 68.04778278396964,
+    "frequency": 1.0014545670436668
+   },
+   "spend_change": -100.0
+  },
+  {
+   "id": "120250848494370412",
+   "name": "Mitran | VSL | IMG | 13Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 587.37,
+    "impressions": 29715.0,
+    "reach": 28886.0,
+    "link_clicks": 165.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 0.5552751135790005,
+    "cpm": 19.76678445229682,
+    "frequency": 1.0286990237485287
+   },
+   "spend_change": -100.0
+  }
+ ],
+ "daily": [],
+ "headline": "₹8,397 spent (-24% on the week before), 8 purchases at ₹1,050 each; 29 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier purchases",
+   "text": "Cost per purchase rose to ₹1,050 from ₹95."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Mitran | Parenting | 27Aug26: 8 purchases at ₹749 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Mitran | Parenting | 20Aug26 spent ₹2,408 without a purchase."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-31.pdf",
+ "history": true,
+ "also_spent": []
+}

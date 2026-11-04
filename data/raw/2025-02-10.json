@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-02-10",
+ "week_start": "2025-02-03",
+ "week_end": "2025-02-09",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 7991.82,
+   "impressions": 58021.0,
+   "reach": 47145.0,
+   "link_clicks": 850.0,
+   "results": 18.0,
+   "leads": 18.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 1271.17,
+   "impressions": 4441.0,
+   "reach": 3879.0,
+   "link_clicks": 117.0,
+   "results": 2.0,
+   "leads": 2.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹7,992 spent (+529% on the week before), 18 leads at ₹444 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper leads",
+   "text": "Cost per lead fell to ₹444 from ₹636."
+  }
+ ],
+ "actions": []
+}

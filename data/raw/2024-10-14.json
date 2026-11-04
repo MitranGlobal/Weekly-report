@@ -1,0 +1,51 @@
+{
+ "report_date": "2024-10-14",
+ "week_start": "2024-10-07",
+ "week_end": "2024-10-13",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1699.65,
+   "impressions": 32930.0,
+   "reach": 25641.0,
+   "link_clicks": 1753.0,
+   "results": 1753.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 1683.25,
+   "impressions": 184852.0,
+   "reach": 70720.0,
+   "link_clicks": 4095.0,
+   "results": 4095.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹1,700 spent (+1% on the week before), 1,753 link clicks at ₹0.97 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier link clicks",
+   "text": "Cost per link click rose to ₹0.97 from ₹0.41."
+  },
+  {
+   "type": "good",
+   "title": "Strong click rate",
+   "text": "Link click rate was 5.32%."
+  }
+ ],
+ "actions": []
+}

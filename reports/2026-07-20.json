@@ -1,0 +1,239 @@
+{
+ "report_date": "2026-07-20",
+ "week_start": "2026-07-13",
+ "week_end": "2026-07-19",
+ "prev_week_start": "2026-07-06",
+ "prev_week_end": "2026-07-12",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 11106.53,
+   "impressions": 246424.0,
+   "reach": 229244.0,
+   "link_clicks": 3913.0,
+   "results": 401.0,
+   "leads": 12.0,
+   "purchases": 401.0,
+   "cost_per_result": 27.69708229426434,
+   "cost_per_lead": 925.5441666666667,
+   "link_ctr": 1.587913514917378,
+   "cpm": 45.070812907833655,
+   "frequency": 1.0749419832143916
+  },
+  "prev": {
+   "spend": 8602.73,
+   "impressions": 11049.0,
+   "reach": 6530.0,
+   "link_clicks": 179.0,
+   "results": 14.0,
+   "leads": 37.0,
+   "purchases": 14.0,
+   "cost_per_result": 614.4807142857143,
+   "cost_per_lead": 232.50621621621622,
+   "link_ctr": 1.6200561136754457,
+   "cpm": 778.5980631731378,
+   "frequency": 1.6920367534456355
+  },
+  "change": {
+   "spend": 29.10471443367398,
+   "impressions": 2130.2832835550726,
+   "reach": 3410.62787136294,
+   "link_clicks": 2086.033519553073,
+   "results": 2764.285714285714,
+   "leads": -67.56756756756756,
+   "purchases": 2764.285714285714,
+   "cost_per_result": -95.49260348610615,
+   "cost_per_lead": 298.0728695038281,
+   "link_ctr": -1.9840423110496643,
+   "cpm": -94.21128627983612,
+   "frequency": -36.47052990867973
+  }
+ },
+ "spend_without_results": 1230.48,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120250116219150412",
+   "name": "New Paid Campaign 17 July",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 3541.55,
+    "impressions": 21245.0,
+    "reach": 16736.0,
+    "link_clicks": 520.0,
+    "results": 1.0,
+    "leads": 4.0,
+    "purchases": 1.0,
+    "cost_per_result": 3541.55,
+    "cost_per_lead": 885.3875,
+    "link_ctr": 2.4476347375853145,
+    "cpm": 166.7004000941398,
+    "frequency": 1.2694192160611855
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120249048428310412",
+   "name": "ReLaunch 26 June",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 3325.0,
+    "impressions": 114246.0,
+    "reach": 114246.0,
+    "link_clicks": 1683.0,
+    "results": 397.0,
+    "leads": 1.0,
+    "purchases": 397.0,
+    "cost_per_result": 8.375314861460957,
+    "cost_per_lead": 3325.0,
+    "link_ctr": 1.4731369150779896,
+    "cpm": 29.10386359259843,
+    "frequency": 1.0
+   },
+   "prev": {
+    "spend": 6500.97,
+    "impressions": 8719.0,
+    "reach": 5688.0,
+    "link_clicks": 142.0,
+    "results": 12.0,
+    "leads": 29.0,
+    "purchases": 12.0,
+    "cost_per_result": 541.7475000000001,
+    "cost_per_lead": 224.17137931034483,
+    "link_ctr": 1.6286271361394655,
+    "cpm": 745.6095882555339,
+    "frequency": 1.5328762306610408
+   },
+   "spend_change": -48.8537864349474
+  },
+  {
+   "id": "120249934823270412",
+   "name": "10th July Campaign",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 3009.5,
+    "impressions": 50347.0,
+    "reach": 44769.0,
+    "link_clicks": 993.0,
+    "results": 3.0,
+    "leads": 7.0,
+    "purchases": 3.0,
+    "cost_per_result": 1003.1666666666666,
+    "cost_per_lead": 429.92857142857144,
+    "link_ctr": 1.9723121536536437,
+    "cpm": 59.77516038691481,
+    "frequency": 1.1245951439612232
+   },
+   "prev": {
+    "spend": 2101.76,
+    "impressions": 2330.0,
+    "reach": 1558.0,
+    "link_clicks": 37.0,
+    "results": 2.0,
+    "leads": 8.0,
+    "purchases": 2.0,
+    "cost_per_result": 1050.88,
+    "cost_per_lead": 262.72,
+    "link_ctr": 1.5879828326180259,
+    "cpm": 902.0429184549357,
+    "frequency": 1.4955070603337612
+   },
+   "spend_change": 43.18951735688184
+  },
+  {
+   "id": "120250062263970412",
+   "name": "Paid Campaign 15th July",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 1230.48,
+    "impressions": 60585.0,
+    "reach": 56465.0,
+    "link_clicks": 717.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 1.183461252785343,
+    "cpm": 20.309977717256746,
+    "frequency": 1.0729655538829364
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  }
+ ],
+ "daily": [],
+ "headline": "₹11,107 spent (+29% on the week before), 401 purchases at ₹28 each; 12 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹28 from ₹614."
+  },
+  {
+   "type": "warn",
+   "title": "Unusually cheap purchases",
+   "text": "401 purchases at ₹28 each is far below other weeks. Check them against payment records before relying on this week."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "ReLaunch 26 June: 397 purchases at ₹8.38 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Paid Campaign 15th July spent ₹1,230 without a purchase."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-07-20.pdf",
+ "history": true,
+ "also_spent": []
+}

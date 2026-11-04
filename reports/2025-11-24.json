@@ -1,0 +1,75 @@
+{
+ "report_date": "2025-11-24",
+ "week_start": "2025-11-17",
+ "week_end": "2025-11-23",
+ "prev_week_start": "2025-11-10",
+ "prev_week_end": "2025-11-16",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 4947.61,
+   "impressions": 16210.0,
+   "reach": 12940.0,
+   "link_clicks": 225.0,
+   "results": 2.0,
+   "leads": 0.0,
+   "purchases": 2.0,
+   "cost_per_result": 2473.805,
+   "cost_per_lead": null,
+   "link_ctr": 1.3880320789636027,
+   "cpm": 305.2196175200493,
+   "frequency": 1.2527047913446676
+  },
+  "prev": {
+   "spend": 6726.46,
+   "impressions": 26721.0,
+   "reach": 20324.0,
+   "link_clicks": 252.0,
+   "results": 1.0,
+   "leads": 0.0,
+   "purchases": 1.0,
+   "cost_per_result": 6726.46,
+   "cost_per_lead": null,
+   "link_ctr": 0.9430784776018861,
+   "cpm": 251.7293514464279,
+   "frequency": 1.3147510332611692
+  },
+  "change": {
+   "spend": -26.445559774383558,
+   "impressions": -39.33610269076756,
+   "reach": -36.33143082070458,
+   "link_clicks": -10.714285714285714,
+   "results": 100.0,
+   "leads": null,
+   "purchases": 100.0,
+   "cost_per_result": -63.222779887191784,
+   "cost_per_lead": null,
+   "link_ctr": 47.18097294439059,
+   "cpm": 21.24911766000598,
+   "frequency": -4.7192388784513195
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹4,948 spent (-26% on the week before), 2 purchases at ₹2,474 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹2,474 from ₹6,726."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-11-24.pdf",
+ "history": true,
+ "also_spent": []
+}

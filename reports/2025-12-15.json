@@ -1,0 +1,91 @@
+{
+ "report_date": "2025-12-15",
+ "week_start": "2025-12-08",
+ "week_end": "2025-12-14",
+ "prev_week_start": "2025-12-01",
+ "prev_week_end": "2025-12-07",
+ "account": {
+  "id": "951362586415730",
+  "name": "mitranadaccount"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 1815.68,
+   "impressions": 17807.0,
+   "reach": 14808.0,
+   "link_clicks": 667.0,
+   "results": 667.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 2.72215892053973,
+   "cost_per_lead": null,
+   "link_ctr": 3.745717976076824,
+   "cpm": 101.9643960240355,
+   "frequency": 1.20252566180443
+  },
+  "prev": {
+   "spend": 188.87,
+   "impressions": 5633.0,
+   "reach": 5312.0,
+   "link_clicks": 127.0,
+   "results": 127.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 1.4871653543307086,
+   "cost_per_lead": null,
+   "link_ctr": 2.254571276406888,
+   "cpm": 33.52920291141488,
+   "frequency": 1.0604292168674698
+  },
+  "change": {
+   "spend": 861.3384867898554,
+   "impressions": 216.11929699982247,
+   "reach": 178.76506024096386,
+   "link_clicks": 425.19685039370086,
+   "results": 425.19685039370086,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": 83.04346000346573,
+   "cost_per_lead": null,
+   "link_ctr": 66.13881385228937,
+   "cpm": 204.10623328394766,
+   "frequency": 13.39989908583583
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹1,816 spent (+861% on the week before), 667 link clicks at ₹2.72 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier link clicks",
+   "text": "Cost per link click rose to ₹2.72 from ₹1.49."
+  },
+  {
+   "type": "good",
+   "title": "Strong click rate",
+   "text": "Link click rate was 3.75%."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "Older ad account (730954635012236) spent ₹188 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-15.pdf",
+ "history": true,
+ "also_spent": [
+  {
+   "id": "730954635012236",
+   "name": "Older ad account",
+   "spend": 188.36
+  }
+ ]
+}

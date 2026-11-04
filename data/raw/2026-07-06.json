@@ -1,0 +1,161 @@
+{
+ "report_date": "2026-07-06",
+ "week_start": "2026-06-29",
+ "week_end": "2026-07-05",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 8661.7,
+   "impressions": 9276.0,
+   "reach": 5453.0,
+   "link_clicks": 201.0,
+   "results": 7.0,
+   "leads": 53.0,
+   "purchases": 7.0
+  },
+  "prev": {
+   "spend": 6352.48,
+   "impressions": 7732.0,
+   "reach": 5354.0,
+   "link_clicks": 176.0,
+   "results": 3.0,
+   "leads": 18.0,
+   "purchases": 3.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120249048428310412",
+   "name": "ReLaunch 26 June",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 6799.13,
+    "impressions": 6740.0,
+    "reach": 4281.0,
+    "link_clicks": 144.0,
+    "results": 7.0,
+    "leads": 29.0,
+    "purchases": 7.0
+   },
+   "prev": {
+    "spend": 3137.92,
+    "impressions": 3600.0,
+    "reach": 2760.0,
+    "link_clicks": 83.0,
+    "results": 2.0,
+    "leads": 9.0,
+    "purchases": 2.0
+   }
+  },
+  {
+   "id": "120249085108100412",
+   "name": "Image Campaign 26 June Purchase",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 1862.57,
+    "impressions": 2536.0,
+    "reach": 1980.0,
+    "link_clicks": 57.0,
+    "results": 0.0,
+    "leads": 24.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 2290.92,
+    "impressions": 3108.0,
+    "reach": 2251.0,
+    "link_clicks": 74.0,
+    "results": 1.0,
+    "leads": 8.0,
+    "purchases": 1.0
+   }
+  },
+  {
+   "id": "120248956941880412",
+   "name": "ReLaunch 25 June (bookings)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 801.6,
+    "impressions": 858.0,
+    "reach": 762.0,
+    "link_clicks": 17.0,
+    "results": 0,
+    "leads": 1.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120249070686670412",
+   "name": "Image Campaign 26 June (bookings)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 122.04,
+    "impressions": 166.0,
+    "reach": 156.0,
+    "link_clicks": 2.0,
+    "results": 0,
+    "leads": 0.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹8,662 spent (+36% on the week before), 7 purchases at ₹1,237 each; 53 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹1,237 from ₹2,117."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "ReLaunch 26 June: 7 purchases at ₹971 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Image Campaign 26 June Purchase spent ₹1,863 without a purchase."
+  }
+ ],
+ "actions": []
+}

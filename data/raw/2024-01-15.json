@@ -1,0 +1,40 @@
+{
+ "report_date": "2024-01-15",
+ "week_start": "2024-01-08",
+ "week_end": "2024-01-14",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 787.88,
+   "impressions": 4566.0,
+   "reach": 3985.0,
+   "link_clicks": 108.0,
+   "results": 3.0,
+   "leads": 3.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 0,
+   "impressions": 0,
+   "reach": 0,
+   "link_clicks": 0,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹788 spent, 3 leads at ₹263 each.",
+ "tips": [],
+ "actions": []
+}

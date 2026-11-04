@@ -1,0 +1,104 @@
+{
+ "report_date": "2026-06-15",
+ "week_start": "2026-06-08",
+ "week_end": "2026-06-14",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 13658.9,
+   "impressions": 19430.0,
+   "reach": 13920.0,
+   "link_clicks": 379.0,
+   "results": 25.0,
+   "leads": 90.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 10167.01,
+   "impressions": 16106.0,
+   "reach": 11728.0,
+   "link_clicks": 743.0,
+   "results": 13.0,
+   "leads": 84.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 5031.62,
+    "impressions": 7805.0,
+    "reach": 6207.0,
+    "link_clicks": 133.0,
+    "results": 8.0,
+    "leads": 28.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 2673.56,
+    "impressions": 5010.0,
+    "reach": 4121.0,
+    "link_clicks": 244.0,
+    "results": 4.0,
+    "leads": 26.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120246269510990412",
+   "name": "Scaling Video Campaign 27 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 8627.28,
+    "impressions": 11625.0,
+    "reach": 8671.0,
+    "link_clicks": 246.0,
+    "results": 17.0,
+    "leads": 62.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 7493.45,
+    "impressions": 11096.0,
+    "reach": 8161.0,
+    "link_clicks": 499.0,
+    "results": 9.0,
+    "leads": 58.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹13,659 spent (+34% on the week before), 25 bookings at ₹546 each; 90 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper bookings",
+   "text": "Cost per booking fell to ₹546 from ₹782."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Scaling Video Campaign 27 May MiTran: 17 bookings at ₹507 each."
+  }
+ ],
+ "actions": []
+}

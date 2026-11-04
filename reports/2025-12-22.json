@@ -1,0 +1,86 @@
+{
+ "report_date": "2025-12-22",
+ "week_start": "2025-12-15",
+ "week_end": "2025-12-21",
+ "prev_week_start": "2025-12-08",
+ "prev_week_end": "2025-12-14",
+ "account": {
+  "id": "951362586415730",
+  "name": "mitranadaccount"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 1385.28,
+   "impressions": 20354.0,
+   "reach": 16177.0,
+   "link_clicks": 410.0,
+   "results": 410.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 3.378731707317073,
+   "cost_per_lead": null,
+   "link_ctr": 2.0143460744816744,
+   "cpm": 68.05934951360912,
+   "frequency": 1.258206095073252
+  },
+  "prev": {
+   "spend": 1815.68,
+   "impressions": 17807.0,
+   "reach": 14808.0,
+   "link_clicks": 667.0,
+   "results": 667.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 2.72215892053973,
+   "cost_per_lead": null,
+   "link_ctr": 3.745717976076824,
+   "cpm": 101.9643960240355,
+   "frequency": 1.20252566180443
+  },
+  "change": {
+   "spend": -23.70461755375397,
+   "impressions": 14.303363845678666,
+   "reach": 9.245002701242571,
+   "link_clicks": -38.53073463268366,
+   "results": -38.53073463268366,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": 24.11956119913684,
+   "cost_per_lead": null,
+   "link_ctr": -46.22269782864292,
+   "cpm": -33.251848520177695,
+   "frequency": 4.630290648872453
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹1,385 spent (-24% on the week before), 410 link clicks at ₹3.38 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier link clicks",
+   "text": "Cost per link click rose to ₹3.38 from ₹2.72."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "Older ad account (730954635012236) spent ₹1,238 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-22.pdf",
+ "history": true,
+ "also_spent": [
+  {
+   "id": "730954635012236",
+   "name": "Older ad account",
+   "spend": 1238.17
+  }
+ ]
+}

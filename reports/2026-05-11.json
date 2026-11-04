@@ -1,0 +1,118 @@
+{
+ "report_date": "2026-05-11",
+ "week_start": "2026-05-04",
+ "week_end": "2026-05-10",
+ "prev_week_start": "2026-04-27",
+ "prev_week_end": "2026-05-03",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 5361.45,
+   "impressions": 7465.0,
+   "reach": 4739.0,
+   "link_clicks": 118.0,
+   "results": 5.0,
+   "leads": 37.0,
+   "purchases": 0.0,
+   "cost_per_result": 1072.29,
+   "cost_per_lead": 144.90405405405406,
+   "link_ctr": 1.580709979906229,
+   "cpm": 718.21165438714,
+   "frequency": 1.5752268411057184
+  },
+  "prev": {
+   "spend": 4887.4,
+   "impressions": 18784.0,
+   "reach": 16614.0,
+   "link_clicks": 200.0,
+   "results": 8.0,
+   "leads": 26.0,
+   "purchases": 0.0,
+   "cost_per_result": 610.925,
+   "cost_per_lead": 187.97692307692307,
+   "link_ctr": 1.0647359454855196,
+   "cpm": 260.1895229982964,
+   "frequency": 1.130612736246539
+  },
+  "change": {
+   "spend": 9.699431190407992,
+   "impressions": -60.25873083475298,
+   "reach": -71.47586372938486,
+   "link_clicks": -41.0,
+   "results": -37.5,
+   "leads": 42.30769230769231,
+   "purchases": null,
+   "cost_per_result": 75.51908990465279,
+   "cost_per_lead": -22.91391321755114,
+   "link_ctr": 48.46028131279302,
+   "cpm": 176.03404092171786,
+   "frequency": 39.32505716636715
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 5361.45,
+    "impressions": 7465.0,
+    "reach": 4739.0,
+    "link_clicks": 118.0,
+    "results": 5.0,
+    "leads": 37.0,
+    "purchases": 0.0,
+    "cost_per_result": 1072.29,
+    "cost_per_lead": 144.90405405405406,
+    "link_ctr": 1.580709979906229,
+    "cpm": 718.21165438714,
+    "frequency": 1.5752268411057184
+   },
+   "prev": {
+    "spend": 4887.4,
+    "impressions": 18784.0,
+    "reach": 16614.0,
+    "link_clicks": 200.0,
+    "results": 8.0,
+    "leads": 26.0,
+    "purchases": 0.0,
+    "cost_per_result": 610.925,
+    "cost_per_lead": 187.97692307692307,
+    "link_ctr": 1.0647359454855196,
+    "cpm": 260.1895229982964,
+    "frequency": 1.130612736246539
+   },
+   "spend_change": 9.699431190407992
+  }
+ ],
+ "daily": [],
+ "headline": "₹5,361 spent (+10% on the week before), 5 bookings at ₹1,072 each; 37 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier bookings",
+   "text": "Cost per booking rose to ₹1,072 from ₹611."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Campaign 25 April: 5 bookings at ₹1,072 each."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-05-11.pdf",
+ "history": true,
+ "also_spent": []
+}

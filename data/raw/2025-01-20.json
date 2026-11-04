@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-01-20",
+ "week_start": "2025-01-13",
+ "week_end": "2025-01-19",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1868.93,
+   "impressions": 4934.0,
+   "reach": 3611.0,
+   "link_clicks": 37.0,
+   "results": 15.0,
+   "leads": 15.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 0,
+   "impressions": 0,
+   "reach": 0,
+   "link_clicks": 0,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹1,869 spent, 15 leads at ₹125 each.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.75%, below 0.8%."
+  }
+ ],
+ "actions": []
+}

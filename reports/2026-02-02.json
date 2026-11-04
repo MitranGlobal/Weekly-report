@@ -1,0 +1,75 @@
+{
+ "report_date": "2026-02-02",
+ "week_start": "2026-01-26",
+ "week_end": "2026-02-01",
+ "prev_week_start": "2026-01-19",
+ "prev_week_end": "2026-01-25",
+ "account": {
+  "id": "951362586415730",
+  "name": "mitranadaccount"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 415.16,
+   "impressions": 2982.0,
+   "reach": 2492.0,
+   "link_clicks": 151.0,
+   "results": 151.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 2.749403973509934,
+   "cost_per_lead": null,
+   "link_ctr": 5.063715627095909,
+   "cpm": 139.2219986586184,
+   "frequency": 1.196629213483146
+  },
+  "prev": {
+   "spend": 1741.38,
+   "impressions": 12312.0,
+   "reach": 10335.0,
+   "link_clicks": 597.0,
+   "results": 597.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 2.9168844221105528,
+   "cost_per_lead": null,
+   "link_ctr": 4.848927875243665,
+   "cpm": 141.4376218323587,
+   "frequency": 1.1912917271407837
+  },
+  "change": {
+   "spend": -76.15913815479676,
+   "impressions": -75.77972709551656,
+   "reach": -75.88776003870343,
+   "link_clicks": -74.7068676716918,
+   "results": -74.7068676716918,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": -5.741758135189872,
+   "cost_per_lead": null,
+   "link_ctr": 4.429592631163863,
+   "cpm": -1.5665019992816454,
+   "frequency": 0.448041921282606
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹415 spent (-76% on the week before), 151 link clicks at ₹2.75 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Strong click rate",
+   "text": "Link click rate was 5.06%."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-02-02.pdf",
+ "history": true,
+ "also_spent": []
+}

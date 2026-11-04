@@ -1,0 +1,245 @@
+{
+ "report_date": "2026-08-24",
+ "week_start": "2026-08-17",
+ "week_end": "2026-08-23",
+ "prev_week_start": "2026-08-10",
+ "prev_week_end": "2026-08-16",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 10990.29,
+   "impressions": 167407.0,
+   "reach": 158669.0,
+   "link_clicks": 2275.0,
+   "results": 116.0,
+   "leads": 1.0,
+   "purchases": 116.0,
+   "cost_per_result": 94.74387931034484,
+   "cost_per_lead": 10990.29,
+   "link_ctr": 1.3589634842031695,
+   "cpm": 65.65012215737694,
+   "frequency": 1.0550706187093888
+  },
+  "prev": {
+   "spend": 12805.42,
+   "impressions": 61338.0,
+   "reach": 56124.0,
+   "link_clicks": 1127.0,
+   "results": 189.0,
+   "leads": 34.0,
+   "purchases": 190.0,
+   "cost_per_result": 67.75354497354498,
+   "cost_per_lead": 376.63,
+   "link_ctr": 1.8373602008542829,
+   "cpm": 208.76813720695165,
+   "frequency": 1.092901432542228
+  },
+  "change": {
+   "spend": -14.174701025034706,
+   "impressions": 172.92542958687926,
+   "reach": 182.7114959732022,
+   "link_clicks": 101.86335403726707,
+   "results": -38.62433862433862,
+   "leads": -97.05882352941177,
+   "purchases": -38.94736842105263,
+   "cost_per_result": 39.836047467831385,
+   "cost_per_lead": 2818.0601651488205,
+   "link_ctr": -26.037176402791474,
+   "cpm": -68.55357190245078,
+   "frequency": -3.4615028131896453
+  }
+ },
+ "spend_without_results": 8694.630000000001,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120251013456050412",
+   "name": "Mitran | Parenting | 20Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 4922.84,
+    "impressions": 15281.0,
+    "reach": 12561.0,
+    "link_clicks": 354.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 2.3166023166023164,
+    "cpm": 322.15430927295336,
+    "frequency": 1.2165432688480216
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120250957121900412",
+   "name": "Mitran | Parenting | 17Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 3184.42,
+    "impressions": 88675.0,
+    "reach": 83424.0,
+    "link_clicks": 1213.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 1.3679165491965042,
+    "cpm": 35.911136171412466,
+    "frequency": 1.062943517453011
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120250763195460412",
+   "name": "Mitran | Parenting | 10Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 2295.66,
+    "impressions": 33736.0,
+    "reach": 33687.0,
+    "link_clicks": 543.0,
+    "results": 116.0,
+    "leads": 1.0,
+    "purchases": 116.0,
+    "cost_per_result": 19.7901724137931,
+    "cost_per_lead": 2295.66,
+    "link_ctr": 1.6095565567939292,
+    "cpm": 68.04778278396964,
+    "frequency": 1.0014545670436668
+   },
+   "prev": {
+    "spend": 10265.58,
+    "impressions": 59362.0,
+    "reach": 55356.0,
+    "link_clicks": 1066.0,
+    "results": 188.0,
+    "leads": 28.0,
+    "purchases": 188.0,
+    "cost_per_result": 54.60414893617021,
+    "cost_per_lead": 366.6278571428571,
+    "link_ctr": 1.7957615983288975,
+    "cpm": 172.93184191907278,
+    "frequency": 1.0723679456608137
+   },
+   "spend_change": -77.63730836445676
+  },
+  {
+   "id": "120250848494370412",
+   "name": "Mitran | VSL | IMG | 13Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 587.37,
+    "impressions": 29715.0,
+    "reach": 28886.0,
+    "link_clicks": 165.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 0.5552751135790005,
+    "cpm": 19.76678445229682,
+    "frequency": 1.0286990237485287
+   },
+   "prev": {
+    "spend": 2539.84,
+    "impressions": 1976.0,
+    "reach": 1382.0,
+    "link_clicks": 61.0,
+    "results": 1.0,
+    "leads": 6.0,
+    "purchases": 1.0,
+    "cost_per_result": 2539.84,
+    "cost_per_lead": 423.3066666666667,
+    "link_ctr": 3.0870445344129553,
+    "cpm": 1285.3441295546559,
+    "frequency": 1.4298118668596238
+   },
+   "spend_change": -76.87374007811516
+  }
+ ],
+ "daily": [],
+ "headline": "₹10,990 spent (-14% on the week before), 116 purchases at ₹95 each; 1 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier purchases",
+   "text": "Cost per purchase rose to ₹95 from ₹68."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Mitran | Parenting | 10Aug26: 116 purchases at ₹20 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Mitran | Parenting | 20Aug26 spent ₹4,923 without a purchase."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "Older ad account (730954635012236) spent ₹1,701 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-08-24.pdf",
+ "history": true,
+ "also_spent": [
+  {
+   "id": "730954635012236",
+   "name": "Older ad account",
+   "spend": 1701.11
+  }
+ ]
+}

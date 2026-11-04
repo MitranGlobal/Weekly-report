@@ -1,0 +1,40 @@
+{
+ "report_date": "2024-03-25",
+ "week_start": "2024-03-18",
+ "week_end": "2024-03-24",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 2753.45,
+   "impressions": 6637.0,
+   "reach": 4546.0,
+   "link_clicks": 57.0,
+   "results": 1.0,
+   "leads": 0.0,
+   "purchases": 1.0
+  },
+  "prev": {
+   "spend": 394.57,
+   "impressions": 867.0,
+   "reach": 738.0,
+   "link_clicks": 13.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹2,753 spent (+598% on the week before), 1 purchases at ₹2,753 each.",
+ "tips": [],
+ "actions": []
+}

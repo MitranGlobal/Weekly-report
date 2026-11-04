@@ -1,0 +1,187 @@
+{
+ "report_date": "2026-09-14",
+ "week_start": "2026-09-07",
+ "week_end": "2026-09-13",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 8418.32,
+   "impressions": 11853.0,
+   "reach": 8664.0,
+   "link_clicks": 217.0,
+   "results": 11.0,
+   "leads": 26.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 11668.43,
+   "impressions": 11915.0,
+   "reach": 8169.0,
+   "link_clicks": 207.0,
+   "results": 0,
+   "leads": 34.0,
+   "purchases": 3.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120251271993490412",
+   "name": "Mitran | Parenting | 05sep26 (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 1232.76,
+    "impressions": 504.0,
+    "reach": 446.0,
+    "link_clicks": 17.0,
+    "results": 0,
+    "leads": 1.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 2207.92,
+    "impressions": 1398.0,
+    "reach": 1150.0,
+    "link_clicks": 24.0,
+    "results": 0,
+    "leads": 3.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120251317113640412",
+   "name": "Schedule | Video | 08Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 4920.33,
+    "impressions": 8836.0,
+    "reach": 6603.0,
+    "link_clicks": 175.0,
+    "results": 11.0,
+    "leads": 21.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251366956570412",
+   "name": "Schedule | Lookalike| Video | 11Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 2265.23,
+    "impressions": 2513.0,
+    "reach": 2221.0,
+    "link_clicks": 25.0,
+    "results": 0.0,
+    "leads": 4.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251109310620412",
+   "name": "Mitran | Parenting | 27Aug26 (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 6145.9,
+    "impressions": 6906.0,
+    "reach": 4970.0,
+    "link_clicks": 119.0,
+    "results": 0,
+    "leads": 25.0,
+    "purchases": 3.0
+   }
+  },
+  {
+   "id": "120251176643810412",
+   "name": "Mitran | Parenting | 31Aug26 (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 3314.61,
+    "impressions": 3611.0,
+    "reach": 2821.0,
+    "link_clicks": 64.0,
+    "results": 0,
+    "leads": 6.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹8,418 spent (-28% on the week before), 11 bookings at ₹765 each; 26 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Schedule | Video | 08Sep26: 11 bookings at ₹447 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no bookings",
+   "text": "Schedule | Lookalike| Video | 11Sep26 spent ₹2,265 without a booking."
+  },
+  {
+   "type": "warn",
+   "title": "Mixed campaign goals",
+   "text": "Some campaigns aimed at purchases (0 this week); the headline counts bookings only."
+  }
+ ],
+ "actions": []
+}

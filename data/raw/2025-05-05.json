@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-05-05",
+ "week_start": "2025-04-28",
+ "week_end": "2025-05-04",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1701.99,
+   "impressions": 22086.0,
+   "reach": 19346.0,
+   "link_clicks": 306.0,
+   "results": 4.0,
+   "leads": 0.0,
+   "purchases": 4.0
+  },
+  "prev": {
+   "spend": 2535.27,
+   "impressions": 23530.0,
+   "reach": 19602.0,
+   "link_clicks": 726.0,
+   "results": 10.0,
+   "leads": 0.0,
+   "purchases": 10.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹1,702 spent (-33% on the week before), 4 purchases at ₹425 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier purchases",
+   "text": "Cost per purchase rose to ₹425 from ₹254."
+  }
+ ],
+ "actions": []
+}

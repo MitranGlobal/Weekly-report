@@ -1,0 +1,201 @@
+{
+ "report_date": "2026-09-28",
+ "week_start": "2026-09-21",
+ "week_end": "2026-09-27",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 13245.8,
+   "impressions": 19548.0,
+   "reach": 10068.0,
+   "link_clicks": 358.0,
+   "results": 22.0,
+   "leads": 41.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 9851.45,
+   "impressions": 13207.0,
+   "reach": 7609.0,
+   "link_clicks": 238.0,
+   "results": 18.0,
+   "leads": 30.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120251317113640412",
+   "name": "Schedule | Video | 08Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 5528.91,
+    "impressions": 8883.0,
+    "reach": 6046.0,
+    "link_clicks": 151.0,
+    "results": 17.0,
+    "leads": 25.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 7195.92,
+    "impressions": 9991.0,
+    "reach": 6171.0,
+    "link_clicks": 179.0,
+    "results": 11.0,
+    "leads": 24.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120251503090650412",
+   "name": "Schedule | ADV | Video | 19Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 6357.13,
+    "impressions": 8710.0,
+    "reach": 5500.0,
+    "link_clicks": 182.0,
+    "results": 2.0,
+    "leads": 15.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 1770.28,
+    "impressions": 2417.0,
+    "reach": 1838.0,
+    "link_clicks": 48.0,
+    "results": 7.0,
+    "leads": 5.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120251633329500412",
+   "name": "Schedule | ADV | Video | 26Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 1359.76,
+    "impressions": 1955.0,
+    "reach": 1376.0,
+    "link_clicks": 25.0,
+    "results": 3.0,
+    "leads": 1.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251366956570412",
+   "name": "Schedule | Lookalike| Video | 11Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 885.25,
+    "impressions": 799.0,
+    "reach": 736.0,
+    "link_clicks": 11.0,
+    "results": 0.0,
+    "leads": 1.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-09-21",
+   "spend": 2177.09,
+   "impressions": 3056,
+   "link_clicks": 64,
+   "leads": 11
+  },
+  {
+   "date": "2026-09-22",
+   "spend": 1855.46,
+   "impressions": 3015,
+   "link_clicks": 45,
+   "leads": 4
+  },
+  {
+   "date": "2026-09-23",
+   "spend": 2360.43,
+   "impressions": 3892,
+   "link_clicks": 74,
+   "leads": 5
+  },
+  {
+   "date": "2026-09-24",
+   "spend": 1954.52,
+   "impressions": 2136,
+   "link_clicks": 48,
+   "leads": 3
+  },
+  {
+   "date": "2026-09-25",
+   "spend": 1301.74,
+   "impressions": 2098,
+   "link_clicks": 36,
+   "leads": 6
+  },
+  {
+   "date": "2026-09-26",
+   "spend": 1681.1,
+   "impressions": 2747,
+   "link_clicks": 53,
+   "leads": 8
+  },
+  {
+   "date": "2026-09-27",
+   "spend": 1915.46,
+   "impressions": 2604,
+   "link_clicks": 38,
+   "leads": 4
+  }
+ ],
+ "headline": "₹13,246 spent (+34% on the week before), 22 bookings at ₹602 each; 41 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Schedule | Video | 08Sep26: 17 bookings at ₹325 each."
+  }
+ ],
+ "actions": []
+}

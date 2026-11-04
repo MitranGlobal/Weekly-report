@@ -1,0 +1,69 @@
+{
+ "report_date": "2025-09-29",
+ "week_start": "2025-09-22",
+ "week_end": "2025-09-28",
+ "prev_week_start": "2025-09-15",
+ "prev_week_end": "2025-09-21",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 847.46,
+   "impressions": 11944.0,
+   "reach": 11204.0,
+   "link_clicks": 293.0,
+   "results": 293.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 2.892354948805461,
+   "cost_per_lead": null,
+   "link_ctr": 2.453114534494307,
+   "cpm": 70.95277963831214,
+   "frequency": 1.0660478400571225
+  },
+  "prev": {
+   "spend": 0.0,
+   "impressions": 0.0,
+   "reach": 0.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  },
+  "change": {
+   "spend": null,
+   "impressions": null,
+   "reach": null,
+   "link_clicks": null,
+   "results": null,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹847 spent, 293 link clicks at ₹2.89 each.",
+ "tips": [],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-09-29.pdf",
+ "history": true,
+ "also_spent": []
+}

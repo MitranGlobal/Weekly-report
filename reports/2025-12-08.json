@@ -1,0 +1,86 @@
+{
+ "report_date": "2025-12-08",
+ "week_start": "2025-12-01",
+ "week_end": "2025-12-07",
+ "prev_week_start": "2025-11-24",
+ "prev_week_end": "2025-11-30",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 847.45,
+   "impressions": 3230.0,
+   "reach": 2772.0,
+   "link_clicks": 81.0,
+   "results": 81.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 10.462345679012346,
+   "cost_per_lead": null,
+   "link_ctr": 2.5077399380804954,
+   "cpm": 262.36842105263156,
+   "frequency": 1.1652236652236652
+  },
+  "prev": {
+   "spend": 1885.26,
+   "impressions": 8293.0,
+   "reach": 6524.0,
+   "link_clicks": 80.0,
+   "results": 80.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 23.56575,
+   "cost_per_lead": null,
+   "link_ctr": 0.9646689979500784,
+   "cpm": 227.3314843844206,
+   "frequency": 1.2711526670754139
+  },
+  "change": {
+   "spend": -55.048640505818824,
+   "impressions": -61.051489207765584,
+   "reach": -57.5107296137339,
+   "link_clicks": 1.25,
+   "results": 1.25,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": -55.60359556130254,
+   "cost_per_lead": null,
+   "link_ctr": 159.95859133126936,
+   "cpm": 15.412267580571031,
+   "frequency": -8.33330288292305
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹847 spent (-55% on the week before), 81 link clicks at ₹10 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper link clicks",
+   "text": "Cost per link click fell to ₹10 from ₹24."
+  },
+  {
+   "type": "warn",
+   "title": "Another account also ran ads",
+   "text": "mitranadaccount (951362586415730) spent ₹189 this week. It is not included in these numbers."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-12-08.pdf",
+ "history": true,
+ "also_spent": [
+  {
+   "id": "951362586415730",
+   "name": "mitranadaccount",
+   "spend": 188.87
+  }
+ ]
+}

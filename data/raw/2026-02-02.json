@@ -1,0 +1,46 @@
+{
+ "report_date": "2026-02-02",
+ "week_start": "2026-01-26",
+ "week_end": "2026-02-01",
+ "account": {
+  "id": "951362586415730",
+  "name": "mitranadaccount"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 415.16,
+   "impressions": 2982.0,
+   "reach": 2492.0,
+   "link_clicks": 151.0,
+   "results": 151.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 1741.38,
+   "impressions": 12312.0,
+   "reach": 10335.0,
+   "link_clicks": 597.0,
+   "results": 597.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹415 spent (-76% on the week before), 151 link clicks at ₹2.75 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Strong click rate",
+   "text": "Link click rate was 5.06%."
+  }
+ ],
+ "actions": []
+}

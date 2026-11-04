@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-05-19",
+ "week_start": "2025-05-12",
+ "week_end": "2025-05-18",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 4071.69,
+   "impressions": 47307.0,
+   "reach": 40380.0,
+   "link_clicks": 991.0,
+   "results": 2.0,
+   "leads": 0.0,
+   "purchases": 2.0
+  },
+  "prev": {
+   "spend": 5246.82,
+   "impressions": 89939.0,
+   "reach": 80282.0,
+   "link_clicks": 1519.0,
+   "results": 1.0,
+   "leads": 0.0,
+   "purchases": 1.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹4,072 spent (-22% on the week before), 2 purchases at ₹2,036 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹2,036 from ₹5,247."
+  }
+ ],
+ "actions": []
+}

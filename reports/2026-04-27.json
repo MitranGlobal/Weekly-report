@@ -1,0 +1,113 @@
+{
+ "report_date": "2026-04-27",
+ "week_start": "2026-04-20",
+ "week_end": "2026-04-26",
+ "prev_week_start": "2026-04-13",
+ "prev_week_end": "2026-04-19",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 285.48,
+   "impressions": 16815.0,
+   "reach": 15613.0,
+   "link_clicks": 133.0,
+   "results": 0.0,
+   "leads": 1.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": 285.48,
+   "link_ctr": 0.7909604519774011,
+   "cpm": 16.977698483496876,
+   "frequency": 1.0769871261128547
+  },
+  "prev": {
+   "spend": 0.0,
+   "impressions": 0.0,
+   "reach": 0.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  },
+  "change": {
+   "spend": null,
+   "impressions": null,
+   "reach": null,
+   "link_clicks": null,
+   "results": null,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  }
+ },
+ "spend_without_results": 285.48,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 285.48,
+    "impressions": 16815.0,
+    "reach": 15613.0,
+    "link_clicks": 133.0,
+    "results": 0.0,
+    "leads": 1.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": 285.48,
+    "link_ctr": 0.7909604519774011,
+    "cpm": 16.977698483496876,
+    "frequency": 1.0769871261128547
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  }
+ ],
+ "daily": [],
+ "headline": "Ads ran after a break: ₹285 spent, no bookings; 1 leads.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.79%, below 0.8%."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-04-27.pdf",
+ "history": true,
+ "also_spent": []
+}

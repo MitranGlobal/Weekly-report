@@ -1,0 +1,40 @@
+{
+ "report_date": "2025-02-24",
+ "week_start": "2025-02-17",
+ "week_end": "2025-02-23",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 4756.96,
+   "impressions": 61463.0,
+   "reach": 50832.0,
+   "link_clicks": 971.0,
+   "results": 17.0,
+   "leads": 17.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 9197.78,
+   "impressions": 105271.0,
+   "reach": 87459.0,
+   "link_clicks": 1210.0,
+   "results": 29.0,
+   "leads": 29.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹4,757 spent (-48% on the week before), 17 leads at ₹280 each.",
+ "tips": [],
+ "actions": []
+}

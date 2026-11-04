@@ -1,0 +1,234 @@
+{
+ "report_date": "2026-09-21",
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "prev_week_start": "2026-09-07",
+ "prev_week_end": "2026-09-13",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 9851.45,
+   "impressions": 13207.0,
+   "reach": 7609.0,
+   "link_clicks": 238.0,
+   "results": 18.0,
+   "leads": 30.0,
+   "purchases": 0.0,
+   "cost_per_result": 547.3027777777778,
+   "cost_per_lead": 328.3816666666667,
+   "link_ctr": 1.802074657378663,
+   "cpm": 745.9264026652534,
+   "frequency": 1.7357077145485609
+  },
+  "prev": {
+   "spend": 8418.32,
+   "impressions": 11853.0,
+   "reach": 8664.0,
+   "link_clicks": 217.0,
+   "results": 11.0,
+   "leads": 26.0,
+   "purchases": 0.0,
+   "cost_per_result": 765.3018181818181,
+   "cost_per_lead": 323.78153846153845,
+   "link_ctr": 1.8307601451109423,
+   "cpm": 710.2269467645322,
+   "frequency": 1.3680747922437673
+  },
+  "change": {
+   "spend": 17.023943019509844,
+   "impressions": 11.42326837087657,
+   "reach": -12.176823638042475,
+   "link_clicks": 9.67741935483871,
+   "results": 63.63636363636363,
+   "leads": 15.384615384615385,
+   "purchases": null,
+   "cost_per_result": -28.485368154743984,
+   "cost_per_lead": 1.4207506169085407,
+   "link_ctr": -1.5668621478834404,
+   "cpm": 5.026485697754997,
+   "frequency": 26.87228245042379
+  }
+ },
+ "spend_without_results": 885.25,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120251317113640412",
+   "name": "Schedule | Video | 08Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 7195.92,
+    "impressions": 9991.0,
+    "reach": 6171.0,
+    "link_clicks": 179.0,
+    "results": 11.0,
+    "leads": 24.0,
+    "purchases": 0.0,
+    "cost_per_result": 654.1745454545454,
+    "cost_per_lead": 299.83,
+    "link_ctr": 1.7916124512060854,
+    "cpm": 720.2402161945752,
+    "frequency": 1.619024469291849
+   },
+   "prev": {
+    "spend": 4920.33,
+    "impressions": 8836.0,
+    "reach": 6603.0,
+    "link_clicks": 175.0,
+    "results": 11.0,
+    "leads": 21.0,
+    "purchases": 0.0,
+    "cost_per_result": 447.3027272727273,
+    "cost_per_lead": 234.30142857142857,
+    "link_ctr": 1.9805341783612496,
+    "cpm": 556.8503847894975,
+    "frequency": 1.3381796153263668
+   },
+   "spend_change": 46.248727219515764
+  },
+  {
+   "id": "120251503090650412",
+   "name": "Schedule | ADV | Video | 19Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 1770.28,
+    "impressions": 2417.0,
+    "reach": 1838.0,
+    "link_clicks": 48.0,
+    "results": 7.0,
+    "leads": 5.0,
+    "purchases": 0.0,
+    "cost_per_result": 252.89714285714285,
+    "cost_per_lead": 354.056,
+    "link_ctr": 1.985932974762102,
+    "cpm": 732.4286305337195,
+    "frequency": 1.3150163220892275
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120251366956570412",
+   "name": "Schedule | Lookalike| Video | 11Sep26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 885.25,
+    "impressions": 799.0,
+    "reach": 736.0,
+    "link_clicks": 11.0,
+    "results": 0.0,
+    "leads": 1.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": 885.25,
+    "link_ctr": 1.376720901126408,
+    "cpm": 1107.947434292866,
+    "frequency": 1.0855978260869565
+   },
+   "prev": {
+    "spend": 2265.23,
+    "impressions": 2513.0,
+    "reach": 2221.0,
+    "link_clicks": 25.0,
+    "results": 0.0,
+    "leads": 4.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": 566.3075,
+    "link_ctr": 0.9948269001193792,
+    "cpm": 901.4046955829685,
+    "frequency": 1.1314723097703736
+   },
+   "spend_change": -60.920083170362396
+  },
+  {
+   "id": "120251271993490412",
+   "name": "Mitran | Parenting | 05sep26 (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 1232.76,
+    "impressions": 504.0,
+    "reach": 446.0,
+    "link_clicks": 17.0,
+    "results": 0.0,
+    "leads": 1.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": 1232.76,
+    "link_ctr": 3.373015873015873,
+    "cpm": 2445.9523809523807,
+    "frequency": 1.1300448430493273
+   },
+   "spend_change": -100.0
+  }
+ ],
+ "daily": [],
+ "headline": "₹9,851 spent (+17% on the week before), 18 bookings at ₹547 each; 30 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper bookings",
+   "text": "Cost per booking fell to ₹547 from ₹765."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Schedule | ADV | Video | 19Sep26: 7 bookings at ₹253 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no bookings",
+   "text": "Schedule | Lookalike| Video | 11Sep26 spent ₹885 without a booking."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-09-21.pdf",
+ "history": true,
+ "also_spent": []
+}

@@ -1,0 +1,46 @@
+{
+ "report_date": "2026-01-05",
+ "week_start": "2025-12-29",
+ "week_end": "2026-01-04",
+ "account": {
+  "id": "951362586415730",
+  "name": "mitranadaccount"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 410.52,
+   "impressions": 5605.0,
+   "reach": 4922.0,
+   "link_clicks": 113.0,
+   "results": 113.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 2131.85,
+   "impressions": 80403.0,
+   "reach": 66084.0,
+   "link_clicks": 1200.0,
+   "results": 1200.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹411 spent (-81% on the week before), 113 link clicks at ₹3.63 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier link clicks",
+   "text": "Cost per link click rose to ₹3.63 from ₹1.78."
+  }
+ ],
+ "actions": []
+}

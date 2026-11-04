@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-10-06",
+ "week_start": "2025-09-29",
+ "week_end": "2025-10-05",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 2966.13,
+   "impressions": 40107.0,
+   "reach": 31777.0,
+   "link_clicks": 213.0,
+   "results": 1.0,
+   "leads": 0.0,
+   "purchases": 1.0
+  },
+  "prev": {
+   "spend": 847.46,
+   "impressions": 11944.0,
+   "reach": 11204.0,
+   "link_clicks": 293.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹2,966 spent (+250% on the week before), 1 purchases at ₹2,966 each.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.53%, below 0.8%."
+  }
+ ],
+ "actions": []
+}

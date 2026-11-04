@@ -1,0 +1,51 @@
+{
+ "report_date": "2024-11-11",
+ "week_start": "2024-11-04",
+ "week_end": "2024-11-10",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 4065.3,
+   "impressions": 21049.0,
+   "reach": 17176.0,
+   "link_clicks": 168.0,
+   "results": 13.0,
+   "leads": 13.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 3402.26,
+   "impressions": 8402.0,
+   "reach": 6112.0,
+   "link_clicks": 73.0,
+   "results": 4.0,
+   "leads": 4.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹4,065 spent (+19% on the week before), 13 leads at ₹313 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper leads",
+   "text": "Cost per lead fell to ₹313 from ₹851."
+  },
+  {
+   "type": "warn",
+   "title": "Few clicks",
+   "text": "Link click rate was 0.80%, below 0.8%."
+  }
+ ],
+ "actions": []
+}

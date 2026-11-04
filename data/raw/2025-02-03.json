@@ -1,0 +1,46 @@
+{
+ "report_date": "2025-02-03",
+ "week_start": "2025-01-27",
+ "week_end": "2025-02-02",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "leads",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 1271.17,
+   "impressions": 4441.0,
+   "reach": 3879.0,
+   "link_clicks": 117.0,
+   "results": 2.0,
+   "leads": 2.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 249.7,
+   "impressions": 367.0,
+   "reach": 354.0,
+   "link_clicks": 6.0,
+   "results": 4.0,
+   "leads": 4.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹1,271 spent (+409% on the week before), 2 leads at ₹636 each.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier leads",
+   "text": "Cost per lead rose to ₹636 from ₹62."
+  }
+ ],
+ "actions": []
+}

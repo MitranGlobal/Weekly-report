@@ -63,6 +63,7 @@ def compute(raw):
         "campaigns": camps, "daily": raw.get("daily", []),
         "headline": raw.get("headline", ""), "tips": raw.get("tips", []), "actions": raw.get("actions", []),
         "pdf": f"reports/files/MiTran-Meta-Weekly-{raw['report_date']}.pdf",
+        **({"history": True, "also_spent": raw.get("also_spent", [])} if raw.get("history") else {}),
     }
 
 
@@ -86,6 +87,11 @@ def inr(v, dec=0):
     return ("-" if neg else "") + "₹" + whole + ("." + frac if frac else "")
 
 
+def inrc(v):
+    """Money for a cost per result: paise when under ₹10, so ₹0.41 doesn't print as ₹0."""
+    return inr(v, 2) if v is not None and abs(v) < 10 else inr(v)
+
+
 def num(v, dec=0):
     return "–" if v is None else f"{v:,.{dec}f}"
 
@@ -98,6 +104,8 @@ def fdate(s, year=False):
 def chg(v, inverse=False):
     if v is None:
         return "–"
+    if v > 999:
+        return ">+999%"
     return f"{'+' if v > 0 else ''}{v:.0f}%"
 
 
@@ -122,8 +130,10 @@ def build_pdf(r, path):
 
     t, cur, prev, ch = r["totals"], r["totals"]["cur"], r["totals"]["prev"], r["totals"]["change"]
     rl = r["result_label"]
+    hist = r.get("history")
     story = [
-        Paragraph("MiTran Global · Meta Ads weekly report", SMALL),
+        Paragraph("MiTran Global · Meta Ads weekly report" + (" · history" if hist else ""), SMALL),
+        *([Paragraph(f"{r['account']['name']} · {r['account']['id']}", st(f="DVB", s=12, l=16, c=BLUE))] if hist else []),
         Paragraph(f"Week of {fdate(r['week_start'])} – {fdate(r['week_end'], True)}", H1),
         Paragraph(f"{r['account']['name']} · report date {fdate(r['report_date'], True)} · "
                   f"compared with {fdate(r['prev_week_start'])} – {fdate(r['prev_week_end'])} · amounts in INR", SUB),
@@ -138,11 +148,13 @@ def build_pdf(r, path):
 
     rows = [("Amount spent", inr(cur["spend"]), inr(prev["spend"]), chg(ch["spend"])),
             (rl.capitalize(), num(cur["results"]), num(prev["results"]), chg(ch["results"])),
-            (f"Cost per {rl[:-1] if rl.endswith('s') else rl}", inr(cur["cost_per_result"]), inr(prev["cost_per_result"]), chg(ch["cost_per_result"])),
-            ("Leads", num(cur["leads"]), num(prev["leads"]), chg(ch["leads"])),
+            (f"Cost per {rl[:-1] if rl.endswith('s') else rl}", inrc(cur["cost_per_result"]), inrc(prev["cost_per_result"]), chg(ch["cost_per_result"])),
+            *([("Purchases", num(cur["purchases"]), num(prev["purchases"]), chg(ch["purchases"]))] if rl == "leads" else
+              [("Leads", num(cur["leads"]), num(prev["leads"]), chg(ch["leads"]))]),
             ("Reach", num(cur["reach"]), num(prev["reach"]), chg(ch["reach"])),
             ("Impressions", num(cur["impressions"]), num(prev["impressions"]), chg(ch["impressions"])),
-            ("Link clicks", num(cur["link_clicks"]), num(prev["link_clicks"]), chg(ch["link_clicks"])),
+            *([] if rl == "link clicks" else
+              [("Link clicks", num(cur["link_clicks"]), num(prev["link_clicks"]), chg(ch["link_clicks"]))]),
             ("Link click rate", num(cur["link_ctr"], 2) + ("%" if cur["link_ctr"] is not None else ""),
              num(prev["link_ctr"], 2) + ("%" if prev["link_ctr"] is not None else ""), chg(ch["link_ctr"])),
             ("Frequency", num(cur["frequency"], 2), num(prev["frequency"], 2), chg(ch["frequency"])),
@@ -196,7 +208,7 @@ def build_pdf(r, path):
         for c in r["campaigns"]:
             x = c["cur"]
             data.append([Paragraph(c["name"], cs), (c.get("status") or "").title(), inr(x["spend"]), num(x["results"]),
-                         inr(x["cost_per_result"]), (num(x["link_ctr"], 2) + "%") if x["link_ctr"] is not None else "–",
+                         inrc(x["cost_per_result"]), (num(x["link_ctr"], 2) + "%") if x["link_ctr"] is not None else "–",
                          num(x["frequency"], 2)])
         ct = Table(data, colWidths=[62 * mm, 18 * mm, 22 * mm, 18 * mm, 22 * mm, 20 * mm, 18 * mm], repeatRows=1)
         ct.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "DV", 8), ("FONT", (0, 0), (-1, 0), "DVB", 8),
@@ -208,6 +220,7 @@ def build_pdf(r, path):
 
     note = (f"Source: Meta Ads, account {r['account']['id']}, pulled {fdate(r['pulled_at'], True)}. "
             "Meta may still adjust recent numbers by a few percent. "
+            f"{'History report: notes are generated from the numbers; no daily or campaign detail for accounts other than the main account. ' if r.get('history') else ''}"
             f"{'Backfilled report, written after the week ended. ' if r['backfilled'] else ''}"
             "Reach is de-duplicated at account level.")
     story += [Spacer(1, 10), Paragraph(note, SMALL)]
@@ -236,7 +249,8 @@ def write_index():
         items.append({"report_date": r["report_date"], "week_start": r["week_start"], "week_end": r["week_end"],
                       "spend": c["spend"], "results": c["results"], "leads": c["leads"],
                       "cost_per_result": c["cost_per_result"], "headline": r["headline"],
-                      "result_label": r["result_label"], "pdf": r["pdf"]})
+                      "result_label": r["result_label"], "pdf": r["pdf"],
+                      "account": r["account"], "history": bool(r.get("history"))})
     (REP / "index.json").write_text(json.dumps({"updated": dt.date.today().isoformat(), "reports": items},
                                                indent=1, ensure_ascii=False))
     return len(items)

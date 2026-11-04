@@ -1,0 +1,187 @@
+{
+ "report_date": "2026-06-01",
+ "week_start": "2026-05-25",
+ "week_end": "2026-05-31",
+ "prev_week_start": "2026-05-18",
+ "prev_week_end": "2026-05-24",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 7734.18,
+   "impressions": 12087.0,
+   "reach": 8454.0,
+   "link_clicks": 277.0,
+   "results": 17.0,
+   "leads": 77.0,
+   "purchases": 0.0,
+   "cost_per_result": 454.9517647058824,
+   "cost_per_lead": 100.44389610389611,
+   "link_ctr": 2.2917183751137586,
+   "cpm": 639.8758997269795,
+   "frequency": 1.429737402413059
+  },
+  "prev": {
+   "spend": 7958.53,
+   "impressions": 13661.0,
+   "reach": 8768.0,
+   "link_clicks": 258.0,
+   "results": 14.0,
+   "leads": 45.0,
+   "purchases": 0.0,
+   "cost_per_result": 568.4664285714285,
+   "cost_per_lead": 176.85622222222221,
+   "link_ctr": 1.888587951101676,
+   "cpm": 582.5730180806676,
+   "frequency": 1.55805200729927
+  },
+  "change": {
+   "spend": -2.8189879286752637,
+   "impressions": -11.521850523387746,
+   "reach": -3.581204379562044,
+   "link_clicks": 7.3643410852713185,
+   "results": 21.428571428571427,
+   "leads": 71.11111111111111,
+   "purchases": null,
+   "cost_per_result": -19.96857829420315,
+   "cost_per_lead": -43.20590203623879,
+   "link_ctr": 21.34559969933744,
+   "cpm": 9.83617158156427,
+   "frequency": -8.235579061871748
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [
+  {
+   "id": "120246269510990412",
+   "name": "Scaling Video Campaign 27 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 4416.75,
+    "impressions": 7339.0,
+    "reach": 5452.0,
+    "link_clicks": 160.0,
+    "results": 6.0,
+    "leads": 45.0,
+    "purchases": 0.0,
+    "cost_per_result": 736.125,
+    "cost_per_lead": 98.15,
+    "link_ctr": 2.1801335331789073,
+    "cpm": 601.8190489167462,
+    "frequency": 1.3461115187087307
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120244992007940412",
+   "name": "Launch Video Campaign 12 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 3317.43,
+    "impressions": 4748.0,
+    "reach": 3911.0,
+    "link_clicks": 117.0,
+    "results": 11.0,
+    "leads": 32.0,
+    "purchases": 0.0,
+    "cost_per_result": 301.58454545454543,
+    "cost_per_lead": 103.6696875,
+    "link_ctr": 2.4641954507160913,
+    "cpm": 698.7005054759899,
+    "frequency": 1.2140117616977755
+   },
+   "prev": {
+    "spend": 7692.95,
+    "impressions": 13199.0,
+    "reach": 8389.0,
+    "link_clicks": 251.0,
+    "results": 14.0,
+    "leads": 40.0,
+    "purchases": 0.0,
+    "cost_per_result": 549.4964285714285,
+    "cost_per_lead": 192.32375,
+    "link_ctr": 1.901659216607319,
+    "cpm": 582.8433972270627,
+    "frequency": 1.5733698891405412
+   },
+   "spend_change": -56.877010769600744
+  },
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 265.58,
+    "impressions": 462.0,
+    "reach": 414.0,
+    "link_clicks": 7.0,
+    "results": 0.0,
+    "leads": 5.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": 53.116,
+    "link_ctr": 1.5151515151515151,
+    "cpm": 574.8484848484849,
+    "frequency": 1.1159420289855073
+   },
+   "spend_change": -100.0
+  }
+ ],
+ "daily": [],
+ "headline": "₹7,734 spent (-3% on the week before), 17 bookings at ₹455 each; 77 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Video Campaign 12 May MiTran: 11 bookings at ₹302 each."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-06-01.pdf",
+ "history": true,
+ "also_spent": []
+}

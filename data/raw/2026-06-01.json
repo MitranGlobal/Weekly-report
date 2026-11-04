@@ -1,0 +1,125 @@
+{
+ "report_date": "2026-06-01",
+ "week_start": "2026-05-25",
+ "week_end": "2026-05-31",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 7734.18,
+   "impressions": 12087.0,
+   "reach": 8454.0,
+   "link_clicks": 277.0,
+   "results": 17.0,
+   "leads": 77.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 7958.53,
+   "impressions": 13661.0,
+   "reach": 8768.0,
+   "link_clicks": 258.0,
+   "results": 14.0,
+   "leads": 45.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120244992007940412",
+   "name": "Launch Video Campaign 12 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 3317.43,
+    "impressions": 4748.0,
+    "reach": 3911.0,
+    "link_clicks": 117.0,
+    "results": 11.0,
+    "leads": 32.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 7692.95,
+    "impressions": 13199.0,
+    "reach": 8389.0,
+    "link_clicks": 251.0,
+    "results": 14.0,
+    "leads": 40.0,
+    "purchases": 0.0
+   }
+  },
+  {
+   "id": "120246269510990412",
+   "name": "Scaling Video Campaign 27 May MiTran",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 4416.75,
+    "impressions": 7339.0,
+    "reach": 5452.0,
+    "link_clicks": 160.0,
+    "results": 6.0,
+    "leads": 45.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 265.58,
+    "impressions": 462.0,
+    "reach": 414.0,
+    "link_clicks": 7.0,
+    "results": 0.0,
+    "leads": 5.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹7,734 spent (-3% on the week before), 17 bookings at ₹455 each; 77 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Video Campaign 12 May MiTran: 11 bookings at ₹302 each."
+  }
+ ],
+ "actions": []
+}

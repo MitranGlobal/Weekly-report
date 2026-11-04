@@ -1,0 +1,75 @@
+{
+ "report_date": "2025-03-03",
+ "week_start": "2025-02-24",
+ "week_end": "2025-03-02",
+ "prev_week_start": "2025-02-17",
+ "prev_week_end": "2025-02-23",
+ "account": {
+  "id": "730954635012236",
+  "name": "Older ad account"
+ },
+ "currency": "INR",
+ "result_label": "link clicks",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 2764.54,
+   "impressions": 38971.0,
+   "reach": 31368.0,
+   "link_clicks": 714.0,
+   "results": 714.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": 3.8719047619047617,
+   "cost_per_lead": null,
+   "link_ctr": 1.832131585024762,
+   "cpm": 70.93839008493495,
+   "frequency": 1.2423807702116807
+  },
+  "prev": {
+   "spend": 4756.96,
+   "impressions": 61463.0,
+   "reach": 50832.0,
+   "link_clicks": 971.0,
+   "results": 971.0,
+   "leads": 17.0,
+   "purchases": 0.0,
+   "cost_per_result": 4.8990319258496395,
+   "cost_per_lead": 279.8211764705882,
+   "link_ctr": 1.579812244765143,
+   "cpm": 77.39550623952623,
+   "frequency": 1.2091399118665407
+  },
+  "change": {
+   "spend": -41.88431267027682,
+   "impressions": -36.59437385093471,
+   "reach": -38.29084041548631,
+   "link_clicks": -26.46755921730175,
+   "results": -26.46755921730175,
+   "leads": -100.0,
+   "purchases": null,
+   "cost_per_result": -20.96592101237926,
+   "cost_per_lead": null,
+   "link_ctr": 15.97147642675279,
+   "cpm": -8.343011717770247,
+   "frequency": 2.749132504759216
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [],
+ "headline": "₹2,765 spent (-42% on the week before), 714 link clicks at ₹3.87 each.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper link clicks",
+   "text": "Cost per link click fell to ₹3.87 from ₹4.90."
+  }
+ ],
+ "actions": [],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2025-03-03.pdf",
+ "history": true,
+ "also_spent": []
+}

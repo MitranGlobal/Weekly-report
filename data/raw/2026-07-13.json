@@ -1,0 +1,130 @@
+{
+ "report_date": "2026-07-13",
+ "week_start": "2026-07-06",
+ "week_end": "2026-07-12",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 8602.73,
+   "impressions": 11049.0,
+   "reach": 6530.0,
+   "link_clicks": 179.0,
+   "results": 14.0,
+   "leads": 37.0,
+   "purchases": 14.0
+  },
+  "prev": {
+   "spend": 8661.7,
+   "impressions": 9276.0,
+   "reach": 5453.0,
+   "link_clicks": 201.0,
+   "results": 7.0,
+   "leads": 53.0,
+   "purchases": 7.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120249048428310412",
+   "name": "ReLaunch 26 June",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 6500.97,
+    "impressions": 8719.0,
+    "reach": 5688.0,
+    "link_clicks": 142.0,
+    "results": 12.0,
+    "leads": 29.0,
+    "purchases": 12.0
+   },
+   "prev": {
+    "spend": 6799.13,
+    "impressions": 6740.0,
+    "reach": 4281.0,
+    "link_clicks": 144.0,
+    "results": 7.0,
+    "leads": 29.0,
+    "purchases": 7.0
+   }
+  },
+  {
+   "id": "120249934823270412",
+   "name": "10th July Campaign",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 2101.76,
+    "impressions": 2330.0,
+    "reach": 1558.0,
+    "link_clicks": 37.0,
+    "results": 2.0,
+    "leads": 8.0,
+    "purchases": 2.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120249085108100412",
+   "name": "Image Campaign 26 June Purchase",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 1862.57,
+    "impressions": 2536.0,
+    "reach": 1980.0,
+    "link_clicks": 57.0,
+    "results": 0.0,
+    "leads": 24.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹8,603 spent (-1% on the week before), 14 purchases at ₹614 each; 37 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Cheaper purchases",
+   "text": "Cost per purchase fell to ₹614 from ₹1,237."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "ReLaunch 26 June: 12 purchases at ₹542 each."
+  }
+ ],
+ "actions": []
+}

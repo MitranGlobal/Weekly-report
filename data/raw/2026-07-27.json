@@ -1,0 +1,213 @@
+{
+ "report_date": "2026-07-27",
+ "week_start": "2026-07-20",
+ "week_end": "2026-07-26",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 7782.13,
+   "impressions": 48598.0,
+   "reach": 44872.0,
+   "link_clicks": 1179.0,
+   "results": 2.0,
+   "leads": 27.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 11106.53,
+   "impressions": 246424.0,
+   "reach": 229244.0,
+   "link_clicks": 3913.0,
+   "results": 0,
+   "leads": 12.0,
+   "purchases": 401.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120250116219150412",
+   "name": "New Paid Campaign 17 July (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 553.47,
+    "impressions": 735.0,
+    "reach": 627.0,
+    "link_clicks": 10.0,
+    "results": 0,
+    "leads": 1.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 3541.55,
+    "impressions": 21245.0,
+    "reach": 16736.0,
+    "link_clicks": 520.0,
+    "results": 0,
+    "leads": 4.0,
+    "purchases": 1.0
+   }
+  },
+  {
+   "id": "120250207042240412",
+   "name": "Schedule Camp 21 July",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 3909.26,
+    "impressions": 42451.0,
+    "reach": 41614.0,
+    "link_clicks": 733.0,
+    "results": 2.0,
+    "leads": 14.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120250296129780412",
+   "name": "Schedule Campaign 24 July",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 3319.4,
+    "impressions": 5412.0,
+    "reach": 3435.0,
+    "link_clicks": 436.0,
+    "results": 0.0,
+    "leads": 12.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120249048428310412",
+   "name": "ReLaunch 26 June (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 3325.0,
+    "impressions": 114246.0,
+    "reach": 114246.0,
+    "link_clicks": 1683.0,
+    "results": 0,
+    "leads": 1.0,
+    "purchases": 397.0
+   }
+  },
+  {
+   "id": "120249934823270412",
+   "name": "10th July Campaign (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 3009.5,
+    "impressions": 50347.0,
+    "reach": 44769.0,
+    "link_clicks": 993.0,
+    "results": 0,
+    "leads": 7.0,
+    "purchases": 3.0
+   }
+  },
+  {
+   "id": "120250062263970412",
+   "name": "Paid Campaign 15th July (purchases)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 1230.48,
+    "impressions": 60585.0,
+    "reach": 56465.0,
+    "link_clicks": 717.0,
+    "results": 0,
+    "leads": 0.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹7,782 spent (-30% on the week before), 2 bookings at ₹3,891 each; 27 leads.",
+ "tips": [
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Schedule Camp 21 July: 2 bookings at ₹1,955 each."
+  },
+  {
+   "type": "bad",
+   "title": "Spend with no bookings",
+   "text": "Schedule Campaign 24 July spent ₹3,319 without a booking."
+  },
+  {
+   "type": "warn",
+   "title": "Mixed campaign goals",
+   "text": "Some campaigns aimed at purchases (0 this week); the headline counts bookings only."
+  }
+ ],
+ "actions": []
+}

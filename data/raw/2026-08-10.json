@@ -1,0 +1,99 @@
+{
+ "report_date": "2026-08-10",
+ "week_start": "2026-08-03",
+ "week_end": "2026-08-09",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "purchases",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 2960.78,
+   "impressions": 18025.0,
+   "reach": 16050.0,
+   "link_clicks": 324.0,
+   "results": 0.0,
+   "leads": 16.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 2011.23,
+   "impressions": 2724.0,
+   "reach": 1735.0,
+   "link_clicks": 316.0,
+   "results": 0,
+   "leads": 25.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120250665302890412",
+   "name": "Mitran | Parenting | 06Aug26",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "purchases",
+   "cur": {
+    "spend": 2960.78,
+    "impressions": 18025.0,
+    "reach": 16050.0,
+    "link_clicks": 324.0,
+    "results": 0.0,
+    "leads": 16.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120250296129780412",
+   "name": "Schedule Campaign 24 July (bookings)",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 2011.23,
+    "impressions": 2724.0,
+    "reach": 1735.0,
+    "link_clicks": 316.0,
+    "results": 0,
+    "leads": 23.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹2,961 spent (+47% on the week before), no purchases; 16 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Spend with no purchases",
+   "text": "Mitran | Parenting | 06Aug26 spent ₹2,961 without a purchase."
+  }
+ ],
+ "actions": []
+}

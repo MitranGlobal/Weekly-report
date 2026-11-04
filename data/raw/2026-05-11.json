@@ -1,0 +1,78 @@
+{
+ "report_date": "2026-05-11",
+ "week_start": "2026-05-04",
+ "week_end": "2026-05-10",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "history": true,
+ "also_spent": [],
+ "totals": {
+  "cur": {
+   "spend": 5361.45,
+   "impressions": 7465.0,
+   "reach": 4739.0,
+   "link_clicks": 118.0,
+   "results": 5.0,
+   "leads": 37.0,
+   "purchases": 0.0
+  },
+  "prev": {
+   "spend": 4887.4,
+   "impressions": 18784.0,
+   "reach": 16614.0,
+   "link_clicks": 200.0,
+   "results": 8.0,
+   "leads": 26.0,
+   "purchases": 0.0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120243874044790412",
+   "name": "Launch Campaign 25 April",
+   "objective": "",
+   "status": "",
+   "daily_budget": null,
+   "result_type": "bookings",
+   "cur": {
+    "spend": 5361.45,
+    "impressions": 7465.0,
+    "reach": 4739.0,
+    "link_clicks": 118.0,
+    "results": 5.0,
+    "leads": 37.0,
+    "purchases": 0.0
+   },
+   "prev": {
+    "spend": 4887.4,
+    "impressions": 18784.0,
+    "reach": 16614.0,
+    "link_clicks": 200.0,
+    "results": 8.0,
+    "leads": 26.0,
+    "purchases": 0.0
+   }
+  }
+ ],
+ "daily": [],
+ "headline": "₹5,361 spent (+10% on the week before), 5 bookings at ₹1,072 each; 37 leads.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Costlier bookings",
+   "text": "Cost per booking rose to ₹1,072 from ₹611."
+  },
+  {
+   "type": "good",
+   "title": "Best campaign this week",
+   "text": "Launch Campaign 25 April: 5 bookings at ₹1,072 each."
+  }
+ ],
+ "actions": []
+}
