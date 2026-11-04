@@ -1,0 +1,10 @@
+# Static site: no build step, publish the repo root.
+[build]
+  publish = "."
+  command = ""
+
+# Always fetch fresh report data so a new Monday report shows immediately.
+[[headers]]
+  for = "/reports/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

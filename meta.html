@@ -123,7 +123,7 @@ function statGrid(host,items){host.innerHTML='';items.forEach(([l,v])=>{const d=
 function insights(host,items){host.innerHTML='';items.forEach(([cls,b,t])=>{const li=el('li',{class:cls});li.append(el('b',{},b+' '),document.createTextNode(t));host.appendChild(li)})}
 </script><div class="app"><nav class="rail"><div class="logo">BI</div><i></i><i></i><i></i></nav>
 <div class="main">
-<div class="topbar"><div><h1>Meta Ads Performance Dashboard</h1><div class="sub">All 6 ad accounts · lifetime to 2 Nov 2026 · INR</div></div><div class="sp"></div>
+<div class="topbar"><div><h1>Meta Ads Performance Dashboard</h1><div class="sub">All 6 ad accounts · lifetime to 2 Nov 2026 · INR</div></div><div class="sp"></div><a class="btn" href="weekly.html" style="text-decoration:none;color:inherit">Weekly reports →</a><a class="btn" href="index.html" style="text-decoration:none;color:inherit">All reports</a>
 </div>
 <div class="tabs"><div class="tab on" data-p="p1">Overview</div><div class="tab" data-p="p2">Campaign explorer</div><div class="tab" data-p="p3">EDA &amp; Statistics</div><div class="tab" data-p="p4">Creatives &amp; Audiences</div></div>
 

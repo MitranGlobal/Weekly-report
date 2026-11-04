@@ -1,0 +1,239 @@
+{
+ "report_date": "2026-10-12",
+ "week_start": "2026-10-05",
+ "week_end": "2026-10-11",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 1788.14,
+   "impressions": 6220,
+   "reach": 1818,
+   "link_clicks": 27,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  },
+  "prev": {
+   "spend": 7466.58,
+   "impressions": 17015,
+   "reach": 6104,
+   "link_clicks": 157,
+   "results": 5,
+   "leads": 4,
+   "purchases": 0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120251503090650412",
+   "name": "Schedule | ADV | Video | 19Sep26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 987.99,
+    "impressions": 1026,
+    "reach": 895,
+    "link_clicks": 21,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251633329500412",
+   "name": "Schedule | ADV | Video | 26Sep26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 3841.06,
+    "impressions": 4514,
+    "reach": 2798,
+    "link_clicks": 70,
+    "results": 5,
+    "leads": 4,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251734263370412",
+   "name": "Schedule | ADV | Video | 01oct26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 35.9,
+    "impressions": 111,
+    "reach": 104,
+    "link_clicks": 2,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 2637.53,
+    "impressions": 11475,
+    "reach": 2738,
+    "link_clicks": 66,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251788327810412",
+   "name": "Schedule | ADV | Video | 05oct26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 1748.64,
+    "impressions": 6096,
+    "reach": 1775,
+    "link_clicks": 25,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  },
+  {
+   "id": "120251822231350412",
+   "name": "Schedule | ADV | Video | 07oct26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 3.6,
+    "impressions": 13,
+    "reach": 13,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-10-05",
+   "spend": 35.9,
+   "impressions": 111,
+   "link_clicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-06",
+   "spend": 95.39,
+   "impressions": 271,
+   "link_clicks": 2,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-07",
+   "spend": 627.49,
+   "impressions": 2355,
+   "link_clicks": 10,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-08",
+   "spend": 676.68,
+   "impressions": 2480,
+   "link_clicks": 10,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-09",
+   "spend": 352.68,
+   "impressions": 1003,
+   "link_clicks": 3,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-10",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-11",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  }
+ ],
+ "headline": "Spend dropped to ₹1,788 and no bookings or leads came in. The account is winding down.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Zero bookings for ₹1,788",
+   "text": "05oct26 took almost all the spend (₹1,749) and booked nothing; its link click rate was 0.4%."
+  },
+  {
+   "type": "warn",
+   "title": "Ads were shown too often to too few people",
+   "text": "Each person saw the ads 3.4 times on average and reach fell to 1,818. That pattern usually means a small, tired audience."
+  },
+  {
+   "type": "warn",
+   "title": "Delivery stopped on 9 Oct",
+   "text": "No spend on 10–11 Oct. If this was intended, nothing to do; if not, check budgets and billing."
+  }
+ ],
+ "actions": [
+  "Relaunch with 08Sep26's video and audience, the last setup that booked at a low cost.",
+  "Widen the audience before relaunching so frequency stays under 2.",
+  "Decide the plan for the second half of October so the account isn't left idle."
+ ]
+}

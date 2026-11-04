@@ -1,0 +1,291 @@
+{
+ "report_date": "2026-10-05",
+ "week_start": "2026-09-28",
+ "week_end": "2026-10-04",
+ "prev_week_start": "2026-09-21",
+ "prev_week_end": "2026-09-27",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 7466.58,
+   "impressions": 17015.0,
+   "reach": 6104.0,
+   "link_clicks": 157.0,
+   "results": 5.0,
+   "leads": 4.0,
+   "purchases": 0.0,
+   "cost_per_result": 1493.316,
+   "cost_per_lead": 1866.645,
+   "link_ctr": 0.9227152512488981,
+   "cpm": 438.82339112547754,
+   "frequency": 2.787516382699869
+  },
+  "prev": {
+   "spend": 13245.8,
+   "impressions": 19548.0,
+   "reach": 10068.0,
+   "link_clicks": 358.0,
+   "results": 22.0,
+   "leads": 41.0,
+   "purchases": 0.0,
+   "cost_per_result": 602.0818181818181,
+   "cost_per_lead": 323.0682926829268,
+   "link_ctr": 1.831389400450174,
+   "cpm": 677.6038469408635,
+   "frequency": 1.9415971394517282
+  },
+  "change": {
+   "spend": -43.630584789140705,
+   "impressions": -12.957847350112544,
+   "reach": -39.37226857369885,
+   "link_clicks": -56.14525139664804,
+   "results": -77.27272727272727,
+   "leads": -90.2439024390244,
+   "purchases": null,
+   "cost_per_result": 148.0254269277809,
+   "cost_per_lead": 477.78650591130776,
+   "link_ctr": -49.61665438152665,
+   "cpm": -35.23894630961637,
+   "frequency": 43.56821639565316
+  }
+ },
+ "spend_without_results": 3625.5200000000004,
+ "active_days": 7,
+ "campaigns": [
+  {
+   "id": "120251633329500412",
+   "name": "Schedule | ADV | Video | 26Sep26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 3841.06,
+    "impressions": 4514.0,
+    "reach": 2798.0,
+    "link_clicks": 70.0,
+    "results": 5.0,
+    "leads": 4.0,
+    "purchases": 0.0,
+    "cost_per_result": 768.212,
+    "cost_per_lead": 960.265,
+    "link_ctr": 1.55073105892778,
+    "cpm": 850.9215773150199,
+    "frequency": 1.6132952108649035
+   },
+   "prev": {
+    "spend": 1359.76,
+    "impressions": 1955.0,
+    "reach": 1376.0,
+    "link_clicks": 25.0,
+    "results": 3.0,
+    "leads": 1.0,
+    "purchases": 0.0,
+    "cost_per_result": 453.25333333333333,
+    "cost_per_lead": 1359.76,
+    "link_ctr": 1.278772378516624,
+    "cpm": 695.5294117647059,
+    "frequency": 1.4207848837209303
+   },
+   "spend_change": 182.48073189386363
+  },
+  {
+   "id": "120251734263370412",
+   "name": "Schedule | ADV | Video | 01oct26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 2637.53,
+    "impressions": 11475.0,
+    "reach": 2738.0,
+    "link_clicks": 66.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 0.5751633986928104,
+    "cpm": 229.8501089324619,
+    "frequency": 4.191015339663989
+   },
+   "prev": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "spend_change": null
+  },
+  {
+   "id": "120251503090650412",
+   "name": "Schedule | ADV | Video | 19Sep26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 987.99,
+    "impressions": 1026.0,
+    "reach": 895.0,
+    "link_clicks": 21.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": 2.046783625730994,
+    "cpm": 962.953216374269,
+    "frequency": 1.146368715083799
+   },
+   "prev": {
+    "spend": 6357.13,
+    "impressions": 8710.0,
+    "reach": 5500.0,
+    "link_clicks": 182.0,
+    "results": 2.0,
+    "leads": 15.0,
+    "purchases": 0.0,
+    "cost_per_result": 3178.565,
+    "cost_per_lead": 423.8086666666667,
+    "link_ctr": 2.0895522388059704,
+    "cpm": 729.8656716417911,
+    "frequency": 1.5836363636363637
+   },
+   "spend_change": -84.45855283752259
+  },
+  {
+   "id": "120251317113640412",
+   "name": "Schedule | Video | 08Sep26",
+   "objective": "OUTCOME_LEADS",
+   "status": "PAUSED",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 0.0,
+    "impressions": 0.0,
+    "reach": 0.0,
+    "link_clicks": 0.0,
+    "results": 0.0,
+    "leads": 0.0,
+    "purchases": 0.0,
+    "cost_per_result": null,
+    "cost_per_lead": null,
+    "link_ctr": null,
+    "cpm": null,
+    "frequency": null
+   },
+   "prev": {
+    "spend": 5528.91,
+    "impressions": 8883.0,
+    "reach": 6046.0,
+    "link_clicks": 151.0,
+    "results": 17.0,
+    "leads": 25.0,
+    "purchases": 0.0,
+    "cost_per_result": 325.23,
+    "cost_per_lead": 221.1564,
+    "link_ctr": 1.6998761679612742,
+    "cpm": 622.4147247551502,
+    "frequency": 1.4692358584187892
+   },
+   "spend_change": -100.0
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-09-28",
+   "spend": 2068.03,
+   "impressions": 2112,
+   "link_clicks": 49,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-29",
+   "spend": 1096.51,
+   "impressions": 1520,
+   "link_clicks": 28,
+   "leads": 2
+  },
+  {
+   "date": "2026-09-30",
+   "spend": 1076.99,
+   "impressions": 1386,
+   "link_clicks": 9,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-01",
+   "spend": 587.52,
+   "impressions": 522,
+   "link_clicks": 5,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-02",
+   "spend": 129.29,
+   "impressions": 504,
+   "link_clicks": 1,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-03",
+   "spend": 1031.29,
+   "impressions": 4324,
+   "link_clicks": 26,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-04",
+   "spend": 1476.95,
+   "impressions": 6647,
+   "link_clicks": 39,
+   "leads": 0
+  }
+ ],
+ "headline": "Spend fell 44% to ₹7,467, but bookings fell from 22 to 5: cost per booking rose 2.5× to ₹1,493.",
+ "tips": [
+  {
+   "type": "bad",
+   "title": "Cost per booking jumped",
+   "text": "₹1,493 per booking this week against ₹602 last week. Only 26Sep26 still produced bookings (5, at ₹768 each)."
+  },
+  {
+   "type": "bad",
+   "title": "01oct26 spent ₹2,638 with no bookings",
+   "text": "It was shown 4.2 times per person at a 0.6% link click rate, the weakest in the account. Pause it or swap the creative."
+  },
+  {
+   "type": "warn",
+   "title": "Leads dried up",
+   "text": "Leads fell from 41 to 4. 08Sep26, which produced 17 of last week's 22 bookings, spent nothing this week."
+  },
+  {
+   "type": "good",
+   "title": "26Sep26 is the campaign still working",
+   "text": "5 bookings at ₹768, with a 1.6% link click rate. Keep its budget steady rather than launching another copy."
+  }
+ ],
+ "actions": [
+  "Turn 08Sep26 back on: it booked 17 appointments at ₹325 each last week.",
+  "Pause 01oct26 or replace its video; it is spending without bookings.",
+  "Stop re-launching near-identical copies; give one campaign 7 days to learn."
+ ],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-05.pdf"
+}

@@ -1,0 +1,126 @@
+{
+ "report_date": "2026-10-26",
+ "week_start": "2026-10-19",
+ "week_end": "2026-10-25",
+ "prev_week_start": "2026-10-12",
+ "prev_week_end": "2026-10-18",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 0.0,
+   "impressions": 0.0,
+   "reach": 0.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  },
+  "prev": {
+   "spend": 0.0,
+   "impressions": 0.0,
+   "reach": 0.0,
+   "link_clicks": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "purchases": 0.0,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  },
+  "change": {
+   "spend": null,
+   "impressions": null,
+   "reach": null,
+   "link_clicks": null,
+   "results": null,
+   "leads": null,
+   "purchases": null,
+   "cost_per_result": null,
+   "cost_per_lead": null,
+   "link_ctr": null,
+   "cpm": null,
+   "frequency": null
+  }
+ },
+ "spend_without_results": 0,
+ "active_days": 0,
+ "campaigns": [],
+ "daily": [
+  {
+   "date": "2026-10-19",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-20",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-21",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-22",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-23",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-24",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-25",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  }
+ ],
+ "headline": "No ads ran for a second week (19–25 Oct).",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Two weeks without ads",
+   "text": "Booking demand from Meta has stopped since 9 Oct. Restarting after a long gap usually needs a few days to stabilise."
+  }
+ ],
+ "actions": [
+  "If November bookings matter, restart before 1 Nov so the campaign has time to learn.",
+  "Reuse the 08Sep26 setup rather than building from scratch."
+ ],
+ "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-26.pdf"
+}

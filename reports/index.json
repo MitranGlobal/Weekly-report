@@ -1,0 +1,65 @@
+{
+ "updated": "2026-11-04",
+ "reports": [
+  {
+   "report_date": "2026-11-02",
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "spend": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "cost_per_result": null,
+   "headline": "No ads ran for a third week (26 Oct–1 Nov). A new campaign is planned for this week.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-02.pdf"
+  },
+  {
+   "report_date": "2026-10-26",
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "spend": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "cost_per_result": null,
+   "headline": "No ads ran for a second week (19–25 Oct).",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-26.pdf"
+  },
+  {
+   "report_date": "2026-10-19",
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "spend": 0.0,
+   "results": 0.0,
+   "leads": 0.0,
+   "cost_per_result": null,
+   "headline": "No ads ran this week (12–18 Oct). All campaigns in the main account are paused.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-19.pdf"
+  },
+  {
+   "report_date": "2026-10-12",
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "spend": 1788.14,
+   "results": 0.0,
+   "leads": 0.0,
+   "cost_per_result": null,
+   "headline": "Spend dropped to ₹1,788 and no bookings or leads came in. The account is winding down.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-12.pdf"
+  },
+  {
+   "report_date": "2026-10-05",
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "spend": 7466.58,
+   "results": 5.0,
+   "leads": 4.0,
+   "cost_per_result": 1493.316,
+   "headline": "Spend fell 44% to ₹7,467, but bookings fell from 22 to 5: cost per booking rose 2.5× to ₹1,493.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-10-05.pdf"
+  }
+ ]
+}

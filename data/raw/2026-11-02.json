@@ -1,0 +1,102 @@
+{
+ "report_date": "2026-11-02",
+ "week_start": "2026-10-26",
+ "week_end": "2026-11-01",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-04",
+ "backfilled": true,
+ "totals": {
+  "cur": {
+   "spend": 0,
+   "impressions": 0,
+   "reach": 0,
+   "link_clicks": 0,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  },
+  "prev": {
+   "spend": 0,
+   "impressions": 0,
+   "reach": 0,
+   "link_clicks": 0,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  }
+ },
+ "campaigns": [],
+ "daily": [
+  {
+   "date": "2026-10-26",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-27",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-28",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-29",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-30",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-10-31",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-01",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  }
+ ],
+ "headline": "No ads ran for a third week (26 Oct–1 Nov). A new campaign is planned for this week.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Three weeks idle",
+   "text": "No spend in the main account since 9 Oct."
+  },
+  {
+   "type": "good",
+   "title": "Restart checklist",
+   "text": "Target cost per booking: under ₹500 (08Sep26 managed ₹325). Watch frequency; above 2.5 in the first week is a warning sign."
+  }
+ ],
+ "actions": [
+  "Launch the new booking campaign and leave it unchanged for 7 days.",
+  "Check next Monday's report: cost per booking and link click rate in the first week."
+ ]
+}
