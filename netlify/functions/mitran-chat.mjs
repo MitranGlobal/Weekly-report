@@ -2,6 +2,7 @@
 // Receives the conversation and streams the answer back as newline-delimited JSON.
 
 import Anthropic from '@anthropic-ai/sdk';
+import { getStore } from '@netlify/blobs';
 import { loadData } from '../lib/mitran/data.mjs';
 import { createToolbox } from '../lib/mitran/tools.mjs';
 import { runAgent, sanitizeConversation } from '../lib/mitran/agent.mjs';
@@ -13,7 +14,32 @@ const DEFAULT_MODEL = 'claude-opus-5-5';
 // Models that accept the "fallbacks" setting on the Claude API.
 const FALLBACK_MODELS = new Set(['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-opus-5', 'claude-fable-5-1']);
 
+const DEFAULT_DAILY_LIMIT = 200; // Questions per day across all visitors. Override with MITRAN_DAILY_LIMIT.
+
 let cache = { at: 0, promise: null };
+
+/**
+ * Daily question cap. Each question writes its own small record under today's date, and the cap counts
+ * today's records. Nothing is read, changed and written back, so two questions at once cannot overwrite
+ * each other (two arriving in the same instant can both pass, so the cap may go over by one or two).
+ * Previews use their own store so testing never uses up the live site's allowance.
+ * If storage is unavailable the question is allowed, so a storage problem never takes the chat down.
+ */
+async function claimDailySlot(context) {
+  const limit = Number(Netlify.env.get('MITRAN_DAILY_LIMIT')) || DEFAULT_DAILY_LIMIT;
+  const day = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata' }).format(new Date()); // YYYY-MM-DD in India
+  const storeName = context.deploy?.context === 'production' ? 'mitran-usage' : 'mitran-usage-preview';
+  try {
+    const store = getStore({ name: storeName, consistency: 'strong' });
+    const { blobs } = await store.list({ prefix: `${day}/` });
+    if (blobs.length >= limit) return { allowed: false, limit };
+    await store.set(`${day}/${Date.now()}-${crypto.randomUUID()}`, '1', { onlyIfNew: true });
+    return { allowed: true, limit, used: blobs.length + 1 };
+  } catch (err) {
+    console.error('mitran-chat daily cap check failed; allowing the question', err);
+    return { allowed: true, limit };
+  }
+}
 
 function getData(siteUrl) {
   if (cache.promise && Date.now() - cache.at < DATA_TTL_MS) return cache.promise;
@@ -52,6 +78,9 @@ export default async (req, context) => {
   const messages = sanitizeConversation(body);
   if (!messages) return json(400, { error: 'Please type a question.' });
 
+  const slot = await claimDailySlot(context);
+  if (!slot.allowed) return json(429, { error: `MiTran has answered its ${slot.limit} questions for today. Please try again tomorrow.` });
+
   const model = Netlify.env.get('MITRAN_MODEL') || DEFAULT_MODEL;
   const client = new Anthropic({ apiKey, maxRetries: 1 });
   const encoder = new TextEncoder();
@@ -71,7 +100,7 @@ export default async (req, context) => {
           signal: deadline,
           runTool: createToolbox(data, today),
           isApiError: (err) => err instanceof Anthropic.APIError,
-          volatileContext: `Today is ${today}. Weeks with data run from ${data.earliestWeek} to ${data.latestWeek}. Latest weekly report: ${data.latestReport}. The user is on page: ${String(body.page ?? '/').slice(0, 80)}.`,
+          volatileContext: `Today is ${today}. Data runs from ${data.earliestWeek} to ${data.dailyThrough || data.latestWeek}. Latest weekly report: ${data.latestReport}. The user is on page: ${String(body.page ?? '/').slice(0, 80)}.`,
           requestDefaults: {
             model,
             max_tokens: 4096, // A deliberate cost ceiling for a public endpoint.
