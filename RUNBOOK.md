@@ -51,6 +51,15 @@ If there was no spend, still publish the report (it records that the account was
 
 The repo is private. The site publishes only the pages and `reports/` (see netlify.toml); `data/` and `scripts/` are not served.
 
+## MiTran chat assistant
+
+A chat button on every page answers questions about this data. It is `mitran-chat.js`, loaded by one
+`<script src="/mitran-chat.js" defer></script>` line before `</body>` in `index.html`, `meta.html` and `weekly.html`.
+The server part is `netlify/functions/mitran-chat.mjs` and `netlify/lib/mitran/`. It reads the published `/meta` page and
+`reports/` at run time, so a new Monday report reaches it with no extra step. The Monday task must not remove the script line,
+`mitran-chat.js`, `netlify/` or `package.json`. It needs the `ANTHROPIC_API_KEY` environment variable in Netlify (Functions scope).
+If `meta.html` is ever regenerated, keep the script line and the `const D={...}` data block, which the assistant reads.
+
 ## Monday check (11:13 AM IST)
 
 A second scheduled task, "Monday report check", runs after the report. It confirms that the Monday task ran today, that

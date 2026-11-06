@@ -1,0 +1,9 @@
+{
+  "name": "mitran-chatbot",
+  "private": true,
+  "type": "module",
+  "description": "MiTran: a chat assistant for the MiTran Global ad reports site.",
+  "dependencies": {
+    "@anthropic-ai/sdk": ">=0.136.0"
+  }
+}
