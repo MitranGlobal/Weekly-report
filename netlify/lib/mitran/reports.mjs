@@ -58,10 +58,17 @@ export function allocateSpend(data, start, end, acct, { useKnownSplits = true } 
     if (!matchesAccount(w, acct) || w.week_end < start || w.week_start > end) continue;
     const inside = w.week_start >= start && w.week_end <= end;
     const split = w.source === 'primary' ? splits.get(w.week_start) : null;
+    // Daily data for this account covering the whole week splits it exactly, by real days.
+    const dayData = data.daily?.get(w.account_id);
+    const dailyCovers = w.source !== 'daily_data' && dayData && dayData.from <= w.week_start && dayData.to >= w.week_end;
     let amount;
     let basis;
     if (inside) {
       amount = w.spend || 0;
+      basis = 'exact';
+    } else if (dailyCovers) {
+      amount = 0;
+      for (const d of dayData.days.values()) if (d.date >= w.week_start && d.date <= w.week_end && d.date >= start && d.date <= end) amount += d.spend;
       basis = 'exact';
     } else if (w.dailyUsable) {
       amount = sum(w.daily.filter((d) => d.date >= start && d.date <= end).map((d) => d.spend));
@@ -138,20 +145,23 @@ function weeklyRows(data, scope) {
     link_ctr_pct: round2(w.link_ctr),
     cpm_inr: round2(w.cpm),
     frequency: round2(w.frequency),
-    record_type: w.source === 'primary' ? 'weekly report' : 'other account, spend only',
+    record_type: w.source === 'primary' ? 'weekly report' : w.source === 'daily_data' ? 'built from daily data (no weekly report)' : 'other account, spend only',
   }));
 }
 
 function dailyRows(data, scope) {
   const out = [];
-  for (const w of data.weeks) {
-    if (w.source !== 'primary' || !w.dailyUsable || !matchesAccount(w, scope.account)) continue;
-    for (const d of w.daily) {
+  for (const [id, acct] of data.daily ?? new Map()) {
+    if (scope.account && scope.account.id !== id) continue;
+    const name = ACCOUNTS.find((a) => a.id === id)?.name ?? id;
+    for (const d of acct.days.values()) {
       if (d.date < scope.start || d.date > scope.end) continue;
-      out.push({ date: d.date, account: w.account_name, account_id: w.account_id, spend_inr: round2(d.spend), impressions: d.impressions, link_clicks: d.link_clicks, leads: d.leads });
+      // Days with no spend and no delivery are left out to keep files short.
+      if (!d.spend && !d.impressions) continue;
+      out.push({ date: d.date, account: name, account_id: id, spend_inr: round2(d.spend), impressions: d.impressions, link_clicks: d.link_clicks, leads: d.leads, purchases: d.purchases });
     }
   }
-  return out.sort((a, b) => a.date.localeCompare(b.date));
+  return out.sort((a, b) => a.date.localeCompare(b.date) || a.account.localeCompare(b.account));
 }
 
 function monthlyRows(data, scope) {
@@ -214,12 +224,16 @@ function coverageNotes(data, dataset, scope, rows) {
   const notes = [];
   const g2 = ACCOUNTS.find((a) => a.name === 'MiTran Global 2');
   const g2Row = data.dashboard.meta_accounts.find((a) => a.Account === g2.dashboard);
+  const g2Dated = data.daily?.has(g2.id);
   const datedSet = ['weekly', 'daily', 'monthly', 'campaigns_weekly'].includes(dataset);
-  if (datedSet && scope.account?.name === g2.name) notes.push(`${g2.name} has no dated data. Weekly reports never cover it, so only lifetime totals exist (use the accounts or campaigns_lifetime dataset).`);
-  else if (datedSet && !scope.account && g2Row) notes.push(`${g2.name} (₹${g2Row.Spend.toLocaleString('en-IN')} lifetime) is not included because no weekly report covers it, so its spend has no dates.`);
-  if (dataset === 'daily') notes.push('Daily rows exist only for recent weeks. Most weeks have weekly totals only.');
+  if (!g2Dated && datedSet && scope.account?.name === g2.name) notes.push(`${g2.name} has no dated data. Weekly reports never cover it, so only lifetime totals exist (use the accounts or campaigns_lifetime dataset).`);
+  else if (!g2Dated && datedSet && !scope.account && g2Row) notes.push(`${g2.name} (₹${g2Row.Spend.toLocaleString('en-IN')} lifetime) is not included because no weekly report covers it, so its spend has no dates.`);
+  if (datedSet && scope.dated && data.dailyThrough && scope.end > data.dailyThrough) notes.push(`Data runs to ${data.dailyThrough}. Days after that have no figures yet.`);
+  if (dataset === 'daily') notes.push('Daily spend comes from Meta for every account. Days with no spend are left out.');
+  if (dataset === 'weekly' && rows.some((r) => r.record_type.startsWith('built from daily'))) notes.push('Rows marked "built from daily data" cover spend no weekly report includes, such as MiTran Global 2 or days after the latest report.');
+  if (dataset === 'campaigns_weekly' && !scope.account) notes.push('Campaign rows come from the weekly reports, which cover the main account (and older accounts in history weeks). MiTran Global 2 campaigns appear only in the campaigns_lifetime dataset.');
   if (dataset === 'weekly') notes.push('Reach cannot be added across weeks because the same person can appear in several weeks.');
-  if (dataset === 'weekly' && rows.some((r) => r.record_type !== 'weekly report')) notes.push('"Other account, spend only" rows come from the report\'s also_spent list, which holds spend but no other metrics, so click, lead and purchase totals here can be lower than the lifetime figures.');
+  if (dataset === 'weekly' && rows.some((r) => r.record_type.startsWith('other account'))) notes.push('"Other account, spend only" rows come from the report\'s also_spent list, which holds spend but no other metrics, so click, lead and purchase totals here can be lower than the lifetime figures.');
   if (dataset === 'campaigns_weekly') notes.push('Campaign rows exist only in weekly reports that include a campaign breakdown. Many older weeks have account totals only.');
   if (dataset === 'audiences') notes.push("Audience sizes are Meta's lower bound.");
   if (dataset === 'creatives') notes.push('Top 10 ads by spend only, listed by format and cost per result.');
@@ -325,7 +339,7 @@ export function computeInvoice(data, input) {
   const notes = [];
   const g2 = ACCOUNTS.find((a) => a.name === 'MiTran Global 2');
   const g2Row = data.dashboard.meta_accounts.find((a) => a.Account === g2.dashboard);
-  const g2InScope = !scope.account || scope.account.name === g2.name;
+  const g2InScope = (!scope.account || scope.account.name === g2.name) && !data.daily?.has(g2.id);
   if (g2InScope && g2Row) {
     if (!scope.dated) lines.push({ period: 'Undated (lifetime total)', account: g2.name, account_id: null, amount: g2Row.Spend, basis: 'exact', description: 'Meta Ads spend, lifetime total; no weekly dates available' });
     else notes.push(`${g2.name} (₹${g2Row.Spend.toLocaleString('en-IN')} lifetime) is excluded: no weekly report covers it, so its spend cannot be placed in this date range.`);
