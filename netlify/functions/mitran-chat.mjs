@@ -63,6 +63,9 @@ export default async (req, context) => {
   if (!apiKey) return json(503, { error: 'The assistant is not set up yet: ANTHROPIC_API_KEY is missing.' });
 
   const siteUrl = context.site?.url || new URL(req.url).origin;
+  // Read data from this deploy's own permalink, so a preview tests its own files and production reads exactly
+  // what it published. Falls back to the site address if the deploy details are missing.
+  const dataUrl = context.deploy?.id && context.site?.name ? `https://${context.deploy.id}--${context.site.name}.netlify.app` : siteUrl;
   const origin = req.headers.get('origin');
   if (origin) {
     const allowed = [new URL(siteUrl).host, new URL(req.url).host];
@@ -91,7 +94,7 @@ export default async (req, context) => {
       const deadline = AbortSignal.timeout(DEADLINE_MS);
       try {
         emit({ type: 'status', tool: 'loading' });
-        const data = await getData(siteUrl);
+        const data = await getData(dataUrl);
         const today = new Date().toISOString().slice(0, 10);
         const usesFallback = FALLBACK_MODELS.has(model);
         const usage = await runAgent({
