@@ -283,9 +283,15 @@ function totalsFor(dataset, rows, scope) {
 }
 
 /** Runs a dataset query. Returns every row plus totals and coverage notes. */
+const LIFETIME_ONLY = new Set(['accounts', 'campaigns_lifetime', 'creatives', 'audiences']);
+
 export function queryData(data, input) {
   const dataset = input.dataset;
   if (!DATASETS[dataset]) throw new Error(`Unknown dataset "${dataset}". Options: ${DATASET_NAMES.join(', ')}.`);
+  // Lifetime tables have no dates. Refusing dates here stops a lifetime total being reported as a month's figure.
+  if (LIFETIME_ONLY.has(dataset) && (input.start_date || input.end_date)) {
+    throw new Error(`The ${dataset} dataset holds lifetime totals only and cannot be filtered by date. For a date, month or range use monthly (spend per month per account), daily, weekly or campaigns_weekly.`);
+  }
   const scope = resolveScope(data, input);
   const rows = DATASETS[dataset](data, scope, input);
   const notes = coverageNotes(data, dataset, scope, rows);
