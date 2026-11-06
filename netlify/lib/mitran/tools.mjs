@@ -13,7 +13,7 @@ const periodProps = {
   account: { type: 'string', description: 'Ad account name, ID or nickname (main, older, mitranad, global 2). Omit for all accounts.' },
 };
 const dataProps = {
-  dataset: { type: 'string', enum: DATASET_NAMES, description: 'weekly: one row per week. daily: per day, recent weeks only. monthly: spend per calendar month. accounts: lifetime per account. campaigns_lifetime: the 25 listed campaigns. campaigns_weekly: campaign rows per week. creatives: top 10 ads. audiences: saved audiences.' },
+  dataset: { type: 'string', enum: DATASET_NAMES, description: 'Dated (accept start_date/end_date): monthly = spend per calendar month per account, exact; daily = spend per day per account, Jan 2024 onward; weekly = one row per report week; campaigns_weekly = campaign rows per week. Lifetime only (no dates allowed): accounts = lifetime totals per account; campaigns_lifetime = the 25 listed campaigns; creatives = top 10 ads; audiences. For "spend in <month> by account" use monthly.' },
   ...periodProps,
   campaign: { type: 'string', description: 'Only campaigns whose name contains this text.' },
   goal: { type: 'string', enum: ['Sales', 'Leads'], description: 'campaigns_lifetime only.' },
