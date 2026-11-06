@@ -4,6 +4,7 @@
   "type": "module",
   "description": "MiTran: a chat assistant for the MiTran Global ad reports site.",
   "dependencies": {
-    "@anthropic-ai/sdk": ">=0.136.0"
+    "@anthropic-ai/sdk": ">=0.136.0",
+    "@netlify/blobs": ">=7.0.0"
   }
 }

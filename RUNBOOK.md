@@ -59,6 +59,9 @@ The server part is `netlify/functions/mitran-chat.mjs` and `netlify/lib/mitran/`
 `reports/` at run time, so a new Monday report reaches it with no extra step. The Monday task must not remove the script line,
 `mitran-chat.js`, `netlify/` or `package.json`. It needs the `ANTHROPIC_API_KEY` environment variable in Netlify (Functions scope).
 If `meta.html` is ever regenerated, keep the script line and the `const D={...}` data block, which the assistant reads.
+`reports/daily/` holds daily spend per ad account from Meta (Jan 2024 to 5 Nov 2026, all four accounts with spend). It is a one-time
+snapshot that makes the assistant's monthly and date-range totals exact. The Monday task does not update it and must not delete it;
+the main account's newer days come from each report's own daily rows. Questions per day are capped at 200 (env `MITRAN_DAILY_LIMIT`).
 
 ## Monday check (11:13 AM IST)
 
