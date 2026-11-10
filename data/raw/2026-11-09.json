@@ -1,0 +1,140 @@
+{
+ "report_date": "2026-11-09",
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "result_label": "bookings",
+ "pulled_at": "2026-11-10",
+ "backfilled": false,
+ "totals": {
+  "cur": {
+   "spend": 5432.12,
+   "impressions": 19578,
+   "reach": 6563,
+   "link_clicks": 234,
+   "results": 7,
+   "leads": 27,
+   "purchases": 0
+  },
+  "prev": {
+   "spend": 0,
+   "impressions": 0,
+   "reach": 0,
+   "link_clicks": 0,
+   "results": 0,
+   "leads": 0,
+   "purchases": 0
+  }
+ },
+ "campaigns": [
+  {
+   "id": "120252281645440412",
+   "name": "Schedule | ADV | Video | 03Nov26",
+   "objective": "OUTCOME_LEADS",
+   "status": "ACTIVE",
+   "daily_budget": 999,
+   "result_type": "Website appointments scheduled",
+   "cur": {
+    "spend": 5432.12,
+    "impressions": 19578,
+    "reach": 6563,
+    "link_clicks": 234,
+    "results": 7,
+    "leads": 27,
+    "purchases": 0
+   },
+   "prev": {
+    "spend": 0,
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "results": 0,
+    "leads": 0,
+    "purchases": 0
+   }
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-11-02",
+   "spend": 0,
+   "impressions": 0,
+   "link_clicks": 0,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-03",
+   "spend": 156.52,
+   "impressions": 392,
+   "link_clicks": 8,
+   "leads": 0
+  },
+  {
+   "date": "2026-11-04",
+   "spend": 1228.37,
+   "impressions": 2039,
+   "link_clicks": 56,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-05",
+   "spend": 1286.95,
+   "impressions": 2305,
+   "link_clicks": 42,
+   "leads": 7
+  },
+  {
+   "date": "2026-11-06",
+   "spend": 694.51,
+   "impressions": 1569,
+   "link_clicks": 28,
+   "leads": 7
+  },
+  {
+   "date": "2026-11-07",
+   "spend": 787.99,
+   "impressions": 1354,
+   "link_clicks": 34,
+   "leads": 3
+  },
+  {
+   "date": "2026-11-08",
+   "spend": 1277.78,
+   "impressions": 11919,
+   "link_clicks": 66,
+   "leads": 7
+  }
+ ],
+ "headline": "The new booking campaign restarted the ads: \u20b95,432 spent, 7 bookings at \u20b9776 each (2\u20138 Nov), after no spend the week before.",
+ "tips": [
+  {
+   "type": "warn",
+   "title": "Cost per booking above target",
+   "text": "Each booking cost \u20b9776, above the \u20b9500 target and the \u20b9325 of 08Sep26. It is the campaign's first week, so judge it gently."
+  },
+  {
+   "type": "warn",
+   "title": "Frequency is high",
+   "text": "People saw the ads 2.98 times on average (reach 6,563). Above 2.5 in week one is a warning sign of the audience tiring."
+  },
+  {
+   "type": "good",
+   "title": "Strong lead flow",
+   "text": "The campaign brought 27 leads at \u20b9201 each, and 234 link clicks at a 1.20% click rate."
+  },
+  {
+   "type": "warn",
+   "title": "Slow start",
+   "text": "Spend was \u20b90 on Monday 2 Nov and only \u20b9157 on Tuesday, so 6 of 7 days ran. The campaign was created on 3 Nov, which explains it."
+  }
+ ],
+ "actions": [
+  "Leave the campaign unchanged for another 7 days so it can finish learning, then compare cost per booking against this week's \u20b9776.",
+  "Watch frequency (2.98 now); if it stays above 2.5, add a fresh video or widen the audience.",
+  "Check why 27 leads became only 7 bookings, and speed up follow-up on new leads."
+ ]
+}

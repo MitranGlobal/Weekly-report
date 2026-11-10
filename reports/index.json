@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "reports": [
+  {
+   "report_date": "2026-11-09",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "spend": 5432.12,
+   "results": 7.0,
+   "leads": 27.0,
+   "cost_per_result": 776.0171428571429,
+   "headline": "The new booking campaign restarted the ads: ₹5,432 spent, 7 bookings at ₹776 each (2–8 Nov), after no spend the week before.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-09.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
+  },
   {
    "report_date": "2026-11-02",
    "week_start": "2026-10-26",
