@@ -58,6 +58,11 @@ A chat button on every page answers questions about this data. It is `mitran-cha
 The server part is `netlify/functions/mitran-chat.mjs` and `netlify/lib/mitran/`. It reads the published `/meta` page and
 `reports/` at run time, so a new Monday report reaches it with no extra step. The Monday task must not remove the script line,
 `mitran-chat.js`, `netlify/` or `package.json`. It needs the `ANTHROPIC_API_KEY` environment variable in Netlify (Functions scope).
+**Now that Netlify is retired**, the assistant runs as a Vercel function, `api/mitran-chat.mjs` (config in `vercel.json`), which reuses
+`netlify/lib/mitran/`. It needs `ANTHROPIC_API_KEY` in the Vercel project (Settings > Environment Variables, Production). Optional:
+`MITRAN_MODEL`, `MITRAN_DAILY_LIMIT`. GitHub Pages is static and cannot run a backend, so `mitran-chat.js` makes the Pages copy call
+`https://weekly-report-henna.vercel.app/api/mitran-chat` (the function allows that origin). The daily cap there is an in-memory,
+best-effort counter. Keep `api/` and `vercel.json` when editing.
 If `meta.html` is ever regenerated, keep the script line and the `const D={...}` data block, which the assistant reads.
 `reports/daily/` holds daily spend per ad account from Meta (Jan 2024 to 5 Nov 2026, all four accounts with spend). It is a one-time
 snapshot that makes the assistant's monthly and date-range totals exact. The Monday task does not update it and must not delete it;

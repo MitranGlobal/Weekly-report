@@ -6,7 +6,10 @@
   if (window.__mitranChatLoaded) return;
   window.__mitranChatLoaded = true;
 
-  var ENDPOINT = '/api/mitran-chat';
+  // GitHub Pages is static and cannot run the assistant, so that copy talks to the Vercel deployment.
+  var ENDPOINT = /(^|\.)github\.io$/.test(location.hostname)
+    ? 'https://weekly-report-henna.vercel.app/api/mitran-chat'
+    : '/api/mitran-chat';
   var STORE_KEY = 'mitran-chat-v1';
   var MAX_STORED_CHARS = 1500000;
 
