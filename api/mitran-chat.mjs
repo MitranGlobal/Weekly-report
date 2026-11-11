@@ -15,6 +15,7 @@ const DEFAULT_MODEL = 'claude-opus-5-5';
 const FALLBACK_MODELS = new Set(['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-opus-5', 'claude-fable-5-1']);
 const DEFAULT_DAILY_LIMIT = 200; // Questions per day. Override with MITRAN_DAILY_LIMIT.
 const PER_IP_PER_MINUTE = 10;
+const DEBUG_ONCE = true; // TEMPORARY: remove after diagnosing.
 
 // The production site that holds the data files, and the sites allowed to call this endpoint.
 const PRIMARY_ORIGIN = 'https://weekly-report-henna.vercel.app';
@@ -138,7 +139,8 @@ export default {
           if (deadline.aborted) message = 'That took too long. Try a narrower question.';
           else if (err instanceof Anthropic.RateLimitError) message = 'The assistant is busy right now. Please try again in a minute.';
           else if (err instanceof Anthropic.AuthenticationError) message = 'The assistant is not set up correctly: the API key was rejected.';
-          emit({ type: 'error', message });
+          if (process.env.MITRAN_DEBUG === '1' || DEBUG_ONCE) message += ` [debug: ${err?.name} ${err?.status ?? ''} ${String(err?.message ?? '').slice(0, 300)}]`;
+        emit({ type: 'error', message });
         } finally {
           controller.close();
         }
