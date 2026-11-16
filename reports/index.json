@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-16",
  "reports": [
+  {
+   "report_date": "2026-11-16",
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "spend": 9234.28,
+   "results": 3.0,
+   "leads": 43.0,
+   "cost_per_result": 3078.0933333333337,
+   "headline": "Spend rose 70% to ₹9,234 but bookings fell from 7 to 3, so each booking cost ₹3,078 against ₹776 the week before (9–15 Nov).",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-16.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
+  },
   {
    "report_date": "2026-11-09",
    "week_start": "2026-11-02",
