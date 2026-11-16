@@ -259,12 +259,12 @@
    "leads": 4
   }
  ],
- "headline": "Spend rose 70% to ₹9,234 but bookings fell from 7 to 3, so each booking cost ₹3,078 against ₹776 the week before (9–15 Nov).",
+ "headline": "Updated after checking the CRM: ₹9,234 brought 59 leads from the Meta ads (Meta itself counted 43) but only 3 bookings, at ₹3,078 each against ₹776 the week before (9–15 Nov).",
  "tips": [
   {
    "type": "bad",
    "title": "Cost per booking jumped",
-   "text": "Each booking cost ₹3,078, up 297% from ₹776 last week and far above the ₹325 of 08Sep26."
+   "text": "Each booking cost ₹3,078, up 297% from ₹776 last week and far above the ₹325 of 08Sep26. The CRM shows the same 3 bookings as Meta."
   },
   {
    "type": "bad",
@@ -273,8 +273,8 @@
   },
   {
    "type": "good",
-   "title": "More clicks and leads, less repetition",
-   "text": "Leads rose 59% to 43 at ₹215 each, the link click rate nearly doubled to 2.29% (from 1.20%), and frequency fell to 1.60 from 2.98."
+   "title": "More leads than Meta shows",
+   "text": "The CRM received 59 people from the Meta ads (62 form fills), against 43 leads counted by Meta, so each lead really cost about ₹157, not ₹215. The link click rate nearly doubled to 2.29% and frequency fell to 1.60."
   },
   {
    "type": "warn",
@@ -284,13 +284,13 @@
   {
    "type": "warn",
    "title": "Leads are not turning into bookings",
-   "text": "324 link clicks and 43 leads produced only 3 bookings, and ads cost more to show (₹653 per 1,000 views vs ₹277)."
+   "text": "59 CRM leads became 3 bookings, about 1 in 20. Saturday was the best day, with 11 new CRM leads (10 in Meta)."
   }
  ],
  "actions": [
   "Leave the two 13Nov26 campaigns unchanged for 7 more days, then keep the one with the lower cost per booking (₹1,177 vs ₹2,768 now) and pause the other.",
-  "Test the website booking flow end to end and confirm bookings are being tracked, since 43 leads became only 3 bookings.",
-  "Call or message all 43 leads from this week quickly to turn more of them into bookings."
+  "Call or message all 59 leads the CRM received from the ads this week; only 3 have booked so far.",
+  "Judge lead cost on CRM numbers (59 leads, about ₹157 each), since Meta counted 16 fewer this week; bookings already match on both."
  ],
  "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-16.pdf"
 }
