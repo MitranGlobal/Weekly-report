@@ -222,8 +222,8 @@
  ],
  "resynced": "2026-11-16",
  "crm": {
-  "source": "CRM form submissions, India time, Meta-ad visitors only (tests and other sites excluded)",
-  "form_fills_all": 68,
+  "source": "Condtioning Lead 2.0 form, Meta-ad visitors only, tests excluded (India days)",
+  "form_fills_all": 63,
   "form_fills_meta": 62,
   "leads_meta_unique": 59,
   "bookings": 3,

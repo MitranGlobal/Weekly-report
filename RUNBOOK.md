@@ -20,6 +20,22 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
      fields `id, name, objective, effective_status, daily_budget, amount_spent, impressions, reach, link_click, results, cost_per_result, lead, omni_purchase`.
    - Daily totals for the report week: `level=ad_account`, report-week Monday → Sunday, `time_increment="1"`, fields `amount_spent, impressions, link_click, lead`.
    - Also note any campaign that is ACTIVE now (`effective_status IN ACTIVE`), for the tips.
+1b. **Cross-check leads and bookings in the CRM** (connector `clarity_claude`, read only). Meta under-counts leads, so the
+   CRM count is the true lead number and goes in the report next to Meta's. Do it the same way every week:
+   - The opt-in form is **"Condtioning Lead 2.0"** (form id `b1107448-dbc0-4084-a096-8ad05a76f6b6`, the form on learn.mitranglobal.com).
+     Its leads appear in Lead Management at stage "New Lead Capture". (The form named "Lead Capture Form" is not the live one.)
+   - Pull `query_form_submissions` with that `form_id`, **one call per India day** (Mon–Sun): `created_after` = previous day
+     `T18:30:00Z`, `created_before` = that day `T18:30:00Z`, `limit` 200. One call per day keeps the list short enough to read in full.
+   - Keep only Meta-ad visitors (`has_fbclid` true or `utm_source=fb-ad` in `landing_url`). Drop internal tests (email ending
+     `@mitranglobal.com`, or a name containing "test"). Count each `contact_id` once, on the first day it appears.
+   - Sanity check: the counts must add up (kept + dropped + repeats = all rows). `get_form_performance` for the form gives a rough
+     weekly total (it uses UTC days, so it can differ by a few).
+   - Bookings: `query_opportunities` with `stage` "Appointment Booked", `order_by` created_at; count the report week's records,
+     excluding tests ("redphone", "testingmg", @mitranglobal.com). This should equal Meta's bookings; if not, report both.
+   - CRM ad sync: `get_ad_connection_health`. If `last_report_date` is older than yesterday, say in the owner summary that the
+     CRM's Meta data is stale and must be synced in Lead Generation → Ad Launcher → Settings (there is no sync tool for the task).
+   - Write the result into the `crm` block of the input file (see `data/raw/README.md`) and use the CRM lead count and
+     cost per CRM lead (spend ÷ CRM leads) in the headline, a tip and the email table, next to Meta's count.
 2. **Write `data/raw/<date>.json`** in the format in `data/raw/README.md`. `results` is the campaign's own result
    (website appointments scheduled = bookings). Account-level `results` = sum of campaign results for that week.
    Use account-level reach (it is de-duplicated); do not add campaign reach together.

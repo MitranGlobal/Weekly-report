@@ -25,6 +25,14 @@ One file per Monday report. `scripts/build_week.py` reads it. Money in INR, plai
  "daily": [                            // 7 rows, Monday to Sunday of the week covered
   {"date": "2026-11-02", "spend": 0, "impressions": 0, "link_clicks": 0, "leads": 0}
  ],
+ "crm": {                              // CRM cross-check (RUNBOOK step 1b), India days
+  "source": "Condtioning Lead 2.0 form, Meta-ad visitors only, tests excluded",
+  "form_fills_all": 0,                 // every submission of the form that week
+  "form_fills_meta": 0,                // from Meta ads, tests removed
+  "leads_meta_unique": 0,              // unique people (the CRM lead count used in the report)
+  "bookings": 0,                       // Lead Management "Appointment Booked", tests removed
+  "daily": [{"date": "2026-11-09", "crm": 0, "meta": 0}]
+ },
  "headline": "One sentence with the main number.",
  "tips": [{"type": "good|bad|warn", "title": "Short title", "text": "One or two sentences with real numbers."}],
  "actions": ["Action 1", "Action 2", "Action 3"]
