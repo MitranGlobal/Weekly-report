@@ -67,7 +67,7 @@
 
   <div class="panel" id="panel">
     <h3 id="panelDate">Pick a date</h3>
-    <div class="sub" id="panelSub">Hover or tap any day to see totals from the 1st of the month through that date.</div>
+    <div class="sub" id="panelSub">Tap any day to see totals from the 1st of the month through that date.</div>
     <div class="grid" id="kpis"></div>
     <div class="flag" id="floorNote" style="display:none;">
       Bookings shown for past days are a <strong>lower bound</strong> — they come from the CRM's
@@ -79,7 +79,7 @@
 
   <div id="errBox"></div>
 </main>
-<footer>Updates automatically as each day's data is published. Reach is intentionally not shown here — daily reach can't be summed into a valid running total.</footer>
+<footer>Tap any date to see totals up to that day. Reach is intentionally not shown here — daily reach can't be summed into a valid running total.</footer>
 
 <script>
 (function(){
@@ -132,26 +132,33 @@
       var dateStr = currentMonth + "-" + String(day).padStart(2,"0");
       var has = !!dayByDate(dateStr);
       var cell = document.createElement("div");
-      cell.className = "cell" + (has ? "" : " nodata") + (dateStr===today ? " today" : "");
+      cell.className = "cell" + (has ? "" : " nodata") + (dateStr===today ? " today" : "") + (dateStr===selected ? " sel" : "");
+      cell.setAttribute("data-date", dateStr);
       cell.innerHTML = '<span class="d">'+day+'</span>' + (has ? '<span class="dot"></span>' : "");
-      if (has){
-        cell.addEventListener("click", function(ds, el){
-          return function(){ selectDate(ds, el); };
-        }(dateStr, cell));
-        cell.addEventListener("mouseenter", function(ds, el){
-          return function(){ selectDate(ds, el); };
-        }(dateStr, cell));
-      }
+      // Every day is clickable, even ones with no data yet, so a tap always does
+      // something visible — a silent no-op reads as "the calendar is broken".
+      cell.addEventListener("click", function(ds, el){
+        return function(){ selectDate(ds, el, true); };
+      }(dateStr, cell));
       grid.appendChild(cell);
     }
   }
 
-  function selectDate(dateStr, el){
+  function selectDate(dateStr, el, userClicked){
     selected = dateStr;
     Array.prototype.forEach.call(document.querySelectorAll(".cell.sel"), function(c){ c.classList.remove("sel"); });
     if (el) el.classList.add("sel");
     var row = dayByDate(dateStr);
-    if (!row) return;
+    var d0 = new Date(dateStr + "T00:00:00");
+    if (!row){
+      document.getElementById("panelDate").textContent =
+        d0.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
+      document.getElementById("panelSub").textContent = "No data published for this date yet.";
+      document.getElementById("kpis").innerHTML = "";
+      document.getElementById("floorNote").style.display = "none";
+      if (userClicked) scrollToPanel();
+      return;
+    }
     var c = row.cumulative;
     var d = new Date(dateStr + "T00:00:00");
     document.getElementById("panelDate").textContent =
@@ -175,23 +182,30 @@
       kEl.appendChild(box);
     });
     document.getElementById("floorNote").style.display = row.bookings_is_floor ? "block" : "none";
+    if (userClicked) scrollToPanel();
   }
 
-  function load(ym){
+  function scrollToPanel(){
+    var p = document.getElementById("panel");
+    if (p && p.scrollIntoView) p.scrollIntoView({behavior:"smooth", block:"nearest"});
+  }
+
+  function load(ym, keepSelection){
     fetch("reports/monthly/" + ym + ".json", {cache:"no-store"})
       .then(function(r){ if(!r.ok) throw new Error("no report for " + ym); return r.json(); })
       .then(function(data){
         monthData = data;
         currentMonth = ym;
         document.getElementById("errBox").style.display = "none";
-        renderCalendar();
+        // Pick what to show: the date already selected (if we're just refreshing
+        // data for the same month) falls back to today, then to the last day we have.
         var today = todayISTDate();
-        var pick = dayByDate(today) ? today : monthData.days[monthData.days.length-1].date;
-        setTimeout(function(){
-          var cells = document.querySelectorAll("#grid .cell:not(.empty):not(.nodata)");
-          var lastCell = cells[cells.length-1];
-          selectDate(pick, lastCell);
-        }, 0);
+        var pick = (keepSelection && selected) ? selected
+                  : (dayByDate(today) ? today : monthData.days[monthData.days.length-1].date);
+        selected = pick;
+        renderCalendar();
+        var cell = document.querySelector('.cell[data-date="' + pick + '"]');
+        selectDate(pick, cell);
       })
       .catch(function(err){
         document.getElementById("errBox").style.display = "block";
@@ -205,11 +219,12 @@
     return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0");
   }
 
-  document.getElementById("prevM").addEventListener("click", function(){ load(shiftMonth(currentMonth, -1)); });
-  document.getElementById("nextM").addEventListener("click", function(){ load(shiftMonth(currentMonth, 1)); });
+  document.getElementById("prevM").addEventListener("click", function(){ selected = null; load(shiftMonth(currentMonth, -1)); });
+  document.getElementById("nextM").addEventListener("click", function(){ selected = null; load(shiftMonth(currentMonth, 1)); });
 
+  // This page is not meant to be "live" — it loads once per visit. Reopen or
+  // reload the page to pick up a newer day's data instead of it jumping under you.
   load(todayISTDate().slice(0,7));
-  setInterval(function(){ load(currentMonth); }, 5*60*1000);
 })();
 </script>
 <script src="/mitran-chat.js" defer></script>
