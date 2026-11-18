@@ -146,6 +146,17 @@ function insights(host,items){host.innerHTML='';items.forEach(([cls,b,t])=>{cons
 </section>
 
 <section class="page" id="p2">
+ <div class="tile c12" id="liveCampTile">
+  <h3>Live campaigns — today</h3>
+  <div class="cap" id="liveCampStatus">Loading today's live numbers…</div>
+  <div class="tbl">
+   <table>
+    <thead><tr><th>Status</th><th>Campaign</th><th>Objective</th><th class="r">Daily budget</th><th class="r">Spent today</th><th class="r">Impressions</th><th class="r">Clicks</th><th class="r">CTR</th></tr></thead>
+    <tbody id="liveCampBody"><tr><td colspan="8" style="color:var(--muted)">Loading…</td></tr></tbody>
+   </table>
+  </div>
+  <div class="note">Pulled live from Meta Ads; refreshes automatically while this page is open. Same-day only — the sections below are the lifetime snapshot (through 2 Nov 2026).</div>
+ </div>
  <div class="tile c12"><div class="slicers">
   <div class="slicer">Account<select id="fAcc"></select></div>
   <div class="slicer">Goal<div class="chips" id="fGoal"></div></div>
@@ -263,6 +274,50 @@ new Chart(cFmt,{type:'bar',data:{labels:['Video','Image'],datasets:[{data:[S.q(a
 insights($('#ins4'),[['good','Video wins:','71% of top-ad spend; the two cheapest purchase ads (₹32, ₹36) are both video.'],['warn','Small sample:','only 3 image ads in the top 10 — treat the format gap as directional.']]);
 table($('#tAud'),[{k:'Audience',l:'Audience'},{k:'Type',l:'Type'},{k:'Status',l:'Status'},{k:'Size',l:'Size',r:1,f:v=>(v>=1000?'≥ ':'')+num(v)}],AU);
 insights($('#rec'),[['good','Consolidate winners:','rebuild Parenting 10Aug26 (sales) and Schedule Video 08Sep26 (bookings) as two always-on campaigns.'],['','Refresh creative:','add 3–5 new creatives every two weeks instead of launching new campaigns.'],['','Audiences:','paid-customer lookalikes for sales; opt-in audience for retargeting.'],['warn','Fix tracking:','reconcile purchases with payments; make bookings show as results on every campaign.'],['','Scale gently:','raise winner budgets 20–30% every few days, not by doubling.'],['bad','Restart spend:','October spend fell 89% — and calls and revenue fell with it.']]);
+</script>
+<script>
+(function(){
+ var fmtINR = function(v){ return (v===null||v===undefined) ? "–" : "₹" + Number(v).toLocaleString("en-IN",{maximumFractionDigits:0}); };
+ var fmtNum = function(v){ return (v===null||v===undefined) ? "–" : Number(v).toLocaleString("en-IN"); };
+ var fmtTime = function(iso){ try { return new Date(iso).toLocaleTimeString("en-IN",{hour:"2-digit",minute:"2-digit",timeZone:"Asia/Kolkata"}) + " IST"; } catch(e){ return iso; } };
+
+ function render(r){
+  var statusEl = document.getElementById("liveCampStatus");
+  var body = document.getElementById("liveCampBody");
+  var camps = r.campaigns || [];
+  statusEl.textContent = "As of " + fmtTime(r.generated_at) + " · " + r.account.name +
+   " · total spend today " + fmtINR(r.meta.spend) + " · refreshes automatically";
+  body.innerHTML = "";
+  if (!camps.length){
+   body.innerHTML = '<tr><td colspan="8" style="color:var(--muted)">No active or spending campaigns today.</td></tr>';
+   return;
+  }
+  camps.forEach(function(c){
+   var tr = document.createElement("tr");
+   var tag = '<span class="tag ' + (c.status === "ACTIVE" ? "a" : "p") + '">' + (c.status || "–") + '</span>';
+   tr.innerHTML = "<td>" + tag + "</td><td>" + (c.name || "–") + "</td><td>" + (c.objective || "–") + "</td>" +
+    '<td class="r">' + fmtINR(c.daily_budget) + '</td><td class="r">' + fmtINR(c.spend) + '</td>' +
+    '<td class="r">' + fmtNum(c.impressions) + '</td><td class="r">' + fmtNum(c.clicks) + '</td>' +
+    '<td class="r">' + (c.ctr === null || c.ctr === undefined ? "–" : Number(c.ctr).toFixed(2) + "%") + "</td>";
+   body.appendChild(tr);
+  });
+ }
+
+ function showError(){
+  document.getElementById("liveCampStatus").textContent = "Couldn't load today's live numbers right now.";
+  document.getElementById("liveCampBody").innerHTML = '<tr><td colspan="8" style="color:var(--muted)">Live data unavailable — showing the lifetime snapshot below only.</td></tr>';
+ }
+
+ function load(){
+  fetch("reports/daily_live/latest.json", {cache: "no-store"})
+   .then(function(res){ if (!res.ok) throw new Error("http " + res.status); return res.json(); })
+   .then(render)
+   .catch(showError);
+ }
+
+ load();
+ setInterval(load, 5 * 60 * 1000);
+})();
 </script>
 <script src="/mitran-chat.js" defer></script>
 </body></html>

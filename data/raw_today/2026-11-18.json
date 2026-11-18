@@ -1,9 +1,9 @@
 {
  "date": "2026-11-18",
- "pulled_at": "2026-11-18T15:56:00+05:30",
+ "pulled_at": "2026-11-18T16:00:00+05:30",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
- "meta": {"spend": 646.27, "impressions": 363, "reach": 294, "link_clicks": 7, "leads": 1, "purchases": 0},
+ "meta": {"spend": 647.31, "impressions": 365, "reach": 294, "link_clicks": 7, "leads": 1, "purchases": 0},
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
   "form_fills_all": 4,
@@ -12,5 +12,17 @@
   "bookings_created_today": 0
  },
  "ad_sync_stale_days": 2,
- "notes": []
+ "notes": [],
+ "campaigns": [
+  {
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "spend": 647.31,
+   "impressions": 365,
+   "clicks": 9,
+   "ctr": 2.47
+  }
+ ]
 }

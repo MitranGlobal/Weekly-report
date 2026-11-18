@@ -78,11 +78,14 @@ def compute(raw):
     for n in raw.get("notes", []):
         flags.append({"level": "warn", "text": n})
 
+    campaigns = raw.get("campaigns") or []
+
     return {
         "date": raw["date"],
         "generated_at": raw.get("pulled_at") or dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "account": raw["account"], "currency": raw.get("currency", "INR"),
         "meta": meta,
+        "campaigns": campaigns,
         "crm": {"source": crm_in.get("source", ""), "form_fills_all": form_all, "form_fills_meta": form_meta,
                 "leads_meta_unique": leads_unique, "bookings_created_today": bookings},
         "final_lead_count": final_lead_count,

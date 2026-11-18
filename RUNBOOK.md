@@ -92,6 +92,13 @@ is unchanged and still owns `weekly.html` and the PDF reports.
   Bookings = CRM "Appointment Booked" opportunities `created_at` today, tests removed, same as RUNBOOK 1b.
   Check `get_ad_connection_health`; if `last_report_date` is more than a day old, pass that into
   `ad_sync_stale_days` in the raw file so the home page shows the warning.
+- Also pull campaign-level rows for today (`level=campaign`, `date_preset`/`time_range` = today only,
+  filter `effective_status IN ACTIVE`, fields `name, effective_status, objective, daily_budget,
+  amount_spent, impressions, clicks, ctr`) and write them into the raw file's `campaigns` array (see
+  `data/raw_today/README.md`). This powers the "Live campaigns — today" table on `meta.html`'s Campaign
+  explorer tab (added 18 Nov 2026) — a same-day, campaign-by-campaign view next to the lifetime snapshot
+  there (through 2 Nov 2026). If this pull fails, still publish the rest of the day's numbers; just
+  leave `campaigns` as `[]` and note it.
 - Build with `python3 scripts/build_today.py build data/raw_today/<date>.json`. It refuses to write
   `reports/daily_live/` if the submissions don't add up (`form_fills_all` ≠ kept + dropped) — re-pull
   instead of forcing it. Never hand-count the lead total; the script's arithmetic is the whole point.

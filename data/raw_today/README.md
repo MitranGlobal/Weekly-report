@@ -22,9 +22,31 @@ partial-day snapshot — it is rebuilt several times during the day as more is s
   "bookings_created_today": 0           // Lead Management "Appointment Booked", created today, tests removed
  },
  "ad_sync_stale_days": 0,               // from get_ad_connection_health; 0 or null if synced today/yesterday
- "notes": []                            // any plain-English caveat for this run (connector hiccup, etc.)
+ "notes": [],                           // any plain-English caveat for this run (connector hiccup, etc.)
+ "campaigns": [                         // optional: Meta Ads, level=campaign, time_range = this day only.
+                                         // Powers the "Live campaigns" table on meta.html's Campaign explorer tab.
+                                         // Omit entirely, or leave as [], if this run didn't pull campaign-level data.
+  {
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "ACTIVE",                  // effective_status
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,                 // plain number, INR
+   "spend": 627.04,
+   "impressions": 359,
+   "clicks": 9,
+   "ctr": 2.51                          // plain percent number (not a string with %)
+  }
+ ]
 }
 ```
+
+## Campaign rows
+
+Pulled with `ads_get_ad_entities`, `level=campaign`, `date_preset=today` (or `time_range` = today only),
+fields `name, effective_status, objective, daily_budget, amount_spent, impressions, clicks, ctr`. Only
+include campaigns that are `ACTIVE` or have spent something today — a lifetime list of 30+ mostly-paused
+campaigns adds nothing to a same-day view. Strip the `₹`/`%` and unwrap `{value, unit}` objects before
+writing: every number in this file is a plain number.
 
 ## What `scripts/build_today.py build` computes (deterministic — do not hand-count leads)
 
