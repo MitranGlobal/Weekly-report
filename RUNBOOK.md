@@ -103,6 +103,24 @@ is unchanged and still owns `weekly.html` and the PDF reports.
 - The "Daily live tracking update" scheduled task runs every 3 hours and is separate from the Monday task;
   update one without touching the other.
 
+## Monthly dashboard (calendar view)
+
+- `month.html` is a calendar: hovering/clicking any date shows the running total from the 1st of
+  that month through that date — spend, final (CRM-deduped) leads, Meta's own lead count, bookings,
+  impressions and link clicks. It fetches `reports/monthly/<YYYY-MM>.json`, built by
+  `scripts/build_month.py` from `data/raw_month/<YYYY-MM>.json` — see `data/raw_month/README.md`
+  for the input format and, importantly, for why **reach is left out** (can't be validly summed
+  across days) and why **past-day bookings are a lower bound** (CRM pipeline-stage snapshot).
+- Same dedup rule as everywhere else in this repo: leads = CRM-deduped, Meta-ad visitors only,
+  tests removed, one contact counted once. Never hand-count a month of leads — pull the CRM data
+  fresh and let the script add it up.
+- Build with `python3 scripts/build_month.py build data/raw_month/<YYYY-MM>.json`. It refuses to
+  write `reports/monthly/` if a day is missing or out of order — a gap there would silently corrupt
+  every later cumulative total.
+- To keep today's row current, update `data/raw_month/<YYYY-MM>.json`'s last day whenever
+  `data/raw_today/<date>.json` is updated, then rebuild. This hasn't been wired into the scheduled
+  task yet — for now, update it alongside the regular daily-live run.
+
 ## MiTran chat assistant
 
 A chat button on every page answers questions about this data. It is `mitran-chat.js`, loaded by one

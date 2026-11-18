@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Monthly totals — MiTran Global</title>
+<style>
+  :root{
+    --bg:#0b1020; --card:#121a33; --card2:#0e1529; --line:#223055;
+    --text:#eef1fb; --muted:#9aa5c7; --accent:#5b8cff; --good:#36c98b; --warn:#f4b73f;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  header{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+  header h1{font-size:18px;margin:0;}
+  nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:14px;}
+  nav a.on{color:var(--text);font-weight:600;}
+  main{max-width:1000px;margin:0 auto;padding:20px;}
+  .month-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .month-nav button{background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 14px;cursor:pointer;font-size:14px;}
+  .month-nav button:disabled{opacity:.35;cursor:default;}
+  .month-nav h2{margin:0;font-size:16px;}
+  .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;}
+  .dow{text-align:center;color:var(--muted);font-size:12px;padding:4px 0;}
+  .cell{aspect-ratio:1/1;border:1px solid var(--line);border-radius:10px;background:var(--card2);
+        display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;
+        transition:background .12s,border-color .12s;position:relative;min-height:46px;}
+  .cell.empty{visibility:hidden;cursor:default;}
+  .cell .d{font-size:13px;font-weight:600;}
+  .cell .dot{width:5px;height:5px;border-radius:50%;background:var(--accent);margin-top:3px;}
+  .cell:hover, .cell.sel{background:var(--card);border-color:var(--accent);}
+  .cell.today{box-shadow:inset 0 0 0 1px var(--good);}
+  .cell.nodata{opacity:.35;cursor:default;}
+  .panel{margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;}
+  .panel h3{margin:0 0 4px;font-size:15px;}
+  .panel .sub{color:var(--muted);font-size:13px;margin-bottom:14px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;}
+  .kpi{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;}
+  .kpi .l{color:var(--muted);font-size:12px;}
+  .kpi .v{font-size:20px;font-weight:700;margin-top:2px;}
+  .kpi .v small{font-size:12px;color:var(--muted);font-weight:400;}
+  .flag{margin-top:12px;font-size:12px;color:var(--warn);background:rgba(244,183,63,.1);
+        border:1px solid rgba(244,183,63,.3);border-radius:8px;padding:8px 10px;}
+  .note{margin-top:10px;font-size:12px;color:var(--muted);}
+  #errBox{display:none;color:#ff8a8a;padding:14px;border:1px solid #5a2a2a;border-radius:10px;background:#1c1010;margin-top:14px;}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 0;}
+</style>
+</head>
+<body>
+<header>
+  <h1>MiTran Global — Monthly totals</h1>
+  <nav>
+    <a href="index.html">Today (live)</a>
+    <a href="weekly.html">Weekly reports</a>
+    <a href="month.html" class="on">Monthly</a>
+    <a href="meta.html">Meta Ads Performance</a>
+  </nav>
+</header>
+<main>
+  <div class="month-nav">
+    <button id="prevM" aria-label="Previous month">&larr;</button>
+    <h2 id="monthLabel">—</h2>
+    <button id="nextM" aria-label="Next month">&rarr;</button>
+  </div>
+  <div class="cal" id="dow"></div>
+  <div class="cal" id="grid" style="margin-top:6px;"></div>
+
+  <div class="panel" id="panel">
+    <h3 id="panelDate">Pick a date</h3>
+    <div class="sub" id="panelSub">Hover or tap any day to see totals from the 1st of the month through that date.</div>
+    <div class="grid" id="kpis"></div>
+    <div class="flag" id="floorNote" style="display:none;">
+      Bookings shown for past days are a <strong>lower bound</strong> — they come from the CRM's
+      current pipeline-stage snapshot, so a booking that has since moved to another stage no
+      longer counts on the day it was made. Only today's booking count is complete.
+    </div>
+    <div class="note">Leads = CRM-deduped final count (Meta-ad visitors only, tests removed, each contact counted once). Meta's own lead count is shown for reference only — it undercounts.</div>
+  </div>
+
+  <div id="errBox"></div>
+</main>
+<footer>Updates automatically as each day's data is published. Reach is intentionally not shown here — daily reach can't be summed into a valid running total.</footer>
+
+<script>
+(function(){
+  var monthData = null;     // {month, days:[...]}
+  var currentMonth = null;  // "YYYY-MM" being displayed
+  var selected = null;      // "YYYY-MM-DD"
+
+  function fmtINR(n){
+    if (n === null || n === undefined) return "—";
+    var neg = n < 0; n = Math.round(Math.abs(n));
+    return (neg?"-":"") + "₹" + n.toLocaleString("en-IN");
+  }
+  function fmtNum(n){ return (n===null||n===undefined) ? "—" : n.toLocaleString("en-IN"); }
+  function monthLabel(ym){
+    var parts = ym.split("-"); var d = new Date(parseInt(parts[0]), parseInt(parts[1])-1, 1);
+    return d.toLocaleDateString("en-IN", {month:"long", year:"numeric"});
+  }
+  function todayISTDate(){
+    var now = new Date();
+    var ist = new Date(now.getTime() + (now.getTimezoneOffset()*60000) + 5.5*3600000);
+    return ist.toISOString().slice(0,10);
+  }
+
+  function dayByDate(date){
+    if (!monthData) return null;
+    for (var i=0;i<monthData.days.length;i++) if (monthData.days[i].date === date) return monthData.days[i];
+    return null;
+  }
+
+  function renderCalendar(){
+    document.getElementById("monthLabel").textContent = monthLabel(currentMonth);
+    var dowEl = document.getElementById("dow");
+    dowEl.innerHTML = "";
+    ["Su","Mo","Tu","We","Th","Fr","Sa"].forEach(function(d){
+      var el = document.createElement("div"); el.className="dow"; el.textContent=d; dowEl.appendChild(el);
+    });
+
+    var parts = currentMonth.split("-");
+    var year = parseInt(parts[0]), mon = parseInt(parts[1]) - 1;
+    var firstDow = new Date(year, mon, 1).getDay();
+    var daysInMonth = new Date(year, mon+1, 0).getDate();
+    var today = todayISTDate();
+
+    var grid = document.getElementById("grid");
+    grid.innerHTML = "";
+    for (var i=0;i<firstDow;i++){
+      var e = document.createElement("div"); e.className="cell empty"; grid.appendChild(e);
+    }
+    for (var day=1; day<=daysInMonth; day++){
+      var dateStr = currentMonth + "-" + String(day).padStart(2,"0");
+      var has = !!dayByDate(dateStr);
+      var cell = document.createElement("div");
+      cell.className = "cell" + (has ? "" : " nodata") + (dateStr===today ? " today" : "");
+      cell.innerHTML = '<span class="d">'+day+'</span>' + (has ? '<span class="dot"></span>' : "");
+      if (has){
+        cell.addEventListener("click", function(ds, el){
+          return function(){ selectDate(ds, el); };
+        }(dateStr, cell));
+        cell.addEventListener("mouseenter", function(ds, el){
+          return function(){ selectDate(ds, el); };
+        }(dateStr, cell));
+      }
+      grid.appendChild(cell);
+    }
+  }
+
+  function selectDate(dateStr, el){
+    selected = dateStr;
+    Array.prototype.forEach.call(document.querySelectorAll(".cell.sel"), function(c){ c.classList.remove("sel"); });
+    if (el) el.classList.add("sel");
+    var row = dayByDate(dateStr);
+    if (!row) return;
+    var c = row.cumulative;
+    var d = new Date(dateStr + "T00:00:00");
+    document.getElementById("panelDate").textContent =
+      "Totals from 1 " + monthLabel(currentMonth).split(" ")[0] + " through " +
+      d.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
+    document.getElementById("panelSub").textContent = "Cumulative, month-to-date as of this day.";
+
+    var kpis = [
+      {l:"Amount spent", v: fmtINR(c.spend)},
+      {l:"Leads (final)", v: fmtNum(c.leads), small: "Meta: " + fmtNum(c.meta_leads)},
+      {l:"Bookings", v: fmtNum(c.bookings) + (row.bookings_is_floor ? "+" : "")},
+      {l:"Cost / lead", v: c.cost_per_lead!=null ? fmtINR(c.cost_per_lead) : "—"},
+      {l:"Impressions", v: fmtNum(c.impressions)},
+      {l:"Link clicks", v: fmtNum(c.link_clicks)},
+    ];
+    var kEl = document.getElementById("kpis");
+    kEl.innerHTML = "";
+    kpis.forEach(function(k){
+      var box = document.createElement("div"); box.className="kpi";
+      box.innerHTML = '<div class="l">'+k.l+'</div><div class="v">'+k.v+(k.small?' <small>'+k.small+'</small>':'')+'</div>';
+      kEl.appendChild(box);
+    });
+    document.getElementById("floorNote").style.display = row.bookings_is_floor ? "block" : "none";
+  }
+
+  function load(ym){
+    fetch("reports/monthly/" + ym + ".json", {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw new Error("no report for " + ym); return r.json(); })
+      .then(function(data){
+        monthData = data;
+        currentMonth = ym;
+        document.getElementById("errBox").style.display = "none";
+        renderCalendar();
+        var today = todayISTDate();
+        var pick = dayByDate(today) ? today : monthData.days[monthData.days.length-1].date;
+        setTimeout(function(){
+          var cells = document.querySelectorAll("#grid .cell:not(.empty):not(.nodata)");
+          var lastCell = cells[cells.length-1];
+          selectDate(pick, lastCell);
+        }, 0);
+      })
+      .catch(function(err){
+        document.getElementById("errBox").style.display = "block";
+        document.getElementById("errBox").textContent = "Couldn't load " + ym + ": " + err.message;
+      });
+  }
+
+  function shiftMonth(ym, delta){
+    var parts = ym.split("-"); var y = parseInt(parts[0]), m = parseInt(parts[1]) - 1 + delta;
+    var d = new Date(y, m, 1);
+    return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0");
+  }
+
+  document.getElementById("prevM").addEventListener("click", function(){ load(shiftMonth(currentMonth, -1)); });
+  document.getElementById("nextM").addEventListener("click", function(){ load(shiftMonth(currentMonth, 1)); });
+
+  load(todayISTDate().slice(0,7));
+  setInterval(function(){ load(currentMonth); }, 5*60*1000);
+})();
+</script>
+<script src="/mitran-chat.js" defer></script>
+</body>
+</html>
