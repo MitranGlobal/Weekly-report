@@ -23,18 +23,20 @@ partial-day snapshot — it is rebuilt several times during the day as more is s
  },
  "ad_sync_stale_days": 0,               // from get_ad_connection_health; 0 or null if synced today/yesterday
  "notes": [],                           // any plain-English caveat for this run (connector hiccup, etc.)
- "campaigns": [                         // optional: Meta Ads, level=campaign, time_range = this day only.
-                                         // Powers the "Live campaigns" table on meta.html's Campaign explorer tab.
-                                         // Omit entirely, or leave as [], if this run didn't pull campaign-level data.
+ "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-18"},  // the MTD window used below
+ "campaigns": [                         // optional: every campaign with any spend this month-to-date,
+                                         // ACTIVE or PAUSED. Powers the carousel on meta.html's Campaign
+                                         // explorer tab. Omit, or leave as [], if this run didn't pull it.
   {
+   "id": "120252477836170412",          // campaign id, used only to tell same-named campaigns apart
    "name": "Schedule | ADV | Video | 13Nov26",
    "status": "ACTIVE",                  // effective_status
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,                 // plain number, INR
-   "spend": 627.04,
-   "impressions": 359,
-   "clicks": 9,
-   "ctr": 2.51                          // plain percent number (not a string with %)
+   "created_time": "2026-11-13",        // date only
+   "last_active": "2026-11-18",         // date of its most recent spend (updated_time, date only)
+   "spend_today": 647.31, "impressions_today": 365, "clicks_today": 9, "ctr_today": 2.47,   // today only; 0/null if not active today
+   "spend_mtd": 5060.53, "impressions_mtd": 4144, "clicks_mtd": 117, "ctr_mtd": 2.82          // this month to date
   }
  ]
 }
@@ -42,11 +44,23 @@ partial-day snapshot — it is rebuilt several times during the day as more is s
 
 ## Campaign rows
 
-Pulled with `ads_get_ad_entities`, `level=campaign`, `date_preset=today` (or `time_range` = today only),
-fields `name, effective_status, objective, daily_budget, amount_spent, impressions, clicks, ctr`. Only
-include campaigns that are `ACTIVE` or have spent something today — a lifetime list of 30+ mostly-paused
-campaigns adds nothing to a same-day view. Strip the `₹`/`%` and unwrap `{value, unit}` objects before
-writing: every number in this file is a plain number.
+Two pulls, both `ads_get_ad_entities`, `level=campaign`:
+
+1. **Today's slice**: `date_preset=today` (or `time_range` = today only), filter `effective_status IN
+   ACTIVE` — gives `spend_today`/`impressions_today`/`clicks_today`/`ctr_today` for whatever's running
+   right now.
+2. **Month-to-date**: `time_range` = `{"since": "<1st of this month>", "until": "<today>"}`, filter
+   `amount_spent GREATER_THAN 0`, fields `name, effective_status, objective, daily_budget, amount_spent,
+   impressions, clicks, ctr, created_time, updated_time` — this is the list that actually shows what's
+   been running this month, paused or not. **Don't filter this one by `effective_status`** — a paused
+   campaign that spent earlier this month still belongs in the list, which is the whole point of pulling
+   it (a same-day-only or active-only list misses everything that ran and stopped).
+
+Merge by campaign id: every campaign from pull 2 gets a row; if it also appears in pull 1, fill in its
+`*_today` fields, otherwise those are `0`/`null`. When two campaigns share the same name, append a short
+disambiguator to `name` (e.g. `" (b)"`) using `created_time` order, oldest first, so the dashboard's card
+titles stay distinct. Strip the `₹`/`%` and unwrap `{value, unit}` objects before writing: every number
+in this file is a plain number. Sort the array by `spend_mtd` descending before writing it.
 
 ## What `scripts/build_today.py build` computes (deterministic — do not hand-count leads)
 

@@ -169,8 +169,8 @@ function insights(host,items){host.innerHTML='';items.forEach(([cls,b,t])=>{cons
 
 <section class="page" id="p2">
  <div class="tile c12" id="liveCampTile">
-  <h3>Live campaigns — today</h3>
-  <div class="cap" id="liveCampStatus">Loading today's live numbers…</div>
+  <h3>Live campaigns — November</h3>
+  <div class="cap" id="liveCampStatus">Loading live numbers…</div>
   <div class="carousel">
    <div class="car-track" id="carTrack">
     <div class="car-slide"><div class="car-card" style="color:var(--muted)">Loading…</div></div>
@@ -181,7 +181,7 @@ function insights(host,items){host.innerHTML='';items.forEach(([cls,b,t])=>{cons
    <div class="car-dots" id="carDots"></div>
    <div class="car-count" id="carCount"></div>
   </div>
-  <div class="note">One card per campaign, pulled live from Meta Ads; swipe or use the arrows to move between campaigns. Refreshes automatically while this page is open. Same-day only — the sections below are the lifetime snapshot (through 2 Nov 2026).</div>
+  <div class="note">One card per campaign that ran this month (active or paused), pulled live from Meta Ads — each card shows today's numbers and the month-to-date total. Swipe or use the arrows to move between campaigns; refreshes automatically while this page is open. The sections below this are the older lifetime snapshot (through 2 Nov 2026).</div>
  </div>
  <div class="tile c12"><div class="slicers">
   <div class="slicer">Account<select id="fAcc"></select></div>
@@ -309,33 +309,42 @@ insights($('#rec'),[['good','Consolidate winners:','rebuild Parenting 10Aug26 (s
 
  var cur = 0;
 
+ function fmtDate(d){ try { return new Date(d + "T00:00:00+05:30").toLocaleDateString("en-IN", {day:"numeric", month:"short"}); } catch(e){ return d; } }
+
  function reportLine(c){
   var bits = [];
-  var budget = c.daily_budget;
-  if (budget){
-   var pct = budget ? (c.spend / budget * 100) : null;
-   if (pct !== null) bits.push("Spent " + pct.toFixed(0) + "% of today's ₹" + Number(budget).toLocaleString("en-IN") + " daily budget so far.");
-  }
-  if (c.impressions){
-   var ctr = c.ctr !== null && c.ctr !== undefined ? Number(c.ctr) : (c.impressions ? (c.clicks / c.impressions * 100) : null);
-   bits.push(Number(c.impressions).toLocaleString("en-IN") + " impressions and " + Number(c.clicks||0).toLocaleString("en-IN") +
-    " clicks" + (ctr !== null ? " (" + ctr.toFixed(2) + "% CTR)" : "") + " today.");
+  if (c.status === "ACTIVE" && c.spend_today){
+   var pct = c.daily_budget ? (c.spend_today / c.daily_budget * 100) : null;
+   bits.push("Active today" + (pct !== null ? " — spent " + pct.toFixed(0) + "% of its ₹" + Number(c.daily_budget).toLocaleString("en-IN") + " daily budget so far" : "") + ".");
   } else {
-   bits.push("No impressions recorded yet today.");
+   bits.push("Paused — last spent on " + fmtDate(c.last_active) + ".");
   }
+  bits.push("This month: " + fmtINR0(c.spend_mtd) + " spent, " + fmtNum(c.impressions_mtd) + " impressions, " +
+   fmtNum(c.clicks_mtd) + " clicks" + (c.ctr_mtd != null ? " (" + Number(c.ctr_mtd).toFixed(2) + "% CTR)" : "") + ".");
   return bits.join(" ");
  }
+
+ function fmtINR0(v){ return fmtINR(v); }
 
  function slideHTML(c){
   var tag = '<span class="tag ' + (c.status === "ACTIVE" ? "a" : "p") + '">' + (c.status || "–") + '</span>';
   return '<div class="car-card">' +
-   '<div class="ctop">' + tag + '<h4>' + (c.name || "–") + '</h4><span class="obj">' + (c.objective || "") + '</span></div>' +
+   '<div class="ctop">' + tag + '<h4>' + (c.name || "–") + '</h4><span class="obj">' + (c.objective || "") +
+    ' · created ' + fmtDate(c.created_time) + '</span></div>' +
+   '<div class="cap" style="margin:-4px 0 8px">Today</div>' +
    '<div class="car-kpis">' +
     '<div><small>Daily budget</small><strong>' + fmtINR(c.daily_budget) + '</strong></div>' +
-    '<div><small>Spent today</small><strong>' + fmtINR(c.spend) + '</strong></div>' +
-    '<div><small>Impressions</small><strong>' + fmtNum(c.impressions) + '</strong></div>' +
-    '<div><small>Clicks</small><strong>' + fmtNum(c.clicks) + '</strong></div>' +
-    '<div><small>CTR</small><strong>' + (c.ctr === null || c.ctr === undefined ? "–" : Number(c.ctr).toFixed(2) + "%") + '</strong></div>' +
+    '<div><small>Spent today</small><strong>' + fmtINR(c.spend_today) + '</strong></div>' +
+    '<div><small>Impressions</small><strong>' + fmtNum(c.impressions_today) + '</strong></div>' +
+    '<div><small>Clicks</small><strong>' + fmtNum(c.clicks_today) + '</strong></div>' +
+    '<div><small>CTR</small><strong>' + (c.ctr_today == null ? "–" : Number(c.ctr_today).toFixed(2) + "%") + '</strong></div>' +
+   '</div>' +
+   '<div class="cap" style="margin:4px 0 8px">Month to date</div>' +
+   '<div class="car-kpis">' +
+    '<div><small>Spend MTD</small><strong>' + fmtINR(c.spend_mtd) + '</strong></div>' +
+    '<div><small>Impressions MTD</small><strong>' + fmtNum(c.impressions_mtd) + '</strong></div>' +
+    '<div><small>Clicks MTD</small><strong>' + fmtNum(c.clicks_mtd) + '</strong></div>' +
+    '<div><small>CTR MTD</small><strong>' + (c.ctr_mtd == null ? "–" : Number(c.ctr_mtd).toFixed(2) + "%") + '</strong></div>' +
    '</div>' +
    '<div class="car-report">' + reportLine(c) + '</div>' +
    '</div>';
