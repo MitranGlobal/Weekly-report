@@ -67,6 +67,42 @@ If there was no spend, still publish the report (it records that the account was
 
 The repo is private. The site publishes only the pages and `reports/` (see netlify.toml); `data/` and `scripts/` are not served.
 
+## Daily live tracking (home page)
+
+`index.html` is now the live home page: today's spend and leads, auto-refreshing, not the weekly report.
+A separate scheduled task, "Daily live tracking update", keeps it current — the weekly Monday task above
+is unchanged and still owns `weekly.html` and the PDF reports.
+
+- `data/raw_today/<date>.json`: one file per **India day** (00:00–24:00 IST), written fresh each run (see
+  `data/raw_today/README.md` for the format). Like `data/raw/`, this folder is the private input and is
+  not meant to be served.
+- `scripts/build_today.py`: turns that input into `reports/daily_live/<date>.json` (a dated snapshot) and
+  `reports/daily_live/latest.json` (what `index.html` actually fetches, client-side, every 5 minutes while
+  a visitor has the page open). `reports/` is already published on both GitHub Pages and Vercel, so this
+  sits alongside the weekly `reports/<date>.json` files.
+- The lead count rule is exactly RUNBOOK step 1b, applied to one day instead of one week: pull Meta Ads
+  account-level totals for today (`time_range` = today only, read-only, account `392337929851918` only),
+  then cross-check the CRM the same way — form "Condtioning Lead 2.0" (`b1107448-dbc0-4084-a096-8ad05a76f6b6`),
+  `query_form_submissions` for the India day (`created_after` = yesterday `T18:30:00Z`, `created_before` =
+  today `T18:30:00Z`), keep Meta-ad visitors only, drop tests, count each `contact_id` once. **The CRM
+  (deduped) count is `final_lead_count`** — the number shown as "Leads today" — with Meta's own `lead`
+  field shown next to it for reference, since Meta usually undercounts. This is the same conclusion as
+  every recent weekly report (e.g. 16 Nov: 59 CRM-deduped vs 43 Meta); see the note at the bottom of this
+  file about `claude/reporting-rules.md`, which said the opposite before this was corrected.
+  Bookings = CRM "Appointment Booked" opportunities `created_at` today, tests removed, same as RUNBOOK 1b.
+  Check `get_ad_connection_health`; if `last_report_date` is more than a day old, pass that into
+  `ad_sync_stale_days` in the raw file so the home page shows the warning.
+- Build with `python3 scripts/build_today.py build data/raw_today/<date>.json`. It refuses to write
+  `reports/daily_live/` if the submissions don't add up (`form_fills_all` ≠ kept + dropped) — re-pull
+  instead of forcing it. Never hand-count the lead total; the script's arithmetic is the whole point.
+- Commit and push `data/raw_today/<date>.json` and `reports/daily_live/` as the GitHub account, same as
+  the weekly task. No team email for this one — it just updates the live page, several times a day.
+- If the Meta Ads or CRM pull itself fails, do not touch `reports/daily_live/latest.json` — leave the
+  last good snapshot live and just note the failure in the run's own log. A day with genuinely zero
+  spend and zero leads is still valid and should be published (same rule as an idle week).
+- The "Daily live tracking update" scheduled task runs every 3 hours and is separate from the Monday task;
+  update one without touching the other.
+
 ## MiTran chat assistant
 
 A chat button on every page answers questions about this data. It is `mitran-chat.js`, loaded by one

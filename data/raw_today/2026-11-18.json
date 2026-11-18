@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-18",
+ "pulled_at": "2026-11-18T11:05:00+05:30",
+ "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
+ "currency": "INR",
+ "meta": {"spend": 461.47, "impressions": 251, "reach": 209, "link_clicks": 4, "leads": 1, "purchases": 0},
+ "crm": {
+  "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
+  "form_fills_all": 2,
+  "form_fills_meta": 1,
+  "leads_meta_unique": 1,
+  "bookings_created_today": 0
+ },
+ "ad_sync_stale_days": 2,
+ "notes": []
+}

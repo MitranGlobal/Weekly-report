@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T11:05:00+05:30",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "meta": {
+  "spend": 461.47,
+  "impressions": 251.0,
+  "reach": 209.0,
+  "link_clicks": 4.0,
+  "leads": 1.0,
+  "purchases": 0.0
+ },
+ "crm": {
+  "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
+  "form_fills_all": 2,
+  "form_fills_meta": 1,
+  "leads_meta_unique": 1,
+  "bookings_created_today": 0
+ },
+ "final_lead_count": 1,
+ "cost_per_lead": 461.47,
+ "cost_per_booking": null,
+ "reconciliation": {
+  "meta_leads": 1.0,
+  "crm_leads_deduped": 1,
+  "match": true,
+  "gap": 0.0,
+  "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
+ },
+ "sanity_ok": true,
+ "flags": [
+  {
+   "level": "warn",
+   "text": "CRM's Meta ad-spend sync is 2 days old. Lead and booking counts above are live CRM data either way; only the CRM's own cost-per-lead view may lag until it's resynced."
+  }
+ ]
+}

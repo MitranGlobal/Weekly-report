@@ -1,33 +1,163 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MiTran Global Reports</title>
+<title>MiTran Global Reports · Today</title>
 <style>
-:root{color-scheme:light;--canvas:#EAEAEA;--tile:#fff;--ink:#252423;--muted:#605E5C;--blue:#118DFF;--orange:#E66C37;--gold:#F2C811}
+:root{color-scheme:light;--canvas:#EAEAEA;--tile:#fff;--ink:#252423;--muted:#605E5C;--line:#E1DFDD;--soft:#F3F2F1;
+--blue:#118DFF;--orange:#E66C37;--gold:#F2C811;--green:#107C10;--red:#C4314B;--amber:#B88A00}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:"Segoe UI",Segoe,-apple-system,Roboto,Arial,sans-serif;background:var(--canvas);color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
-header{background:#252423;color:#fff;padding:18px max(16px,5vw);display:flex;align-items:center;gap:12px}
-.logo{width:30px;height:30px;border-radius:4px;background:linear-gradient(135deg,#F2C811,#E8A90E);display:grid;place-items:center;font-weight:800;color:#252423;font-size:12px}
-header h1{font-size:18px;font-weight:600}
-main{flex:1;padding:32px max(16px,5vw);max-width:1100px;width:100%;margin:0 auto}
-.lede{color:var(--muted);margin-bottom:24px;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
-a.card{display:block;background:var(--tile);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.12);padding:22px;text-decoration:none;color:inherit;border-top:4px solid var(--blue);transition:box-shadow .15s,transform .15s}
+body{font-family:"Segoe UI",Segoe,-apple-system,Roboto,Arial,sans-serif;background:var(--canvas);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;font-size:13px}
+header{background:#252423;color:#fff;padding:14px max(16px,5vw);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{width:30px;height:30px;border-radius:4px;background:linear-gradient(135deg,#F2C811,#E8A90E);display:grid;place-items:center;font-weight:800;color:#252423;font-size:12px;flex-shrink:0}
+header h1{font-size:17px;font-weight:600}
+header nav{margin-left:auto;display:flex;gap:16px;font-size:13px}
+header a{color:#C8C6C4;text-decoration:none}header a:hover{color:#fff}
+header a.on{color:#fff;font-weight:600;border-bottom:2px solid var(--gold);padding-bottom:2px}
+main{flex:1;padding:24px max(16px,5vw);max-width:1100px;width:100%;margin:0 auto}
+.lede{color:var(--muted);margin-bottom:6px;font-size:14px}
+.status{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-bottom:18px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0;box-shadow:0 0 0 3px rgba(16,124,16,.15)}
+.dot.bad{background:var(--red);box-shadow:0 0 0 3px rgba(196,49,75,.15)}
+.dot.warn{background:var(--amber);box-shadow:0 0 0 3px rgba(184,138,0,.15)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px;margin-bottom:14px}
+.kpi{background:var(--tile);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.12);padding:16px 18px;border-top:4px solid var(--blue);min-height:118px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi.m{border-top-color:var(--orange)}.kpi.g{border-top-color:var(--green)}.kpi.p{border-top-color:#744EC2}
+.kpi .lbl{font-size:12px;color:var(--muted)}
+.kpi .val{font-size:28px;font-weight:300;letter-spacing:-.4px;margin:4px 0}
+.kpi .sub{font-size:11.5px;color:var(--muted);line-height:1.5}
+.secondary{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--tile);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.1);padding:10px 12px}
+.stat small{display:block;color:var(--muted);font-size:11px}
+.stat strong{font-size:17px;font-weight:400}
+.ins{list-style:none;display:flex;flex-direction:column;gap:6px;margin-bottom:18px}
+.ins li{padding:8px 10px;border-left:4px solid var(--blue);background:#F8F8F8;font-size:12px;line-height:1.45}
+.ins li.warn{border-color:var(--amber)}.ins li.bad{border-color:var(--red)}
+.recon{font-size:11.5px;color:var(--muted);margin-top:2px}
+.err{padding:14px 16px;background:#FDEEF0;border-left:4px solid var(--red);font-size:13px;margin-bottom:18px}
+.err a{color:var(--blue)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:8px}
+a.card{display:block;background:var(--tile);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.12);padding:20px;text-decoration:none;color:inherit;border-top:4px solid var(--blue);transition:box-shadow .15s,transform .15s}
 a.card.m{border-top-color:var(--orange)}
 a.card:hover,a.card:focus-visible{box-shadow:0 6px 18px rgba(0,0,0,.16);transform:translateY(-2px);outline:none}
 .card small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
-.card h2{font-size:20px;font-weight:600;margin:6px 0 8px}
+.card h2{font-size:18px;font-weight:600;margin:6px 0 6px}
 .card p{font-size:13px;color:var(--muted);line-height:1.5}
-.card span{display:inline-block;margin-top:14px;font-size:13px;font-weight:600;color:var(--blue)}
+.card span{display:inline-block;margin-top:12px;font-size:13px;font-weight:600;color:var(--blue)}
+h3.section{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:22px 0 10px}
 footer{padding:16px max(16px,5vw);font-size:12px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){a.card{transition:none}}
 </style></head><body>
-<header><div class="logo">BI</div><h1>MiTran Global · Reports</h1></header>
+<header><div class="logo">BI</div><h1>MiTran Global · Reports</h1>
+<nav><a href="index.html" class="on">Today</a><a href="weekly.html">Weekly reports</a><a href="meta.html">Meta Ads Performance</a></nav>
+</header>
 <main>
-<p class="lede">Public dashboards, open to anyone. Amounts in INR. The full Meta Ads dashboard has data to 2 November 2026; weekly reports update every Monday.</p>
+<p class="lede">Live tracking of today's Meta Ads performance — amount spent and leads coming in, rechecked against the CRM before showing. Amounts in INR.</p>
+<div class="status" id="status"><span class="dot" id="statusDot"></span><span id="statusText">Loading today's numbers…</span></div>
+
+<div id="liveArea">
+<div class="kpis">
+ <div class="kpi"><div class="lbl">Amount spent today</div><div class="val" id="kSpend">–</div><div class="sub" id="kSpendSub">&nbsp;</div></div>
+ <div class="kpi g"><div class="lbl">Leads today (final)</div><div class="val" id="kLeads">–</div><div class="sub" id="kLeadsSub">&nbsp;</div></div>
+ <div class="kpi p"><div class="lbl">Bookings today</div><div class="val" id="kBookings">–</div><div class="sub" id="kBookingsSub">&nbsp;</div></div>
+ <div class="kpi m"><div class="lbl">Cost per lead</div><div class="val" id="kCpl">–</div><div class="sub" id="kCplSub">&nbsp;</div></div>
+</div>
+<div class="secondary">
+ <div class="stat"><small>Impressions</small><strong id="sImpr">–</strong></div>
+ <div class="stat"><small>Reach</small><strong id="sReach">–</strong></div>
+ <div class="stat"><small>Link clicks</small><strong id="sClicks">–</strong></div>
+ <div class="stat"><small>Link click rate</small><strong id="sCtr">–</strong></div>
+ <div class="stat"><small>Cost per booking</small><strong id="sCpb">–</strong></div>
+</div>
+<ul class="ins" id="flags"></ul>
+<p class="recon" id="recon"></p>
+</div>
+<div class="err" id="errBox" hidden>Live numbers aren't available right now. Meanwhile, see the <a href="weekly.html">weekly reports</a> or the <a href="meta.html">full Meta Ads dashboard</a>.</div>
+
+<h3 class="section">Browse more</h3>
 <div class="grid">
-<a class="card" href="weekly.html"><small>Marketing · every Monday</small><h2>Meta Ads Weekly Reports</h2><p>A calendar of every week since January 2024: browse by year and month, open any Monday report, download it as a PDF. New reports for the main ad account every Monday.</p><span>Open weekly reports →</span></a>
+<a class="card" href="weekly.html"><small>Marketing · every Monday</small><h2>Meta Ads Weekly Reports</h2><p>A calendar of every week since January 2024: browse by year and month, open any Monday report, download it as a PDF.</p><span>Open weekly reports →</span></a>
 <a class="card m" href="meta.html"><small>Marketing</small><h2>Meta Ads Performance</h2><p>Lifetime spend, campaign efficiency, creatives, audiences and statistics across all ad accounts.</p><span>Open dashboard →</span></a>
 </div>
 </main>
-<footer>MiTran Global · public reports.</footer>
+<footer>MiTran Global · public reports. Today's numbers refresh automatically through the day; a day resets at midnight IST.</footer>
+<script>
+(function(){
+ var fmtINR = function(v, dec){
+   if (v === null || v === undefined) return "–";
+   return "₹" + Number(v).toLocaleString("en-IN", {minimumFractionDigits: dec||0, maximumFractionDigits: dec||0});
+ };
+ var fmtNum = function(v, dec){
+   if (v === null || v === undefined) return "–";
+   return Number(v).toLocaleString("en-IN", {minimumFractionDigits: dec||0, maximumFractionDigits: dec||0});
+ };
+ var fmtDate = function(iso){
+   try { var d = new Date(iso + "T00:00:00+05:30");
+     return d.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
+   } catch(e){ return iso; }
+ };
+ var fmtTime = function(iso){
+   try { var d = new Date(iso);
+     return d.toLocaleTimeString("en-IN", {hour:"2-digit", minute:"2-digit", timeZone:"Asia/Kolkata"}) + " IST";
+   } catch(e){ return iso; }
+ };
+
+ function render(r){
+   document.getElementById("liveArea").hidden = false;
+   document.getElementById("errBox").hidden = true;
+
+   var dot = document.getElementById("statusDot"), txt = document.getElementById("statusText");
+   var bad = r.flags && r.flags.some(function(f){ return f.level === "bad"; });
+   var warn = r.flags && r.flags.some(function(f){ return f.level === "warn"; });
+   dot.className = "dot" + (bad ? " bad" : warn ? " warn" : "");
+   txt.textContent = fmtDate(r.date) + " · last updated " + fmtTime(r.generated_at) + " · refreshes automatically";
+
+   document.getElementById("kSpend").textContent = fmtINR(r.meta.spend, 0);
+   document.getElementById("kSpendSub").textContent = r.account.name;
+
+   document.getElementById("kLeads").textContent = fmtNum(r.final_lead_count);
+   document.getElementById("kLeadsSub").textContent = "Meta counted " + fmtNum(r.meta.leads) +
+     " · CRM (deduped, Meta-ad visitors, tests removed) " + fmtNum(r.crm.leads_meta_unique);
+
+   document.getElementById("kBookings").textContent = fmtNum(r.crm.bookings_created_today);
+   document.getElementById("kBookingsSub").textContent = "Lead Management · Appointment Booked, created today";
+
+   document.getElementById("kCpl").textContent = fmtINR(r.cost_per_lead, 2);
+   document.getElementById("kCplSub").textContent = "Spend ÷ final lead count";
+
+   document.getElementById("sImpr").textContent = fmtNum(r.meta.impressions);
+   document.getElementById("sReach").textContent = fmtNum(r.meta.reach);
+   document.getElementById("sClicks").textContent = fmtNum(r.meta.link_clicks);
+   var ctr = r.meta.impressions ? (r.meta.link_clicks / r.meta.impressions * 100) : null;
+   document.getElementById("sCtr").textContent = ctr === null ? "–" : ctr.toFixed(2) + "%";
+   document.getElementById("sCpb").textContent = fmtINR(r.cost_per_booking, 0);
+
+   var flagsEl = document.getElementById("flags");
+   flagsEl.innerHTML = "";
+   (r.flags || []).forEach(function(f){
+     var li = document.createElement("li");
+     li.className = f.level === "bad" ? "bad" : f.level === "warn" ? "warn" : "";
+     li.textContent = f.text;
+     flagsEl.appendChild(li);
+   });
+
+   document.getElementById("recon").textContent = r.reconciliation ? r.reconciliation.note : "";
+ }
+
+ function showError(){
+   document.getElementById("liveArea").hidden = true;
+   document.getElementById("errBox").hidden = false;
+   document.getElementById("statusDot").className = "dot bad";
+   document.getElementById("statusText").textContent = "Couldn't load today's numbers";
+ }
+
+ function load(){
+   fetch("reports/daily_live/latest.json", {cache: "no-store"})
+     .then(function(res){ if (!res.ok) throw new Error("http " + res.status); return res.json(); })
+     .then(render)
+     .catch(showError);
+ }
+
+ load();
+ setInterval(load, 5 * 60 * 1000); // re-check every 5 minutes while the page stays open
+})();
+</script>
 <script src="/mitran-chat.js" defer></script>
 </body></html>
