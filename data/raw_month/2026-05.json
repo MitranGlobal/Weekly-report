@@ -1,0 +1,353 @@
+{
+ "month": "2026-05",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "lead_methodology": "meta_only",
+ "bookings_available": false,
+ "days": [
+  {
+   "date": "2026-05-01",
+   "meta": {
+    "spend": 698.99,
+    "impressions": 1297,
+    "link_clicks": 18,
+    "leads": 5
+   },
+   "crm_leads_deduped": 5,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-02",
+   "meta": {
+    "spend": 487.92,
+    "impressions": 925,
+    "link_clicks": 12,
+    "leads": 2
+   },
+   "crm_leads_deduped": 2,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-03",
+   "meta": {
+    "spend": 686.72,
+    "impressions": 842,
+    "link_clicks": 14,
+    "leads": 5
+   },
+   "crm_leads_deduped": 5,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-04",
+   "meta": {
+    "spend": 584.61,
+    "impressions": 966,
+    "link_clicks": 10,
+    "leads": 6
+   },
+   "crm_leads_deduped": 6,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-05",
+   "meta": {
+    "spend": 785.32,
+    "impressions": 1343,
+    "link_clicks": 29,
+    "leads": 7
+   },
+   "crm_leads_deduped": 7,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-06",
+   "meta": {
+    "spend": 771.52,
+    "impressions": 1074,
+    "link_clicks": 16,
+    "leads": 6
+   },
+   "crm_leads_deduped": 6,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-07",
+   "meta": {
+    "spend": 879.53,
+    "impressions": 1181,
+    "link_clicks": 16,
+    "leads": 5
+   },
+   "crm_leads_deduped": 5,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-08",
+   "meta": {
+    "spend": 806.57,
+    "impressions": 834,
+    "link_clicks": 16,
+    "leads": 7
+   },
+   "crm_leads_deduped": 7,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-09",
+   "meta": {
+    "spend": 636.06,
+    "impressions": 1038,
+    "link_clicks": 18,
+    "leads": 2
+   },
+   "crm_leads_deduped": 2,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-10",
+   "meta": {
+    "spend": 897.84,
+    "impressions": 1029,
+    "link_clicks": 13,
+    "leads": 4
+   },
+   "crm_leads_deduped": 4,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-11",
+   "meta": {
+    "spend": 970.03,
+    "impressions": 1096,
+    "link_clicks": 20,
+    "leads": 6
+   },
+   "crm_leads_deduped": 6,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-12",
+   "meta": {
+    "spend": 1599.16,
+    "impressions": 1759,
+    "link_clicks": 37,
+    "leads": 5
+   },
+   "crm_leads_deduped": 5,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-13",
+   "meta": {
+    "spend": 1562.31,
+    "impressions": 1970,
+    "link_clicks": 38,
+    "leads": 7
+   },
+   "crm_leads_deduped": 7,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-14",
+   "meta": {
+    "spend": 1530.2,
+    "impressions": 2597,
+    "link_clicks": 46,
+    "leads": 14
+   },
+   "crm_leads_deduped": 14,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-15",
+   "meta": {
+    "spend": 1730.52,
+    "impressions": 2504,
+    "link_clicks": 45,
+    "leads": 11
+   },
+   "crm_leads_deduped": 11,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-16",
+   "meta": {
+    "spend": 1142.79,
+    "impressions": 2061,
+    "link_clicks": 42,
+    "leads": 10
+   },
+   "crm_leads_deduped": 10,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-17",
+   "meta": {
+    "spend": 1725.62,
+    "impressions": 2535,
+    "link_clicks": 44,
+    "leads": 11
+   },
+   "crm_leads_deduped": 11,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-18",
+   "meta": {
+    "spend": 1314.17,
+    "impressions": 2242,
+    "link_clicks": 28,
+    "leads": 6
+   },
+   "crm_leads_deduped": 6,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-19",
+   "meta": {
+    "spend": 1449.35,
+    "impressions": 2640,
+    "link_clicks": 49,
+    "leads": 12
+   },
+   "crm_leads_deduped": 12,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-20",
+   "meta": {
+    "spend": 1197.04,
+    "impressions": 2173,
+    "link_clicks": 45,
+    "leads": 6
+   },
+   "crm_leads_deduped": 6,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-21",
+   "meta": {
+    "spend": 921.91,
+    "impressions": 1853,
+    "link_clicks": 37,
+    "leads": 9
+   },
+   "crm_leads_deduped": 9,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-22",
+   "meta": {
+    "spend": 986.67,
+    "impressions": 1636,
+    "link_clicks": 33,
+    "leads": 0
+   },
+   "crm_leads_deduped": 0,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-23",
+   "meta": {
+    "spend": 766.0,
+    "impressions": 1085,
+    "link_clicks": 22,
+    "leads": 5
+   },
+   "crm_leads_deduped": 5,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-24",
+   "meta": {
+    "spend": 1323.39,
+    "impressions": 2032,
+    "link_clicks": 44,
+    "leads": 7
+   },
+   "crm_leads_deduped": 7,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-25",
+   "meta": {
+    "spend": 1211.31,
+    "impressions": 1690,
+    "link_clicks": 42,
+    "leads": 11
+   },
+   "crm_leads_deduped": 11,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-26",
+   "meta": {
+    "spend": 1068.88,
+    "impressions": 1580,
+    "link_clicks": 40,
+    "leads": 4
+   },
+   "crm_leads_deduped": 4,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-27",
+   "meta": {
+    "spend": 1037.24,
+    "impressions": 1478,
+    "link_clicks": 35,
+    "leads": 12
+   },
+   "crm_leads_deduped": 12,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-28",
+   "meta": {
+    "spend": 1231.67,
+    "impressions": 1945,
+    "link_clicks": 47,
+    "leads": 15
+   },
+   "crm_leads_deduped": 15,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-29",
+   "meta": {
+    "spend": 1008.08,
+    "impressions": 1890,
+    "link_clicks": 39,
+    "leads": 13
+   },
+   "crm_leads_deduped": 13,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-30",
+   "meta": {
+    "spend": 1028.82,
+    "impressions": 1932,
+    "link_clicks": 43,
+    "leads": 7
+   },
+   "crm_leads_deduped": 7,
+   "bookings": 0
+  },
+  {
+   "date": "2026-05-31",
+   "meta": {
+    "spend": 1148.18,
+    "impressions": 1572,
+    "link_clicks": 31,
+    "leads": 15
+   },
+   "crm_leads_deduped": 15,
+   "bookings": 0
+  }
+ ]
+}

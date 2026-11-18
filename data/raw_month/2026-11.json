@@ -2,6 +2,8 @@
  "month": "2026-11",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
+ "lead_methodology": "crm_deduped",
+ "bookings_available": true,
  "days": [
   {"date": "2026-11-01", "meta": {"spend": 0, "impressions": 0, "link_clicks": 0, "leads": 0}, "crm_leads_deduped": 0, "bookings": 0},
   {"date": "2026-11-02", "meta": {"spend": 0, "impressions": 0, "link_clicks": 0, "leads": 0}, "crm_leads_deduped": 0, "bookings": 0},

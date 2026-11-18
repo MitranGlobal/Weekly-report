@@ -39,8 +39,9 @@
   .kpi .l{color:var(--muted);font-size:12px;}
   .kpi .v{font-size:20px;font-weight:700;margin-top:2px;}
   .kpi .v small{font-size:12px;color:var(--muted);font-weight:400;}
-  .flag{margin-top:12px;font-size:12px;color:var(--warn);background:rgba(244,183,63,.1);
+  .flag{margin:0 0 14px;font-size:12px;color:var(--warn);background:rgba(244,183,63,.1);
         border:1px solid rgba(244,183,63,.3);border-radius:8px;padding:8px 10px;}
+  .panel .flag{margin-top:12px;margin-bottom:0;}
   .note{margin-top:10px;font-size:12px;color:var(--muted);}
   #errBox{display:none;color:#ff8a8a;padding:14px;border:1px solid #5a2a2a;border-radius:10px;background:#1c1010;margin-top:14px;}
   footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 0;}
@@ -62,6 +63,7 @@
     <h2 id="monthLabel">—</h2>
     <button id="nextM" aria-label="Next month">&rarr;</button>
   </div>
+  <div class="flag" id="methodNote" style="display:none;"></div>
   <div class="cal" id="dow"></div>
   <div class="cal" id="grid" style="margin-top:6px;"></div>
 
@@ -86,6 +88,11 @@
   var monthData = null;     // {month, days:[...]}
   var currentMonth = null;  // "YYYY-MM" being displayed
   var selected = null;      // "YYYY-MM-DD"
+
+  // Real ad activity on this account starts April 2026 — every month before that
+  // is genuinely zero (verified against Meta's lifetime data), so there is nothing
+  // meaningful to show before it. The upper bound is simply "this month".
+  var EARLIEST_MONTH = "2026-04";
 
   function fmtINR(n){
     if (n === null || n === undefined) return "—";
@@ -166,10 +173,13 @@
       d.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
     document.getElementById("panelSub").textContent = "Cumulative, month-to-date as of this day.";
 
+    var isMetaOnly = monthData.lead_methodology === "meta_only";
+    var leadLabel = isMetaOnly ? "Leads (Meta, not deduped)" : "Leads (final)";
+    var leadSmall = isMetaOnly ? "Lower bound — no CRM cross-check this far back" : "Meta: " + fmtNum(c.meta_leads);
     var kpis = [
       {l:"Amount spent", v: fmtINR(c.spend)},
-      {l:"Leads (final)", v: fmtNum(c.leads), small: "Meta: " + fmtNum(c.meta_leads)},
-      {l:"Bookings", v: fmtNum(c.bookings) + (row.bookings_is_floor ? "+" : "")},
+      {l:leadLabel, v: fmtNum(c.leads), small: leadSmall},
+      {l:"Bookings", v: c.bookings==null ? "N/A" : (fmtNum(c.bookings) + (row.bookings_is_floor ? "+" : ""))},
       {l:"Cost / lead", v: c.cost_per_lead!=null ? fmtINR(c.cost_per_lead) : "—"},
       {l:"Impressions", v: fmtNum(c.impressions)},
       {l:"Link clicks", v: fmtNum(c.link_clicks)},
@@ -197,6 +207,17 @@
         monthData = data;
         currentMonth = ym;
         document.getElementById("errBox").style.display = "none";
+
+        var methodEl = document.getElementById("methodNote");
+        if (data.lead_methodology === "meta_only"){
+          methodEl.style.display = "block";
+          methodEl.innerHTML = "This month is before the CRM cross-check started (18 Nov 2026). " +
+            "<strong>Leads shown are Meta's own count, not deduped</strong> — treat them as a lower " +
+            "bound, not the reconciled figure. Bookings aren't available this far back either.";
+        } else {
+          methodEl.style.display = "none";
+        }
+
         // Pick what to show: the date already selected (if we're just refreshing
         // data for the same month) falls back to today, then to the last day we have.
         var today = todayISTDate();
@@ -206,10 +227,14 @@
         renderCalendar();
         var cell = document.querySelector('.cell[data-date="' + pick + '"]');
         selectDate(pick, cell);
+        updateNavButtons();
       })
       .catch(function(err){
         document.getElementById("errBox").style.display = "block";
-        document.getElementById("errBox").textContent = "Couldn't load " + ym + ": " + err.message;
+        document.getElementById("errBox").textContent =
+          "No report for " + monthLabel(ym) + " yet.";
+        document.getElementById("methodNote").style.display = "none";
+        updateNavButtons();
       });
   }
 
@@ -219,8 +244,20 @@
     return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0");
   }
 
-  document.getElementById("prevM").addEventListener("click", function(){ selected = null; load(shiftMonth(currentMonth, -1)); });
-  document.getElementById("nextM").addEventListener("click", function(){ selected = null; load(shiftMonth(currentMonth, 1)); });
+  function updateNavButtons(){
+    var thisMonth = todayISTDate().slice(0,7);
+    document.getElementById("prevM").disabled = (currentMonth <= EARLIEST_MONTH);
+    document.getElementById("nextM").disabled = (currentMonth >= thisMonth);
+  }
+
+  document.getElementById("prevM").addEventListener("click", function(){
+    if (currentMonth <= EARLIEST_MONTH) return;
+    selected = null; load(shiftMonth(currentMonth, -1));
+  });
+  document.getElementById("nextM").addEventListener("click", function(){
+    if (currentMonth >= todayISTDate().slice(0,7)) return;
+    selected = null; load(shiftMonth(currentMonth, 1));
+  });
 
   // This page is not meant to be "live" — it loads once per visit. Reopen or
   // reload the page to pick up a newer day's data instead of it jumping under you.

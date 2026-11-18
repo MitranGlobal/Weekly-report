@@ -61,6 +61,13 @@ def compute(raw):
     if not ok:
         return None, err
 
+    # "crm_deduped" (default): every report built from 18 Nov 2026 onward, where
+    # the CRM cross-check (RUNBOOK step 1b) ran for every day. "meta_only": months
+    # before the cross-check existed — Meta's own lead count is all there is, and
+    # it must never be relabeled or presented as the deduped figure.
+    lead_methodology = raw.get("lead_methodology", "crm_deduped")
+    bookings_available = raw.get("bookings_available", True)
+
     out_days = []
     cum = {"spend": 0.0, "impressions": 0, "link_clicks": 0,
            "meta_leads": 0, "leads": 0, "bookings": 0}
@@ -72,7 +79,8 @@ def compute(raw):
         cum["link_clicks"] += int(m["link_clicks"])
         cum["meta_leads"] += int(m["leads"])
         cum["leads"] += int(d["crm_leads_deduped"])
-        cum["bookings"] += int(d["bookings"])
+        if bookings_available:
+            cum["bookings"] += int(d["bookings"])
 
         is_today = bool(d.get("is_today")) or i == last_index
         out_days.append({
@@ -83,7 +91,7 @@ def compute(raw):
                 "link_clicks": int(m["link_clicks"]),
                 "meta_leads": int(m["leads"]),
                 "leads": int(d["crm_leads_deduped"]),
-                "bookings": int(d["bookings"]),
+                "bookings": int(d["bookings"]) if bookings_available else None,
             },
             "cumulative": {
                 "spend": round(cum["spend"], 2),
@@ -91,29 +99,48 @@ def compute(raw):
                 "link_clicks": cum["link_clicks"],
                 "meta_leads": cum["meta_leads"],
                 "leads": cum["leads"],
-                "bookings": cum["bookings"],
+                "bookings": cum["bookings"] if bookings_available else None,
                 "cost_per_lead": round(cum["spend"] / cum["leads"], 2) if cum["leads"] else None,
-                "cost_per_booking": round(cum["spend"] / cum["bookings"], 2) if cum["bookings"] else None,
+                "cost_per_booking": (round(cum["spend"] / cum["bookings"], 2)
+                                     if bookings_available and cum["bookings"] else None),
             },
-            "bookings_is_floor": not is_today,
+            "bookings_is_floor": bookings_available and not is_today,
         })
+
+    notes = [
+        "reach is intentionally not included: daily reach cannot be summed into a valid "
+        "running total (it would double-count people reached on more than one day).",
+    ]
+    if lead_methodology == "crm_deduped":
+        notes.insert(0,
+            "leads = CRM-deduped final count (Meta-ad visitors, tests removed, one contact "
+            "counted once). meta_leads is Meta's own figure, kept only for reference — it "
+            "undercounts, same as every other report in this repo.")
+    else:
+        notes.insert(0,
+            "This month predates the CRM cross-check (it started 18 Nov 2026). 'leads' here "
+            "is Meta's own lead count, not CRM-deduped — it is known to undercount, same as "
+            "Meta's figure does everywhere else in this repo. Treat it as a lower bound, not "
+            "the final/reconciled number.")
+    if bookings_available:
+        notes.append(
+            "bookings for every day except the most recent are a lower bound: they come from "
+            "the CRM's current pipeline-stage snapshot, so a booking that has since moved to "
+            "another stage no longer counts on the day it was made. See "
+            "data/raw_month/README.md.")
+    else:
+        notes.append(
+            "bookings are not available for this month — reliable booking-by-day data only "
+            "exists from 18 Nov 2026 onward, when the daily live tracker started.")
 
     result = {
         "month": raw["month"],
         "account": raw["account"],
         "currency": raw.get("currency", "INR"),
+        "lead_methodology": lead_methodology,
+        "bookings_available": bookings_available,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "notes": [
-            "leads = CRM-deduped final count (Meta-ad visitors, tests removed, one contact "
-            "counted once). meta_leads is Meta's own figure, kept only for reference — it "
-            "undercounts, same as every other report in this repo.",
-            "reach is intentionally not included: daily reach cannot be summed into a valid "
-            "running total (it would double-count people reached on more than one day).",
-            "bookings for every day except the most recent are a lower bound: they come from "
-            "the CRM's current pipeline-stage snapshot, so a booking that has since moved to "
-            "another stage no longer counts on the day it was made. See "
-            "data/raw_month/README.md.",
-        ],
+        "notes": notes,
         "days": out_days,
     }
     return result, None
@@ -131,9 +158,11 @@ def build(path):
     out_path.write_text(json.dumps(result, indent=1))
     print(f"wrote {out_path}")
     last = result["days"][-1]
+    bk = last['cumulative']['bookings']
+    bk_str = "n/a" if bk is None else f"{num(bk)} (floor)"
     print(f"through {last['date']}: spend {inr(last['cumulative']['spend'])}, "
           f"leads {num(last['cumulative']['leads'])} (meta {num(last['cumulative']['meta_leads'])}), "
-          f"bookings {num(last['cumulative']['bookings'])} (floor)")
+          f"bookings {bk_str}")
 
 
 def summary(path):
@@ -142,12 +171,14 @@ def summary(path):
     if err:
         print(f"would refuse to publish: {err}")
         sys.exit(1)
-    print(f"Month: {result['month']}  ({len(result['days'])} days)")
+    print(f"Month: {result['month']}  ({len(result['days'])} days, "
+          f"lead_methodology={result['lead_methodology']}, bookings_available={result['bookings_available']})")
     for d in result["days"]:
         c = d["cumulative"]
+        bk = "n/a" if c["bookings"] is None else f"{c['bookings']:>3}{'*' if d['bookings_is_floor'] else ''}"
         print(f"{d['date']}  day: spend {inr(d['day']['spend']):>10}  leads {d['day']['leads']:>3}"
               f"   |  to-date: spend {inr(c['spend']):>12}  leads {c['leads']:>4}"
-              f"  bookings {c['bookings']:>3}{'*' if d['bookings_is_floor'] else ''}")
+              f"  bookings {bk}")
     print("* = lower bound (current pipeline-stage snapshot, see README)")
 
 

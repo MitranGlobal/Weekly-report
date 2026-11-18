@@ -1,0 +1,678 @@
+{
+ "month": "2026-09",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "lead_methodology": "meta_only",
+ "bookings_available": false,
+ "generated_at": "2026-11-18T06:13:48.945776+00:00",
+ "notes": [
+  "This month predates the CRM cross-check (it started 18 Nov 2026). 'leads' here is Meta's own lead count, not CRM-deduped \u2014 it is known to undercount, same as Meta's figure does everywhere else in this repo. Treat it as a lower bound, not the final/reconciled number.",
+  "reach is intentionally not included: daily reach cannot be summed into a valid running total (it would double-count people reached on more than one day).",
+  "bookings are not available for this month \u2014 reliable booking-by-day data only exists from 18 Nov 2026 onward, when the daily live tracker started."
+ ],
+ "days": [
+  {
+   "date": "2026-09-01",
+   "day": {
+    "spend": 723.84,
+    "impressions": 1287,
+    "link_clicks": 16,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 723.84,
+    "impressions": 1287,
+    "link_clicks": 16,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null,
+    "cost_per_lead": 241.28,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-02",
+   "day": {
+    "spend": 3231.88,
+    "impressions": 3576,
+    "link_clicks": 71,
+    "meta_leads": 9,
+    "leads": 9,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 3955.72,
+    "impressions": 4863,
+    "link_clicks": 87,
+    "meta_leads": 12,
+    "leads": 12,
+    "bookings": null,
+    "cost_per_lead": 329.64,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-03",
+   "day": {
+    "spend": 2213.1,
+    "impressions": 2475,
+    "link_clicks": 32,
+    "meta_leads": 0,
+    "leads": 0,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 6168.82,
+    "impressions": 7338,
+    "link_clicks": 119,
+    "meta_leads": 12,
+    "leads": 12,
+    "bookings": null,
+    "cost_per_lead": 514.07,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-04",
+   "day": {
+    "spend": 1157.3,
+    "impressions": 1454,
+    "link_clicks": 24,
+    "meta_leads": 0,
+    "leads": 0,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 7326.12,
+    "impressions": 8792,
+    "link_clicks": 143,
+    "meta_leads": 12,
+    "leads": 12,
+    "bookings": null,
+    "cost_per_lead": 610.51,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-05",
+   "day": {
+    "spend": 606.42,
+    "impressions": 556,
+    "link_clicks": 10,
+    "meta_leads": 1,
+    "leads": 1,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 7932.54,
+    "impressions": 9348,
+    "link_clicks": 153,
+    "meta_leads": 13,
+    "leads": 13,
+    "bookings": null,
+    "cost_per_lead": 610.2,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-06",
+   "day": {
+    "spend": 1962.01,
+    "impressions": 961,
+    "link_clicks": 20,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 9894.55,
+    "impressions": 10309,
+    "link_clicks": 173,
+    "meta_leads": 16,
+    "leads": 16,
+    "bookings": null,
+    "cost_per_lead": 618.41,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-07",
+   "day": {
+    "spend": 1232.76,
+    "impressions": 504,
+    "link_clicks": 17,
+    "meta_leads": 0,
+    "leads": 0,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 11127.31,
+    "impressions": 10813,
+    "link_clicks": 190,
+    "meta_leads": 16,
+    "leads": 16,
+    "bookings": null,
+    "cost_per_lead": 695.46,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-08",
+   "day": {
+    "spend": 271.8,
+    "impressions": 3515,
+    "link_clicks": 56,
+    "meta_leads": 1,
+    "leads": 1,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 11399.11,
+    "impressions": 14328,
+    "link_clicks": 246,
+    "meta_leads": 17,
+    "leads": 17,
+    "bookings": null,
+    "cost_per_lead": 670.54,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-09",
+   "day": {
+    "spend": 991.21,
+    "impressions": 1203,
+    "link_clicks": 31,
+    "meta_leads": 5,
+    "leads": 5,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 12390.32,
+    "impressions": 15531,
+    "link_clicks": 277,
+    "meta_leads": 22,
+    "leads": 22,
+    "bookings": null,
+    "cost_per_lead": 563.2,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-10",
+   "day": {
+    "spend": 795.55,
+    "impressions": 867,
+    "link_clicks": 22,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 13185.87,
+    "impressions": 16398,
+    "link_clicks": 299,
+    "meta_leads": 25,
+    "leads": 25,
+    "bookings": null,
+    "cost_per_lead": 527.43,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-11",
+   "day": {
+    "spend": 1773.16,
+    "impressions": 2274,
+    "link_clicks": 32,
+    "meta_leads": 8,
+    "leads": 8,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 14959.03,
+    "impressions": 18672,
+    "link_clicks": 331,
+    "meta_leads": 33,
+    "leads": 33,
+    "bookings": null,
+    "cost_per_lead": 453.3,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-12",
+   "day": {
+    "spend": 1474.78,
+    "impressions": 1754,
+    "link_clicks": 29,
+    "meta_leads": 5,
+    "leads": 5,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 16433.81,
+    "impressions": 20426,
+    "link_clicks": 360,
+    "meta_leads": 38,
+    "leads": 38,
+    "bookings": null,
+    "cost_per_lead": 432.47,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-13",
+   "day": {
+    "spend": 1879.06,
+    "impressions": 1736,
+    "link_clicks": 30,
+    "meta_leads": 4,
+    "leads": 4,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 18312.87,
+    "impressions": 22162,
+    "link_clicks": 390,
+    "meta_leads": 42,
+    "leads": 42,
+    "bookings": null,
+    "cost_per_lead": 436.02,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-14",
+   "day": {
+    "spend": 1954.36,
+    "impressions": 1782,
+    "link_clicks": 35,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 20267.23,
+    "impressions": 23944,
+    "link_clicks": 425,
+    "meta_leads": 45,
+    "leads": 45,
+    "bookings": null,
+    "cost_per_lead": 450.38,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-15",
+   "day": {
+    "spend": 1327.09,
+    "impressions": 2582,
+    "link_clicks": 45,
+    "meta_leads": 9,
+    "leads": 9,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 21594.32,
+    "impressions": 26526,
+    "link_clicks": 470,
+    "meta_leads": 54,
+    "leads": 54,
+    "bookings": null,
+    "cost_per_lead": 399.89,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-16",
+   "day": {
+    "spend": 701.35,
+    "impressions": 1202,
+    "link_clicks": 25,
+    "meta_leads": 2,
+    "leads": 2,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 22295.67,
+    "impressions": 27728,
+    "link_clicks": 495,
+    "meta_leads": 56,
+    "leads": 56,
+    "bookings": null,
+    "cost_per_lead": 398.14,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-17",
+   "day": {
+    "spend": 834.58,
+    "impressions": 1259,
+    "link_clicks": 10,
+    "meta_leads": 4,
+    "leads": 4,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 23130.25,
+    "impressions": 28987,
+    "link_clicks": 505,
+    "meta_leads": 60,
+    "leads": 60,
+    "bookings": null,
+    "cost_per_lead": 385.5,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-18",
+   "day": {
+    "spend": 1095.49,
+    "impressions": 1229,
+    "link_clicks": 24,
+    "meta_leads": 1,
+    "leads": 1,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 24225.74,
+    "impressions": 30216,
+    "link_clicks": 529,
+    "meta_leads": 61,
+    "leads": 61,
+    "bookings": null,
+    "cost_per_lead": 397.14,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-19",
+   "day": {
+    "spend": 1634.56,
+    "impressions": 2262,
+    "link_clicks": 38,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 25860.3,
+    "impressions": 32478,
+    "link_clicks": 567,
+    "meta_leads": 64,
+    "leads": 64,
+    "bookings": null,
+    "cost_per_lead": 404.07,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-20",
+   "day": {
+    "spend": 2304.02,
+    "impressions": 2891,
+    "link_clicks": 61,
+    "meta_leads": 8,
+    "leads": 8,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 28164.32,
+    "impressions": 35369,
+    "link_clicks": 628,
+    "meta_leads": 72,
+    "leads": 72,
+    "bookings": null,
+    "cost_per_lead": 391.17,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-21",
+   "day": {
+    "spend": 2177.09,
+    "impressions": 3056,
+    "link_clicks": 64,
+    "meta_leads": 11,
+    "leads": 11,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 30341.41,
+    "impressions": 38425,
+    "link_clicks": 692,
+    "meta_leads": 83,
+    "leads": 83,
+    "bookings": null,
+    "cost_per_lead": 365.56,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-22",
+   "day": {
+    "spend": 1855.46,
+    "impressions": 3015,
+    "link_clicks": 45,
+    "meta_leads": 4,
+    "leads": 4,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 32196.87,
+    "impressions": 41440,
+    "link_clicks": 737,
+    "meta_leads": 87,
+    "leads": 87,
+    "bookings": null,
+    "cost_per_lead": 370.08,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-23",
+   "day": {
+    "spend": 2360.43,
+    "impressions": 3892,
+    "link_clicks": 74,
+    "meta_leads": 5,
+    "leads": 5,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 34557.3,
+    "impressions": 45332,
+    "link_clicks": 811,
+    "meta_leads": 92,
+    "leads": 92,
+    "bookings": null,
+    "cost_per_lead": 375.62,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-24",
+   "day": {
+    "spend": 1954.52,
+    "impressions": 2136,
+    "link_clicks": 48,
+    "meta_leads": 3,
+    "leads": 3,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 36511.82,
+    "impressions": 47468,
+    "link_clicks": 859,
+    "meta_leads": 95,
+    "leads": 95,
+    "bookings": null,
+    "cost_per_lead": 384.33,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-25",
+   "day": {
+    "spend": 1301.74,
+    "impressions": 2098,
+    "link_clicks": 36,
+    "meta_leads": 6,
+    "leads": 6,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 37813.56,
+    "impressions": 49566,
+    "link_clicks": 895,
+    "meta_leads": 101,
+    "leads": 101,
+    "bookings": null,
+    "cost_per_lead": 374.39,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-26",
+   "day": {
+    "spend": 1681.1,
+    "impressions": 2747,
+    "link_clicks": 53,
+    "meta_leads": 8,
+    "leads": 8,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 39494.66,
+    "impressions": 52313,
+    "link_clicks": 948,
+    "meta_leads": 109,
+    "leads": 109,
+    "bookings": null,
+    "cost_per_lead": 362.34,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-27",
+   "day": {
+    "spend": 1915.46,
+    "impressions": 2604,
+    "link_clicks": 38,
+    "meta_leads": 4,
+    "leads": 4,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 41410.12,
+    "impressions": 54917,
+    "link_clicks": 986,
+    "meta_leads": 113,
+    "leads": 113,
+    "bookings": null,
+    "cost_per_lead": 366.46,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-28",
+   "day": {
+    "spend": 2068.03,
+    "impressions": 2112,
+    "link_clicks": 49,
+    "meta_leads": 2,
+    "leads": 2,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 43478.15,
+    "impressions": 57029,
+    "link_clicks": 1035,
+    "meta_leads": 115,
+    "leads": 115,
+    "bookings": null,
+    "cost_per_lead": 378.07,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-29",
+   "day": {
+    "spend": 1096.51,
+    "impressions": 1520,
+    "link_clicks": 28,
+    "meta_leads": 2,
+    "leads": 2,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 44574.66,
+    "impressions": 58549,
+    "link_clicks": 1063,
+    "meta_leads": 117,
+    "leads": 117,
+    "bookings": null,
+    "cost_per_lead": 380.98,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  },
+  {
+   "date": "2026-09-30",
+   "day": {
+    "spend": 1076.99,
+    "impressions": 1386,
+    "link_clicks": 9,
+    "meta_leads": 0,
+    "leads": 0,
+    "bookings": null
+   },
+   "cumulative": {
+    "spend": 45651.65,
+    "impressions": 59935,
+    "link_clicks": 1072,
+    "meta_leads": 117,
+    "leads": 117,
+    "bookings": null,
+    "cost_per_lead": 390.19,
+    "cost_per_booking": null
+   },
+   "bookings_is_floor": false
+  }
+ ]
+}

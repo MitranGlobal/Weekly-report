@@ -14,12 +14,31 @@ every time, in code, or pull it fresh.
  "month": "2026-11",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
+ "lead_methodology": "crm_deduped",
+ "bookings_available": true,
  "days": [
   {"date": "2026-11-01", "meta": {"spend": 0, "impressions": 0, "link_clicks": 0, "leads": 0},
    "crm_leads_deduped": 0, "bookings": 0}
  ]
 }
 ```
+
+`lead_methodology` and `bookings_available` are file-level, not per-day — a month is either fully
+covered by the CRM cross-check or it isn't:
+
+- `"lead_methodology": "crm_deduped"` (default if omitted) — every day in this month was cross-checked
+  against the CRM the way RUNBOOK step 1b describes. `crm_leads_deduped` is the real, reconciled count.
+- `"lead_methodology": "meta_only"` — this month predates the cross-check (it started 18 Nov 2026).
+  There is no CRM-deduped number for these days; `crm_leads_deduped` is set to Meta's own `lead` field
+  as the only figure that exists, and `build_month.py` labels it a lower bound in the output and in
+  `month.html`'s banner. **Never quietly relabel a `meta_only` month's leads as "final" — that is
+  exactly the kind of mistake (106 vs 78) this whole system exists to prevent.**
+- `"bookings_available": false` — no day-level booking data exists for this month at all (set this
+  alongside `meta_only` for historical months); `bookings` can be `0` as a placeholder and is ignored.
+  `month.html` shows "N/A", not a zero, so it's never mistaken for "no bookings happened."
+
+Months before April 2026 are not built at all: Meta's lifetime data confirms this ad account had zero
+spend before then, so there is nothing to report. `month.html`'s "previous month" button stops there.
 
 ## What's intentionally left out, and why
 
