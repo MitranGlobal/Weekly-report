@@ -1,32 +1,33 @@
 {
  "date": "2026-11-19",
- "pulled_at": "2026-11-19T18:08:42+05:30",
+ "pulled_at": "2026-11-19T21:09:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 571.11,
-  "impressions": 491,
-  "reach": 392,
-  "link_clicks": 15,
+  "spend": 692.51,
+  "impressions": 654,
+  "reach": 511,
+  "link_clicks": 16,
   "leads": 2,
   "purchases": 0
  },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 3,
-  "form_fills_meta": 3,
-  "leads_meta_unique": 3,
+  "form_fills_all": 4,
+  "form_fills_meta": 4,
+  "leads_meta_unique": 4,
   "bookings_created_today": 0
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Partial day: pulled at 18:08 IST, so today's totals are current as of that time and will rise through the evening.",
+  "Partial day: pulled at 21:09 IST, so today's totals are current as of that time and will rise through the rest of the evening.",
   "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health): ad-spend sync is current.",
-  "CRM count is 3 (all three are Meta-ad form fills, all real people, no tests); Meta counts 2 leads. CRM figure is the headline, as usual.",
-  "Bookings: 0 Appointment Booked records created today (IST). The stage currently holds 32 records, none created today (latest created 18 Nov, which are test records).",
+  "CRM count is 4 (all four are Meta-ad form fills, all real people, no tests, four different contacts); Meta counts 2 leads. CRM figure is the headline, as usual.",
+  "The first CRM form query returned a gateway error; the retry returned the full set (4 of 4, no further pages).",
+  "Bookings: 0 Appointment Booked records created today (IST). The stage holds 32 records, none created today (latest created 18 Nov, which are test records).",
   "Campaign table: MTD list pulled with amount_spent > 0 and no status filter (data/raw_today/README.md rule), so paused campaigns that spent this month stay listed. Today's slice is ACTIVE-only."
  ],
  "campaigns_month_range": {
@@ -59,14 +60,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-19",
-   "spend_today": 571.11,
-   "impressions_today": 491,
-   "clicks_today": 30,
-   "ctr_today": 6.11,
-   "spend_mtd": 5932.16,
-   "impressions_mtd": 4916,
-   "clicks_mtd": 154,
-   "ctr_mtd": 3.13
+   "spend_today": 692.51,
+   "impressions_today": 654,
+   "clicks_today": 33,
+   "ctr_today": 5.05,
+   "spend_mtd": 6053.56,
+   "impressions_mtd": 5079,
+   "clicks_mtd": 157,
+   "ctr_mtd": 3.09
   },
   {
    "id": "120252473001080412",

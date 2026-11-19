@@ -1,16 +1,16 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T18:08:42+05:30",
+ "generated_at": "2026-11-19T21:09:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 571.11,
-  "impressions": 491.0,
-  "reach": 392.0,
-  "link_clicks": 15.0,
+  "spend": 692.51,
+  "impressions": 654.0,
+  "reach": 511.0,
+  "link_clicks": 16.0,
   "leads": 2.0,
   "purchases": 0.0
  },
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-19",
-   "spend_today": 571.11,
-   "impressions_today": 491,
-   "clicks_today": 30,
-   "ctr_today": 6.11,
-   "spend_mtd": 5932.16,
-   "impressions_mtd": 4916,
-   "clicks_mtd": 154,
-   "ctr_mtd": 3.13
+   "spend_today": 692.51,
+   "impressions_today": 654,
+   "clicks_today": 33,
+   "ctr_today": 5.05,
+   "spend_mtd": 6053.56,
+   "impressions_mtd": 5079,
+   "clicks_mtd": 157,
+   "ctr_mtd": 3.09
   },
   {
    "id": "120252473001080412",
@@ -103,26 +103,26 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 3,
-  "form_fills_meta": 3,
-  "leads_meta_unique": 3,
+  "form_fills_all": 4,
+  "form_fills_meta": 4,
+  "leads_meta_unique": 4,
   "bookings_created_today": 0
  },
- "final_lead_count": 3,
- "cost_per_lead": 190.37,
+ "final_lead_count": 4,
+ "cost_per_lead": 173.1275,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 2.0,
-  "crm_leads_deduped": 3,
+  "crm_leads_deduped": 4,
   "match": false,
-  "gap": -1.0,
+  "gap": -2.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at 18:08 IST, so today's totals are current as of that time and will rise through the evening."
+   "text": "Partial day: pulled at 21:09 IST, so today's totals are current as of that time and will rise through the rest of the evening."
   },
   {
    "level": "warn",
@@ -130,11 +130,15 @@
   },
   {
    "level": "warn",
-   "text": "CRM count is 3 (all three are Meta-ad form fills, all real people, no tests); Meta counts 2 leads. CRM figure is the headline, as usual."
+   "text": "CRM count is 4 (all four are Meta-ad form fills, all real people, no tests, four different contacts); Meta counts 2 leads. CRM figure is the headline, as usual."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 Appointment Booked records created today (IST). The stage currently holds 32 records, none created today (latest created 18 Nov, which are test records)."
+   "text": "The first CRM form query returned a gateway error; the retry returned the full set (4 of 4, no further pages)."
+  },
+  {
+   "level": "warn",
+   "text": "Bookings: 0 Appointment Booked records created today (IST). The stage holds 32 records, none created today (latest created 18 Nov, which are test records)."
   },
   {
    "level": "warn",
