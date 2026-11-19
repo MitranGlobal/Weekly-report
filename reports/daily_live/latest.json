@@ -1,16 +1,16 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T00:08:00+05:30",
+ "generated_at": "2026-11-20T03:09:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 0.0,
-  "impressions": 0.0,
-  "reach": 0.0,
-  "link_clicks": 0.0,
+  "spend": 199.75,
+  "impressions": 350.0,
+  "reach": 321.0,
+  "link_clicks": 7.0,
   "leads": 0.0,
   "purchases": 0.0
  },
@@ -39,15 +39,15 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-13",
-   "last_active": "2026-11-19",
-   "spend_today": 0,
-   "impressions_today": 0,
+   "last_active": "2026-11-20",
+   "spend_today": 48.24,
+   "impressions_today": 62,
    "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 6170.92,
-   "impressions_mtd": 5204,
-   "clicks_mtd": 163,
-   "ctr_mtd": 3.13
+   "ctr_today": 0.0,
+   "spend_mtd": 6219.57,
+   "impressions_mtd": 5269,
+   "clicks_mtd": 164,
+   "ctr_mtd": 3.11
   },
   {
    "id": "120252473001080412",
@@ -90,15 +90,15 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-19",
-   "last_active": "2026-11-19",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 180.51,
-   "impressions_mtd": 245,
-   "clicks_mtd": 10,
-   "ctr_mtd": 4.08
+   "last_active": "2026-11-20",
+   "spend_today": 151.51,
+   "impressions_today": 288,
+   "clicks_today": 10,
+   "ctr_today": 3.47,
+   "spend_mtd": 338.85,
+   "impressions_mtd": 537,
+   "clicks_mtd": 21,
+   "ctr_mtd": 3.91
   },
   {
    "id": "120252522808880412",
@@ -120,42 +120,46 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 1,
-  "form_fills_meta": 1,
-  "leads_meta_unique": 1,
+  "form_fills_all": 2,
+  "form_fills_meta": 2,
+  "leads_meta_unique": 2,
   "bookings_created_today": 0
  },
- "final_lead_count": 1,
- "cost_per_lead": 0.0,
+ "final_lead_count": 2,
+ "cost_per_lead": 99.875,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 0.0,
-  "crm_leads_deduped": 1,
+  "crm_leads_deduped": 2,
   "match": false,
-  "gap": -1.0,
+  "gap": -2.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "Very early in the India day: pulled at 00:08 IST on 20 Nov, so only about 8 minutes of 20 Nov had elapsed. Meta shows no spend yet, and the CRM's single lead came in at 00:06 IST."
+   "text": "Partial day: pulled at 03:09 IST on 20 Nov, about three hours into the India day, so these are morning figures and will keep rising."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health): ad-spend sync is current."
+   "text": "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health). That is yesterday, so the ad-spend sync is current."
   },
   {
    "level": "warn",
-   "text": "CRM count is 1 (one Meta-ad form fill, real person, no tests, not seen on any earlier day). Meta counts 0 leads so far."
+   "text": "CRM count is 2: two Meta-ad form fills (00:06 and 01:28 IST), both real people, no tests, and no earlier submissions from either contact. Meta counts 0 leads so far, which is normal lag."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 Appointment Booked records created on 20 Nov (IST). The most recent booking record is dated 19 Nov."
+   "text": "Bookings: 0 Appointment Booked records created on 20 Nov (IST). The latest booking record is dated 19 Nov."
   },
   {
    "level": "warn",
-   "text": "Campaign table: MTD list pulled with amount_spent > 0 and no status filter (data/raw_today/README.md rule), so paused campaigns that spent this month stay listed. Today's slice is ACTIVE-only and shows zero spend so far."
+   "text": "Campaign table: MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. Campaign MTD spend (19,413.60) matches the account MTD pull exactly."
+  },
+  {
+   "level": "warn",
+   "text": "Past-day check: the monthly file's 1 to 19 Nov spend sums to 18,439.59, but Meta's account MTD through 19 Nov is 19,213.85 (19,413.60 less today's 199.75). The gap is about 774 and is probably Meta restating earlier days. Past rows were not changed in this run."
   }
  ]
 }
