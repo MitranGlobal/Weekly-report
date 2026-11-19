@@ -217,6 +217,17 @@
    "crm_leads_deduped": 4,
    "bookings": 0,
    "is_today": true
+  },
+  {
+   "date": "2026-11-20",
+   "meta": {
+    "spend": 0,
+    "impressions": 0,
+    "link_clicks": 0,
+    "leads": 0
+   },
+   "crm_leads_deduped": 1,
+   "bookings": 0
   }
  ]
 }
