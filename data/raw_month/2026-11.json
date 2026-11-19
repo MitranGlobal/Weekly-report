@@ -204,8 +204,9 @@
     "leads": 1
    },
    "crm_leads_deduped": 2,
-   "bookings": 0,
-   "is_today": true
-  }
+   "bookings": 0
+  },
+  {"date": "2026-11-19", "meta": {"spend": 232.56, "impressions": 183, "link_clicks": 7, "leads": 1},
+   "crm_leads_deduped": 1, "bookings": 0, "is_today": true}
  ]
 }
