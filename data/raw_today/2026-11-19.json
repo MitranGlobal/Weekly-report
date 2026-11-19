@@ -1,9 +1,9 @@
 {
  "date": "2026-11-19",
- "pulled_at": "2026-11-19T12:12:00+05:30",
+ "pulled_at": "2026-11-19T15:08:00+05:30",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
- "meta": {"spend": 349.77, "impressions": 269, "reach": 232, "link_clicks": 9, "leads": 1, "purchases": 0},
+ "meta": {"spend": 453.65, "impressions": 390, "reach": 324, "link_clicks": 10, "leads": 1, "purchases": 0},
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
   "form_fills_all": 2,
@@ -13,7 +13,9 @@
  },
  "ad_sync_stale_days": 3,
  "notes": [
+  "Partial day: pulled at 15:08 IST, so today's totals are current as of that time and will rise through the evening.",
   "CRM Meta ad data last reported 16 Nov 2026 (get_ad_connection_health); ad-spend sync is stale by 3 days. Sync in Lead Generation → Ad Launcher → Settings.",
+  "CRM count is 2 (both Meta-ad form fills, both real leads, no tests); Meta counts 1 lead. CRM figure is the headline, as usual.",
   "Campaign table: MTD list pulled with amount_spent > 0 and no status filter (RUNBOOK rule), so paused campaigns that spent this month stay listed."
  ],
  "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-19"},
@@ -37,24 +39,24 @@
   },
   {
    "id": "120252477836170412",
-   "name": "Schedule | ADV | Video | 13Nov26",
+   "name": "Schedule | ADV | Video | 13Nov26 (b)",
    "status": "ACTIVE",
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-19",
-   "spend_today": 349.77,
-   "impressions_today": 269,
-   "clicks_today": 15,
-   "ctr_today": 5.58,
-   "spend_mtd": 5710.82,
-   "impressions_mtd": 4694,
-   "clicks_mtd": 139,
-   "ctr_mtd": 2.96
+   "spend_today": 453.65,
+   "impressions_today": 390,
+   "clicks_today": 19,
+   "ctr_today": 4.87,
+   "spend_mtd": 5814.7,
+   "impressions_mtd": 4815,
+   "clicks_mtd": 143,
+   "ctr_mtd": 2.97
   },
   {
    "id": "120252473001080412",
-   "name": "Schedule | ADV | Video | 13Nov26 (b)",
+   "name": "Schedule | ADV | Video | 13Nov26",
    "status": "PAUSED",
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
