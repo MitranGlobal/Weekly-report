@@ -1,17 +1,17 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T15:08:21+05:30",
+ "generated_at": "2026-11-20T18:10:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1298.68,
-  "impressions": 1570.0,
-  "reach": 1328.0,
-  "link_clicks": 48.0,
-  "leads": 2.0,
+  "spend": 1564.99,
+  "impressions": 1953.0,
+  "reach": 1659.0,
+  "link_clicks": 63.0,
+  "leads": 3.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-20",
-   "spend_today": 616.53,
-   "impressions_today": 551,
-   "clicks_today": 15,
-   "ctr_today": 2.72,
-   "spend_mtd": 6789.91,
-   "impressions_mtd": 5762,
-   "clicks_mtd": 179,
-   "ctr_mtd": 3.11
+   "spend_today": 759.31,
+   "impressions_today": 677,
+   "clicks_today": 18,
+   "ctr_today": 2.66,
+   "spend_mtd": 6941.48,
+   "impressions_mtd": 5889,
+   "clicks_mtd": 182,
+   "ctr_mtd": 3.09
   },
   {
    "id": "120252473001080412",
@@ -91,14 +91,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-20",
-   "spend_today": 682.15,
-   "impressions_today": 1019,
-   "clicks_today": 48,
-   "ctr_today": 4.71,
-   "spend_mtd": 870.01,
-   "impressions_mtd": 1271,
-   "clicks_mtd": 59,
-   "ctr_mtd": 4.64
+   "spend_today": 805.68,
+   "impressions_today": 1276,
+   "clicks_today": 60,
+   "ctr_today": 4.7,
+   "spend_mtd": 993.54,
+   "impressions_mtd": 1528,
+   "clicks_mtd": 71,
+   "ctr_mtd": 4.65
   },
   {
    "id": "120252522808880412",
@@ -120,17 +120,17 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 5,
-  "form_fills_meta": 5,
-  "leads_meta_unique": 5,
+  "form_fills_all": 6,
+  "form_fills_meta": 6,
+  "leads_meta_unique": 6,
   "bookings_created_today": 0
  },
- "final_lead_count": 5,
- "cost_per_lead": 259.736,
+ "final_lead_count": 6,
+ "cost_per_lead": 260.83166666666665,
  "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 2.0,
-  "crm_leads_deduped": 5,
+  "meta_leads": 3.0,
+  "crm_leads_deduped": 6,
   "match": false,
   "gap": -3.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
@@ -139,11 +139,19 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at 15:08 IST, so today's totals are current as of that time and will keep rising."
+   "text": "Partial day: pulled at 18:10 IST, so today's totals are current as of that time and will keep rising until midnight."
   },
   {
    "level": "warn",
-   "text": "CRM count is 5 (form query for 19 Nov 18:30 UTC to 20 Nov 18:30 UTC returned 5 of 5, no further pages). All five are Meta-ad form fills (has_fbclid and utm_source fb-ad), five different contacts, no test records. Meta counts 2 leads, so the CRM figure is the headline."
+   "text": "CRM count is 6 (form query for 19 Nov 18:30 UTC to 20 Nov 18:30 UTC returned 6 of 6, has_more false). All six are Meta-ad form fills (has_fbclid true, utm_source fb-ad), six different contacts, no test records. Meta counts 3 leads, so the CRM figure is the headline."
+  },
+  {
+   "level": "warn",
+   "text": "Since the 15:08 IST pull, one new form fill has come in (Swapna, 15:41 IST, Schedule | ADV | Video | 19Nov26), taking the CRM count from 5 to 6."
+  },
+  {
+   "level": "warn",
+   "text": "Dr V G Abraham's form fill (20 Nov 05:01 IST) is the only submission from that contact in November, so it counts once today."
   },
   {
    "level": "warn",
@@ -155,7 +163,7 @@
   },
   {
    "level": "warn",
-   "text": "Campaign table: today's slice is ACTIVE-only and sums to the account spend (682.15 + 616.53 = 1298.68). MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. For active campaigns last_active is set to today (spend today); for paused ones it is the updated_time date."
+   "text": "Campaign table: today's slice is ACTIVE-only and sums to the account spend (805.68 + 759.31 = 1564.99). MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. For active campaigns last_active is set to today (spend today); for paused ones it is the updated_time date."
   }
  ]
 }

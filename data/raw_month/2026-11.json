@@ -220,12 +220,12 @@
   {
    "date": "2026-11-20",
    "meta": {
-    "spend": 1298.68,
-    "impressions": 1570,
-    "link_clicks": 48,
-    "leads": 2
+    "spend": 1564.99,
+    "impressions": 1953,
+    "link_clicks": 63,
+    "leads": 3
    },
-   "crm_leads_deduped": 5,
+   "crm_leads_deduped": 6,
    "bookings": 0
   }
  ]
