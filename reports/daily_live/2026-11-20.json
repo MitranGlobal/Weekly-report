@@ -1,16 +1,16 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T12:10:00+05:30",
+ "generated_at": "2026-11-20T15:08:21+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1015.38,
-  "impressions": 1210.0,
-  "reach": 1074.0,
-  "link_clicks": 39.0,
+  "spend": 1298.68,
+  "impressions": 1570.0,
+  "reach": 1328.0,
+  "link_clicks": 48.0,
   "leads": 2.0,
   "purchases": 0.0
  },
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-20",
-   "spend_today": 433.6,
-   "impressions_today": 410,
-   "clicks_today": 9,
-   "ctr_today": 2.2,
-   "spend_mtd": 6606.98,
-   "impressions_mtd": 5621,
-   "clicks_mtd": 173,
-   "ctr_mtd": 3.08
+   "spend_today": 616.53,
+   "impressions_today": 551,
+   "clicks_today": 15,
+   "ctr_today": 2.72,
+   "spend_mtd": 6789.91,
+   "impressions_mtd": 5762,
+   "clicks_mtd": 179,
+   "ctr_mtd": 3.11
   },
   {
    "id": "120252473001080412",
@@ -91,14 +91,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-20",
-   "spend_today": 581.78,
-   "impressions_today": 800,
-   "clicks_today": 40,
-   "ctr_today": 5.0,
-   "spend_mtd": 769.59,
-   "impressions_mtd": 1051,
-   "clicks_mtd": 51,
-   "ctr_mtd": 4.85
+   "spend_today": 682.15,
+   "impressions_today": 1019,
+   "clicks_today": 48,
+   "ctr_today": 4.71,
+   "spend_mtd": 870.01,
+   "impressions_mtd": 1271,
+   "clicks_mtd": 59,
+   "ctr_mtd": 4.64
   },
   {
    "id": "120252522808880412",
@@ -126,7 +126,7 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 5,
- "cost_per_lead": 203.076,
+ "cost_per_lead": 259.736,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 2.0,
@@ -139,23 +139,23 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at 12:10 IST, about twelve hours into the India day, so these are midday figures and will keep rising."
+   "text": "Partial day: pulled at 15:08 IST, so today's totals are current as of that time and will keep rising."
   },
   {
    "level": "warn",
-   "text": "CRM count is 5: Meta-ad form fills at 00:06, 01:28, 05:01, 06:34 and 08:10 IST, all real people, no tests. Each of the five contacts has only one submission since 31 Oct (checked per contact), so none is a repeat. Meta counts 2 leads so far, so the CRM figure is 3 higher, which is the usual attribution gap."
+   "text": "CRM count is 5 (form query for 19 Nov 18:30 UTC to 20 Nov 18:30 UTC returned 5 of 5, no further pages). All five are Meta-ad form fills (has_fbclid and utm_source fb-ad), five different contacts, no test records. Meta counts 2 leads, so the CRM figure is the headline."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health). That is yesterday, so the ad-spend sync is current."
+   "text": "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health): one day behind today, not stale."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 Appointment Booked records dated 20 Nov. The two most recent booking records (Dr V G Abraham and Naveen kumar) are dated 19 Nov; neither matches a form fill from today as a new booking, and Dr V G Abraham's contact first touched us on 1 Sep, so they are not counted as today's bookings."
+   "text": "Bookings: 0 Appointment Booked records created 20 Nov (IST). The two non-test records dated 19 Nov (Dr V G Abraham and Naveen kumar) are not counted as today's bookings."
   },
   {
    "level": "warn",
-   "text": "Campaign table: today's spend (1015.38) is the sum of the two ACTIVE campaigns (581.78 + 433.60) and matches the account pull exactly. The month-to-date campaign total (20231.75) matches Meta's account month-to-date exactly. MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed."
+   "text": "Campaign table: today's slice is ACTIVE-only and sums to the account spend (682.15 + 616.53 = 1298.68). MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. For active campaigns last_active is set to today (spend today); for paused ones it is the updated_time date."
   }
  ]
 }
