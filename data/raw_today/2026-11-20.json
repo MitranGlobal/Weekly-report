@@ -1,26 +1,25 @@
 {
  "date": "2026-11-20",
- "pulled_at": "2026-11-20T03:09:00+05:30",
+ "pulled_at": "2026-11-20T06:08:00+05:30",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
  "meta": {
-  "spend": 199.75, "impressions": 350, "reach": 321, "link_clicks": 7, "leads": 0, "purchases": 0
+  "spend": 356.32, "impressions": 528, "reach": 485, "link_clicks": 14, "leads": 1, "purchases": 0
  },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 2,
-  "form_fills_meta": 2,
-  "leads_meta_unique": 2,
+  "form_fills_all": 3,
+  "form_fills_meta": 3,
+  "leads_meta_unique": 3,
   "bookings_created_today": 0
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Partial day: pulled at 03:09 IST on 20 Nov, about three hours into the India day, so these are morning figures and will keep rising.",
+  "Partial day: pulled at 06:08 IST on 20 Nov, about six hours into the India day, so these are morning figures and will keep rising.",
+  "CRM count is 3: Meta-ad form fills at 00:06, 01:28 and 05:01 IST, all real people, no tests. Each contact has only one submission since 31 Oct, so none is a repeat. Meta counts 1 lead so far.",
   "CRM Meta ad data last reported 19 Nov 2026 (get_ad_connection_health). That is yesterday, so the ad-spend sync is current.",
-  "CRM count is 2: two Meta-ad form fills (00:06 and 01:28 IST), both real people, no tests, and no earlier submissions from either contact. Meta counts 0 leads so far, which is normal lag.",
-  "Bookings: 0 Appointment Booked records created on 20 Nov (IST). The latest booking record is dated 19 Nov.",
-  "Campaign table: MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. Campaign MTD spend (19,413.60) matches the account MTD pull exactly.",
-  "Past-day check: the monthly file's 1 to 19 Nov spend sums to 18,439.59, but Meta's account MTD through 19 Nov is 19,213.85 (19,413.60 less today's 199.75). The gap is about 774 and is probably Meta restating earlier days. Past rows were not changed in this run."
+  "Bookings: 0 Appointment Booked records dated 20 Nov. The newest booking record is dated 19 Nov (Dr V G Abraham, whose form came in at 05:01 IST on 20 Nov). CRM booking dates are date-only, so if that record was stamped in UTC it may belong to today; it will be rechecked on the next run.",
+  "Campaign table: today's spend (356.32) is the sum of the two ACTIVE campaigns, and matches the account pull exactly. MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. Campaign MTD spend (19,570.17) includes today's 356.32, so it is 19,213.85 through 19 Nov, matching Meta's account MTD."
  ],
  "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-20"},
  "campaigns": [
@@ -43,8 +42,8 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-20",
-   "spend_today": 48.24, "impressions_today": 62, "clicks_today": 0, "ctr_today": 0.0,
-   "spend_mtd": 6219.57, "impressions_mtd": 5269, "clicks_mtd": 164, "ctr_mtd": 3.11
+   "spend_today": 74.59, "impressions_today": 91, "clicks_today": 1, "ctr_today": 1.10,
+   "spend_mtd": 6245.92, "impressions_mtd": 5298, "clicks_mtd": 165, "ctr_mtd": 3.11
   },
   {
    "id": "120252473001080412",
@@ -76,8 +75,8 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-20",
-   "spend_today": 151.51, "impressions_today": 288, "clicks_today": 10, "ctr_today": 3.47,
-   "spend_mtd": 338.85, "impressions_mtd": 537, "clicks_mtd": 21, "ctr_mtd": 3.91
+   "spend_today": 281.73, "impressions_today": 437, "clicks_today": 17, "ctr_today": 3.89,
+   "spend_mtd": 469.07, "impressions_mtd": 686, "clicks_mtd": 28, "ctr_mtd": 4.08
   },
   {
    "id": "120252522808880412",
