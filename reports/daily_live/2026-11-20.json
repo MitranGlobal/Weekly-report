@@ -1,16 +1,16 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T18:10:00+05:30",
+ "generated_at": "2026-11-20T21:08:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1564.99,
-  "impressions": 1953.0,
-  "reach": 1659.0,
-  "link_clicks": 63.0,
+  "spend": 1814.97,
+  "impressions": 2407.0,
+  "reach": 2006.0,
+  "link_clicks": 72.0,
   "leads": 3.0,
   "purchases": 0.0
  },
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-20",
-   "spend_today": 759.31,
-   "impressions_today": 677,
-   "clicks_today": 18,
-   "ctr_today": 2.66,
-   "spend_mtd": 6941.48,
-   "impressions_mtd": 5889,
-   "clicks_mtd": 182,
-   "ctr_mtd": 3.09
+   "spend_today": 885.33,
+   "impressions_today": 814,
+   "clicks_today": 23,
+   "ctr_today": 2.83,
+   "spend_mtd": 7067.5,
+   "impressions_mtd": 6026,
+   "clicks_mtd": 187,
+   "ctr_mtd": 3.1
   },
   {
    "id": "120252473001080412",
@@ -91,14 +91,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-20",
-   "spend_today": 805.68,
-   "impressions_today": 1276,
-   "clicks_today": 60,
-   "ctr_today": 4.7,
-   "spend_mtd": 993.54,
-   "impressions_mtd": 1528,
-   "clicks_mtd": 71,
-   "ctr_mtd": 4.65
+   "spend_today": 929.64,
+   "impressions_today": 1593,
+   "clicks_today": 67,
+   "ctr_today": 4.21,
+   "spend_mtd": 1117.5,
+   "impressions_mtd": 1845,
+   "clicks_mtd": 78,
+   "ctr_mtd": 4.23
   },
   {
    "id": "120252522808880412",
@@ -126,7 +126,7 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 6,
- "cost_per_lead": 260.83166666666665,
+ "cost_per_lead": 302.495,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 3.0,
@@ -139,7 +139,7 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at 18:10 IST, so today's totals are current as of that time and will keep rising until midnight."
+   "text": "Partial day: pulled at 21:08 IST, so today's totals are current as of that time and will keep rising until midnight."
   },
   {
    "level": "warn",
@@ -147,7 +147,7 @@
   },
   {
    "level": "warn",
-   "text": "Since the 15:08 IST pull, one new form fill has come in (Swapna, 15:41 IST, Schedule | ADV | Video | 19Nov26), taking the CRM count from 5 to 6."
+   "text": "No new form fills since the 18:10 IST pull; the CRM count is unchanged at 6."
   },
   {
    "level": "warn",
@@ -159,11 +159,11 @@
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 Appointment Booked records created 20 Nov (IST). The two non-test records dated 19 Nov (Dr V G Abraham and Naveen kumar) are not counted as today's bookings."
+   "text": "Bookings: 0 Appointment Booked records created 20 Nov (IST). The most recent Appointment Booked records were created 19 Nov (Dr V G Abraham and Naveen kumar) and are not counted as today's bookings."
   },
   {
    "level": "warn",
-   "text": "Campaign table: today's slice is ACTIVE-only and sums to the account spend (805.68 + 759.31 = 1564.99). MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. For active campaigns last_active is set to today (spend today); for paused ones it is the updated_time date."
+   "text": "Campaign table: today's slice is ACTIVE-only and sums to the account spend (885.33 + 929.64 = 1814.97; impressions 814 + 1593 = 2407; clicks 23 + 67 = 90). MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed. For active campaigns last_active is set to today (spend today); for paused ones it is the updated_time date."
   }
  ]
 }
