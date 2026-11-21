@@ -1,24 +1,104 @@
 {
  "date": "2026-11-21",
- "pulled_at": "2026-11-21T03:08:36+05:30",
- "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
+ "pulled_at": "2026-11-21T06:10:48+05:30",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
  "currency": "INR",
- "meta": {"spend": 140.89, "impressions": 309, "reach": 277, "link_clicks": 17, "leads": 1, "purchases": 0},
+ "meta": {
+  "spend": 174.79,
+  "impressions": 406,
+  "reach": 365,
+  "link_clicks": 19,
+  "leads": 2,
+  "purchases": 0
+ },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 1,
-  "form_fills_meta": 1,
-  "leads_meta_unique": 1,
+  "form_fills_all": 2,
+  "form_fills_meta": 2,
+  "leads_meta_unique": 2,
   "bookings_created_today": 0
  },
  "ad_sync_stale_days": 2,
  "notes": [
   "CRM Meta ad data runs to 2026-11-19 (get_ad_connection_health), so the CRM's own cost-per-lead may lag; leads and bookings are live.",
-  "Campaigns list = ACTIVE campaigns only (plus none spent today outside ACTIVE). Paused campaigns are omitted, per this run's instructions.",
-  "Bookings: 0 Appointment Booked records created 21 Nov so far; the 34 records in that stage are all dated 19 Nov or earlier."
+  "Campaign table: month-to-date list (active or paused, any spend since 1 Nov) with today's numbers for ACTIVE campaigns. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the newer one is marked (b)."
  ],
- "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-21"},
+ "campaigns_month_range": {
+  "since": "2026-11-01",
+  "until": "2026-11-21"
+ },
  "campaigns": [
+  {
+   "id": "120252281645440412",
+   "name": "Schedule | ADV | Video | 03Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-03",
+   "last_active": "2026-11-11",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 7789.89,
+   "impressions_mtd": 23418,
+   "clicks_mtd": 452,
+   "ctr_mtd": 1.93
+  },
+  {
+   "id": "120252477836170412",
+   "name": "Schedule | ADV | Video | 13Nov26 (b)",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-21",
+   "spend_today": 98.62,
+   "impressions_today": 240,
+   "clicks_today": 19,
+   "ctr_today": 7.92,
+   "spend_mtd": 7275.48,
+   "impressions_mtd": 6481,
+   "clicks_mtd": 217,
+   "ctr_mtd": 3.35
+  },
+  {
+   "id": "120252473001080412",
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 3265.49,
+   "impressions_mtd": 6365,
+   "clicks_mtd": 205,
+   "ctr_mtd": 3.22
+  },
+  {
+   "id": "120252437846370412",
+   "name": "Schedule | ADV | Video | 11Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-11",
+   "last_active": "2026-11-13",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 1754.11,
+   "impressions_mtd": 2399,
+   "clicks_mtd": 75,
+   "ctr_mtd": 3.13
+  },
   {
    "id": "120252592269270412",
    "name": "Schedule | ADV | Video | 19Nov26",
@@ -26,20 +106,32 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-19",
-   "last_active": "2026-11-19",
-   "spend_today": 58.06, "impressions_today": 129, "clicks_today": 2, "ctr_today": 1.55,
-   "spend_mtd": 1291.74, "impressions_mtd": 2229, "clicks_mtd": 81, "ctr_mtd": 3.63
+   "last_active": "2026-11-21",
+   "spend_today": 76.17,
+   "impressions_today": 166,
+   "clicks_today": 3,
+   "ctr_today": 1.81,
+   "spend_mtd": 1310.16,
+   "impressions_mtd": 2267,
+   "clicks_mtd": 82,
+   "ctr_mtd": 3.62
   },
   {
-   "id": "120252477836170412",
-   "name": "Schedule | ADV | Video | 13Nov26",
-   "status": "ACTIVE",
+   "id": "120252522808880412",
+   "name": "Schedule | ADV | Video | 16Nov26",
+   "status": "PAUSED",
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
-   "created_time": "2026-11-13",
-   "last_active": "2026-11-13",
-   "spend_today": 82.83, "impressions_today": 180, "clicks_today": 18, "ctr_today": 10.00,
-   "spend_mtd": 7257.84, "impressions_mtd": 6419, "clicks_mtd": 216, "ctr_mtd": 3.37
+   "created_time": "2026-11-16",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 45.69,
+   "impressions_mtd": 192,
+   "clicks_mtd": 13,
+   "ctr_mtd": 6.77
   }
  ]
 }
