@@ -1,16 +1,16 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T09:08:44+05:30",
+ "generated_at": "2026-11-21T12:08:13+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 569.82,
-  "impressions": 798.0,
-  "reach": 737.0,
-  "link_clicks": 25.0,
+  "spend": 990.85,
+  "impressions": 1239.0,
+  "reach": 1108.0,
+  "link_clicks": 30.0,
   "leads": 3.0,
   "purchases": 0.0
  },
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-03",
    "last_active": "2026-11-11",
-   "spend_mtd": 7789.89,
-   "impressions_mtd": 23418,
-   "clicks_mtd": 452,
-   "ctr_mtd": 1.93,
    "spend_today": 0,
    "impressions_today": 0,
    "clicks_today": 0,
-   "ctr_today": null
+   "ctr_today": null,
+   "spend_mtd": 7789.89,
+   "impressions_mtd": 23418,
+   "clicks_mtd": 452,
+   "ctr_mtd": 1.93
   },
   {
    "id": "120252477836170412",
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-21",
-   "spend_mtd": 7524.35,
-   "impressions_mtd": 6665,
-   "clicks_mtd": 223,
-   "ctr_mtd": 3.35,
-   "spend_today": 347.42,
-   "impressions_today": 423,
-   "clicks_today": 24,
-   "ctr_today": 5.67
+   "spend_today": 548.23,
+   "impressions_today": 553,
+   "clicks_today": 27,
+   "ctr_today": 4.88,
+   "spend_mtd": 7725.16,
+   "impressions_mtd": 6796,
+   "clicks_mtd": 226,
+   "ctr_mtd": 3.33
   },
   {
    "id": "120252473001080412",
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-16",
-   "spend_mtd": 3265.49,
-   "impressions_mtd": 6365,
-   "clicks_mtd": 205,
-   "ctr_mtd": 3.22,
    "spend_today": 0,
    "impressions_today": 0,
    "clicks_today": 0,
-   "ctr_today": null
+   "ctr_today": null,
+   "spend_mtd": 3265.49,
+   "impressions_mtd": 6365,
+   "clicks_mtd": 205,
+   "ctr_mtd": 3.22
   },
   {
    "id": "120252437846370412",
@@ -74,14 +74,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-11",
    "last_active": "2026-11-13",
-   "spend_mtd": 1754.11,
-   "impressions_mtd": 2399,
-   "clicks_mtd": 75,
-   "ctr_mtd": 3.13,
    "spend_today": 0,
    "impressions_today": 0,
    "clicks_today": 0,
-   "ctr_today": null
+   "ctr_today": null,
+   "spend_mtd": 1754.11,
+   "impressions_mtd": 2399,
+   "clicks_mtd": 75,
+   "ctr_mtd": 3.13
   },
   {
    "id": "120252592269270412",
@@ -91,14 +91,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-21",
-   "spend_mtd": 1456.39,
-   "impressions_mtd": 2476,
-   "clicks_mtd": 85,
-   "ctr_mtd": 3.43,
-   "spend_today": 222.4,
-   "impressions_today": 375,
-   "clicks_today": 6,
-   "ctr_today": 1.6
+   "spend_today": 450.55,
+   "impressions_today": 689,
+   "clicks_today": 11,
+   "ctr_today": 1.6,
+   "spend_mtd": 1685.86,
+   "impressions_mtd": 2792,
+   "clicks_mtd": 90,
+   "ctr_mtd": 3.22
   },
   {
    "id": "120252522808880412",
@@ -108,14 +108,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-16",
    "last_active": "2026-11-16",
-   "spend_mtd": 45.69,
-   "impressions_mtd": 192,
-   "clicks_mtd": 13,
-   "ctr_mtd": 6.77,
    "spend_today": 0,
    "impressions_today": 0,
    "clicks_today": 0,
-   "ctr_today": null
+   "ctr_today": null,
+   "spend_mtd": 45.69,
+   "impressions_mtd": 192,
+   "clicks_mtd": 13,
+   "ctr_mtd": 6.77
   }
  ],
  "crm": {
@@ -126,7 +126,7 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 3,
- "cost_per_lead": 189.94000000000003,
+ "cost_per_lead": 330.28333333333336,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 3.0,
@@ -143,11 +143,23 @@
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data runs to 2026-11-19 (get_ad_connection_health), so the CRM's own cost-per-lead may lag; leads and bookings are live."
+   "text": "Partial day: pulled at 12:08 IST, so today's totals are current as of that time and will keep rising until midnight."
   },
   {
    "level": "warn",
-   "text": "Campaign table: month-to-date list (active or paused, any spend since 1 Nov) with today's numbers for ACTIVE campaigns. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the newer one is marked (b)."
+   "text": "CRM count is 3 (form query for 20 Nov 18:30 UTC to 21 Nov 18:30 UTC returned 3 of 3, has_more false). All three are Meta-ad form fills (has_fbclid true, utm_source fb-ad), three different contacts, no test records. None of the three contacts has any other Condtioning Lead 2.0 submission from 1 to 20 Nov, so each is new for the month. Meta counts 3 leads, so the CRM figure matches."
+  },
+  {
+   "level": "warn",
+   "text": "CRM Meta ad data runs to 2026-11-19 (get_ad_connection_health), two days behind today, so the CRM's own cost-per-lead may lag; leads and bookings are live."
+  },
+  {
+   "level": "warn",
+   "text": "Bookings: 0 Appointment Booked records created 21 Nov (IST). The most recent ones were created 19 Nov (Dr V G Abraham and Naveen kumar) and are not counted as today's bookings."
+  },
+  {
+   "level": "warn",
+   "text": "Campaign table: today's slice is ACTIVE-only (two campaigns, 19Nov26 and 13Nov26 (b)). The campaign pull ran a few seconds after the account pull, so the two campaigns' spend (998.78) is about 8 INR above the account total (990.85); the account total is the headline. MTD list pulled with amount_spent > 0 and no status filter, so paused campaigns that spent this month stay listed."
   }
  ]
 }
