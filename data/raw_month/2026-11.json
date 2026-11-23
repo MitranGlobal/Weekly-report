@@ -198,8 +198,8 @@
   {
    "date": "2026-11-18",
    "meta": {
-    "spend": 960.53,
-    "impressions": 654,
+    "spend": 969.32,
+    "impressions": 655,
     "link_clicks": 12,
     "leads": 1
    },
@@ -209,8 +209,8 @@
   {
    "date": "2026-11-19",
    "meta": {
-    "spend": 989.83,
-    "impressions": 1034,
+    "spend": 991.23,
+    "impressions": 1037,
     "link_clicks": 29,
     "leads": 5
    },
@@ -220,9 +220,9 @@
   {
    "date": "2026-11-20",
    "meta": {
-    "spend": 1814.97,
-    "impressions": 2407,
-    "link_clicks": 72,
+    "spend": 2043.2,
+    "impressions": 2886,
+    "link_clicks": 84,
     "leads": 3
    },
    "crm_leads_deduped": 6,
@@ -231,19 +231,19 @@
   {
    "date": "2026-11-21",
    "meta": {
-    "spend": 990.85,
-    "impressions": 1239,
-    "link_clicks": 30,
-    "leads": 3
+    "spend": 1738.32,
+    "impressions": 2281,
+    "link_clicks": 49,
+    "leads": 6
    },
-   "crm_leads_deduped": 3,
+   "crm_leads_deduped": 6,
    "bookings": 0
   },
   {
    "date": "2026-11-22",
    "meta": {
-    "spend": 2344.1,
-    "impressions": 2774,
+    "spend": 2344.35,
+    "impressions": 2775,
     "link_clicks": 63,
     "leads": 7
    },
@@ -253,12 +253,12 @@
   {
    "date": "2026-11-23",
    "meta": {
-    "spend": 2060.21,
-    "impressions": 2196,
-    "link_clicks": 62,
-    "leads": 9
+    "spend": 2301.84,
+    "impressions": 2534,
+    "link_clicks": 71,
+    "leads": 11
    },
-   "crm_leads_deduped": 13,
+   "crm_leads_deduped": 14,
    "bookings": 1
   }
  ]

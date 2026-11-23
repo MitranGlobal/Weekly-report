@@ -7,7 +7,7 @@
  "currency": "INR",
  "lead_methodology": "crm_deduped",
  "bookings_available": true,
- "generated_at": "2026-11-23T12:38:52.408665+00:00",
+ "generated_at": "2026-11-23T15:42:52.379878+00:00",
  "notes": [
   "leads = CRM-deduped final count (Meta-ad visitors, tests removed, one contact counted once). meta_leads is Meta's own figure, kept only for reference \u2014 it undercounts, same as every other report in this repo.",
   "reach is intentionally not included: daily reach cannot be summed into a valid running total (it would double-count people reached on more than one day).",
@@ -391,132 +391,132 @@
   {
    "date": "2026-11-18",
    "day": {
-    "spend": 960.53,
-    "impressions": 654,
+    "spend": 969.32,
+    "impressions": 655,
     "link_clicks": 12,
     "meta_leads": 1,
     "leads": 3,
     "bookings": 0
    },
    "cumulative": {
-    "spend": 18225.19,
-    "impressions": 36800,
+    "spend": 18233.98,
+    "impressions": 36801,
     "link_clicks": 626,
     "meta_leads": 81,
     "leads": 111,
     "bookings": 2,
-    "cost_per_lead": 164.19,
-    "cost_per_booking": 9112.6
+    "cost_per_lead": 164.27,
+    "cost_per_booking": 9116.99
    },
    "bookings_is_floor": true
   },
   {
    "date": "2026-11-19",
    "day": {
-    "spend": 989.83,
-    "impressions": 1034,
+    "spend": 991.23,
+    "impressions": 1037,
     "link_clicks": 29,
     "meta_leads": 5,
     "leads": 4,
     "bookings": 0
    },
    "cumulative": {
-    "spend": 19215.02,
-    "impressions": 37834,
+    "spend": 19225.21,
+    "impressions": 37838,
     "link_clicks": 655,
     "meta_leads": 86,
     "leads": 115,
     "bookings": 2,
-    "cost_per_lead": 167.09,
-    "cost_per_booking": 9607.51
+    "cost_per_lead": 167.18,
+    "cost_per_booking": 9612.61
    },
    "bookings_is_floor": true
   },
   {
    "date": "2026-11-20",
    "day": {
-    "spend": 1814.97,
-    "impressions": 2407,
-    "link_clicks": 72,
+    "spend": 2043.2,
+    "impressions": 2886,
+    "link_clicks": 84,
     "meta_leads": 3,
     "leads": 6,
     "bookings": 0
    },
    "cumulative": {
-    "spend": 21029.99,
-    "impressions": 40241,
-    "link_clicks": 727,
+    "spend": 21268.41,
+    "impressions": 40724,
+    "link_clicks": 739,
     "meta_leads": 89,
     "leads": 121,
     "bookings": 2,
-    "cost_per_lead": 173.8,
-    "cost_per_booking": 10515.0
+    "cost_per_lead": 175.77,
+    "cost_per_booking": 10634.21
    },
    "bookings_is_floor": true
   },
   {
    "date": "2026-11-21",
    "day": {
-    "spend": 990.85,
-    "impressions": 1239,
-    "link_clicks": 30,
-    "meta_leads": 3,
-    "leads": 3,
+    "spend": 1738.32,
+    "impressions": 2281,
+    "link_clicks": 49,
+    "meta_leads": 6,
+    "leads": 6,
     "bookings": 0
    },
    "cumulative": {
-    "spend": 22020.84,
-    "impressions": 41480,
-    "link_clicks": 757,
-    "meta_leads": 92,
-    "leads": 124,
+    "spend": 23006.73,
+    "impressions": 43005,
+    "link_clicks": 788,
+    "meta_leads": 95,
+    "leads": 127,
     "bookings": 2,
-    "cost_per_lead": 177.59,
-    "cost_per_booking": 11010.42
+    "cost_per_lead": 181.16,
+    "cost_per_booking": 11503.37
    },
    "bookings_is_floor": true
   },
   {
    "date": "2026-11-22",
    "day": {
-    "spend": 2344.1,
-    "impressions": 2774,
+    "spend": 2344.35,
+    "impressions": 2775,
     "link_clicks": 63,
     "meta_leads": 7,
     "leads": 8,
     "bookings": 1
    },
    "cumulative": {
-    "spend": 24364.94,
-    "impressions": 44254,
-    "link_clicks": 820,
-    "meta_leads": 99,
-    "leads": 132,
+    "spend": 25351.08,
+    "impressions": 45780,
+    "link_clicks": 851,
+    "meta_leads": 102,
+    "leads": 135,
     "bookings": 3,
-    "cost_per_lead": 184.58,
-    "cost_per_booking": 8121.65
+    "cost_per_lead": 187.79,
+    "cost_per_booking": 8450.36
    },
    "bookings_is_floor": true
   },
   {
    "date": "2026-11-23",
    "day": {
-    "spend": 2060.21,
-    "impressions": 2196,
-    "link_clicks": 62,
-    "meta_leads": 9,
-    "leads": 13,
+    "spend": 2301.84,
+    "impressions": 2534,
+    "link_clicks": 71,
+    "meta_leads": 11,
+    "leads": 14,
     "bookings": 1
    },
    "cumulative": {
-    "spend": 26425.15,
-    "impressions": 46450,
-    "link_clicks": 882,
-    "meta_leads": 108,
-    "leads": 145,
+    "spend": 27652.92,
+    "impressions": 48314,
+    "link_clicks": 922,
+    "meta_leads": 113,
+    "leads": 149,
     "bookings": 4,
-    "cost_per_lead": 182.24,
-    "cost_per_booking": 6606.29
+    "cost_per_lead": 185.59,
+    "cost_per_booking": 6913.23
    },
    "bookings_is_floor": false
   }

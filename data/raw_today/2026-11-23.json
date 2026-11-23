@@ -1,33 +1,33 @@
 {
  "date": "2026-11-23",
- "pulled_at": "2026-11-23T18:08:49+05:30",
+ "pulled_at": "2026-11-23T21:11:46+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 2060.21,
-  "impressions": 2196,
-  "reach": 1914,
-  "link_clicks": 62,
-  "leads": 9,
+  "spend": 2301.84,
+  "impressions": 2534,
+  "reach": 2183,
+  "link_clicks": 71,
+  "leads": 11,
   "purchases": 0
  },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 14,
-  "form_fills_meta": 14,
-  "leads_meta_unique": 14,
+  "form_fills_all": 15,
+  "form_fills_meta": 15,
+  "leads_meta_unique": 15,
   "bookings_created_today": 1
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Partial day: pulled at 18:08 IST, so today's totals are current as of that time and will keep rising until midnight.",
-  "CRM count is 14 (form query for 22 Nov 18:30 UTC to 23 Nov 18:30 UTC returned 14 of 14, has_more false). All 14 are Meta-ad form fills (has_fbclid true or utm_source fb-ad), 14 different contacts, no test records (no test names, no @mitranglobal.com addresses). One of them (Dharitri Mohanty) also submitted on 17 Nov, so the monthly row counts that person once (on 17 Nov) and counts 13 for today.",
+  "Partial day: pulled at about 21:08 IST, so today's totals are current as of that time and will keep rising until midnight.",
+  "CRM count is 15 (form query for 22 Nov 18:30 UTC to 23 Nov 18:30 UTC returned 15 of 15, has_more false). All 15 are Meta-ad form fills (has_fbclid true, and utm_source fb-ad on 14 of them). 15 different contacts, no test records (no test names, no @mitranglobal.com addresses). Meta counts 11 leads, so the CRM figure is higher, as usual; Meta lags on form fills.",
   "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), so it is current.",
-  "Bookings: 1 Appointment Booked record created 23 Nov (IST), Aditya Kumar (Workflow), not a test. The other Appointment Booked records in the list were created on earlier days.",
-  "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) spent 1017.05 and 1043.16 today, which sums to the account total of 2060.21. Month-to-date list includes paused campaigns that spent in November."
+  "Bookings: 1 Appointment Booked record created 23 Nov (IST), Aditya Kumar (Workflow), not a test. He is also one of today's 15 form fills.",
+  "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) spent 1176.03 and 1125.81 today, which sums to the account total of 2301.84. Month-to-date list includes paused campaigns that spent in November."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -42,13 +42,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-23",
-   "spend_today": 1043.16,
-   "impressions_today": 810,
-   "clicks_today": 35,
-   "ctr_today": 4.32,
-   "spend_mtd": 10361.04,
-   "impressions_mtd": 9108,
-   "clicks_mtd": 314,
+   "spend_today": 1125.81,
+   "impressions_today": 886,
+   "clicks_today": 38,
+   "ctr_today": 4.29,
+   "spend_mtd": 10443.69,
+   "impressions_mtd": 9184,
+   "clicks_mtd": 317,
    "ctr_mtd": 3.45
   },
   {
@@ -76,14 +76,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-23",
-   "spend_today": 1017.05,
-   "impressions_today": 1386,
-   "clicks_today": 56,
-   "ctr_today": 4.04,
-   "spend_mtd": 4195.07,
-   "impressions_mtd": 6494,
-   "clicks_mtd": 220,
-   "ctr_mtd": 3.39
+   "spend_today": 1176.03,
+   "impressions_today": 1648,
+   "clicks_today": 70,
+   "ctr_today": 4.25,
+   "spend_mtd": 4354.05,
+   "impressions_mtd": 6756,
+   "clicks_mtd": 234,
+   "ctr_mtd": 3.46
   },
   {
    "id": "120252473001080412",
