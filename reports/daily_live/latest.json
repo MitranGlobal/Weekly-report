@@ -1,17 +1,17 @@
 {
- "date": "2026-11-23",
- "generated_at": "2026-11-23T21:11:46+05:30",
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T00:08:39+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 2301.84,
-  "impressions": 2534.0,
-  "reach": 2183.0,
-  "link_clicks": 71.0,
-  "leads": 11.0,
+  "spend": 0.0,
+  "impressions": 0.0,
+  "reach": 0.0,
+  "link_clicks": 0.0,
+  "leads": 0.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-23",
-   "spend_today": 1125.81,
-   "impressions_today": 886,
-   "clicks_today": 38,
-   "ctr_today": 4.29,
-   "spend_mtd": 10443.69,
-   "impressions_mtd": 9184,
-   "clicks_mtd": 317,
-   "ctr_mtd": 3.45
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 10550.97,
+   "impressions_mtd": 9297,
+   "clicks_mtd": 324,
+   "ctr_mtd": 3.48
   },
   {
    "id": "120252281645440412",
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-23",
-   "spend_today": 1176.03,
-   "impressions_today": 1648,
-   "clicks_today": 70,
-   "ctr_today": 4.25,
-   "spend_mtd": 4354.05,
-   "impressions_mtd": 6756,
-   "clicks_mtd": 234,
-   "ctr_mtd": 3.46
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 4416.48,
+   "impressions_mtd": 6933,
+   "clicks_mtd": 239,
+   "ctr_mtd": 3.45
   },
   {
    "id": "120252473001080412",
@@ -120,42 +120,42 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 15,
-  "form_fills_meta": 15,
-  "leads_meta_unique": 15,
-  "bookings_created_today": 1
+  "form_fills_all": 0,
+  "form_fills_meta": 0,
+  "leads_meta_unique": 0,
+  "bookings_created_today": 0
  },
- "final_lead_count": 15,
- "cost_per_lead": 153.45600000000002,
- "cost_per_booking": 2301.84,
+ "final_lead_count": 0,
+ "cost_per_lead": null,
+ "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 11.0,
-  "crm_leads_deduped": 15,
-  "match": false,
-  "gap": -4.0,
+  "meta_leads": 0.0,
+  "crm_leads_deduped": 0,
+  "match": true,
+  "gap": 0.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at about 21:08 IST, so today's totals are current as of that time and will keep rising until midnight."
+   "text": "Early-day snapshot: pulled at 00:08 IST, eight minutes into the India day, so zero spend and zero leads are genuine so far. Figures will rise through the day."
   },
   {
    "level": "warn",
-   "text": "CRM count is 15 (form query for 22 Nov 18:30 UTC to 23 Nov 18:30 UTC returned 15 of 15, has_more false). All 15 are Meta-ad form fills (has_fbclid true, and utm_source fb-ad on 14 of them). 15 different contacts, no test records (no test names, no @mitranglobal.com addresses). Meta counts 11 leads, so the CRM figure is higher, as usual; Meta lags on form fills."
+   "text": "CRM form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 0 submissions so far (has_more false)."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), so it is current."
+   "text": "No Appointment Booked record has been created today (IST). The latest booking records are dated 23 Nov."
   },
   {
    "level": "warn",
-   "text": "Bookings: 1 Appointment Booked record created 23 Nov (IST), Aditya Kumar (Workflow), not a test. He is also one of today's 15 form fills."
+   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), which is yesterday, so it is current."
   },
   {
    "level": "warn",
-   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) spent 1176.03 and 1125.81 today, which sums to the account total of 2301.84. Month-to-date list includes paused campaigns that spent in November."
+   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) have no spend yet today. Month-to-date figures run to 24 Nov 00:08 IST and sum to the account month-to-date total of 27,822.63."
   }
  ]
 }

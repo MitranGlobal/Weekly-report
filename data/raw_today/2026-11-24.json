@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-24",
+ "pulled_at": "2026-11-24T00:08:39+05:30",
+ "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
+ "currency": "INR",
+ "meta": {"spend": 0, "impressions": 0, "reach": 0, "link_clicks": 0, "leads": 0, "purchases": 0},
+ "crm": {
+  "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
+  "form_fills_all": 0,
+  "form_fills_meta": 0,
+  "leads_meta_unique": 0,
+  "bookings_created_today": 0
+ },
+ "ad_sync_stale_days": 0,
+ "notes": [
+  "Early-day snapshot: pulled at 00:08 IST, eight minutes into the India day, so zero spend and zero leads are genuine so far. Figures will rise through the day.",
+  "CRM form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 0 submissions so far (has_more false).",
+  "No Appointment Booked record has been created today (IST). The latest booking records are dated 23 Nov.",
+  "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), which is yesterday, so it is current.",
+  "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) have no spend yet today. Month-to-date figures run to 24 Nov 00:08 IST and sum to the account month-to-date total of 27,822.63."
+ ],
+ "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-24"},
+ "campaigns": [
+  {"id": "120252477836170412", "name": "Schedule | ADV | Video | 13Nov26 (b)", "status": "ACTIVE", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-13", "last_active": "2026-11-23", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 10550.97, "impressions_mtd": 9297, "clicks_mtd": 324, "ctr_mtd": 3.48},
+  {"id": "120252281645440412", "name": "Schedule | ADV | Video | 03Nov26", "status": "PAUSED", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-03", "last_active": "2026-11-11", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 7789.89, "impressions_mtd": 23418, "clicks_mtd": 452, "ctr_mtd": 1.93},
+  {"id": "120252592269270412", "name": "Schedule | ADV | Video | 19Nov26", "status": "ACTIVE", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-19", "last_active": "2026-11-23", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 4416.48, "impressions_mtd": 6933, "clicks_mtd": 239, "ctr_mtd": 3.45},
+  {"id": "120252473001080412", "name": "Schedule | ADV | Video | 13Nov26", "status": "PAUSED", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-13", "last_active": "2026-11-16", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 3265.49, "impressions_mtd": 6365, "clicks_mtd": 205, "ctr_mtd": 3.22},
+  {"id": "120252437846370412", "name": "Schedule | ADV | Video | 11Nov26", "status": "PAUSED", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-11", "last_active": "2026-11-13", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 1754.11, "impressions_mtd": 2399, "clicks_mtd": 75, "ctr_mtd": 3.13},
+  {"id": "120252522808880412", "name": "Schedule | ADV | Video | 16Nov26", "status": "PAUSED", "objective": "OUTCOME_LEADS", "daily_budget": 999, "created_time": "2026-11-16", "last_active": "2026-11-16", "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null, "spend_mtd": 45.69, "impressions_mtd": 192, "clicks_mtd": 13, "ctr_mtd": 6.77}
+ ]
+}
