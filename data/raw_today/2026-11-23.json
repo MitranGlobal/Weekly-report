@@ -1,16 +1,16 @@
 {
  "date": "2026-11-23",
- "pulled_at": "2026-11-23T15:09:00+05:30",
+ "pulled_at": "2026-11-23T15:54:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1789.38,
-  "impressions": 1818,
-  "reach": 1595,
-  "link_clicks": 52,
+  "spend": 1895.72,
+  "impressions": 1926,
+  "reach": 1679,
+  "link_clicks": 53,
   "leads": 8,
   "purchases": 0
  },
@@ -23,12 +23,12 @@
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Partial day: pulled at 15:09 IST, so today's totals are current as of that time and will keep rising until midnight.",
-  "CRM count is 12 (form query for 22 Nov 18:30 UTC to 23 Nov 18:30 UTC returned 12 of 12, has_more false). All 12 are Meta-ad form fills (has_fbclid true or utm_source fb-ad), 12 different contacts, no test records. For the month, one of them (Dharitri Mohanty) first submitted on 17 Nov, so the monthly row counts her once on 17 Nov and 11 for today.",
+  "Partial day: pulled at 15:54 IST, so today's totals are current as of that time and will keep rising until midnight.",
+  "CRM count is 12 (form query for 22 Nov 18:30 UTC to 23 Nov 18:30 UTC returned 12 of 12, has_more false). All 12 are Meta-ad form fills (has_fbclid true or utm_source fb-ad), 12 different contacts, no test records. One of them first submitted on 17 Nov, so the monthly row counts that person once (on 17 Nov) and counts 11 for today.",
   "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), so it is current.",
   "Bookings: 1 Appointment Booked record created 23 Nov (IST), Aditya Kumar (Workflow), not a test.",
-  "Campaign table: the two ACTIVE campaigns (13Nov26 (b) and 19Nov26) spent 920.66 and 868.72 today, which sums to the account total of 1789.38. Month-to-date list includes paused campaigns that spent in November. Active campaigns show today as their last active date.",
-  "One CRM lookup returned a Bad Gateway error on the first try and succeeded on retry; the figures above are from the retried results."
+  "Campaign table: the two ACTIVE campaigns (13Nov26 (b) and 19Nov26) spent 993.51 and 902.21 today, which sums to the account total of 1895.72. Month-to-date list includes paused campaigns that spent in November. Active campaigns show today as their last active date.",
+  "Two CRM lookups returned a Bad Gateway error on the first try and succeeded on retry; the figures above are from the retried results. This run replaces the 15:09 IST snapshot."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -43,14 +43,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-23",
-   "spend_today": 920.66,
-   "impressions_today": 733,
+   "spend_today": 993.51,
+   "impressions_today": 761,
    "clicks_today": 35,
-   "ctr_today": 4.77,
-   "spend_mtd": 10238.54,
-   "impressions_mtd": 9031,
+   "ctr_today": 4.6,
+   "spend_mtd": 10311.39,
+   "impressions_mtd": 9059,
    "clicks_mtd": 314,
-   "ctr_mtd": 3.48
+   "ctr_mtd": 3.47
   },
   {
    "id": "120252281645440412",
@@ -77,14 +77,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-23",
-   "spend_today": 868.72,
-   "impressions_today": 1085,
+   "spend_today": 902.21,
+   "impressions_today": 1165,
    "clicks_today": 42,
-   "ctr_today": 3.87,
-   "spend_mtd": 4046.49,
-   "impressions_mtd": 6192,
+   "ctr_today": 3.61,
+   "spend_mtd": 4080.23,
+   "impressions_mtd": 6273,
    "clicks_mtd": 206,
-   "ctr_mtd": 3.33
+   "ctr_mtd": 3.28
   },
   {
    "id": "120252473001080412",
