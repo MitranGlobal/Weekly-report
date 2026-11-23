@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "reports": [
+  {
+   "report_date": "2026-11-23",
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
+   "spend": 10681.77,
+   "results": 11.0,
+   "leads": 32.0,
+   "cost_per_result": 971.07,
+   "headline": "₹10,682 brought 11 bookings at ₹971 each, down from ₹3,079 the week before (16–22 Nov); the CRM received 43 leads from the Meta ads (Meta itself counted 32), about ₹248 per lead.",
+   "result_label": "bookings",
+   "pdf": "reports/files/MiTran-Meta-Weekly-2026-11-23.pdf",
+   "account": {
+    "id": "392337929851918",
+    "name": "mitranglobal ad account"
+   },
+   "history": false
+  },
   {
    "report_date": "2026-11-16",
    "week_start": "2026-11-09",
