@@ -238,6 +238,28 @@
    },
    "crm_leads_deduped": 3,
    "bookings": 0
+  },
+  {
+   "date": "2026-11-22",
+   "meta": {
+    "spend": 2344.1,
+    "impressions": 2774,
+    "link_clicks": 63,
+    "leads": 7
+   },
+   "crm_leads_deduped": 8,
+   "bookings": 1
+  },
+  {
+   "date": "2026-11-23",
+   "meta": {
+    "spend": 1599.62,
+    "impressions": 1535,
+    "link_clicks": 48,
+    "leads": 8
+   },
+   "crm_leads_deduped": 10,
+   "bookings": 1
   }
  ]
 }
