@@ -1,13 +1,13 @@
 {
  "date": "2026-11-25",
- "pulled_at": "2026-11-25T00:08:38+05:30",
+ "pulled_at": "2026-11-25T03:08:58+05:30",
  "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
  "currency": "INR",
  "meta": {
-  "spend": 0,
-  "impressions": 0,
-  "reach": 0,
-  "link_clicks": 0,
+  "spend": 86.76,
+  "impressions": 96,
+  "reach": 87,
+  "link_clicks": 3,
   "leads": 0,
   "purchases": 0
  },
@@ -20,12 +20,10 @@
  },
  "ad_sync_stale_days": 2,
  "notes": [
-  "Day has just started (00:08 IST, 25 Nov): Meta and CRM figures are zero so far and will rise through the day. Zero spend and zero leads at this hour is expected, not a failure.",
-  "CRM count is 0: form query for 24 Nov 18:30 UTC to 25 Nov 18:30 UTC returned 0 submissions (has_more false).",
-  "CRM Meta ad data runs only to 2026-11-23 (get_ad_connection_health), two days behind today. Sync in Lead Generation → Ad Launcher → Settings. Leads and bookings are still live; only the CRM's own cost-per-lead calculation may lag.",
-  "Bookings: no deal in the 2.0 Vsl Pipeline was created on 25 Nov across Appointment Booked, Reschedule, Show up, No show up and Won (the pipeline has no Payment done stage). Latest booking is Palak, 24 Nov.",
-  "Campaign table: the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)) have no spend yet today. Month-to-date list includes paused campaigns that spent in November.",
-  "Correction to the 24 Nov monthly row: refreshed from full-day pulls. Meta spend for 24 Nov is now 1617.87 (the 21:08 IST snapshot showed 1284.35; late-evening spend came in after it). CRM count (4) and bookings (1) for 24 Nov are unchanged."
+  "Early in the day (03:08 IST, 25 Nov): Meta spend is 86.76 so far and the CRM has 0 submissions for the India day (form query 24 Nov 18:30 UTC to 25 Nov 18:30 UTC returned 0, has_more false). Zero leads this early is expected, not a failure.",
+  "CRM Meta ad data runs only to 2026-11-23 (get_ad_connection_health), two days behind today. Leads and bookings are still live; only the CRM's own cost-per-lead calculation may lag.",
+  "Bookings: no deal was created on 25 Nov in the lead pipeline (latest created 24 Nov, Palak) and no customer or Won deal was created on 25 Nov either, so bookings are 0 so far.",
+  "Campaign table: the two ACTIVE campaigns (19Nov26 at 51.81 and 13Nov26 (b) at 34.95) sum to the account total of 86.76. Month-to-date list includes paused campaigns that spent in November."
  ],
  "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-25"},
  "campaigns": [
@@ -36,9 +34,9 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-13",
-   "last_active": "2026-11-24",
-   "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null,
-   "spend_mtd": 11394.87, "impressions_mtd": 10025, "clicks_mtd": 339, "ctr_mtd": 3.38
+   "last_active": "2026-11-25",
+   "spend_today": 34.95, "impressions_today": 41, "clicks_today": 3, "ctr_today": 7.32,
+   "spend_mtd": 11448.18, "impressions_mtd": 10073, "clicks_mtd": 343, "ctr_mtd": 3.41
   },
   {
    "id": "120252281645440412",
@@ -58,9 +56,9 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-19",
-   "last_active": "2026-11-24",
-   "spend_today": 0, "impressions_today": 0, "clicks_today": 0, "ctr_today": null,
-   "spend_mtd": 5198.15, "impressions_mtd": 8185, "clicks_mtd": 274, "ctr_mtd": 3.35
+   "last_active": "2026-11-25",
+   "spend_today": 51.81, "impressions_today": 55, "clicks_today": 3, "ctr_today": 5.45,
+   "spend_mtd": 5251.78, "impressions_mtd": 8249, "clicks_mtd": 277, "ctr_mtd": 3.36
   },
   {
    "id": "120252473001080412",
