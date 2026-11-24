@@ -1,17 +1,17 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-24T15:09:21+05:30",
+ "generated_at": "2026-11-24T18:08:40+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 731.08,
-  "impressions": 711.0,
-  "reach": 634.0,
-  "link_clicks": 19.0,
-  "leads": 1.0,
+  "spend": 972.87,
+  "impressions": 1018.0,
+  "reach": 896.0,
+  "link_clicks": 21.0,
+  "leads": 2.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-24",
-   "spend_today": 327.39,
-   "impressions_today": 218,
-   "clicks_today": 9,
-   "ctr_today": 4.13,
-   "spend_mtd": 10883.85,
-   "impressions_mtd": 9525,
-   "clicks_mtd": 333,
-   "ctr_mtd": 3.5
+   "spend_today": 503.75,
+   "impressions_today": 389,
+   "clicks_today": 12,
+   "ctr_today": 3.08,
+   "spend_mtd": 11060.21,
+   "impressions_mtd": 9696,
+   "clicks_mtd": 336,
+   "ctr_mtd": 3.47
   },
   {
    "id": "120252281645440412",
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-24",
-   "spend_today": 403.69,
-   "impressions_today": 493,
-   "clicks_today": 20,
-   "ctr_today": 4.06,
-   "spend_mtd": 4822.18,
-   "impressions_mtd": 7434,
-   "clicks_mtd": 260,
-   "ctr_mtd": 3.5
+   "spend_today": 469.12,
+   "impressions_today": 629,
+   "clicks_today": 22,
+   "ctr_today": 3.5,
+   "spend_mtd": 4887.61,
+   "impressions_mtd": 7570,
+   "clicks_mtd": 262,
+   "ctr_mtd": 3.46
   },
   {
    "id": "120252473001080412",
@@ -126,36 +126,36 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 3,
- "cost_per_lead": 243.69333333333336,
+ "cost_per_lead": 324.29,
  "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 1.0,
+  "meta_leads": 2.0,
   "crm_leads_deduped": 3,
   "match": false,
-  "gap": -2.0,
+  "gap": -1.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at about 15:09 IST, so today's totals are current as of that time and will keep rising until midnight."
+   "text": "Partial day: Meta figures are from a pull at the time shown above, so today's totals will keep rising until midnight IST."
   },
   {
    "level": "warn",
-   "text": "CRM count is 3 (form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 3 of 3, has_more false). All 3 are Meta-ad form fills (has_fbclid true, utm_source fb-ad). 3 different contacts, no test names or @mitranglobal addresses. Meta reports 1 lead so far today, so the CRM figure is higher, as usual."
+   "text": "CRM count is 3 (form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 3 of 3, has_more false). All 3 are Meta-ad form fills (has_fbclid true, utm_source fb-ad), 3 different contacts, no test names or internal addresses. Meta reports 2 leads so far today, so the CRM figure is higher, as usual."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), one day behind today, which is within the normal window."
+   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), within the normal window, so no staleness warning."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 deals created today (IST) at Appointment Booked or any later stage. Newest records by created_at: Appointment Booked 23 Nov, Show up 21 Nov, No show up 8 Nov, Payment done 6 Sep, Won 3 Sep; Reschedule has none."
+   "text": "Bookings: 0 deals created today (IST) at Appointment Booked or any later stage. Newest by created date: Appointment Booked 23 Nov, Show up 21 Nov, No show up 8 Nov. No Reschedule, Payment done or Won deals in the 2.0 Vsl Pipeline."
   },
   {
    "level": "warn",
-   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 403.69 and 13Nov26 (b) at 327.39) sum to the account total of 731.08. Month-to-date list includes paused campaigns that spent in November."
+   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 469.12 and 13Nov26 (b) at 503.75) sum to the account total of 972.87. Month-to-date list includes paused campaigns that spent in November."
   }
  ]
 }
