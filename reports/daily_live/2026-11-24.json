@@ -1,17 +1,17 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-24T12:09:14+05:30",
+ "generated_at": "2026-11-24T15:09:21+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 521.52,
-  "impressions": 513.0,
-  "reach": 463.0,
-  "link_clicks": 13.0,
-  "leads": 0.0,
+  "spend": 731.08,
+  "impressions": 711.0,
+  "reach": 634.0,
+  "link_clicks": 19.0,
+  "leads": 1.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-24",
-   "spend_today": 161.89,
-   "impressions_today": 110,
-   "clicks_today": 3,
-   "ctr_today": 2.73,
-   "spend_mtd": 10718.35,
-   "impressions_mtd": 9417,
-   "clicks_mtd": 327,
-   "ctr_mtd": 3.47
+   "spend_today": 327.39,
+   "impressions_today": 218,
+   "clicks_today": 9,
+   "ctr_today": 4.13,
+   "spend_mtd": 10883.85,
+   "impressions_mtd": 9525,
+   "clicks_mtd": 333,
+   "ctr_mtd": 3.5
   },
   {
    "id": "120252281645440412",
@@ -57,13 +57,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-24",
-   "spend_today": 359.63,
-   "impressions_today": 403,
-   "clicks_today": 17,
-   "ctr_today": 4.22,
-   "spend_mtd": 4778.11,
-   "impressions_mtd": 7343,
-   "clicks_mtd": 257,
+   "spend_today": 403.69,
+   "impressions_today": 493,
+   "clicks_today": 20,
+   "ctr_today": 4.06,
+   "spend_mtd": 4822.18,
+   "impressions_mtd": 7434,
+   "clicks_mtd": 260,
    "ctr_mtd": 3.5
   },
   {
@@ -120,17 +120,17 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 2,
-  "form_fills_meta": 2,
-  "leads_meta_unique": 2,
+  "form_fills_all": 3,
+  "form_fills_meta": 3,
+  "leads_meta_unique": 3,
   "bookings_created_today": 0
  },
- "final_lead_count": 2,
- "cost_per_lead": 260.76,
+ "final_lead_count": 3,
+ "cost_per_lead": 243.69333333333336,
  "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 0.0,
-  "crm_leads_deduped": 2,
+  "meta_leads": 1.0,
+  "crm_leads_deduped": 3,
   "match": false,
   "gap": -2.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
@@ -139,23 +139,23 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Partial day: pulled at about 12:08 IST, so today's totals are current as of that time and will keep rising until midnight."
+   "text": "Partial day: pulled at about 15:09 IST, so today's totals are current as of that time and will keep rising until midnight."
   },
   {
    "level": "warn",
-   "text": "CRM count is 2 (form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 2 of 2, has_more false). Both are Meta-ad form fills (has_fbclid true, utm_source fb-ad). 2 different contacts, no test records. Meta reports 0 leads so far today (its lead field is empty), so the CRM figure is higher, as usual."
+   "text": "CRM count is 3 (form query for 23 Nov 18:30 UTC to 24 Nov 18:30 UTC returned 3 of 3, has_more false). All 3 are Meta-ad form fills (has_fbclid true, utm_source fb-ad). 3 different contacts, no test names or @mitranglobal addresses. Meta reports 1 lead so far today, so the CRM figure is higher, as usual."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), so it is one day behind today, which is within the normal window."
+   "text": "CRM Meta ad data runs to 2026-11-23 (get_ad_connection_health), one day behind today, which is within the normal window."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 deals created today (IST) at Appointment Booked or any later stage. Each stage was checked newest-first: the newest Appointment Booked, Show up, No show up, Payment done and Won records are dated 23 Nov or earlier, and Reschedule has none."
+   "text": "Bookings: 0 deals created today (IST) at Appointment Booked or any later stage. Newest records by created_at: Appointment Booked 23 Nov, Show up 21 Nov, No show up 8 Nov, Payment done 6 Sep, Won 3 Sep; Reschedule has none."
   },
   {
    "level": "warn",
-   "text": "Meta's account total equals the sum of the two ACTIVE campaigns (19Nov26 at 359.63 and 13Nov26 (b) at 161.89 = 521.52). Month-to-date figures are re-pulled from Meta today, so earlier days may show small restatements compared with the 23 Nov snapshot."
+   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 403.69 and 13Nov26 (b) at 327.39) sum to the account total of 731.08. Month-to-date list includes paused campaigns that spent in November."
   }
  ]
 }

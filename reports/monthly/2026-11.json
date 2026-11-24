@@ -7,7 +7,7 @@
  "currency": "INR",
  "lead_methodology": "crm_deduped",
  "bookings_available": true,
- "generated_at": "2026-11-24T06:39:18.053072+00:00",
+ "generated_at": "2026-11-24T09:39:24.548482+00:00",
  "notes": [
   "leads = CRM-deduped final count (Meta-ad visitors, tests removed, one contact counted once). meta_leads is Meta's own figure, kept only for reference \u2014 it undercounts, same as every other report in this repo.",
   "reach is intentionally not included: daily reach cannot be summed into a valid running total (it would double-count people reached on more than one day).",
@@ -523,22 +523,22 @@
   {
    "date": "2026-11-24",
    "day": {
-    "spend": 521.52,
-    "impressions": 513,
-    "link_clicks": 13,
-    "meta_leads": 0,
-    "leads": 2,
+    "spend": 731.08,
+    "impressions": 711,
+    "link_clicks": 19,
+    "meta_leads": 1,
+    "leads": 3,
     "bookings": 0
    },
    "cumulative": {
-    "spend": 28174.44,
-    "impressions": 48827,
-    "link_clicks": 935,
-    "meta_leads": 113,
-    "leads": 151,
+    "spend": 28384.0,
+    "impressions": 49025,
+    "link_clicks": 941,
+    "meta_leads": 114,
+    "leads": 152,
     "bookings": 20,
-    "cost_per_lead": 186.59,
-    "cost_per_booking": 1408.72
+    "cost_per_lead": 186.74,
+    "cost_per_booking": 1419.2
    },
    "bookings_is_floor": false
   }
