@@ -30,7 +30,8 @@ This repo is the MiTran Global public reports site, deployed by Netlify from the
      `@mitranglobal.com`, or a name containing "test"). Count each `contact_id` once, on the first day it appears.
    - Sanity check: the counts must add up (kept + dropped + repeats = all rows). `get_form_performance` for the form gives a rough
      weekly total (it uses UTC days, so it can differ by a few).
-   - Bookings: `query_opportunities` with `stage` "Appointment Booked", `order_by` created_at; count the report week's records,
+   - Bookings: `query_opportunities` once per stage — "Appointment Booked", "Reschedule", "Show up", "No show up", "Payment done",
+     "Won" (pipeline "2.0 Vsl Pipeline", limit 100, `order_by` created_at); count the report week's records across all of them,
      excluding tests ("redphone", "testingmg", @mitranglobal.com). This should equal Meta's bookings; if not, report both.
    - CRM ad sync: `get_ad_connection_health`. If `last_report_date` is older than yesterday, say in the owner summary that the
      CRM's Meta data is stale and must be synced in Lead Generation → Ad Launcher → Settings (there is no sync tool for the task).
@@ -89,7 +90,8 @@ is unchanged and still owns `weekly.html` and the PDF reports.
   field shown next to it for reference, since Meta usually undercounts. This is the same conclusion as
   every recent weekly report (e.g. 16 Nov: 59 CRM-deduped vs 43 Meta); see the note at the bottom of this
   file about `claude/reporting-rules.md`, which said the opposite before this was corrected.
-  Bookings = CRM "Appointment Booked" opportunities `created_at` today, tests removed, same as RUNBOOK 1b.
+  Bookings = CRM deals `created_at` today (tests removed) in "Appointment Booked" **or any later stage** (Reschedule,
+  Show up, No show up, Payment done, Won) — a booking that has already moved on still counts.
   Check `get_ad_connection_health`; if `last_report_date` is more than a day old, pass that into
   `ad_sync_stale_days` in the raw file so the home page shows the warning.
 - Also pull campaign-level rows for today (`level=campaign`, `date_preset`/`time_range` = today only,

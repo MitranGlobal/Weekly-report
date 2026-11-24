@@ -47,7 +47,13 @@ spend before then, so there is nothing to report. `month.html`'s "previous month
   into a running "reach to date" total, so showing one would be exactly the kind of misleading number
   this file exists to avoid. (Meta can report reach for an arbitrary date range directly — that's a
   fresh query, not a sum of days — if a true month-to-date reach is ever needed.)
-- **Bookings before today are a lower bound, not an exact count.** They come from querying the CRM's
+- **Bookings** — set `"bookings_methodology": "created_any_booked_stage"` (file-level; used from Nov 2026).
+  A booking is a CRM deal created that day (tests removed) that has reached "Appointment Booked" **or any
+  later stage** (Reschedule, Show up, No show up, Payment done, Won). Pull each of those stages with
+  `query_opportunities` and bucket by `created_at`. Moved-on deals still count, so past days are exact and
+  `bookings_is_floor` is false. Cross-check: Appointment Booked + Show up + No show up for the month's
+  leads must equal the Lead Management board for the month.
+- **Legacy method (`stage_snapshot`, the default when the field is omitted): bookings before today are a lower bound, not an exact count.** They come from querying the CRM's
   *current* "Appointment Booked" stage and filtering by `created_at` — a live snapshot. A booking made
   on, say, 10 Nov that has since moved to a later stage (won, lost, rescheduled) no longer shows up in
   that stage today, so it silently drops out of the day-10 count. `scripts/build_month.py` marks every

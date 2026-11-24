@@ -67,6 +67,12 @@ def compute(raw):
     # it must never be relabeled or presented as the deduped figure.
     lead_methodology = raw.get("lead_methodology", "crm_deduped")
     bookings_available = raw.get("bookings_available", True)
+    # "created_any_booked_stage" (from Nov 2026): a booking is a CRM deal created that day that has
+    # reached Appointment Booked OR any later stage (Reschedule, Show up, No show up, Payment done,
+    # Won). Deals that moved on after the session still count, so past days are NOT a floor.
+    # "stage_snapshot" (legacy): only deals still sitting in "Appointment Booked" — a lower bound.
+    bookings_methodology = raw.get("bookings_methodology", "stage_snapshot")
+    bookings_is_exact = bookings_methodology == "created_any_booked_stage"
 
     out_days = []
     cum = {"spend": 0.0, "impressions": 0, "link_clicks": 0,
@@ -104,7 +110,7 @@ def compute(raw):
                 "cost_per_booking": (round(cum["spend"] / cum["bookings"], 2)
                                      if bookings_available and cum["bookings"] else None),
             },
-            "bookings_is_floor": bookings_available and not is_today,
+            "bookings_is_floor": bookings_available and not is_today and not bookings_is_exact,
         })
 
     notes = [
@@ -122,7 +128,12 @@ def compute(raw):
             "is Meta's own lead count, not CRM-deduped — it is known to undercount, same as "
             "Meta's figure does everywhere else in this repo. Treat it as a lower bound, not "
             "the final/reconciled number.")
-    if bookings_available:
+    if bookings_available and bookings_is_exact:
+        notes.append(
+            "bookings = CRM deals created that day (tests removed) that have reached Appointment "
+            "Booked or any later stage (Reschedule, Show up, No show up, Payment done, Won), so a "
+            "booking that has since moved on is still counted on the day it was made.")
+    elif bookings_available:
         notes.append(
             "bookings for every day except the most recent are a lower bound: they come from "
             "the CRM's current pipeline-stage snapshot, so a booking that has since moved to "
@@ -159,7 +170,7 @@ def build(path):
     print(f"wrote {out_path}")
     last = result["days"][-1]
     bk = last['cumulative']['bookings']
-    bk_str = "n/a" if bk is None else f"{num(bk)} (floor)"
+    bk_str = "n/a" if bk is None else f"{num(bk)}" + (" (floor)" if last["bookings_is_floor"] else "")
     print(f"through {last['date']}: spend {inr(last['cumulative']['spend'])}, "
           f"leads {num(last['cumulative']['leads'])} (meta {num(last['cumulative']['meta_leads'])}), "
           f"bookings {bk_str}")

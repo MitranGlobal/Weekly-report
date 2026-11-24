@@ -39,7 +39,7 @@
     "leads": 0
    },
    "crm_leads_deduped": 0,
-   "bookings": 1
+   "bookings": 0
   },
   {
    "date": "2026-11-04",
@@ -50,7 +50,7 @@
     "leads": 3
    },
    "crm_leads_deduped": 6,
-   "bookings": 0
+   "bookings": 3
   },
   {
    "date": "2026-11-05",
@@ -61,7 +61,7 @@
     "leads": 7
    },
    "crm_leads_deduped": 8,
-   "bookings": 0
+   "bookings": 2
   },
   {
    "date": "2026-11-06",
@@ -72,7 +72,7 @@
     "leads": 7
    },
    "crm_leads_deduped": 8,
-   "bookings": 0
+   "bookings": 1
   },
   {
    "date": "2026-11-07",
@@ -83,7 +83,7 @@
     "leads": 3
    },
    "crm_leads_deduped": 3,
-   "bookings": 0
+   "bookings": 1
   },
   {
    "date": "2026-11-08",
@@ -94,7 +94,7 @@
     "leads": 7
    },
    "crm_leads_deduped": 9,
-   "bookings": 0
+   "bookings": 1
   },
   {
    "date": "2026-11-09",
@@ -160,7 +160,7 @@
     "leads": 10
    },
    "crm_leads_deduped": 11,
-   "bookings": 0
+   "bookings": 2
   },
   {
    "date": "2026-11-15",
@@ -182,7 +182,7 @@
     "leads": 7
    },
    "crm_leads_deduped": 8,
-   "bookings": 0
+   "bookings": 1
   },
   {
    "date": "2026-11-17",
@@ -215,7 +215,7 @@
     "leads": 5
    },
    "crm_leads_deduped": 4,
-   "bookings": 0
+   "bookings": 2
   },
   {
    "date": "2026-11-20",
@@ -237,7 +237,7 @@
     "leads": 6
    },
    "crm_leads_deduped": 6,
-   "bookings": 0
+   "bookings": 2
   },
   {
    "date": "2026-11-22",
@@ -259,7 +259,7 @@
     "leads": 11
    },
    "crm_leads_deduped": 14,
-   "bookings": 1
+   "bookings": 3
   },
   {
    "date": "2026-11-24",
@@ -272,5 +272,6 @@
    "crm_leads_deduped": 1,
    "bookings": 0
   }
- ]
+ ],
+ "bookings_methodology": "created_any_booked_stage"
 }
