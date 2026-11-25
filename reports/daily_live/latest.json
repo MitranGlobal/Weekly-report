@@ -1,17 +1,17 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T12:09:21+05:30",
+ "generated_at": "2026-11-25T15:08:52+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1075.29,
-  "impressions": 1133.0,
-  "reach": 1013.0,
-  "link_clicks": 25.0,
-  "leads": 6.0,
+  "spend": 1584.38,
+  "impressions": 10691.0,
+  "reach": 7629.0,
+  "link_clicks": 74.0,
+  "leads": 8.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,14 +23,31 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-25",
-   "spend_today": 507.35,
-   "impressions_today": 393,
-   "clicks_today": 15,
-   "ctr_today": 3.82,
-   "spend_mtd": 11938.83,
-   "impressions_mtd": 10428,
-   "clicks_mtd": 355,
-   "ctr_mtd": 3.4
+   "spend_today": 900.36,
+   "impressions_today": 9585,
+   "clicks_today": 88,
+   "ctr_today": 0.92,
+   "spend_mtd": 12332.57,
+   "impressions_mtd": 19621,
+   "clicks_mtd": 428,
+   "ctr_mtd": 2.18
+  },
+  {
+   "id": "120252592269270412",
+   "name": "Schedule | ADV | Video | 19Nov26",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-19",
+   "last_active": "2026-11-25",
+   "spend_today": 684.02,
+   "impressions_today": 1106,
+   "clicks_today": 35,
+   "ctr_today": 3.16,
+   "spend_mtd": 5885.82,
+   "impressions_mtd": 9304,
+   "clicks_mtd": 309,
+   "ctr_mtd": 3.32
   },
   {
    "id": "120252281645440412",
@@ -48,23 +65,6 @@
    "impressions_mtd": 23418,
    "clicks_mtd": 452,
    "ctr_mtd": 1.93
-  },
-  {
-   "id": "120252592269270412",
-   "name": "Schedule | ADV | Video | 19Nov26",
-   "status": "ACTIVE",
-   "objective": "OUTCOME_LEADS",
-   "daily_budget": 999,
-   "created_time": "2026-11-19",
-   "last_active": "2026-11-25",
-   "spend_today": 567.94,
-   "impressions_today": 740,
-   "clicks_today": 28,
-   "ctr_today": 3.78,
-   "spend_mtd": 5769.28,
-   "impressions_mtd": 8937,
-   "clicks_mtd": 302,
-   "ctr_mtd": 3.38
   },
   {
    "id": "120252473001080412",
@@ -120,19 +120,19 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 7,
-  "form_fills_meta": 6,
-  "leads_meta_unique": 6,
+  "form_fills_all": 10,
+  "form_fills_meta": 9,
+  "leads_meta_unique": 9,
   "bookings_created_today": 3
  },
- "final_lead_count": 6,
- "cost_per_lead": 179.215,
- "cost_per_booking": 358.43,
+ "final_lead_count": 9,
+ "cost_per_lead": 176.04222222222222,
+ "cost_per_booking": 528.1266666666667,
  "reconciliation": {
-  "meta_leads": 6.0,
-  "crm_leads_deduped": 6,
-  "match": true,
-  "gap": 0.0,
+  "meta_leads": 8.0,
+  "crm_leads_deduped": 9,
+  "match": false,
+  "gap": -1.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
@@ -143,11 +143,11 @@
   },
   {
    "level": "warn",
-   "text": "Partial day: Meta figures are from a pull at about 12:10 IST on 25 Nov, so today's totals will keep rising until midnight IST."
+   "text": "Partial day: Meta figures are from a pull at about 15:10 IST on 25 Nov, so today's totals will keep rising until midnight IST."
   },
   {
    "level": "warn",
-   "text": "CRM count is 6: the form query (24 Nov 18:30 UTC to 25 Nov 18:30 UTC) returned 7 of 7 (has_more false). 1 dropped (a manual test entry, no Meta click), 6 Meta-ad form fills, 6 different contacts, no repeats. Meta also reports 6 leads today."
+   "text": "CRM count is 9: the form query (24 Nov 18:30 UTC to 25 Nov 18:30 UTC) returned 10 of 10 (has_more false). 1 dropped (a manual test entry, 'Test lead', contact_source manual_test, no Meta click), 9 Meta-ad form fills, 9 different contacts, no repeats. Meta reports 8 leads today."
   },
   {
    "level": "warn",
@@ -155,11 +155,11 @@
   },
   {
    "level": "warn",
-   "text": "Bookings: 3 deals created today (IST) in the 2.0 Vsl Pipeline at Appointment Booked (Smita Anil Vartak, Sriman ankam and Raisa Mushrif, all 25 Nov). No Reschedule, Show up, No show up, Payment done or Won deals were created today."
+   "text": "Bookings: 3 deals created today (IST) in the 2.0 Vsl Pipeline at Appointment Booked (Smita Anil Vartak, Sriman ankam and Raisa Mushrif, all 25 Nov). Checked the later stages too: no Reschedule, Show up, No show up, Payment done or Won deals were created today."
   },
   {
    "level": "warn",
-   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 567.94 and 13Nov26 (b) at 507.35) sum to the account total of 1075.29. Month-to-date list includes paused campaigns that spent in November."
+   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 684.02 and 13Nov26 (b) at 900.36) sum to the account total of 1584.38. Month-to-date list includes paused campaigns that spent in November."
   }
  ]
 }
