@@ -275,13 +275,13 @@
   {
    "date": "2026-11-25",
    "meta": {
-    "spend": 711.04,
-    "impressions": 706,
-    "link_clicks": 12,
-    "leads": 4
+    "spend": 1075.29,
+    "impressions": 1133,
+    "link_clicks": 25,
+    "leads": 6
    },
-   "crm_leads_deduped": 4,
-   "bookings": 2
+   "crm_leads_deduped": 6,
+   "bookings": 3
   }
  ],
  "bookings_methodology": "created_any_booked_stage"
