@@ -242,8 +242,8 @@
   {
    "date": "2026-11-22",
    "meta": {
-    "spend": 2344.35,
-    "impressions": 2775,
+    "spend": 2345.67,
+    "impressions": 2777,
     "link_clicks": 63,
     "leads": 7
    },
@@ -253,10 +253,10 @@
   {
    "date": "2026-11-23",
    "meta": {
-    "spend": 2301.84,
-    "impressions": 2534,
-    "link_clicks": 71,
-    "leads": 11
+    "spend": 2477.93,
+    "impressions": 2842,
+    "link_clicks": 80,
+    "leads": 13
    },
    "crm_leads_deduped": 14,
    "bookings": 3
@@ -264,9 +264,9 @@
   {
    "date": "2026-11-24",
    "meta": {
-    "spend": 1617.87,
-    "impressions": 1960,
-    "link_clicks": 32,
+    "spend": 1643.03,
+    "impressions": 1978,
+    "link_clicks": 33,
     "leads": 3
    },
    "crm_leads_deduped": 4,
@@ -275,13 +275,13 @@
   {
    "date": "2026-11-25",
    "meta": {
-    "spend": 203.1,
-    "impressions": 211,
-    "link_clicks": 5,
-    "leads": 1
+    "spend": 711.04,
+    "impressions": 706,
+    "link_clicks": 12,
+    "leads": 4
    },
-   "crm_leads_deduped": 1,
-   "bookings": 0
+   "crm_leads_deduped": 4,
+   "bookings": 2
   }
  ],
  "bookings_methodology": "created_any_booked_stage"
