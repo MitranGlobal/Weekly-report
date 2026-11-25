@@ -282,6 +282,17 @@
       },
       "crm_leads_deduped": 10,
       "bookings": 3
+    },
+    {
+      "date": "2026-11-26",
+      "meta": {
+        "spend": 0,
+        "impressions": 0,
+        "link_clicks": 0,
+        "leads": 0
+      },
+      "crm_leads_deduped": 0,
+      "bookings": 0
     }
   ],
   "bookings_methodology": "created_any_booked_stage"

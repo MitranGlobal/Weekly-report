@@ -1,17 +1,17 @@
 {
- "date": "2026-11-25",
- "generated_at": "2026-11-25T21:09:40+05:30",
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T00:09:23+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 2189.34,
-  "impressions": 25942.0,
-  "reach": 24229.0,
-  "link_clicks": 423.0,
-  "leads": 9.0,
+  "spend": 0.0,
+  "impressions": 0.0,
+  "reach": 0.0,
+  "link_clicks": 0.0,
+  "leads": 0.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,12 +23,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-25",
-   "spend_today": 1223.81,
-   "impressions_today": 21058,
-   "clicks_today": 317,
-   "ctr_today": 1.51,
-   "spend_mtd": 12656.02,
-   "impressions_mtd": 31094,
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 12676.49,
+   "impressions_mtd": 31123,
    "clicks_mtd": 657,
    "ctr_mtd": 2.11
   },
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-25",
-   "spend_today": 965.53,
-   "impressions_today": 4884,
-   "clicks_today": 149,
-   "ctr_today": 3.05,
-   "spend_mtd": 6182.48,
-   "impressions_mtd": 13083,
-   "clicks_mtd": 423,
-   "ctr_mtd": 3.23
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 6307.47,
+   "impressions_mtd": 13434,
+   "clicks_mtd": 433,
+   "ctr_mtd": 3.22
   },
   {
    "id": "120252473001080412",
@@ -120,46 +120,46 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 12,
-  "form_fills_meta": 10,
-  "leads_meta_unique": 10,
-  "bookings_created_today": 3
+  "form_fills_all": 0,
+  "form_fills_meta": 0,
+  "leads_meta_unique": 0,
+  "bookings_created_today": 0
  },
- "final_lead_count": 10,
- "cost_per_lead": 218.93400000000003,
- "cost_per_booking": 729.7800000000001,
+ "final_lead_count": 0,
+ "cost_per_lead": null,
+ "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 9.0,
-  "crm_leads_deduped": 10,
-  "match": false,
-  "gap": -1.0,
+  "meta_leads": 0.0,
+  "crm_leads_deduped": 0,
+  "match": true,
+  "gap": 0.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "CRM's Meta ad-spend sync is 2 days old. Lead and booking counts above are live CRM data either way; only the CRM's own cost-per-lead view may lag until it's resynced."
+   "text": "CRM's Meta ad-spend sync is 3 days old. Lead and booking counts above are live CRM data either way; only the CRM's own cost-per-lead view may lag until it's resynced."
   },
   {
    "level": "warn",
-   "text": "Partial day: Meta figures are from a pull at the time shown above (account level, today only), so today's totals will keep rising until midnight IST."
+   "text": "Run at 00:09 IST, so the day has just started: every Meta and CRM figure is still zero and will rise through the day. This is a valid partial-day snapshot, not a failed pull."
   },
   {
    "level": "warn",
-   "text": "CRM count is 10: the form query (24 Nov 18:30 UTC to 25 Nov 18:30 UTC) returned 12 of 12 (has_more false). 2 dropped: one WhatsApp-sourced 'Mitran test' entry (contact @mitranglobal.com, no Meta click) and one manual_test entry (no Meta click). 10 Meta-ad form fills, 10 different contacts, no repeats. Meta reports 9 leads today."
+   "text": "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 0 submissions (has_more false). A same-method check on the 25 Nov IST window returned 12 total, matching yesterday's file, so the query itself is working."
   },
   {
    "level": "warn",
-   "text": "CRM Meta ad data runs only to 2026-11-23 (get_ad_connection_health, state degraded, 2 days behind today), so the CRM's own cost-per-lead figure may lag. Leads and bookings are still live."
+   "text": "Bookings: the 2.0 Vsl Pipeline query (newest 50 deals by created date, sorted descending) had no deal created on 26 Nov, so bookings_created_today is 0. The newest deals are all dated 25 Nov or earlier."
   },
   {
    "level": "warn",
-   "text": "Bookings: 3 deals created today (IST) at Appointment Booked (Smita Anil Vartak, Sriman ankam, Raisa Mushrif). The 2.0 Vsl Pipeline's newest 30 deals were checked: no Reschedule, Show up, No show up, Payment done or Won deals were created today."
+   "text": "Ad sync: CRM's Meta ad data runs only to 2026-11-23 (get_ad_connection_health, state degraded, 3 days behind today). Leads and bookings are still live, but the CRM's own cost-per-lead may lag. Fix: Lead Generation → Ad Launcher → Settings."
   },
   {
    "level": "warn",
-   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 965.53 and 13Nov26 (b) at 1223.81) sum to the account total of 2189.34. Month-to-date list includes paused campaigns that spent in November, per data/raw_today/README.md."
+   "text": "Campaign table: both ACTIVE campaigns show zero spend so far today. The table lists every campaign with spend this month (per data/raw_today/README.md), so paused campaigns that spent earlier in November are included. last_active is each campaign's last day with spend from a daily Meta pull (1-26 Nov). Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the one created first (10:25 on 13 Nov) keeps the plain name, and the later one (20:09) is marked (b)."
   }
  ]
 }
