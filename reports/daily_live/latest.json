@@ -1,16 +1,16 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-26T15:08:49+05:30",
+ "generated_at": "2026-11-26T18:09:20+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 993.8,
-  "impressions": 1468.0,
-  "reach": 1364.0,
-  "link_clicks": 32.0,
+  "spend": 1180.07,
+  "impressions": 1841.0,
+  "reach": 1714.0,
+  "link_clicks": 44.0,
   "leads": 4.0,
   "purchases": 0.0
  },
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-26",
-   "spend_today": 321.39,
-   "impressions_today": 205,
+   "spend_today": 375.68,
+   "impressions_today": 261,
    "clicks_today": 7,
-   "ctr_today": 3.41,
-   "spend_mtd": 12998,
-   "impressions_mtd": 31339,
+   "ctr_today": 2.68,
+   "spend_mtd": 13052.32,
+   "impressions_mtd": 31397,
    "clicks_mtd": 664,
-   "ctr_mtd": 2.12
+   "ctr_mtd": 2.11
   },
   {
    "id": "120252281645440412",
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-26",
-   "spend_today": 672.41,
-   "impressions_today": 1263,
-   "clicks_today": 39,
-   "ctr_today": 3.09,
-   "spend_mtd": 6985.15,
-   "impressions_mtd": 14710,
-   "clicks_mtd": 473,
-   "ctr_mtd": 3.22
+   "spend_today": 804.39,
+   "impressions_today": 1580,
+   "clicks_today": 49,
+   "ctr_today": 3.1,
+   "spend_mtd": 7117.79,
+   "impressions_mtd": 15032,
+   "clicks_mtd": 483,
+   "ctr_mtd": 3.21
   },
   {
    "id": "120252473001080412",
@@ -120,34 +120,34 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 4,
-  "form_fills_meta": 4,
-  "leads_meta_unique": 4,
-  "bookings_created_today": 0
+  "form_fills_all": 6,
+  "form_fills_meta": 6,
+  "leads_meta_unique": 6,
+  "bookings_created_today": 1
  },
- "final_lead_count": 4,
- "cost_per_lead": 248.45,
- "cost_per_booking": null,
+ "final_lead_count": 6,
+ "cost_per_lead": 196.6783333333333,
+ "cost_per_booking": 1180.07,
  "reconciliation": {
   "meta_leads": 4.0,
-  "crm_leads_deduped": 4,
-  "match": true,
-  "gap": 0.0,
+  "crm_leads_deduped": 6,
+  "match": false,
+  "gap": -2.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-26T15:08:49+05:30 IST: a partial-day snapshot, rebuilt during the day. Meta and CRM pulls both succeeded."
+   "text": "Run at 2026-11-26T18:09:20+05:30 IST: a partial-day snapshot, rebuilt during the day. Meta and CRM pulls both succeeded."
   },
   {
    "level": "warn",
-   "text": "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 4 submissions (has_more false), all Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests. Four different contact_ids, each checked by contact_id and each has only this one submission, so the deduped count is 4. Meta's own lead field is also 4 (reference only)."
+   "text": "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 6 submissions (has_more false), all Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests. Six different contact_ids, each a new contact whose first touch is today, so none is a repeat; deduped count is 6. Meta's own lead field is 4 (reference only; Meta lags the CRM by 2 here)."
   },
   {
    "level": "warn",
-   "text": "Bookings: 0 created today. Lead Management 2.0 Vsl Pipeline stages checked (Appointment Booked, Reschedule, Show up, No show up, Payment done, Won): the newest created dates are 25 Nov (Appointment Booked), 24 Nov (Show up), 23 Nov (No show up); Reschedule and Won are empty. The CRM returns created_at as a date only, so a deal created late on 25 Nov UTC could fall on 26 Nov IST; none appears under 26 Nov."
+   "text": "Bookings: 1 created today, Rashmi Singh (Appointment Booked, created 26 Nov; the same contact filled the form at 11:34 UTC today). In the 2.0 Vsl Pipeline, the only deals created on 26 Nov are the six form contacts, and only Rashmi has moved past New Lead Capture. Reschedule, Show up, No show up, Payment done and Won hold no deal created today."
   },
   {
    "level": "warn",
@@ -155,7 +155,7 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 at 672.41 plus 13Nov26 (b) at 321.39 equals the account total 993.80). Month-to-date list covers every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 at 804.39 plus 13Nov26 (b) at 375.68, which equals the account total 1180.07). Month-to-date list covers every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
   }
  ]
 }
