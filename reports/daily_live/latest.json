@@ -1,15 +1,15 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-26T03:08:56+05:30",
+ "generated_at": "2026-11-26T06:10:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 56.29,
-  "impressions": 139.0,
-  "reach": 135.0,
+  "spend": 109.99,
+  "impressions": 224.0,
+  "reach": 215.0,
   "link_clicks": 1.0,
   "leads": 0.0,
   "purchases": 0.0
@@ -23,12 +23,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-26",
-   "spend_today": 0.56,
-   "impressions_today": 10,
+   "spend_today": 20.63,
+   "impressions_today": 32,
    "clicks_today": 0,
    "ctr_today": 0.0,
-   "spend_mtd": 12677.07,
-   "impressions_mtd": 31134,
+   "spend_mtd": 12697.15,
+   "impressions_mtd": 31157,
    "clicks_mtd": 657,
    "ctr_mtd": 2.11
   },
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-26",
-   "spend_today": 55.73,
-   "impressions_today": 129,
+   "spend_today": 89.36,
+   "impressions_today": 192,
    "clicks_today": 1,
-   "ctr_today": 0.78,
-   "spend_mtd": 6365.04,
-   "impressions_mtd": 13567,
+   "ctr_today": 0.52,
+   "spend_mtd": 6398.75,
+   "impressions_mtd": 13631,
    "clicks_mtd": 435,
-   "ctr_mtd": 3.21
+   "ctr_mtd": 3.19
   },
   {
    "id": "120252473001080412",
@@ -143,15 +143,15 @@
   },
   {
    "level": "warn",
-   "text": "Run at 03:08 IST, early in the day: Meta and CRM figures are partial and will rise through the day. A valid partial-day snapshot, not a failed pull."
+   "text": "Run at 06:10 IST, very early in the day: Meta and CRM figures are partial and will rise through the day. A valid partial-day snapshot, not a failed pull."
   },
   {
    "level": "warn",
-   "text": "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 0 submissions (has_more false)."
+   "text": "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 0 submissions (has_more false). Meta reports 0 leads too, so 0 and 0 agree."
   },
   {
    "level": "warn",
-   "text": "Bookings: no deal created on 26 Nov in Appointment Booked, Reschedule, Show up, No show up or Won; the 2.0 Vsl Pipeline has no Payment done stage. The newest deals in each stage are dated 25 Nov or earlier."
+   "text": "Bookings: no deal created on 26 Nov in any booked stage. Checked Appointment Booked (newest created 25 Nov), Reschedule (none), Show up (newest 24 Nov), No show up (newest 23 Nov), Payment done (newest 6 Sep) and Won (newest 3 Sep). Zero created today."
   },
   {
    "level": "warn",
@@ -159,7 +159,11 @@
   },
   {
    "level": "warn",
-   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 55.73 and 13Nov26 (b) at 0.56) sum to the account total of 56.29. Month-to-date list includes paused campaigns that spent in November, per data/raw_today/README.md. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the one created first (10:25 on 13 Nov) keeps the plain name, and the later one (20:09) is marked (b)."
+   "text": "Campaign table: the two ACTIVE campaigns (19Nov26 at 89.36 and 13Nov26 (b) at 20.63) sum to the account total of 109.99. Month-to-date list includes paused campaigns that spent in November, per data/raw_today/README.md. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the one created first (10:25 on 13 Nov) keeps the plain name, and the later one (20:09) is marked (b)."
+  },
+  {
+   "level": "warn",
+   "text": "Scheduled-run note: the campaign pull followed data/raw_today/README.md (ACTIVE today slice plus month-to-date list of every campaign with spend), not the ACTIVE-only filter in the task prompt, so the table matches the README and the previous days' files."
   }
  ]
 }
