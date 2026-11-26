@@ -264,8 +264,8 @@
   {
    "date": "2026-11-24",
    "meta": {
-    "spend": 1643.03,
-    "impressions": 1978,
+    "spend": 1674.01,
+    "impressions": 1985,
     "link_clicks": 33,
     "leads": 3
    },
@@ -275,9 +275,9 @@
   {
    "date": "2026-11-25",
    "meta": {
-    "spend": 2189.34,
-    "impressions": 25942,
-    "link_clicks": 423,
+    "spend": 2339.65,
+    "impressions": 26337,
+    "link_clicks": 430,
     "leads": 9
    },
    "crm_leads_deduped": 10,
@@ -286,12 +286,12 @@
   {
    "date": "2026-11-26",
    "meta": {
-    "spend": 467.87,
-    "impressions": 702,
-    "link_clicks": 8,
-    "leads": 0
+    "spend": 642.51,
+    "impressions": 938,
+    "link_clicks": 17,
+    "leads": 2
    },
-   "crm_leads_deduped": 1,
+   "crm_leads_deduped": 3,
    "bookings": 0
   }
  ],

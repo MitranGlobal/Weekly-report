@@ -1,33 +1,33 @@
 {
  "date": "2026-11-26",
- "pulled_at": "2026-11-26T09:09:07+05:30",
+ "pulled_at": "2026-11-26T10:09:14+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 467.87,
-  "impressions": 702,
-  "reach": 640,
-  "link_clicks": 8,
-  "leads": 0,
+  "spend": 642.51,
+  "impressions": 938,
+  "reach": 895,
+  "link_clicks": 17,
+  "leads": 2,
   "purchases": 0
  },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 1,
-  "form_fills_meta": 1,
-  "leads_meta_unique": 1,
+  "form_fills_all": 3,
+  "form_fills_meta": 3,
+  "leads_meta_unique": 3,
   "bookings_created_today": 0
  },
  "ad_sync_stale_days": 3,
  "notes": [
-  "Run at 09:09 IST: a partial-day snapshot. Meta and CRM figures will keep rising through the day. Not a failed pull.",
-  "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 1 submission (has_more false). It is a Meta ad visitor (has_fbclid, utm_source fb-ad), not a test, so the deduped count is 1. Meta's own lead field shows 0 for the same day, which is shown for reference only.",
+  "Run at 2026-11-26T10:09:14+05:30 IST: a partial-day snapshot. Meta and CRM figures keep rising through the day. Not a failed pull.",
+  "CRM: the form query for 26 Nov IST (25 Nov 18:30 UTC to 26 Nov 18:30 UTC) returned 3 submissions (has_more false), all Meta-ad visitors (has_fbclid true, utm_source fb-ad), none a test. Three different contacts; each was checked back to 1 Oct 2026 and none had submitted before today, so the deduped count is 3. Meta's own lead field shows 2 for the same day, shown for reference only.",
   "Bookings: no deal created on 26 Nov in any booked stage. In the 2.0 Vsl Pipeline, Appointment Booked is newest 25 Nov, Show up newest 24 Nov, No show up newest 23 Nov, Reschedule and Won are empty, and that pipeline has no Payment done stage. Zero created today.",
   "Ad sync: the CRM's Meta ad data runs only to 2026-11-23 (get_ad_connection_health, state degraded, 3 days behind today). Leads and bookings are still live, but the CRM's own cost-per-lead may lag. Fix: Lead Generation → Ad Launcher → Settings.",
-  "Campaigns: today's slice covers every campaign with spend today, not only ACTIVE ones, so it reconciles to the account total. 19Nov26 at 345.22 plus 13Nov26 (b) at 122.65 equals 467.87. The month-to-date list includes every campaign with November spend, paused or not, per data/raw_today/README.md. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (20:09) is marked (b)."
+  "Campaigns: the today slice covers the two ACTIVE campaigns, and they reconcile to the account total: 19Nov26 at 469.02 plus 13Nov26 (b) at 173.49 equals 642.51. The month-to-date list includes every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (20:09) is marked (b)."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -42,13 +42,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-26",
-   "spend_today": 122.65,
-   "impressions_today": 107,
-   "clicks_today": 1,
-   "ctr_today": 0.93,
-   "spend_mtd": 12799.03,
-   "impressions_mtd": 31234,
-   "clicks_mtd": 658,
+   "spend_today": 173.49,
+   "impressions_today": 128,
+   "clicks_today": 3,
+   "ctr_today": 2.34,
+   "spend_mtd": 12850.03,
+   "impressions_mtd": 31257,
+   "clicks_mtd": 660,
    "ctr_mtd": 2.11
   },
   {
@@ -76,14 +76,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-26",
-   "spend_today": 345.22,
-   "impressions_today": 595,
-   "clicks_today": 13,
-   "ctr_today": 2.18,
-   "spend_mtd": 6657.49,
-   "impressions_mtd": 14038,
-   "clicks_mtd": 447,
-   "ctr_mtd": 3.18
+   "spend_today": 469.02,
+   "impressions_today": 810,
+   "clicks_today": 23,
+   "ctr_today": 2.84,
+   "spend_mtd": 6781.29,
+   "impressions_mtd": 14253,
+   "clicks_mtd": 457,
+   "ctr_mtd": 3.21
   },
   {
    "id": "120252473001080412",
