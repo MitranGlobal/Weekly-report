@@ -1,15 +1,15 @@
 {
  "date": "2026-11-27",
- "pulled_at": "2026-11-27T21:09:00+05:30",
+ "pulled_at": "2026-11-27T22:10:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1558.98,
-  "impressions": 1876,
-  "reach": 1657,
+  "spend": 1632.58,
+  "impressions": 2009,
+  "reach": 1732,
   "link_clicks": 33,
   "leads": 3,
   "purchases": 0
@@ -23,13 +23,13 @@
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Run at 2026-11-27T21:09:00+05:30 (IST). Partial day: the India day runs to 00:00 IST, so these figures are rebuilt hourly and will move until midnight.",
-  "Meta account pull for 27 Nov IST (date_preset today, scheduled run): spend 1558.98, impressions 1876, reach 1657, link clicks 33, Meta leads 3, omni_purchase null (0).",
-  "Campaign-level ACTIVE slice sums to spend 1558.98 (937.92 + 621.06), impressions 1876 (674 + 1202), matching the account totals.",
-  "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 3 submissions (has_more false), all Meta-ad visitors (has_fbclid true, contact_source fb-ad), 3 distinct contacts, no test names or internal addresses (Suneetha K, Farjana Mugal, viji). None is a repeat of an earlier submission on this form. Meta's lead field is 3 too.",
-  "Bookings: one CRM deal created 27 Nov IST at Appointment Booked (contact viji). Checked Reschedule (none), Show up, No show up, Payment done and Won (none created on 27 Nov; most recent created dates 24 Nov, 23 Nov, 6 Sep and 3 Sep).",
+  "Run at 2026-11-27T22:10:00+05:30 (IST). Partial day: the India day runs to 00:00 IST, so these figures are rebuilt hourly and will move until midnight.",
+  "Meta account pull for 27 Nov IST (scheduled run, time_range 27 Nov only): spend 1632.58, impressions 2009, reach 1732, link clicks 33, Meta leads 3, omni_purchase null (0).",
+  "Campaign-level ACTIVE slice sums to spend 1632.58 (649.98 + 982.60), impressions 2009 (1295 + 714), matching the account totals.",
+  "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 3 submissions (has_more false), all Meta-ad visitors (has_fbclid true, contact_source fb-ad), 3 distinct contacts, no test names or internal addresses (Suneetha K, Farjana Mugal, viji). Same three as the earlier run today; no new submissions since 21:09 IST.",
+  "Bookings: one CRM deal created 27 Nov IST at Appointment Booked (contact viji). Checked Reschedule (none), Show up, No show up, Payment done and Won: none created on 27 Nov IST.",
   "Ad sync: get_ad_connection_health state ok, last_report_date and data_up_to 2026-11-26 (yesterday, within tolerance), so ad_sync_stale_days is 0.",
-  "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns. Six campaigns this month; two active today. The scheduled prompt's step 3b asks for ACTIVE-only, but the README requires paused campaigns with month-to-date spend, so the README was followed (as in earlier runs today).",
+  "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns. Six campaigns this month; two active today.",
   "Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09 on 13 Nov, active today) is marked (b), per the README's created-time rule."
  ],
  "campaigns_month_range": {
@@ -45,14 +45,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 937.92,
-   "impressions_today": 674,
+   "spend_today": 982.6,
+   "impressions_today": 714,
    "clicks_today": 18,
-   "ctr_today": 2.67,
-   "spend_mtd": 14135.61,
-   "impressions_mtd": 32239,
+   "ctr_today": 2.52,
+   "spend_mtd": 14180.29,
+   "impressions_mtd": 32279,
    "clicks_mtd": 689,
-   "ctr_mtd": 2.14
+   "ctr_mtd": 2.13
   },
   {
    "id": "120252592269270412",
@@ -62,14 +62,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 621.06,
-   "impressions_today": 1202,
-   "clicks_today": 28,
-   "ctr_today": 2.33,
-   "spend_mtd": 8080.81,
-   "impressions_mtd": 17056,
-   "clicks_mtd": 526,
-   "ctr_mtd": 3.08
+   "spend_today": 649.98,
+   "impressions_today": 1295,
+   "clicks_today": 29,
+   "ctr_today": 2.24,
+   "spend_mtd": 8110.35,
+   "impressions_mtd": 17150,
+   "clicks_mtd": 527,
+   "ctr_mtd": 3.07
   },
   {
    "id": "120252281645440412",
