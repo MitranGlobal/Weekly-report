@@ -1,16 +1,16 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T12:10:00+05:30",
+ "generated_at": "2026-11-27T13:08:48+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1007.19,
-  "impressions": 1038.0,
-  "reach": 969.0,
-  "link_clicks": 17.0,
+  "spend": 1061.16,
+  "impressions": 1071.0,
+  "reach": 1000.0,
+  "link_clicks": 18.0,
   "leads": 2.0,
   "purchases": 0.0
  },
@@ -23,13 +23,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 634.08,
-   "impressions_today": 380,
-   "clicks_today": 9,
-   "ctr_today": 2.37,
-   "spend_mtd": 13831.77,
-   "impressions_mtd": 31945,
-   "clicks_mtd": 680,
+   "spend_today": 680.3,
+   "impressions_today": 396,
+   "clicks_today": 10,
+   "ctr_today": 2.53,
+   "spend_mtd": 13877.99,
+   "impressions_mtd": 31961,
+   "clicks_mtd": 681,
    "ctr_mtd": 2.13
   },
   {
@@ -40,12 +40,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 373.11,
-   "impressions_today": 658,
+   "spend_today": 380.86,
+   "impressions_today": 675,
    "clicks_today": 14,
-   "ctr_today": 2.13,
-   "spend_mtd": 7826.12,
-   "impressions_mtd": 16508,
+   "ctr_today": 2.07,
+   "spend_mtd": 7833.87,
+   "impressions_mtd": 16525,
    "clicks_mtd": 512,
    "ctr_mtd": 3.1
   }
@@ -58,8 +58,8 @@
   "bookings_created_today": 1
  },
  "final_lead_count": 2,
- "cost_per_lead": 503.595,
- "cost_per_booking": 1007.19,
+ "cost_per_lead": 530.58,
+ "cost_per_booking": 1061.16,
  "reconciliation": {
   "meta_leads": 2.0,
   "crm_leads_deduped": 2,
@@ -71,15 +71,15 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-27 12:10 IST, midday, so today's figures are partial. Meta account pull for today (spend 1007.19, impressions 1038, reach 969, link clicks 17, Meta leads 2) reconciles with the two ACTIVE campaigns: spend 373.11 + 634.08 = 1007.19, impressions 658 + 380 = 1038."
+   "text": "Run at 2026-11-27T13:08:48+05:30 (IST), so today's figures are partial. Meta account pull for today (spend 1061.16, impressions 1071, reach 1000, link clicks 18, Meta leads 2) reconciles with the two ACTIVE campaigns: spend 380.86 + 680.30 = 1061.16, impressions 675 + 396 = 1071."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, utm_source fb-ad), 2 distinct contacts, no test names or internal addresses. Meta's lead field is also 2, so the two sources agree."
+   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, contact_source fb-ad), 2 distinct contacts, no test names or internal addresses. Meta's lead field is also 2, so the two sources agree."
   },
   {
    "level": "warn",
-   "text": "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Reschedule, Show up, No show up and Won have no deals created today; 'Payment done' is not a stage in this pipeline."
+   "text": "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Reschedule, Show up, No show up, Won and Payment done have no deals created today (their newest deals are dated 26 Nov or earlier)."
   },
   {
    "level": "warn",
@@ -87,7 +87,7 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: this run's array holds only campaigns that are ACTIVE or spent today (the two running today). Paused campaigns with November spend (16Nov26, 13Nov26 original, 11Nov26, 03Nov26) are left out per this run's rule, not because they have no spend. Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign keeps the plain name and the later one is marked (b), as in the 11:16 run."
+   "text": "Campaigns: this run's array holds only campaigns that are ACTIVE or spent today (the two running today). Paused campaigns with November spend are left out per this run's rule, not because they have no spend. Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign keeps the plain name and the later one is marked (b), as in earlier runs."
   }
  ]
 }
