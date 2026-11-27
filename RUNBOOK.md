@@ -109,7 +109,7 @@ is unchanged and still owns `weekly.html` and the PDF reports.
 - If the Meta Ads or CRM pull itself fails, do not touch `reports/daily_live/latest.json` — leave the
   last good snapshot live and just note the failure in the run's own log. A day with genuinely zero
   spend and zero leads is still valid and should be published (same rule as an idle week).
-- The "Daily live tracking update" scheduled task runs every 3 hours and is separate from the Monday task;
+- The "Daily live tracking update" scheduled task runs hourly (at :07 IST; changed from every 3 hours on 27 Nov 2026) and is separate from the Monday task;
   update one without touching the other.
 
 ## Monthly dashboard (calendar view)
