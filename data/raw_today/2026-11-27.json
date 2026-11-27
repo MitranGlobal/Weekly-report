@@ -1,9 +1,19 @@
 {
  "date": "2026-11-27",
- "pulled_at": "2026-11-27T13:08:48+05:30",
- "account": {"id": "392337929851918", "name": "mitranglobal ad account"},
+ "pulled_at": "2026-11-27T14:09:09+05:30",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
  "currency": "INR",
- "meta": {"spend": 1061.16, "impressions": 1071, "reach": 1000, "link_clicks": 18, "leads": 2, "purchases": 0},
+ "meta": {
+  "spend": 1115.22,
+  "impressions": 1156,
+  "reach": 1079,
+  "link_clicks": 21,
+  "leads": 2,
+  "purchases": 0
+ },
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
   "form_fills_all": 2,
@@ -13,13 +23,17 @@
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Run at 2026-11-27T13:08:48+05:30 (IST), so today's figures are partial. Meta account pull for today (spend 1061.16, impressions 1071, reach 1000, link clicks 18, Meta leads 2) reconciles with the two ACTIVE campaigns: spend 380.86 + 680.30 = 1061.16, impressions 675 + 396 = 1071.",
+  "Run at 2026-11-27T14:09:09+05:30 (IST), so today's figures are partial (rebuilt hourly through the day).",
+  "Meta account pull for 27 Nov IST (date_preset today): spend 1115.22, impressions 1156, reach 1079, link clicks 21, Meta leads 2. Reconciles with the two ACTIVE campaigns: spend 707.14 + 408.08 = 1115.22, impressions 429 + 727 = 1156.",
   "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, contact_source fb-ad), 2 distinct contacts, no test names or internal addresses. Meta's lead field is also 2, so the two sources agree.",
-  "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Reschedule, Show up, No show up, Won and Payment done have no deals created today (their newest deals are dated 26 Nov or earlier).",
+  "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Reschedule has no deals; Show up, No show up, Payment done and Won have no deals created today (their newest deals are dated 24 Nov or earlier).",
   "Ad sync: get_ad_connection_health state ok, last_report_date 2026-11-26 (one day old, within tolerance), so ad_sync_stale_days is 0.",
-  "Campaigns: this run's array holds only campaigns that are ACTIVE or spent today (the two running today). Paused campaigns with November spend are left out per this run's rule, not because they have no spend. Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign keeps the plain name and the later one is marked (b), as in earlier runs."
+  "Campaigns: this run's array holds only campaigns that are ACTIVE (the two running today), per this run's rule. Paused campaigns with November spend are left out, not because they have no spend. Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign keeps the plain name and the later one is marked (b), as in earlier runs."
  ],
- "campaigns_month_range": {"since": "2026-11-01", "until": "2026-11-27"},
+ "campaigns_month_range": {
+  "since": "2026-11-01",
+  "until": "2026-11-27"
+ },
  "campaigns": [
   {
    "id": "120252477836170412",
@@ -29,8 +43,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 680.3, "impressions_today": 396, "clicks_today": 10, "ctr_today": 2.53,
-   "spend_mtd": 13877.99, "impressions_mtd": 31961, "clicks_mtd": 681, "ctr_mtd": 2.13
+   "spend_today": 707.14,
+   "impressions_today": 429,
+   "clicks_today": 13,
+   "ctr_today": 3.03,
+   "spend_mtd": 13904.83,
+   "impressions_mtd": 31994,
+   "clicks_mtd": 684,
+   "ctr_mtd": 2.14
   },
   {
    "id": "120252592269270412",
@@ -40,8 +60,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 380.86, "impressions_today": 675, "clicks_today": 14, "ctr_today": 2.07,
-   "spend_mtd": 7833.87, "impressions_mtd": 16525, "clicks_mtd": 512, "ctr_mtd": 3.1
+   "spend_today": 408.08,
+   "impressions_today": 727,
+   "clicks_today": 19,
+   "ctr_today": 2.61,
+   "spend_mtd": 7861.09,
+   "impressions_mtd": 16577,
+   "clicks_mtd": 517,
+   "ctr_mtd": 3.12
   }
  ]
 }
