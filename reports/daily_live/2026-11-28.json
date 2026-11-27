@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T00:08:33+05:30",
+ "account": {
+  "id": "392337929851918",
+  "name": "mitranglobal ad account"
+ },
+ "currency": "INR",
+ "meta": {
+  "spend": 0.0,
+  "impressions": 0.0,
+  "reach": 0.0,
+  "link_clicks": 0.0,
+  "leads": 0.0,
+  "purchases": 0.0
+ },
+ "campaigns": [
+  {
+   "id": "120252477836170412",
+   "name": "Schedule | ADV | Video | 13Nov26 (b)",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-27",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 14250.01,
+   "impressions_mtd": 32338,
+   "clicks_mtd": 691,
+   "ctr_mtd": 2.14
+  },
+  {
+   "id": "120252592269270412",
+   "name": "Schedule | ADV | Video | 19Nov26",
+   "status": "ACTIVE",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-19",
+   "last_active": "2026-11-27",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 8163.9,
+   "impressions_mtd": 17351,
+   "clicks_mtd": 535,
+   "ctr_mtd": 3.08
+  },
+  {
+   "id": "120252281645440412",
+   "name": "Schedule | ADV | Video | 03Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-03",
+   "last_active": "2026-11-11",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 7789.89,
+   "impressions_mtd": 23418,
+   "clicks_mtd": 452,
+   "ctr_mtd": 1.93
+  },
+  {
+   "id": "120252473001080412",
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 3265.49,
+   "impressions_mtd": 6365,
+   "clicks_mtd": 205,
+   "ctr_mtd": 3.22
+  },
+  {
+   "id": "120252437846370412",
+   "name": "Schedule | ADV | Video | 11Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-11",
+   "last_active": "2026-11-13",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 1754.11,
+   "impressions_mtd": 2399,
+   "clicks_mtd": 75,
+   "ctr_mtd": 3.13
+  },
+  {
+   "id": "120252522808880412",
+   "name": "Schedule | ADV | Video | 16Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-16",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 45.69,
+   "impressions_mtd": 192,
+   "clicks_mtd": 13,
+   "ctr_mtd": 6.77
+  }
+ ],
+ "crm": {
+  "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
+  "form_fills_all": 0,
+  "form_fills_meta": 0,
+  "leads_meta_unique": 0,
+  "bookings_created_today": 0
+ },
+ "final_lead_count": 0,
+ "cost_per_lead": null,
+ "cost_per_booking": null,
+ "reconciliation": {
+  "meta_leads": 0.0,
+  "crm_leads_deduped": 0,
+  "match": true,
+  "gap": 0.0,
+  "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
+ },
+ "sanity_ok": true,
+ "flags": [
+  {
+   "level": "warn",
+   "text": "CRM's Meta ad-spend sync is 2 days old. Lead and booking counts above are live CRM data either way; only the CRM's own cost-per-lead view may lag until it's resynced."
+  },
+  {
+   "level": "warn",
+   "text": "Run at 2026-11-28T00:08:33+05:30 IST, the first run of the India day, so zero spend and zero leads so far is expected and not a failure. Later runs today will add to these numbers."
+  },
+  {
+   "level": "warn",
+   "text": "Meta: account-level pull for 28 Nov returned no spend, impressions, reach, link clicks or leads yet. Both ACTIVE campaigns (13Nov26 (b) and 19Nov26) show zero spend today."
+  },
+  {
+   "level": "warn",
+   "text": "CRM: the form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 0 submissions (has_more false), so there is nothing to dedupe yet."
+  },
+  {
+   "level": "warn",
+   "text": "Bookings: no deals created today in any booked stage. The newest Appointment Booked, Show up and No show up deals were created on 27 Nov or earlier. The 2.0 Vsl Pipeline has no Payment done stage."
+  },
+  {
+   "level": "warn",
+   "text": "Ad sync: get_ad_connection_health state ok, but last_report_date is 2026-11-26, two days behind today, so ad_sync_stale_days is 2 and the home page shows the stale-sync warning. Resync in Lead Generation → Ad Launcher → Settings."
+  },
+  {
+   "level": "warn",
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns, both at zero spend so far today. The month-to-date list runs 1 to 28 Nov and includes the late 27 Nov spend that arrived after the 23:08 run (19Nov26 moved from 8141.10 to 8163.90 MTD, 13Nov26 (b) from 14231.41 to 14250.01 MTD). Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+  }
+ ]
+}
