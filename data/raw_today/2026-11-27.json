@@ -1,16 +1,16 @@
 {
  "date": "2026-11-27",
- "pulled_at": "2026-11-27T17:12:00+05:30",
+ "pulled_at": "2026-11-27T18:08:39+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1326.89,
-  "impressions": 1474,
-  "reach": 1355,
-  "link_clicks": 28,
+  "spend": 1420.32,
+  "impressions": 1577,
+  "reach": 1422,
+  "link_clicks": 29,
   "leads": 2,
   "purchases": 0
  },
@@ -23,15 +23,14 @@
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Run at 2026-11-27T17:12:00+05:30 (IST), so today's figures are partial (rebuilt hourly through the day).",
-  "Meta account pull for 27 Nov IST (date_preset today, scheduled run): spend 1326.89, impressions 1474, reach 1355, link clicks 28, Meta leads 2, purchases 0.",
-  "Campaign-level ACTIVE slice sums to spend 1327.59 (506.95 + 820.64) against the account total of 1326.89. The 0.70 gap is timing skew between the account and campaign pulls made seconds apart; no paused campaign shows spend today. The account figure is the headline.",
-  "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, contact_source fb-ad), 2 distinct contacts, no test names or internal addresses. Meta's lead field is also 2, so the two sources agree.",
-  "Bookings: CRM deals created 27 Nov IST at any booked stage (Appointment Booked or later). Only one: Appointment Booked, contact viji, not a test. Reschedule has no deals; Show up (newest created 24 Nov), No show up (newest 23 Nov), Payment done (newest 6 Sep) and Won (newest 3 Sep) have none created today.",
-  "Ad sync: get_ad_connection_health state ok, last_report_date 2026-11-26 (one day old, within tolerance), so ad_sync_stale_days is 0.",
-  "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns. The scheduled prompt asked for ACTIVE-only, but the README and RUNBOOK say paused campaigns with month-to-date spend must stay in the list, so the README was followed, as in earlier runs today. Six campaigns this month; two active today.",
-  "Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09 on 13 Nov, active today) is marked (b), per the README's created-time rule.",
-  "last_active for the two campaigns that spent today is set to 27 Nov (their most recent spend). For paused campaigns it is the Meta updated_time date, as the README describes."
+  "Run at 2026-11-27T18:08:39+05:30 (IST), so today's figures are partial (rebuilt hourly through the day).",
+  "Meta account pull for 27 Nov IST (date_preset today, scheduled run): spend 1420.32, impressions 1577, reach 1422, link clicks 29, Meta leads 2, purchases 0.",
+  "Campaign-level ACTIVE slice sums to spend 1420.32 (544.55 + 875.77), matching the account total exactly.",
+  "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, contact_source fb-ad), 2 distinct contacts, no test names or internal addresses. Meta's lead field is also 2.",
+  "Bookings: one CRM deal created 27 Nov IST at a booked stage (Appointment Booked, contact viji). Reschedule, Show up, No show up and Won have no deals created today; the 2.0 Vsl Pipeline has no Payment done stage.",
+  "Ad sync: get_ad_connection_health state ok, data_up_to 2026-11-26 (one day old, within tolerance), so ad_sync_stale_days is 0.",
+  "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns. The scheduled prompt's step 3b asks for ACTIVE-only, but the README requires paused campaigns with month-to-date spend, as in earlier runs today, so the README was followed. Six campaigns this month; two active today.",
+  "Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09 on 13 Nov, active today) is marked (b), per the README's created-time rule."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -46,13 +45,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 820.64,
-   "impressions_today": 502,
-   "clicks_today": 15,
-   "ctr_today": 2.99,
-   "spend_mtd": 14024.03,
-   "impressions_mtd": 32070,
-   "clicks_mtd": 686,
+   "spend_today": 875.77,
+   "impressions_today": 550,
+   "clicks_today": 16,
+   "ctr_today": 2.91,
+   "spend_mtd": 14073.46,
+   "impressions_mtd": 32115,
+   "clicks_mtd": 687,
    "ctr_mtd": 2.14
   },
   {
@@ -63,14 +62,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 506.95,
-   "impressions_today": 975,
-   "clicks_today": 23,
-   "ctr_today": 2.36,
-   "spend_mtd": 7965.89,
-   "impressions_mtd": 16826,
-   "clicks_mtd": 521,
-   "ctr_mtd": 3.10
+   "spend_today": 544.55,
+   "impressions_today": 1027,
+   "clicks_today": 24,
+   "ctr_today": 2.34,
+   "spend_mtd": 8003.83,
+   "impressions_mtd": 16879,
+   "clicks_mtd": 522,
+   "ctr_mtd": 3.09
   },
   {
    "id": "120252281645440412",
