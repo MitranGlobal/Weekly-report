@@ -1,16 +1,16 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-28T00:08:33+05:30",
+ "generated_at": "2026-11-28T01:09:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 0.0,
-  "impressions": 0.0,
-  "reach": 0.0,
-  "link_clicks": 0.0,
+  "spend": 101.06,
+  "impressions": 139.0,
+  "reach": 114.0,
+  "link_clicks": 1.0,
   "leads": 0.0,
   "purchases": 0.0
  },
@@ -22,14 +22,14 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-13",
-   "last_active": "2026-11-27",
-   "spend_today": 0,
-   "impressions_today": 0,
+   "last_active": "2026-11-28",
+   "spend_today": 85.05,
+   "impressions_today": 45,
    "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 14250.01,
-   "impressions_mtd": 32338,
-   "clicks_mtd": 691,
+   "ctr_today": 0,
+   "spend_mtd": 14337,
+   "impressions_mtd": 32386,
+   "clicks_mtd": 692,
    "ctr_mtd": 2.14
   },
   {
@@ -39,14 +39,14 @@
    "objective": "OUTCOME_LEADS",
    "daily_budget": 999,
    "created_time": "2026-11-19",
-   "last_active": "2026-11-27",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 8163.9,
-   "impressions_mtd": 17351,
-   "clicks_mtd": 535,
+   "last_active": "2026-11-28",
+   "spend_today": 16.01,
+   "impressions_today": 94,
+   "clicks_today": 3,
+   "ctr_today": 3.19,
+   "spend_mtd": 8180.34,
+   "impressions_mtd": 17450,
+   "clicks_mtd": 538,
    "ctr_mtd": 3.08
   },
   {
@@ -143,19 +143,19 @@
   },
   {
    "level": "warn",
-   "text": "Run at 2026-11-28T00:08:33+05:30 IST, the first run of the India day, so zero spend and zero leads so far is expected and not a failure. Later runs today will add to these numbers."
+   "text": "Run at 2026-11-28T01:09:00+05:30 IST, about one hour into the India day. Later runs today will add to these numbers."
   },
   {
    "level": "warn",
-   "text": "Meta: account-level pull for 28 Nov returned no spend, impressions, reach, link clicks or leads yet. Both ACTIVE campaigns (13Nov26 (b) and 19Nov26) show zero spend today."
+   "text": "Meta: account-level pull for 28 Nov (time_range 28 Nov only) returned spend 101.06, impressions 139, reach 114, link clicks 1, Meta lead and purchase fields empty (0). Campaign slices reconcile: 85.05 + 16.01 = 101.06 spend; 45 + 94 = 139 impressions."
   },
   {
    "level": "warn",
-   "text": "CRM: the form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 0 submissions (has_more false), so there is nothing to dedupe yet."
+   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 0 submissions, checked both with the form filter and without it (has_more false), so there is nothing to dedupe yet. Meta spend and impressions are already running, so zero leads this early is plausible."
   },
   {
    "level": "warn",
-   "text": "Bookings: no deals created today in any booked stage. The newest Appointment Booked, Show up and No show up deals were created on 27 Nov or earlier. The 2.0 Vsl Pipeline has no Payment done stage."
+   "text": "Bookings: no deals created today (28 Nov) in Appointment Booked, Reschedule, Show up, No show up, Payment done or Won. The newest Appointment Booked deals were created 27 Nov (2 deals, both matching yesterday's count)."
   },
   {
    "level": "warn",
@@ -163,7 +163,7 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: today's slice is the two ACTIVE campaigns, both at zero spend so far today. The month-to-date list runs 1 to 28 Nov and includes the late 27 Nov spend that arrived after the 23:08 run (19Nov26 moved from 8141.10 to 8163.90 MTD, 13Nov26 (b) from 14231.41 to 14250.01 MTD). Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns (13Nov26 (b) at 85.05 and 19Nov26 at 16.01). The month-to-date list runs 1 to 28 Nov and includes every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b). Small MTD differences against the 00:08 snapshot are the spend that landed since then."
   }
  ]
 }
