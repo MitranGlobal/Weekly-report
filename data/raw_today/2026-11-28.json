@@ -1,16 +1,16 @@
 {
  "date": "2026-11-28",
- "pulled_at": "2026-11-28T02:08:00+05:30",
+ "pulled_at": "2026-11-28T03:09:26+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 128.3,
-  "impressions": 194,
-  "reach": 180,
-  "link_clicks": 3,
+  "spend": 184.92,
+  "impressions": 245,
+  "reach": 229,
+  "link_clicks": 5,
   "leads": 0,
   "purchases": 0
  },
@@ -23,12 +23,12 @@
  },
  "ad_sync_stale_days": 2,
  "notes": [
-  "Run at 2026-11-28 02:08 IST, about two hours into the India day. Later runs today will add to these numbers.",
-  "Meta: account-level pull for 28 Nov only returned spend 128.30, impressions 194, reach 180, link clicks 3; Meta lead and purchase fields empty (0). Campaign slices reconcile: 100.87 + 27.43 = 128.30 spend; 76 + 118 = 194 impressions.",
-  "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 0 submissions, both with the form filter and without it (has_more false). Nothing to dedupe yet.",
-  "Bookings: no deals created today in Appointment Booked, Reschedule, Show up, No show up or Won (2.0 Vsl Pipeline; that pipeline has no Payment done stage). The newest Appointment Booked deal was created 27 Nov.",
+  "Run at 2026-11-28T03:09:26+05:30 IST, about three hours into the India day. Later runs today will add to these numbers.",
+  "Meta: account-level pull for 28 Nov returned spend 184.92, impressions 245, reach 229, link clicks 5; Meta lead and purchase fields empty (0). Campaign slices reconcile: 36.82 + 148.10 = 184.92 spend; 155 + 90 = 245 impressions.",
+  "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 0 submissions, has_more false. Nothing to dedupe yet.",
+  "Bookings: no deals created today (IST) in Appointment Booked, Reschedule, Show up, No show up or Won (2.0 Vsl Pipeline; that pipeline has no Payment done stage). The newest Appointment Booked deal was created 27 Nov.",
   "Ad sync: get_ad_connection_health state ok, but last_report_date is 2026-11-26, two days behind today, so ad_sync_stale_days is 2 and the home page shows the stale-sync warning. Resync in Lead Generation → Ad Launcher → Settings.",
-  "Campaigns: today's slice is the two ACTIVE campaigns (13Nov26 (b) at 100.87 and 19Nov26 at 27.43). The month-to-date list runs 1 to 28 Nov and includes every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+  "Campaigns: today's slice is the two ACTIVE campaigns (13Nov26 (b) at 148.10 and 19Nov26 at 36.82). The month-to-date list runs 1 to 28 Nov and includes every campaign with November spend, paused or not, per data/raw_today/README.md. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -43,13 +43,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-28",
-   "spend_today": 100.87,
-   "impressions_today": 76,
-   "clicks_today": 1,
-   "ctr_today": 1.32,
-   "spend_mtd": 14355.86,
-   "impressions_mtd": 32418,
-   "clicks_mtd": 693,
+   "spend_today": 148.1,
+   "impressions_today": 90,
+   "clicks_today": 2,
+   "ctr_today": 2.22,
+   "spend_mtd": 14403.09,
+   "impressions_mtd": 32432,
+   "clicks_mtd": 694,
    "ctr_mtd": 2.14
   },
   {
@@ -60,13 +60,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-28",
-   "spend_today": 27.43,
-   "impressions_today": 118,
-   "clicks_today": 3,
-   "ctr_today": 2.54,
-   "spend_mtd": 8193.63,
-   "impressions_mtd": 17477,
-   "clicks_mtd": 538,
+   "spend_today": 36.82,
+   "impressions_today": 155,
+   "clicks_today": 5,
+   "ctr_today": 3.23,
+   "spend_mtd": 8203.02,
+   "impressions_mtd": 17514,
+   "clicks_mtd": 540,
    "ctr_mtd": 3.08
   },
   {
