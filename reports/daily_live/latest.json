@@ -1,17 +1,17 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T22:10:00+05:30",
+ "generated_at": "2026-11-27T23:08:40+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1632.58,
-  "impressions": 2009.0,
-  "reach": 1732.0,
-  "link_clicks": 33.0,
-  "leads": 3.0,
+  "spend": 1714.45,
+  "impressions": 2124.0,
+  "reach": 1835.0,
+  "link_clicks": 37.0,
+  "leads": 4.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,12 +23,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 982.6,
-   "impressions_today": 714,
+   "spend_today": 1033.72,
+   "impressions_today": 749,
    "clicks_today": 18,
-   "ctr_today": 2.52,
-   "spend_mtd": 14180.29,
-   "impressions_mtd": 32279,
+   "ctr_today": 2.4,
+   "spend_mtd": 14231.41,
+   "impressions_mtd": 32314,
    "clicks_mtd": 689,
    "ctr_mtd": 2.13
   },
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 649.98,
-   "impressions_today": 1295,
-   "clicks_today": 29,
-   "ctr_today": 2.24,
-   "spend_mtd": 8110.35,
-   "impressions_mtd": 17150,
-   "clicks_mtd": 527,
-   "ctr_mtd": 3.07
+   "spend_today": 680.73,
+   "impressions_today": 1375,
+   "clicks_today": 33,
+   "ctr_today": 2.4,
+   "spend_mtd": 8141.1,
+   "impressions_mtd": 17230,
+   "clicks_mtd": 531,
+   "ctr_mtd": 3.08
   },
   {
    "id": "120252281645440412",
@@ -120,17 +120,17 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 3,
-  "form_fills_meta": 3,
-  "leads_meta_unique": 3,
-  "bookings_created_today": 1
+  "form_fills_all": 4,
+  "form_fills_meta": 4,
+  "leads_meta_unique": 4,
+  "bookings_created_today": 2
  },
- "final_lead_count": 3,
- "cost_per_lead": 544.1933333333333,
- "cost_per_booking": 1632.58,
+ "final_lead_count": 4,
+ "cost_per_lead": 428.6125,
+ "cost_per_booking": 857.225,
  "reconciliation": {
-  "meta_leads": 3.0,
-  "crm_leads_deduped": 3,
+  "meta_leads": 4.0,
+  "crm_leads_deduped": 4,
   "match": true,
   "gap": 0.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
@@ -139,35 +139,27 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-27T22:10:00+05:30 (IST). Partial day: the India day runs to 00:00 IST, so these figures are rebuilt hourly and will move until midnight."
+   "text": "Run at 2026-11-27T23:08:40+05:30 IST, late evening (IST day ends 00:00, so later runs can still add leads and bookings)."
   },
   {
    "level": "warn",
-   "text": "Meta account pull for 27 Nov IST (scheduled run, time_range 27 Nov only): spend 1632.58, impressions 2009, reach 1732, link clicks 33, Meta leads 3, omni_purchase null (0)."
+   "text": "Meta: account-level pull for 27 Nov only succeeded (spend 1714.45, reach 1835, link clicks 37, Meta leads 4, purchases 0). Campaign slices reconcile: 680.73 + 1033.72 = 1714.45 spend; 1375 + 749 = 2124 impressions."
   },
   {
    "level": "warn",
-   "text": "Campaign-level ACTIVE slice sums to spend 1632.58 (649.98 + 982.60), impressions 2009 (1295 + 714), matching the account totals."
+   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 4 submissions (has_more false), all Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, four distinct contact_ids. Each of the four has only this one submission between 31 Oct and 27 Nov, so none is a repeat. Deduped count 4; Meta's own lead field is also 4."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 3 submissions (has_more false), all Meta-ad visitors (has_fbclid true, contact_source fb-ad), 3 distinct contacts, no test names or internal addresses (Suneetha K, Farjana Mugal, viji). Same three as the earlier run today; no new submissions since 21:09 IST."
+   "text": "Bookings: 2 deals created today, both in Appointment Booked, two distinct contacts. No deals created today in Reschedule, Show up, No show up, Payment done or Won."
   },
   {
    "level": "warn",
-   "text": "Bookings: one CRM deal created 27 Nov IST at Appointment Booked (contact viji). Checked Reschedule (none), Show up, No show up, Payment done and Won: none created on 27 Nov IST."
+   "text": "Ad sync: get_ad_connection_health state ok, last_report_date 2026-11-26, so ad_sync_stale_days is 0."
   },
   {
    "level": "warn",
-   "text": "Ad sync: get_ad_connection_health state ok, last_report_date and data_up_to 2026-11-26 (yesterday, within tolerance), so ad_sync_stale_days is 0."
-  },
-  {
-   "level": "warn",
-   "text": "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns. Six campaigns this month; two active today."
-  },
-  {
-   "level": "warn",
-   "text": "Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09 on 13 Nov, active today) is marked (b), per the README's created-time rule."
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 at 680.73 and 13Nov26 (b) at 1033.72). The month-to-date list follows data/raw_today/README.md (every campaign with November spend, paused or not), so paused campaigns that spent earlier this month stay in the table. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
   }
  ]
 }
