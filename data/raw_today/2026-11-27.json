@@ -1,16 +1,16 @@
 {
  "date": "2026-11-27",
- "pulled_at": "2026-11-27T10:23:10+05:30",
+ "pulled_at": "2026-11-27T11:16:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 860.63,
-  "impressions": 911,
-  "reach": 849,
-  "link_clicks": 14,
+  "spend": 953.78,
+  "impressions": 975,
+  "reach": 906,
+  "link_clicks": 16,
   "leads": 2,
   "purchases": 0
  },
@@ -23,11 +23,11 @@
  },
  "ad_sync_stale_days": 0,
  "notes": [
-  "Run at 2026-11-27T10:23:10+05:30 IST, mid-morning, so today's figures are partial. Meta account pull (spend 860.63, impressions 911, reach 849, link clicks 14, Meta leads 2) reconciles with the two ACTIVE campaigns: spend 338.62 + 522.01 = 860.63, impressions 603 + 308 = 911.",
+  "Run at 2026-11-27T11:16 IST, mid-morning, so today's figures are partial. Meta account pull for today (spend 953.78, impressions 975, reach 906, link clicks 16, Meta leads 2) reconciles with the two ACTIVE campaigns: spend 351.92 + 601.01 = 952.93 (within ₹1), impressions 619 + 355 = 974 (within 1).",
   "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 2 submissions, both Meta-ad visitors (has_fbclid true, utm_source fb-ad), no test names or internal addresses, 2 distinct contacts. Meta's own lead field is 2, so the two sources agree today.",
-  "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). No deals created today in Reschedule, Show up, No show up or Won. Payment done is not a stage in this pipeline.",
+  "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Checked Reschedule (none), Show up (none created today), No show up (none created today), Won (none); Payment done is not a stage in this pipeline.",
   "Ad sync: get_ad_connection_health state ok, data_up_to 2026-11-26, so ad_sync_stale_days is 0.",
-  "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 at 338.62 and 13Nov26 (b) at 522.01). Month-to-date list covers every campaign with November spend (amount_spent > 0), paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one keeps the plain name and the later one is marked (b)."
+  "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 at 351.92 and 13Nov26 (b) at 601.01). Month-to-date list covers every campaign with November spend (amount_spent > 0), paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one keeps the plain name and the later one is marked (b)."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -42,13 +42,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 522.01,
-   "impressions_today": 308,
-   "clicks_today": 7,
-   "ctr_today": 2.27,
-   "spend_mtd": 13719.7,
-   "impressions_mtd": 31873,
-   "clicks_mtd": 678,
+   "spend_today": 601.01,
+   "impressions_today": 355,
+   "clicks_today": 8,
+   "ctr_today": 2.25,
+   "spend_mtd": 13798.7,
+   "impressions_mtd": 31920,
+   "clicks_mtd": 679,
    "ctr_mtd": 2.13
   },
   {
@@ -59,13 +59,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 338.62,
-   "impressions_today": 603,
-   "clicks_today": 12,
-   "ctr_today": 1.99,
-   "spend_mtd": 7791.13,
-   "impressions_mtd": 16451,
-   "clicks_mtd": 510,
+   "spend_today": 351.92,
+   "impressions_today": 619,
+   "clicks_today": 13,
+   "ctr_today": 2.1,
+   "spend_mtd": 7804.84,
+   "impressions_mtd": 16468,
+   "clicks_mtd": 511,
    "ctr_mtd": 3.1
   },
   {
