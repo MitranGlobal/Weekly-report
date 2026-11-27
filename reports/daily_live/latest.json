@@ -1,15 +1,15 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T19:09:20+05:30",
+ "generated_at": "2026-11-27T20:09:09+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1469.98,
-  "impressions": 1657.0,
-  "reach": 1485.0,
+  "spend": 1518.9,
+  "impressions": 1752.0,
+  "reach": 1550.0,
   "link_clicks": 32.0,
   "leads": 3.0,
   "purchases": 0.0
@@ -23,12 +23,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 907.98,
-   "impressions_today": 591,
+   "spend_today": 924.72,
+   "impressions_today": 632,
    "clicks_today": 18,
-   "ctr_today": 3.05,
-   "spend_mtd": 14105.67,
-   "impressions_mtd": 32156,
+   "ctr_today": 2.85,
+   "spend_mtd": 14122.41,
+   "impressions_mtd": 32197,
    "clicks_mtd": 689,
    "ctr_mtd": 2.14
   },
@@ -40,14 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 562,
-   "impressions_today": 1066,
-   "clicks_today": 25,
-   "ctr_today": 2.35,
-   "spend_mtd": 8021.46,
-   "impressions_mtd": 16919,
-   "clicks_mtd": 523,
-   "ctr_mtd": 3.09
+   "spend_today": 594.18,
+   "impressions_today": 1120,
+   "clicks_today": 28,
+   "ctr_today": 2.5,
+   "spend_mtd": 8053.93,
+   "impressions_mtd": 16974,
+   "clicks_mtd": 526,
+   "ctr_mtd": 3.1
   },
   {
    "id": "120252281645440412",
@@ -126,8 +126,8 @@
   "bookings_created_today": 1
  },
  "final_lead_count": 3,
- "cost_per_lead": 489.99333333333334,
- "cost_per_booking": 1469.98,
+ "cost_per_lead": 506.3,
+ "cost_per_booking": 1518.9,
  "reconciliation": {
   "meta_leads": 3.0,
   "crm_leads_deduped": 3,
@@ -139,27 +139,27 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-27T19:09:20+05:30 (IST); today's figures are partial and rebuilt hourly through the day."
+   "text": "Run at 2026-11-27T20:09:09+05:30 (IST); today's figures are partial and rebuilt hourly through the day."
   },
   {
    "level": "warn",
-   "text": "Meta account pull for 27 Nov IST (date_preset today, scheduled run): spend 1469.98, impressions 1657, reach 1485, link clicks 32, Meta leads 3, omni_purchase null (0)."
+   "text": "Meta account pull for 27 Nov IST (date_preset today, scheduled run): spend 1518.90, impressions 1752, reach 1550, link clicks 32, Meta leads 3, omni_purchase null (0)."
   },
   {
    "level": "warn",
-   "text": "Campaign-level ACTIVE slice sums to spend 1469.98 (562 + 907.98), impressions 1657 (1066 + 591), matching the account totals."
+   "text": "Campaign-level ACTIVE slice sums to spend 1518.90 (594.18 + 924.72), impressions 1752 (1120 + 632), matching the account totals."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 3 submissions, all Meta-ad visitors (has_fbclid true, contact_source fb-ad), 3 distinct contacts, no test names or internal addresses. Meta's lead field is 3 too."
+   "text": "CRM: form query for 27 Nov IST (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 3 submissions, all Meta-ad visitors (has_fbclid true, contact_source fb-ad), 3 distinct contacts, no test names or internal addresses. Each of the 3 contacts has no other submission on this form since 31 Oct IST, so none is a repeat. Meta's lead field is 3 too."
   },
   {
    "level": "warn",
-   "text": "Bookings: one CRM deal created 27 Nov IST at Appointment Booked (contact viji). Reschedule, Show up, No show up, Won and Payment done have no deals created today."
+   "text": "Bookings: one CRM deal created 27 Nov IST at Appointment Booked (contact viji). Reschedule, Show up, No show up, Won and Payment done have no deals created today (the 2.0 Vsl Pipeline has no Payment done stage)."
   },
   {
    "level": "warn",
-   "text": "Ad sync: get_ad_connection_health state ok, data_up_to 2026-11-26 (yesterday, within tolerance), so ad_sync_stale_days is 0."
+   "text": "Ad sync: get_ad_connection_health state ok, data_up_to and last_report_date 2026-11-26 (yesterday, within tolerance), so ad_sync_stale_days is 0."
   },
   {
    "level": "warn",
