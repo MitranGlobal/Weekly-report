@@ -1,15 +1,15 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T03:08:59+05:30",
+ "generated_at": "2026-11-27T06:08:47+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 130.42,
-  "impressions": 193.0,
-  "reach": 183.0,
+  "spend": 222.33,
+  "impressions": 252.0,
+  "reach": 231.0,
   "link_clicks": 1.0,
   "leads": 0.0,
   "purchases": 0.0
@@ -23,12 +23,12 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 66.43,
-   "impressions_today": 36,
+   "spend_today": 142.58,
+   "impressions_today": 63,
    "clicks_today": 0,
    "ctr_today": 0.0,
-   "spend_mtd": 13258.77,
-   "impressions_mtd": 31599,
+   "spend_mtd": 13340.26,
+   "impressions_mtd": 31627,
    "clicks_mtd": 671,
    "ctr_mtd": 2.12
   },
@@ -57,14 +57,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 63.99,
-   "impressions_today": 157,
+   "spend_today": 79.75,
+   "impressions_today": 189,
    "clicks_today": 1,
-   "ctr_today": 0.64,
-   "spend_mtd": 7513.52,
-   "impressions_mtd": 15999,
+   "ctr_today": 0.53,
+   "spend_mtd": 7529.51,
+   "impressions_mtd": 16032,
    "clicks_mtd": 499,
-   "ctr_mtd": 3.12
+   "ctr_mtd": 3.11
   },
   {
    "id": "120252473001080412",
@@ -139,27 +139,27 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-27T03:08:59+05:30 IST, early in the India day (27 Nov): a partial snapshot, roughly three hours in. Meta account-level and campaign pulls both succeeded for 27 Nov."
+   "text": "Run at 2026-11-27T06:08:47+05:30 IST, about six hours into the India day (27 Nov): a partial snapshot. Meta account-level and campaign pulls all succeeded for 27 Nov."
   },
   {
    "level": "warn",
-   "text": "Campaign rows reconcile to the account: the two ACTIVE campaigns (19Nov26 at 63.99 and 13Nov26 (b) at 66.43) sum to 130.42, the account spend, and their impressions 157 + 36 = 193. An earlier ACTIVE-filtered pull in the same run showed 19Nov26 at 63.76 and 156 impressions; the later unfiltered pull is used because it matches the account total exactly."
+   "text": "Campaign rows reconcile to the account: the two ACTIVE campaigns (19Nov26 at 79.75 and 13Nov26 (b) at 142.58) sum to 222.33, the account spend, and their impressions 189 + 63 = 252, the account impressions."
   },
   {
    "level": "warn",
-   "text": "CRM: query_form_submissions for the 27 Nov IST window (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 0 submissions (has_more false), so form_fills_all, form_fills_meta and leads_meta_unique are all 0. Meta's own lead field is also 0 today."
+   "text": "CRM: query_form_submissions for the 27 Nov IST window (26 Nov 18:30 UTC to 27 Nov 18:30 UTC) returned 0 submissions (has_more false), so form_fills_all, form_fills_meta and leads_meta_unique are all 0. A check with no form filter from 26 Nov 18:30 UTC onward also returned 0 submissions of any form. Meta's own lead field is also 0 today."
   },
   {
    "level": "warn",
-   "text": "Bookings: no deal created 27 Nov (IST) sits in Appointment Booked, Reschedule, Show up, No show up, Payment done or Won. The 2.0 Vsl Pipeline has no Payment done stage. The newest Appointment Booked deals are dated 26 Nov."
+   "text": "Bookings: query_opportunities for the 2.0 Vsl Pipeline across Appointment Booked (28 deals, newest created 26 Nov), Reschedule (0), Show up (21, newest created 24 Nov), No show up (13, newest created 23 Nov), Payment done (stage does not exist in this pipeline) and Won (0). No deal created 27 Nov (IST) sits in any booked-or-later stage, so bookings_created_today is 0. No test records appeared in these lists."
   },
   {
    "level": "warn",
-   "text": "Ad sync: get_ad_connection_health state ok, data_up_to 2026-11-26, so ad_sync_stale_days is 0."
+   "text": "Ad sync: get_ad_connection_health state ok, data_up_to 2026-11-26, last_report_date 2026-11-26, so ad_sync_stale_days is 0."
   },
   {
    "level": "warn",
-   "text": "Campaigns: today's slice is the two ACTIVE campaigns, 13Nov26 (b) and 19Nov26. Month-to-date list covers every campaign with November spend (amount_spent > 0), paused or not. The later one of the two 13Nov26 campaigns, created 13 Nov 20:09, is marked (b)."
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns, 13Nov26 (b) and 19Nov26. Month-to-date list covers every campaign with November spend (amount_spent > 0), paused or not. The later of the two 13Nov26 campaigns, created 13 Nov 20:09, is marked (b)."
   }
  ]
 }
