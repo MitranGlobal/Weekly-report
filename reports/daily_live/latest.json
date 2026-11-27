@@ -1,16 +1,16 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T14:09:09+05:30",
+ "generated_at": "2026-11-27T15:12:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1115.22,
-  "impressions": 1156.0,
-  "reach": 1079.0,
-  "link_clicks": 21.0,
+  "spend": 1203.16,
+  "impressions": 1280.0,
+  "reach": 1185.0,
+  "link_clicks": 25.0,
   "leads": 2.0,
   "purchases": 0.0
  },
@@ -23,13 +23,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-27",
-   "spend_today": 707.14,
-   "impressions_today": 429,
-   "clicks_today": 13,
-   "ctr_today": 3.03,
-   "spend_mtd": 13904.83,
-   "impressions_mtd": 31994,
-   "clicks_mtd": 684,
+   "spend_today": 764.61,
+   "impressions_today": 463,
+   "clicks_today": 15,
+   "ctr_today": 3.24,
+   "spend_mtd": 13962.3,
+   "impressions_mtd": 32028,
+   "clicks_mtd": 686,
    "ctr_mtd": 2.14
   },
   {
@@ -40,14 +40,82 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-27",
-   "spend_today": 408.08,
-   "impressions_today": 727,
-   "clicks_today": 19,
-   "ctr_today": 2.61,
-   "spend_mtd": 7861.09,
-   "impressions_mtd": 16577,
-   "clicks_mtd": 517,
-   "ctr_mtd": 3.12
+   "spend_today": 438.55,
+   "impressions_today": 817,
+   "clicks_today": 21,
+   "ctr_today": 2.57,
+   "spend_mtd": 7897.49,
+   "impressions_mtd": 16668,
+   "clicks_mtd": 519,
+   "ctr_mtd": 3.11
+  },
+  {
+   "id": "120252281645440412",
+   "name": "Schedule | ADV | Video | 03Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-03",
+   "last_active": "2026-11-11",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 7789.89,
+   "impressions_mtd": 23418,
+   "clicks_mtd": 452,
+   "ctr_mtd": 1.93
+  },
+  {
+   "id": "120252473001080412",
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 3265.49,
+   "impressions_mtd": 6365,
+   "clicks_mtd": 205,
+   "ctr_mtd": 3.22
+  },
+  {
+   "id": "120252437846370412",
+   "name": "Schedule | ADV | Video | 11Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-11",
+   "last_active": "2026-11-13",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 1754.11,
+   "impressions_mtd": 2399,
+   "clicks_mtd": 75,
+   "ctr_mtd": 3.13
+  },
+  {
+   "id": "120252522808880412",
+   "name": "Schedule | ADV | Video | 16Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-16",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 45.69,
+   "impressions_mtd": 192,
+   "clicks_mtd": 13,
+   "ctr_mtd": 6.77
   }
  ],
  "crm": {
@@ -58,8 +126,8 @@
   "bookings_created_today": 1
  },
  "final_lead_count": 2,
- "cost_per_lead": 557.61,
- "cost_per_booking": 1115.22,
+ "cost_per_lead": 601.58,
+ "cost_per_booking": 1203.16,
  "reconciliation": {
   "meta_leads": 2.0,
   "crm_leads_deduped": 2,
@@ -71,11 +139,11 @@
  "flags": [
   {
    "level": "warn",
-   "text": "Run at 2026-11-27T14:09:09+05:30 (IST), so today's figures are partial (rebuilt hourly through the day)."
+   "text": "Run at 2026-11-27T15:12:00+05:30 (IST), so today's figures are partial (rebuilt hourly through the day)."
   },
   {
    "level": "warn",
-   "text": "Meta account pull for 27 Nov IST (date_preset today): spend 1115.22, impressions 1156, reach 1079, link clicks 21, Meta leads 2. Reconciles with the two ACTIVE campaigns: spend 707.14 + 408.08 = 1115.22, impressions 429 + 727 = 1156."
+   "text": "Meta account pull for 27 Nov IST (date_preset today): spend 1203.16, impressions 1280, reach 1185, link clicks 25, Meta leads 2. Reconciles with the two ACTIVE campaigns: spend 438.55 + 764.61 = 1203.16, impressions 817 + 463 = 1280."
   },
   {
    "level": "warn",
@@ -83,7 +151,7 @@
   },
   {
    "level": "warn",
-   "text": "Bookings: one CRM deal created 27 Nov IST in Appointment Booked (contact viji, not a test). Reschedule has no deals; Show up, No show up, Payment done and Won have no deals created today (their newest deals are dated 24 Nov or earlier)."
+   "text": "Bookings: CRM deals created 27 Nov IST at any booked stage (RUNBOOK rule: Appointment Booked or later). Only one: Appointment Booked, contact viji, not a test. Reschedule has no deals; Show up (newest 24 Nov), No show up (newest 23 Nov), Payment done (newest 6 Sep) and Won (newest 3 Sep) have none created today."
   },
   {
    "level": "warn",
@@ -91,7 +159,15 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: this run's array holds only campaigns that are ACTIVE (the two running today), per this run's rule. Paused campaigns with November spend are left out, not because they have no spend. Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign keeps the plain name and the later one is marked (b), as in earlier runs."
+   "text": "Campaigns: built per data/raw_today/README.md (two pulls, merged by id): today's ACTIVE slice plus a month-to-date pull with spend > 0 that includes paused campaigns, since a campaign that spent earlier this month still belongs in the list. The scheduled prompt asked for ACTIVE-only; the README and RUNBOOK say to keep paused campaigns with MTD spend, so the README was followed. Six campaigns this month; two active today."
+  },
+  {
+   "level": "warn",
+   "text": "Same-name pair 'Schedule | ADV | Video | 13Nov26': the earlier campaign (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09 on 13 Nov, active today) is marked (b), per the README's created-time rule."
+  },
+  {
+   "level": "warn",
+   "text": "last_active for the two campaigns that spent today is set to 27 Nov (their most recent spend). For paused campaigns it is the Meta updated_time date, as the README describes."
   }
  ]
 }
