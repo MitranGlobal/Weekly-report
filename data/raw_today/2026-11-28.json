@@ -1,16 +1,16 @@
 {
   "date": "2026-11-28",
-  "pulled_at": "2026-11-28T07:08:00+05:30",
+  "pulled_at": "2026-11-28T08:09:12+05:30",
   "account": {
     "id": "392337929851918",
     "name": "mitranglobal ad account"
   },
   "currency": "INR",
   "meta": {
-    "spend": 389.44,
-    "impressions": 521,
-    "reach": 484,
-    "link_clicks": 11,
+    "spend": 427.1,
+    "impressions": 578,
+    "reach": 544,
+    "link_clicks": 12,
     "leads": 0,
     "purchases": 0
   },
@@ -23,14 +23,13 @@
   },
   "ad_sync_stale_days": 2,
   "notes": [
-    "Run at 2026-11-28T07:08 IST, about seven hours into the India day. Later runs today will add to these numbers.",
-    "Meta: account-level pull for 28 Nov (scheduled run) returned spend 389.44, impressions 521, reach 484, link clicks 11. Meta's lead field is empty (0). The purchase field is not returned at account level, so purchases is shown as 0. Campaign slices reconcile: 145.93 + 243.51 = 389.44 spend; 367 + 154 = 521 impressions.",
-    "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 2 submissions, both from Meta ads (fbclid and utm_source fb-ad), no test entries, 2 distinct contacts. Both kept, so the deduped lead count is 2 and dropped is 0. No new submissions since the 06:08 run.",
-    "Bookings: no Appointment Booked deal dated 28 Nov (IST). The newest Appointment Booked deals are dated 27 Nov. Nothing booked yet today.",
+    "Run at 2026-11-28T08:09:12+05:30 (scheduled run in the cloud, no access to the user's computer). Later runs today will add to these numbers.",
+    "Meta: account-level pull for 28 Nov returned spend 427.10, impressions 578, reach 544, link clicks 12. Meta's lead field is empty (0). Campaign slices reconcile: 161.34 + 265.76 = 427.10 spend; 411 + 167 = 578 impressions.",
+    "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 2 submissions, both from Meta ads (has_fbclid true, utm_source fb-ad), no test entries, 2 distinct contact_ids. Each contact has only this one submission in the CRM, so neither is a repeat. Dropped 0; deduped count 2.",
+    "Bookings: no Appointment Booked, Reschedule, Show up, No show up or Won deal created on 28 Nov IST. The newest deals in those stages are dated 27 Nov or earlier. The 2.0 Vsl Pipeline has no Payment done stage.",
     "Ad sync: get_ad_connection_health state ok, but last_report_date is 2026-11-26, two days behind today, so ad_sync_stale_days is 2 and the home page shows the stale-sync warning. Resync in Lead Generation → Ad Launcher → Settings.",
-    "Campaigns: this run follows the stored task instruction for the campaigns array (only ACTIVE campaigns or campaigns with spend today). The two ACTIVE campaigns are 13Nov26 (b) at 243.51 and 19Nov26 at 145.93 today. Their month-to-date figures come from the 1 to 28 Nov pull. Paused campaigns with November spend but no spend today (03Nov26, 13Nov26 original, 11Nov26, 16Nov26) are left out of this array, though their spend still counts in the account totals. data/raw_today/README.md asks for the full month-to-date list instead, so this is a deliberate departure to review.",
-    "Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09, active) is marked (b).",
-    "This run is a scheduled run in the cloud with no connection to the user's computer. Its numbers come straight from the Meta Ads account and the CRM."
+    "Campaigns: this run follows the stored task instruction for the campaigns array (only ACTIVE campaigns or campaigns with spend today). Both campaigns here are ACTIVE and spent today. data/raw_today/README.md asks for the full month-to-date list instead (paused campaigns included), so this is a deliberate departure to review. Paused November campaigns with no spend today (03Nov26, 13Nov26 original, 11Nov26, 16Nov26) are left out of this array, though their spend still counts in the account totals.",
+    "Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09, active) is marked (b)."
   ],
   "campaigns_month_range": {
     "since": "2026-11-01",
@@ -45,12 +44,12 @@
       "daily_budget": 999,
       "created_time": "2026-11-13",
       "last_active": "2026-11-28",
-      "spend_today": 243.51,
-      "impressions_today": 154,
+      "spend_today": 265.76,
+      "impressions_today": 167,
       "clicks_today": 6,
-      "ctr_today": 3.9,
-      "spend_mtd": 14498.67,
-      "impressions_mtd": 32497,
+      "ctr_today": 3.59,
+      "spend_mtd": 14521.08,
+      "impressions_mtd": 32511,
       "clicks_mtd": 698,
       "ctr_mtd": 2.15
     },
@@ -62,14 +61,14 @@
       "daily_budget": 999,
       "created_time": "2026-11-19",
       "last_active": "2026-11-28",
-      "spend_today": 145.93,
-      "impressions_today": 367,
-      "clicks_today": 12,
-      "ctr_today": 3.27,
-      "spend_mtd": 8313.26,
-      "impressions_mtd": 17729,
-      "clicks_mtd": 547,
-      "ctr_mtd": 3.09
+      "spend_today": 161.34,
+      "impressions_today": 411,
+      "clicks_today": 13,
+      "ctr_today": 3.16,
+      "spend_mtd": 8330.17,
+      "impressions_mtd": 17775,
+      "clicks_mtd": 548,
+      "ctr_mtd": 3.08
     }
   ]
 }
