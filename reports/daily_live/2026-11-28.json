@@ -1,17 +1,17 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-28T08:09:12+05:30",
+ "generated_at": "2026-11-28T09:08:40+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 427.1,
-  "impressions": 578.0,
-  "reach": 544.0,
+  "spend": 591.13,
+  "impressions": 829.0,
+  "reach": 789.0,
   "link_clicks": 12.0,
-  "leads": 0.0,
+  "leads": 1.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,13 +23,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-28",
-   "spend_today": 265.76,
-   "impressions_today": 167,
-   "clicks_today": 6,
-   "ctr_today": 3.59,
-   "spend_mtd": 14521.08,
-   "impressions_mtd": 32511,
-   "clicks_mtd": 698,
+   "spend_today": 318.72,
+   "impressions_today": 208,
+   "clicks_today": 8,
+   "ctr_today": 3.85,
+   "spend_mtd": 14574.04,
+   "impressions_mtd": 32552,
+   "clicks_mtd": 700,
    "ctr_mtd": 2.15
   },
   {
@@ -40,14 +40,82 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-28",
-   "spend_today": 161.34,
-   "impressions_today": 411,
-   "clicks_today": 13,
-   "ctr_today": 3.16,
-   "spend_mtd": 8330.17,
-   "impressions_mtd": 17775,
-   "clicks_mtd": 548,
-   "ctr_mtd": 3.08
+   "spend_today": 270.56,
+   "impressions_today": 614,
+   "clicks_today": 15,
+   "ctr_today": 2.44,
+   "spend_mtd": 8440.48,
+   "impressions_mtd": 17979,
+   "clicks_mtd": 550,
+   "ctr_mtd": 3.06
+  },
+  {
+   "id": "120252281645440412",
+   "name": "Schedule | ADV | Video | 03Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-03",
+   "last_active": "2026-11-11",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 7789.89,
+   "impressions_mtd": 23418,
+   "clicks_mtd": 452,
+   "ctr_mtd": 1.93
+  },
+  {
+   "id": "120252473001080412",
+   "name": "Schedule | ADV | Video | 13Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-13",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 3265.49,
+   "impressions_mtd": 6365,
+   "clicks_mtd": 205,
+   "ctr_mtd": 3.22
+  },
+  {
+   "id": "120252437846370412",
+   "name": "Schedule | ADV | Video | 11Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-11",
+   "last_active": "2026-11-13",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 1754.11,
+   "impressions_mtd": 2399,
+   "clicks_mtd": 75,
+   "ctr_mtd": 3.13
+  },
+  {
+   "id": "120252522808880412",
+   "name": "Schedule | ADV | Video | 16Nov26",
+   "status": "PAUSED",
+   "objective": "OUTCOME_LEADS",
+   "daily_budget": 999,
+   "created_time": "2026-11-16",
+   "last_active": "2026-11-16",
+   "spend_today": 0,
+   "impressions_today": 0,
+   "clicks_today": 0,
+   "ctr_today": null,
+   "spend_mtd": 45.69,
+   "impressions_mtd": 192,
+   "clicks_mtd": 13,
+   "ctr_mtd": 6.77
   }
  ],
  "crm": {
@@ -58,13 +126,13 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 2,
- "cost_per_lead": 213.55,
+ "cost_per_lead": 295.565,
  "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 0.0,
+  "meta_leads": 1.0,
   "crm_leads_deduped": 2,
   "match": false,
-  "gap": -2.0,
+  "gap": -1.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
  },
  "sanity_ok": true,
@@ -75,31 +143,27 @@
   },
   {
    "level": "warn",
-   "text": "Run at 2026-11-28T08:09:12+05:30 (scheduled run in the cloud, no access to the user's computer). Later runs today will add to these numbers."
+   "text": "Run at 2026-11-28T09:08:40+05:30 IST, morning. Account-level Meta pull for 28 Nov succeeded (spend 591.13, reach 789, link clicks 12, Meta leads 1, purchases 0)."
   },
   {
    "level": "warn",
-   "text": "Meta: account-level pull for 28 Nov returned spend 427.10, impressions 578, reach 544, link clicks 12. Meta's lead field is empty (0). Campaign slices reconcile: 161.34 + 265.76 = 427.10 spend; 411 + 167 = 578 impressions."
+   "text": "Campaign slices vs account: today's ACTIVE slices total 270.56 + 318.72 = 589.28 spend and 614 + 208 = 822 impressions, against 591.13 and 829 at account level; the 1.85 / 7 gap is spend and impressions posted after the campaign pull, not a missing campaign."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 2 submissions, both from Meta ads (has_fbclid true, utm_source fb-ad), no test entries, 2 distinct contact_ids. Each contact has only this one submission in the CRM, so neither is a repeat. Dropped 0; deduped count 2."
+   "text": "CRM: 2 submissions in the 28 Nov IST window (27 Nov 18:30 UTC to 28 Nov 18:30 UTC), has_more false. Both are Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, two distinct contacts, each with no other submission on record. Deduped count 2; Meta's own lead field is 1."
   },
   {
    "level": "warn",
-   "text": "Bookings: no Appointment Booked, Reschedule, Show up, No show up or Won deal created on 28 Nov IST. The newest deals in those stages are dated 27 Nov or earlier. The 2.0 Vsl Pipeline has no Payment done stage."
+   "text": "Bookings: no deal created today (28 Nov) in Appointment Booked, Reschedule, Show up, No show up, Payment done or Won. Most recent creation in those stages is 27 Nov. Count 0 so far."
   },
   {
    "level": "warn",
-   "text": "Ad sync: get_ad_connection_health state ok, but last_report_date is 2026-11-26, two days behind today, so ad_sync_stale_days is 2 and the home page shows the stale-sync warning. Resync in Lead Generation → Ad Launcher → Settings."
+   "text": "Ad sync: get_ad_connection_health reports state ok but last_report_date 2026-11-26, two days behind today, so ad_sync_stale_days is 2. Leads and bookings are still live from the CRM; only the CRM's own Meta cost calc may lag."
   },
   {
    "level": "warn",
-   "text": "Campaigns: this run follows the stored task instruction for the campaigns array (only ACTIVE campaigns or campaigns with spend today). Both campaigns here are ACTIVE and spent today. data/raw_today/README.md asks for the full month-to-date list instead (paused campaigns included), so this is a deliberate departure to review. Paused November campaigns with no spend today (03Nov26, 13Nov26 original, 11Nov26, 16Nov26) are left out of this array, though their spend still counts in the account totals."
-  },
-  {
-   "level": "warn",
-   "text": "Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09, active) is marked (b)."
+   "text": "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)). The month-to-date list follows data/raw_today/README.md (every campaign with November spend, paused or not). Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
   }
  ]
 }
