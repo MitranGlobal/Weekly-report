@@ -1,16 +1,16 @@
 {
  "date": "2026-11-28",
- "pulled_at": "2026-11-28T09:08:40+05:30",
+ "pulled_at": "2026-11-28T10:15:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 591.13,
-  "impressions": 829,
-  "reach": 789,
-  "link_clicks": 12,
+  "spend": 637.73,
+  "impressions": 888,
+  "reach": 860,
+  "link_clicks": 13,
   "leads": 1,
   "purchases": 0
  },
@@ -23,12 +23,12 @@
  },
  "ad_sync_stale_days": 2,
  "notes": [
-  "Run at 2026-11-28T09:08:40+05:30 IST, morning. Account-level Meta pull for 28 Nov succeeded (spend 591.13, reach 789, link clicks 12, Meta leads 1, purchases 0).",
-  "Campaign slices vs account: today's ACTIVE slices total 270.56 + 318.72 = 589.28 spend and 614 + 208 = 822 impressions, against 591.13 and 829 at account level; the 1.85 / 7 gap is spend and impressions posted after the campaign pull, not a missing campaign.",
-  "CRM: 2 submissions in the 28 Nov IST window (27 Nov 18:30 UTC to 28 Nov 18:30 UTC), has_more false. Both are Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, two distinct contacts, each with no other submission on record. Deduped count 2; Meta's own lead field is 1.",
-  "Bookings: no deal created today (28 Nov) in Appointment Booked, Reschedule, Show up, No show up, Payment done or Won. Most recent creation in those stages is 27 Nov. Count 0 so far.",
+  "Run at 2026-11-28 10:15 IST, morning. Account-level Meta pull for 28 Nov succeeded (spend 637.73, reach 860, link clicks 13, Meta leads 1, purchases 0).",
+  "Campaign slices vs account: today's ACTIVE slices total 291.79 + 345.94 = 637.73 spend and 660 + 228 = 888 impressions, exactly matching the account level.",
+  "CRM: 2 submissions in the 28 Nov IST window (27 Nov 18:30 UTC to 28 Nov 18:30 UTC), has_more false. Both are Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, two distinct contacts. Deduped count 2; Meta's own lead field is 1.",
+  "Bookings: no deal created today (28 Nov) in Appointment Booked, Reschedule, Show up, No show up or Won. The 2.0 Vsl Pipeline has no Payment done stage. Count 0 so far.",
   "Ad sync: get_ad_connection_health reports state ok but last_report_date 2026-11-26, two days behind today, so ad_sync_stale_days is 2. Leads and bookings are still live from the CRM; only the CRM's own Meta cost calc may lag.",
-  "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)). The month-to-date list follows data/raw_today/README.md (every campaign with November spend, paused or not). Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+  "Campaigns: today's slice is the two ACTIVE campaigns (19Nov26 and 13Nov26 (b)). The month-to-date list covers every campaign with November spend, paused or not. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
  ],
  "campaigns_month_range": {
   "since": "2026-11-01",
@@ -43,13 +43,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-28",
-   "spend_today": 318.72,
-   "impressions_today": 208,
-   "clicks_today": 8,
-   "ctr_today": 3.85,
-   "spend_mtd": 14574.04,
-   "impressions_mtd": 32552,
-   "clicks_mtd": 700,
+   "spend_today": 345.94,
+   "impressions_today": 228,
+   "clicks_today": 9,
+   "ctr_today": 3.95,
+   "spend_mtd": 14601.26,
+   "impressions_mtd": 32572,
+   "clicks_mtd": 701,
    "ctr_mtd": 2.15
   },
   {
@@ -60,13 +60,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-28",
-   "spend_today": 270.56,
-   "impressions_today": 614,
-   "clicks_today": 15,
-   "ctr_today": 2.44,
-   "spend_mtd": 8440.48,
-   "impressions_mtd": 17979,
-   "clicks_mtd": 550,
+   "spend_today": 291.79,
+   "impressions_today": 660,
+   "clicks_today": 16,
+   "ctr_today": 2.42,
+   "spend_mtd": 8461.75,
+   "impressions_mtd": 18026,
+   "clicks_mtd": 551,
    "ctr_mtd": 3.06
   },
   {
