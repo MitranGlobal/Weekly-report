@@ -308,12 +308,12 @@
   {
    "date": "2026-11-28",
    "meta": {
-    "spend": 239.67,
-    "impressions": 332,
-    "link_clicks": 6,
+    "spend": 335.08,
+    "impressions": 407,
+    "link_clicks": 7,
     "leads": 0
    },
-   "crm_leads_deduped": 0,
+   "crm_leads_deduped": 2,
    "bookings": 0
   }
  ],
