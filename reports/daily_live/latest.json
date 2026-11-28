@@ -1,17 +1,17 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-28T22:09:30+05:30",
+ "generated_at": "2026-11-28T23:09:02+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 1485.85,
-  "impressions": 2337.0,
-  "reach": 2079.0,
-  "link_clicks": 35.0,
-  "leads": 3.0,
+  "spend": 1551.52,
+  "impressions": 2493.0,
+  "reach": 2218.0,
+  "link_clicks": 37.0,
+  "leads": 4.0,
   "purchases": 0.0
  },
  "campaigns": [
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-28",
-   "spend_today": 717.17,
-   "impressions_today": 537,
+   "spend_today": 753.62,
+   "impressions_today": 589,
    "clicks_today": 17,
-   "ctr_today": 3.17,
-   "spend_mtd": 14972.98,
-   "impressions_mtd": 32882,
+   "ctr_today": 2.89,
+   "spend_mtd": 15009.43,
+   "impressions_mtd": 32934,
    "clicks_mtd": 709,
-   "ctr_mtd": 2.16
+   "ctr_mtd": 2.15
   },
   {
    "id": "120252592269270412",
@@ -40,13 +40,13 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-28",
-   "spend_today": 768.68,
-   "impressions_today": 1800,
-   "clicks_today": 43,
-   "ctr_today": 2.39,
-   "spend_mtd": 8947.62,
-   "impressions_mtd": 19181,
-   "clicks_mtd": 578,
+   "spend_today": 797.9,
+   "impressions_today": 1904,
+   "clicks_today": 45,
+   "ctr_today": 2.36,
+   "spend_mtd": 8977.54,
+   "impressions_mtd": 19286,
+   "clicks_mtd": 580,
    "ctr_mtd": 3.01
   },
   {
@@ -120,17 +120,17 @@
  ],
  "crm": {
   "source": "Condtioning Lead 2.0 form, India day, Meta-ad visitors only, tests excluded, each contact counted once",
-  "form_fills_all": 5,
-  "form_fills_meta": 5,
-  "leads_meta_unique": 5,
+  "form_fills_all": 6,
+  "form_fills_meta": 6,
+  "leads_meta_unique": 6,
   "bookings_created_today": 0
  },
- "final_lead_count": 5,
- "cost_per_lead": 297.16999999999996,
+ "final_lead_count": 6,
+ "cost_per_lead": 258.58666666666664,
  "cost_per_booking": null,
  "reconciliation": {
-  "meta_leads": 3.0,
-  "crm_leads_deduped": 5,
+  "meta_leads": 4.0,
+  "crm_leads_deduped": 6,
   "match": false,
   "gap": -2.0,
   "note": "The CRM count (deduped: Meta-ad visitors only, tests removed, one contact counted once) is used as the final lead count. Meta's own count is shown alongside it for reference — Meta typically undercounts."
@@ -143,15 +143,19 @@
   },
   {
    "level": "warn",
-   "text": "Partial day: Meta pulled at 2026-11-28T22:09:30+05:30, so figures will keep rising until midnight IST."
+   "text": "Run at 2026-11-28T23:09 IST (late evening, IST day ends 00:00, so later runs can still add leads and bookings). Replaces the 22:09 IST snapshot."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 5 submissions, all Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, five distinct contact_ids. Each contact was checked for earlier submissions on this form from 1 Nov IST onward and none exists, so the monthly count is unchanged by the month-level dedup. Deduped count 5; Meta's own lead field is 3."
+   "text": "Meta: account-level pull for 28 Nov only succeeded (spend 1551.52, reach 2218, link clicks 37, Meta leads 4, purchases 0). Campaign slices reconcile: 797.90 + 753.62 = 1551.52 spend; 1904 + 589 = 2493 impressions."
   },
   {
    "level": "warn",
-   "text": "Bookings: no deal created 28 Nov is in Appointment Booked, Reschedule, Show up, No show up or Won (2.0 Vsl Pipeline). The pipeline has no 'Payment done' stage. Count 0. Deal created_at is a date only, so this follows the same date convention as every earlier day."
+   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 6 submissions (has_more false), all Meta-ad visitors (has_fbclid true, utm_source fb-ad), no tests, six distinct contact_ids. The 22:09 IST snapshot showed five; the sixth (submitted 05:26 IST today) is included. Each of the six was checked for any other submission on this form and none exists, so the monthly count is unchanged by the month-level dedup. Deduped count 6; Meta's own lead field is 4."
+  },
+  {
+   "level": "warn",
+   "text": "Bookings: no deal created 28 Nov is in Appointment Booked, Reschedule, Show up, No show up or Won (2.0 Vsl Pipeline). Reschedule and Won have no deals at all. The latest Appointment Booked deal was created 27 Nov. The pipeline has no 'Payment done' stage. Count 0."
   },
   {
    "level": "warn",
@@ -159,7 +163,7 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: the two ACTIVE campaigns (19Nov26 at 768.68 and 13Nov26 (b) at 717.17) sum to 1485.85, which matches the account spend. The month-to-date list has six campaigns with spend this month; the other four are paused. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+   "text": "Campaigns: the two ACTIVE campaigns (19Nov26 at 797.90 and 13Nov26 (b) at 753.62) sum to 1551.52, which matches the account spend. The month-to-date list has six campaigns with spend this month; the other four are paused. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
   }
  ]
 }
