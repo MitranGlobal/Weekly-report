@@ -1,16 +1,16 @@
 {
  "date": "2026-11-28",
- "generated_at": "2026-11-28T06:08:00+05:30",
+ "generated_at": "2026-11-28T07:08:00+05:30",
  "account": {
   "id": "392337929851918",
   "name": "mitranglobal ad account"
  },
  "currency": "INR",
  "meta": {
-  "spend": 335.08,
-  "impressions": 407.0,
-  "reach": 373.0,
-  "link_clicks": 7.0,
+  "spend": 389.44,
+  "impressions": 521.0,
+  "reach": 484.0,
+  "link_clicks": 11.0,
   "leads": 0.0,
   "purchases": 0.0
  },
@@ -23,14 +23,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-13",
    "last_active": "2026-11-28",
-   "spend_today": 225.79,
-   "impressions_today": 131,
-   "clicks_today": 4,
-   "ctr_today": 3.05,
-   "spend_mtd": 14480.95,
-   "impressions_mtd": 32474,
-   "clicks_mtd": 696,
-   "ctr_mtd": 2.14
+   "spend_today": 243.51,
+   "impressions_today": 154,
+   "clicks_today": 6,
+   "ctr_today": 3.9,
+   "spend_mtd": 14498.67,
+   "impressions_mtd": 32497,
+   "clicks_mtd": 698,
+   "ctr_mtd": 2.15
   },
   {
    "id": "120252592269270412",
@@ -40,82 +40,14 @@
    "daily_budget": 999,
    "created_time": "2026-11-19",
    "last_active": "2026-11-28",
-   "spend_today": 109.29,
-   "impressions_today": 276,
-   "clicks_today": 8,
-   "ctr_today": 2.9,
-   "spend_mtd": 8275.61,
-   "impressions_mtd": 17636,
-   "clicks_mtd": 543,
-   "ctr_mtd": 3.08
-  },
-  {
-   "id": "120252281645440412",
-   "name": "Schedule | ADV | Video | 03Nov26",
-   "status": "PAUSED",
-   "objective": "OUTCOME_LEADS",
-   "daily_budget": 999,
-   "created_time": "2026-11-03",
-   "last_active": "2026-11-11",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 7789.89,
-   "impressions_mtd": 23418,
-   "clicks_mtd": 452,
-   "ctr_mtd": 1.93
-  },
-  {
-   "id": "120252473001080412",
-   "name": "Schedule | ADV | Video | 13Nov26",
-   "status": "PAUSED",
-   "objective": "OUTCOME_LEADS",
-   "daily_budget": 999,
-   "created_time": "2026-11-13",
-   "last_active": "2026-11-16",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 3265.49,
-   "impressions_mtd": 6365,
-   "clicks_mtd": 205,
-   "ctr_mtd": 3.22
-  },
-  {
-   "id": "120252437846370412",
-   "name": "Schedule | ADV | Video | 11Nov26",
-   "status": "PAUSED",
-   "objective": "OUTCOME_LEADS",
-   "daily_budget": 999,
-   "created_time": "2026-11-11",
-   "last_active": "2026-11-13",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 1754.11,
-   "impressions_mtd": 2399,
-   "clicks_mtd": 75,
-   "ctr_mtd": 3.13
-  },
-  {
-   "id": "120252522808880412",
-   "name": "Schedule | ADV | Video | 16Nov26",
-   "status": "PAUSED",
-   "objective": "OUTCOME_LEADS",
-   "daily_budget": 999,
-   "created_time": "2026-11-16",
-   "last_active": "2026-11-16",
-   "spend_today": 0,
-   "impressions_today": 0,
-   "clicks_today": 0,
-   "ctr_today": null,
-   "spend_mtd": 45.69,
-   "impressions_mtd": 192,
-   "clicks_mtd": 13,
-   "ctr_mtd": 6.77
+   "spend_today": 145.93,
+   "impressions_today": 367,
+   "clicks_today": 12,
+   "ctr_today": 3.27,
+   "spend_mtd": 8313.26,
+   "impressions_mtd": 17729,
+   "clicks_mtd": 547,
+   "ctr_mtd": 3.09
   }
  ],
  "crm": {
@@ -126,7 +58,7 @@
   "bookings_created_today": 0
  },
  "final_lead_count": 2,
- "cost_per_lead": 167.54,
+ "cost_per_lead": 194.72,
  "cost_per_booking": null,
  "reconciliation": {
   "meta_leads": 0.0,
@@ -143,19 +75,19 @@
   },
   {
    "level": "warn",
-   "text": "Run at 2026-11-28T06:08 IST, about six hours into the India day. Later runs today will add to these numbers."
+   "text": "Run at 2026-11-28T07:08 IST, about seven hours into the India day. Later runs today will add to these numbers."
   },
   {
    "level": "warn",
-   "text": "Meta: account-level pull for 28 Nov returned spend 335.08, impressions 407, reach 373, clicks 12, link clicks 7. Meta's lead field is empty (0). The purchase field is not supported at account level, so purchases is shown as 0 here. Campaign slices reconcile: 109.29 + 225.79 = 335.08 spend; 276 + 131 = 407 impressions."
+   "text": "Meta: account-level pull for 28 Nov (scheduled run) returned spend 389.44, impressions 521, reach 484, link clicks 11. Meta's lead field is empty (0). The purchase field is not returned at account level, so purchases is shown as 0. Campaign slices reconcile: 145.93 + 243.51 = 389.44 spend; 367 + 154 = 521 impressions."
   },
   {
    "level": "warn",
-   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 2 submissions, both from Meta ads (fbclid and utm_source fb-ad), no test entries, 2 distinct contacts. Both kept, so the deduped lead count is 2 and dropped is 0."
+   "text": "CRM: form query for 28 Nov IST (27 Nov 18:30 UTC to 28 Nov 18:30 UTC) returned 2 submissions, both from Meta ads (fbclid and utm_source fb-ad), no test entries, 2 distinct contacts. Both kept, so the deduped lead count is 2 and dropped is 0. No new submissions since the 06:08 run."
   },
   {
    "level": "warn",
-   "text": "Bookings: no deals created 28 Nov (IST) in Appointment Booked, Reschedule, Show up, No show up, Payment done or Won. The newest Appointment Booked deals were created 27 Nov. Nothing booked yet today."
+   "text": "Bookings: no Appointment Booked deal dated 28 Nov (IST). The newest Appointment Booked deals are dated 27 Nov. Nothing booked yet today."
   },
   {
    "level": "warn",
@@ -163,7 +95,11 @@
   },
   {
    "level": "warn",
-   "text": "Campaigns: today's slice is the two ACTIVE campaigns (13Nov26 (b) at 225.79 and 19Nov26 at 109.29). The month-to-date list runs 1 to 28 Nov and includes every campaign with November spend, paused or not, per data/raw_today/README.md. Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov) keeps the plain name and the later one (created 20:09) is marked (b)."
+   "text": "Campaigns: this run follows the stored task instruction for the campaigns array (only ACTIVE campaigns or campaigns with spend today). The two ACTIVE campaigns are 13Nov26 (b) at 243.51 and 19Nov26 at 145.93 today. Their month-to-date figures come from the 1 to 28 Nov pull. Paused campaigns with November spend but no spend today (03Nov26, 13Nov26 original, 11Nov26, 16Nov26) are left out of this array, though their spend still counts in the account totals. data/raw_today/README.md asks for the full month-to-date list instead, so this is a deliberate departure to review."
+  },
+  {
+   "level": "warn",
+   "text": "Two campaigns share the name 'Schedule | ADV | Video | 13Nov26'; the earlier one (created 10:25 on 13 Nov, paused) keeps the plain name and the later one (created 20:09, active) is marked (b)."
   },
   {
    "level": "warn",
